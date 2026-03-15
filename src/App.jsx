@@ -183,18 +183,37 @@ function SeoHandler() {
 
     const organizationJsonLd = {
       '@context': 'https://schema.org',
-      '@type': 'Organization',
+      '@type': 'LocalBusiness',
       name: 'AfriSmile',
       url: origin,
       logo: `${origin}/assets/logo-afrismile.png`,
+      image: `${origin}/assets/page-home.jpg`,
       email: 'contact@afrismile.com',
       telephone: '+221770000000',
+      priceRange: '$$',
       address: {
         '@type': 'PostalAddress',
+        streetAddress: 'Dakar',
         addressLocality: 'Dakar',
+        addressRegion: 'Dakar',
         addressCountry: 'SN',
       },
-      areaServed: ['Sénégal', 'Afrique de l’Ouest'],
+      areaServed: ['Dakar', 'Sénégal', 'Afrique de l’Ouest'],
+      openingHoursSpecification: [
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          opens: '09:00',
+          closes: '18:00',
+        },
+      ],
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: '+221770000000',
+        contactType: 'customer service',
+        areaServed: 'SN',
+        availableLanguage: ['fr'],
+      },
     }
 
     const orgScript = document.createElement('script')

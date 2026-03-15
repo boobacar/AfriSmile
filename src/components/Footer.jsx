@@ -28,9 +28,9 @@ export default function Footer() {
 
         <div>
           <h3 className="font-semibold text-white">Contact</h3>
-          <p className="mt-3 text-sm text-slate-300">Dakar, Sénégal</p>
-          <a href="tel:+221770000000" className="mt-1 block text-sm font-semibold text-white">+221 77 000 00 00</a>
-          <a href="mailto:contact@afrismile.com" className="block text-sm text-slate-300 transition hover:text-white">contact@afrismile.com</a>
+          <p className="mt-3 text-sm text-slate-300"><strong>Adresse:</strong> Dakar, Sénégal</p>
+          <a href="tel:+221770000000" className="mt-1 block text-sm font-semibold text-white"><strong>Téléphone:</strong> +221 77 000 00 00</a>
+          <a href="mailto:contact@afrismile.com" className="block text-sm text-slate-300 transition hover:text-white"><strong>Email:</strong> contact@afrismile.com</a>
           <a href="/catalogue-afrismile.pdf" className="btn-accent mt-4">Télécharger le catalogue PDF</a>
         </div>
 

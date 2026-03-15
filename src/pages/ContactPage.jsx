@@ -63,6 +63,16 @@ export default function ContactPage() {
       </div>
 
       <section className="section-shell">
+        <h2 className="section-title">Zone d’intervention AfriSmile</h2>
+        <p className="section-subtitle">Base opérationnelle à Dakar avec accompagnement projets dans les régions du Sénégal et en Afrique de l’Ouest selon besoin.</p>
+        <div className="mt-4 grid gap-3 md:grid-cols-3">
+          <div className="card-muted text-sm text-slate-700"><strong>Dakar</strong><br/>Intervention rapide sur site.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Régions du Sénégal</strong><br/>Logistique et installation planifiées.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Afrique de l’Ouest</strong><br/>Accompagnement projets sur étude.</div>
+        </div>
+      </section>
+
+      <section className="section-shell">
         <h2 className="section-title">FAQ devis & contact</h2>
         <div className="mt-4 grid gap-3">
           {faqs.map((item) => (

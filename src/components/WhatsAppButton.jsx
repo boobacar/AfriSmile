@@ -5,8 +5,9 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noreferrer"
       aria-label="Contacter AfriSmile sur WhatsApp"
-      className="fixed bottom-5 right-5 z-50 rounded-full bg-brand-green px-5 py-3 text-sm font-semibold text-white shadow-soft hover:brightness-95"
+      className="fixed bottom-5 right-5 z-50 inline-flex items-center gap-2 rounded-full bg-brand-green px-5 py-3 text-sm font-semibold text-white shadow-raised transition hover:brightness-95"
     >
+      <span className="text-base">💬</span>
       WhatsApp Devis
     </a>
   )

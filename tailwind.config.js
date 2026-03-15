@@ -3,6 +3,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        heading: ['Manrope', 'Inter', 'sans-serif'],
+      },
       colors: {
         brand: {
           blue: '#0A4D8C',
@@ -13,7 +16,8 @@ export default {
         },
       },
       boxShadow: {
-        soft: '0 10px 30px rgba(10, 77, 140, 0.12)',
+        soft: '0 14px 40px rgba(10, 77, 140, 0.10)',
+        raised: '0 24px 60px rgba(10, 77, 140, 0.16)',
       },
     },
   },

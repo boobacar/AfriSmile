@@ -1,22 +1,44 @@
 export default function QuoteForm() {
   return (
-    <form className="rounded-2xl bg-white p-6 shadow-soft" aria-label="Formulaire de devis rapide">
-      <h3 className="text-xl font-semibold text-brand-dark">Demande de devis rapide</h3>
-      <p className="mt-1 text-sm text-slate-600">Réponse sous 24h ouvrées.</p>
-      <div className="mt-4 grid gap-3 md:grid-cols-2">
-        <input required placeholder="Nom" className="rounded-lg border border-slate-300 px-3 py-2" />
-        <input required type="tel" placeholder="Téléphone" className="rounded-lg border border-slate-300 px-3 py-2" />
-        <input type="email" placeholder="Email" className="rounded-lg border border-slate-300 px-3 py-2 md:col-span-2" />
-        <select className="rounded-lg border border-slate-300 px-3 py-2 md:col-span-2">
-          <option>Produit d’intérêt</option>
-          <option>Fauteuil dentaire</option>
-          <option>Radiologie</option>
-          <option>Stérilisation</option>
-          <option>Consommables</option>
-        </select>
-        <textarea rows="3" placeholder="Votre besoin" className="rounded-lg border border-slate-300 px-3 py-2 md:col-span-2" />
+    <form className="card" aria-label="Formulaire de devis rapide">
+      <div className="mb-5 flex items-center justify-between gap-3">
+        <div>
+          <h3 className="font-heading text-2xl font-bold text-brand-dark">Demande de devis rapide</h3>
+          <p className="mt-1 text-sm text-slate-600">Réponse sous 24h ouvrées.</p>
+        </div>
+        <span className="chip">Sans engagement</span>
       </div>
-      <button type="submit" className="mt-4 w-full rounded-lg bg-brand-blue px-4 py-2 font-semibold text-white">Envoyer la demande</button>
+
+      <div className="grid gap-3 md:grid-cols-2">
+        <div>
+          <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">Nom</label>
+          <input required placeholder="Votre nom" className="input-ui" />
+        </div>
+        <div>
+          <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">Téléphone</label>
+          <input required type="tel" placeholder="+221 ..." className="input-ui" />
+        </div>
+        <div className="md:col-span-2">
+          <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">Email</label>
+          <input type="email" placeholder="vous@cabinet.com" className="input-ui" />
+        </div>
+        <div className="md:col-span-2">
+          <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">Produit d’intérêt</label>
+          <select className="input-ui">
+            <option>Fauteuil dentaire</option>
+            <option>Radiologie</option>
+            <option>Stérilisation</option>
+            <option>Consommables</option>
+            <option>Pack cabinet</option>
+          </select>
+        </div>
+        <div className="md:col-span-2">
+          <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">Votre besoin</label>
+          <textarea rows="4" placeholder="Décrivez votre projet" className="input-ui" />
+        </div>
+      </div>
+
+      <button type="submit" className="btn-primary mt-5 w-full">Envoyer la demande</button>
     </form>
   )
 }

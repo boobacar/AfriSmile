@@ -19,13 +19,13 @@ export default function ServiceTechniquePage() {
   ]
 
   return (
-    <main className="container-page py-10">
+    <main className="container-page page-wrap">
       <h1 className="section-title">Service technique</h1>
       <p className="section-subtitle">Un accompagnement terrain pour garantir la continuité de votre cabinet.</p>
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         {services.map((service) => (
-          <article key={service.title} className="rounded-2xl bg-white p-6 shadow-soft">
-            <h2 className="text-xl font-semibold text-brand-dark">{service.title}</h2>
+          <article key={service.title} className="card">
+            <h2 className="font-heading text-xl font-bold text-brand-dark">{service.title}</h2>
             <p className="mt-2 text-slate-600">{service.text}</p>
           </article>
         ))}

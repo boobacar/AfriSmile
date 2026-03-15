@@ -19,8 +19,8 @@ export default function HomePage() {
         <PromoBanner />
       </section>
 
-      <section className="mt-12 grid gap-6 md:grid-cols-3">
-        {categories.slice(0, 3).map((cat) => (
+      <section className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {categories.map((cat) => (
           <article key={cat.key} className="rounded-2xl bg-white p-5 shadow-soft">
             <h2 className="font-semibold text-brand-dark">{cat.name}</h2>
             <p className="mt-2 text-sm text-slate-600">{cat.products[0]?.name} et plus encore.</p>
@@ -32,6 +32,25 @@ export default function HomePage() {
       <section className="mt-12 grid gap-8 lg:grid-cols-2">
         <QuoteForm />
         <ChairComparator />
+      </section>
+
+      <section className="mt-12 grid gap-6 lg:grid-cols-2">
+        <article className="rounded-2xl bg-white p-6 shadow-soft">
+          <h2 className="section-title">Service technique complet</h2>
+          <p className="section-subtitle">Installation, maintenance, formation et pièces de rechange avec équipe dédiée.</p>
+          <Link to="/service-technique" className="mt-4 inline-block rounded-lg bg-brand-cyan px-4 py-2 font-semibold text-white">Voir le service technique</Link>
+        </article>
+        <article className="rounded-2xl bg-white p-6 shadow-soft">
+          <h2 className="section-title">Espace professionnel premium</h2>
+          <p className="section-subtitle">Accès réservé: tarifs pro, promotions privées et documentation technique.</p>
+          <Link to="/espace-pro" className="mt-4 inline-block rounded-lg bg-brand-blue px-4 py-2 font-semibold text-white">Découvrir l’espace pro</Link>
+        </article>
+      </section>
+
+      <section className="mt-12 rounded-2xl bg-white p-6 shadow-soft">
+        <h2 className="section-title">E-commerce: deux modèles</h2>
+        <p className="section-subtitle">Mode principal par catalogue + devis, et option de paiement en ligne sur roadmap.</p>
+        <Link to="/modeles-achat" className="mt-4 inline-block text-sm font-semibold text-brand-blue">Voir les modèles d’achat →</Link>
       </section>
 
       <section className="mt-12 rounded-2xl bg-white p-6 shadow-soft">

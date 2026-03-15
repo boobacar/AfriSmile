@@ -1,9 +1,9 @@
 export default function SolutionsPage() {
   const items = [
-    'Conception complète de cabinet dentaire clé en main',
-    'Installation et calibration des équipements',
-    'Contrats de maintenance préventive et curative',
-    'Formation de l’équipe à l’utilisation du matériel',
+    'Installation de cabinet: fauteuil, compresseur, autoclave, mobilier',
+    'Pack ouverture cabinet pour jeunes dentistes',
+    'Pack cabinet starter: fauteuil dentaire + compresseur + autoclave + turbine',
+    'Accompagnement sur le choix du matériel selon budget et volume de patients',
   ]
 
   return (

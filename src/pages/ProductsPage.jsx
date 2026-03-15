@@ -14,6 +14,12 @@ export default function ProductsPage() {
                 <article key={p.id} className="rounded-xl border border-slate-100 p-4">
                   <h3 className="font-semibold">{p.name}</h3>
                   <p className="mt-2 text-sm text-brand-blue">{p.price}</p>
+                  <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-600">
+                    <li>Photos HD disponibles</li>
+                    <li>Fiche technique détaillée</li>
+                    <li>Vidéo de démonstration</li>
+                    <li>Brochure PDF</li>
+                  </ul>
                   <a href="/contact" className="mt-3 inline-block text-sm font-semibold text-brand-cyan">Demander un devis</a>
                 </article>
               ))}

@@ -10,15 +10,27 @@ import BrandsPage from './pages/BrandsPage'
 import BlogPage from './pages/BlogPage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
+import ServiceTechniquePage from './pages/ServiceTechniquePage'
+import EspaceProPage from './pages/EspaceProPage'
+import ModelesAchatPage from './pages/ModelesAchatPage'
+import ConditionsPage from './pages/ConditionsPage'
+import PrivacyPage from './pages/PrivacyPage'
+import MentionsPage from './pages/MentionsPage'
 
 const pageTitles = {
   '/': 'AfriSmile | Équipement dentaire professionnel',
   '/produits': 'Produits dentaires | AfriSmile',
   '/solutions-cabinets': 'Solutions cabinets dentaires | AfriSmile',
+  '/service-technique': 'Service technique | AfriSmile',
+  '/espace-pro': 'Espace professionnel | AfriSmile',
+  '/modeles-achat': 'Modèles d’achat | AfriSmile',
   '/marques': 'Marques partenaires | AfriSmile',
   '/blog': 'Blog dentaire | AfriSmile',
   '/a-propos': 'À propos | AfriSmile',
   '/contact': 'Contact & devis | AfriSmile',
+  '/conditions-generales': 'Conditions générales | AfriSmile',
+  '/politique-confidentialite': 'Politique de confidentialité | AfriSmile',
+  '/mentions-legales': 'Mentions légales | AfriSmile',
 }
 
 function SeoHandler() {
@@ -29,7 +41,7 @@ function SeoHandler() {
 
     const desc = document.querySelector('meta[name="description"]')
     if (desc) {
-      desc.setAttribute('content', 'AfriSmile fournit des équipements dentaires: fauteuils, stérilisation, radiologie et consommables avec installation et maintenance.')
+      desc.setAttribute('content', 'AfriSmile fournit des équipements dentaires: fauteuils, stérilisation, radiologie, services techniques et accompagnement pro.')
     }
   }, [location.pathname])
 
@@ -45,10 +57,16 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/produits" element={<ProductsPage />} />
         <Route path="/solutions-cabinets" element={<SolutionsPage />} />
+        <Route path="/service-technique" element={<ServiceTechniquePage />} />
+        <Route path="/espace-pro" element={<EspaceProPage />} />
+        <Route path="/modeles-achat" element={<ModelesAchatPage />} />
         <Route path="/marques" element={<BrandsPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/a-propos" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/conditions-generales" element={<ConditionsPage />} />
+        <Route path="/politique-confidentialite" element={<PrivacyPage />} />
+        <Route path="/mentions-legales" element={<MentionsPage />} />
       </Routes>
       <Footer />
       <WhatsAppButton />

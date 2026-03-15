@@ -4,11 +4,10 @@ import { Link, NavLink } from 'react-router-dom'
 const links = [
   ['/', 'Accueil'],
   ['/produits', 'Produits'],
-  ['/solutions-cabinets', 'Solutions cabinets'],
-  ['/service-technique', 'Service technique'],
+  ['/solutions-cabinets', 'Solutions'],
+  ['/service-technique', 'SAV'],
   ['/marques', 'Marques'],
   ['/blog', 'Blog'],
-  ['/espace-pro', 'Espace pro'],
   ['/a-propos', 'À propos'],
 ]
 
@@ -19,7 +18,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/95 backdrop-blur">
       <div className="border-b border-slate-100 bg-brand-dark text-[11px] text-slate-200">
         <div className="container-page flex flex-wrap items-center justify-between gap-2 py-2">
-          <p>Distribution d’équipements dentaires professionnels au Sénégal et en Afrique de l’Ouest.</p>
+          <p>Équipements dentaires professionnels • Sénégal & Afrique de l’Ouest</p>
           <p className="font-semibold">📞 +221 77 000 00 00</p>
         </div>
       </div>
@@ -29,11 +28,11 @@ export default function Navbar() {
           <img src="/assets/logo-afrismile.png" alt="AfriSmile" className="h-11 w-11 rounded-xl border border-slate-200 bg-white p-1 object-contain" />
           <div>
             <p className="font-heading text-lg font-extrabold text-brand-dark">AfriSmile</p>
-            <p className="text-xs text-slate-500">Équipement dentaire professionnel</p>
+            <p className="text-xs text-slate-500">Dental Supply</p>
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-5 text-sm xl:flex">
+        <nav className="hidden items-center gap-4 text-sm xl:flex">
           {links.map(([to, label]) => (
             <NavLink
               key={to}
@@ -45,7 +44,7 @@ export default function Navbar() {
               {label}
             </NavLink>
           ))}
-          <Link to="/contact" className="btn-primary">Contact / Devis</Link>
+          <Link to="/contact" className="btn-primary">Devis</Link>
         </nav>
 
         <button
@@ -71,7 +70,7 @@ export default function Navbar() {
                 {label}
               </NavLink>
             ))}
-            <Link to="/contact" onClick={() => setOpen(false)} className="btn-primary mt-2">Contact / Devis</Link>
+            <Link to="/contact" onClick={() => setOpen(false)} className="btn-primary mt-2">Demander un devis</Link>
           </nav>
         </div>
       )}

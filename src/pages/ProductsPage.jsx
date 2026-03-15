@@ -25,8 +25,13 @@ export default function ProductsPage() {
             </div>
 
             <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-              {cat.products.map((p) => (
+              {cat.products.map((p, idx) => (
                 <article key={p.id} className="rounded-2xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-soft">
+                  <img
+                    src={idx % 3 === 0 ? '/assets/illustration-equipment.jpg' : idx % 3 === 1 ? '/assets/illustration-instruments.jpg' : '/assets/illustration-clinic.jpg'}
+                    alt={`Illustration ${p.name}`}
+                    className="mb-4 h-36 w-full rounded-xl object-cover"
+                  />
                   <div className="mb-3 flex items-start justify-between gap-2">
                     <h3 className="font-semibold text-slate-800">{p.name}</h3>
                     <span className="rounded-full bg-brand-light px-2 py-1 text-[10px] font-semibold uppercase tracking-wide text-brand-cyan">Pro</span>

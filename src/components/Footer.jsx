@@ -24,9 +24,8 @@ export default function Footer() {
           <h3 className="font-semibold text-white">Navigation</h3>
           <ul className="mt-3 space-y-2 text-sm text-slate-300">
             <li><Link to="/produits" className="hover:text-white">Produits</Link></li>
-            <li><Link to="/solutions-cabinets" className="hover:text-white">Solutions cabinets</Link></li>
+            <li><Link to="/solutions-cabinets" className="hover:text-white">Solutions</Link></li>
             <li><Link to="/service-technique" className="hover:text-white">Service technique</Link></li>
-            <li><Link to="/espace-pro" className="hover:text-white">Espace professionnel</Link></li>
             <li><Link to="/contact" className="hover:text-white">Contact / devis</Link></li>
           </ul>
         </div>

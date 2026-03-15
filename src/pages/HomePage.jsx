@@ -70,10 +70,11 @@ export default function HomePage() {
           <Link to="/service-technique" className="btn-accent mt-5">Voir le service technique</Link>
         </article>
 
-        <article className="card bg-brand-dark text-white">
-          <h2 className="font-heading text-2xl font-bold">Espace professionnel</h2>
-          <p className="mt-2 text-sm text-slate-200">Tarifs B2B, promotions privées et ressources techniques dédiées.</p>
-          <Link to="/espace-pro" className="btn-secondary mt-5 border-white/30 bg-white/10 text-white hover:bg-white/20">Découvrir l’espace pro</Link>
+        <article className="card overflow-hidden">
+          <img src="/assets/illustration-clinic.jpg" alt="Cabinet dentaire moderne" className="h-36 w-full rounded-xl object-cover" />
+          <h2 className="mt-4 font-heading text-xl font-bold text-brand-dark">Cabinets modernisés</h2>
+          <p className="mt-2 text-sm text-slate-600">Accompagnement du choix à l’installation pour lancer ou moderniser votre activité.</p>
+          <Link to="/contact" className="btn-secondary mt-4">Parler à un conseiller</Link>
         </article>
       </section>
 

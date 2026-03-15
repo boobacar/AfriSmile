@@ -11,7 +11,6 @@ import BlogPage from './pages/BlogPage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import ServiceTechniquePage from './pages/ServiceTechniquePage'
-import EspaceProPage from './pages/EspaceProPage'
 import ModelesAchatPage from './pages/ModelesAchatPage'
 import ConditionsPage from './pages/ConditionsPage'
 import PrivacyPage from './pages/PrivacyPage'
@@ -22,7 +21,6 @@ const pageTitles = {
   '/produits': 'Produits dentaires | AfriSmile',
   '/solutions-cabinets': 'Solutions cabinets dentaires | AfriSmile',
   '/service-technique': 'Service technique | AfriSmile',
-  '/espace-pro': 'Espace professionnel | AfriSmile',
   '/modeles-achat': 'Modèles d’achat | AfriSmile',
   '/marques': 'Marques partenaires | AfriSmile',
   '/blog': 'Blog dentaire | AfriSmile',
@@ -58,7 +56,6 @@ export default function App() {
         <Route path="/produits" element={<ProductsPage />} />
         <Route path="/solutions-cabinets" element={<SolutionsPage />} />
         <Route path="/service-technique" element={<ServiceTechniquePage />} />
-        <Route path="/espace-pro" element={<EspaceProPage />} />
         <Route path="/modeles-achat" element={<ModelesAchatPage />} />
         <Route path="/marques" element={<BrandsPage />} />
         <Route path="/blog" element={<BlogPage />} />

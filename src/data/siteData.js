@@ -3,9 +3,9 @@ export const categories = [
     key: 'fauteuils',
     name: 'Fauteuils dentaires',
     products: [
-      { id: 'f1', name: 'Cingol A3 Premium', price: 'À partir de 5 900 €', specs: { moteur: 'Électrique silencieux', lampe: 'LED sans ombre', memo: '3 positions mémoire' } },
-      { id: 'f2', name: 'Being Comfort Plus', price: 'À partir de 4 800 €', specs: { moteur: 'Hydraulique', lampe: 'LED intégrée', memo: '2 positions mémoire' } },
-      { id: 'f3', name: 'Woodpecker Elite Chair', price: 'À partir de 6 300 €', specs: { moteur: 'Électrique haute précision', lampe: 'Capteur intelligent', memo: '4 positions mémoire' } },
+      { id: 'f1', name: 'Cingol A3 Premium', price: 'À partir de 3 870 000 FCFA', specs: { moteur: 'Électrique silencieux', lampe: 'LED sans ombre', memo: '3 positions mémoire' } },
+      { id: 'f2', name: 'Being Comfort Plus', price: 'À partir de 3 150 000 FCFA', specs: { moteur: 'Hydraulique', lampe: 'LED intégrée', memo: '2 positions mémoire' } },
+      { id: 'f3', name: 'Woodpecker Elite Chair', price: 'À partir de 4 130 000 FCFA', specs: { moteur: 'Électrique haute précision', lampe: 'Capteur intelligent', memo: '4 positions mémoire' } },
     ],
   },
   {

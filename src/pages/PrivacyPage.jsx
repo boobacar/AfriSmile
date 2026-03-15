@@ -7,7 +7,7 @@ export default function PrivacyPage() {
         eyebrow="Protection des données"
         title="Politique de confidentialité"
         subtitle="AfriSmile traite vos informations avec transparence et sécurité pour répondre à vos demandes de contact et devis."
-        image="/assets/illustration-clinic.jpg"
+        image="/assets/page-legal.jpg"
       />
 
       <section className="section-shell space-y-4 text-slate-700">

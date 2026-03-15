@@ -26,7 +26,7 @@ export default function AboutPage() {
         eyebrow="Notre histoire"
         title="À propos d’AfriSmile"
         subtitle="AfriSmile est spécialisée dans l’équipement dentaire en Afrique de l’Ouest avec une promesse simple : fiabilité, clarté et accompagnement durable."
-        image="/assets/illustration-clinic.jpg"
+        image="/assets/page-about.jpg"
         chips={['Approche terrain', 'Partenaires certifiés', 'Support local']}
       />
 

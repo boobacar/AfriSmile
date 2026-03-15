@@ -15,7 +15,7 @@ export default function SolutionsPage() {
         eyebrow="Solutions clés en main"
         title="Des solutions sur mesure pour ouvrir, structurer ou moderniser votre cabinet"
         subtitle="Nous combinons conseil, fourniture, installation et accompagnement terrain afin de sécuriser chaque étape de votre projet clinique."
-        image="/assets/illustration-clinic.jpg"
+        image="/assets/page-solutions.jpg"
         chips={['Étude de besoin', 'Déploiement progressif', 'Suivi opérationnel']}
       >
         <Link to="/contact" className="btn-primary">Planifier un échange</Link>

@@ -7,7 +7,7 @@ export default function ConditionsPage() {
         eyebrow="Informations contractuelles"
         title="Conditions générales"
         subtitle="Ces conditions définissent le cadre de vente, livraison, installation et service après-vente des produits AfriSmile."
-        image="/assets/illustration-instruments.jpg"
+        image="/assets/page-legal.jpg"
       />
 
       <section className="section-shell space-y-4 text-slate-700">

@@ -9,7 +9,7 @@ export default function ContactPage() {
         eyebrow="Parlons de votre projet"
         title="Contact / Devis AfriSmile"
         subtitle="Parlez-nous de votre ouverture, de votre renouvellement d’équipement ou d’un besoin de maintenance prioritaire."
-        image="/assets/illustration-equipment.jpg"
+        image="/assets/page-contact.jpg"
         chips={['Réponse rapide', 'Conseil personnalisé', 'Suivi par un expert']}
       />
 

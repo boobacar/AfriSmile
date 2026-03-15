@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import Breadcrumbs from '../components/Breadcrumbs'
 import { blogPosts } from '../data/siteData'
 
 export default function BlogPage() {
   return (
     <main className="container-page page-wrap space-y-8">
+      <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Blog' }]} />
+
       <PageHero
         eyebrow="Conseils experts"
         title="Blog AfriSmile : pratique, terrain et orienté décision"
@@ -12,6 +15,16 @@ export default function BlogPage() {
         image="/assets/page-blog.jpg"
         chips={['Guides d’achat', 'Bonnes pratiques cliniques', 'Mises à jour secteur']}
       />
+
+      <section className="section-shell">
+        <h2 className="section-title">Pages stratégiques à consulter</h2>
+        <div className="mt-4 flex flex-wrap gap-2 text-sm">
+          <Link to="/materiel-dentaire-senegal" className="btn-secondary">Matériel dentaire Sénégal</Link>
+          <Link to="/fauteuil-dentaire-senegal" className="btn-secondary">Fauteuil dentaire Sénégal</Link>
+          <Link to="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Autoclave Classe B</Link>
+          <Link to="/scanner-intra-oral-senegal" className="btn-secondary">Scanner intra-oral</Link>
+        </div>
+      </section>
 
       <section className="section-shell">
         <h2 className="section-title">Articles récents</h2>

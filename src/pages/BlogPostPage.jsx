@@ -1,6 +1,14 @@
 import { Link, useParams } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import Breadcrumbs from '../components/Breadcrumbs'
 import { blogPosts } from '../data/siteData'
+
+const relatedMoneyPages = [
+  { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
+  { to: '/fauteuil-dentaire-senegal', label: 'Fauteuil dentaire Sénégal' },
+  { to: '/autoclave-dentaire-classe-b-senegal', label: 'Autoclave dentaire Classe B' },
+  { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral Sénégal' },
+]
 
 export default function BlogPostPage() {
   const { slug } = useParams()
@@ -18,8 +26,28 @@ export default function BlogPostPage() {
     )
   }
 
+  const origin = typeof window !== 'undefined' ? window.location.origin : 'https://afrismile.net'
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.excerpt,
+    author: { '@type': 'Organization', name: 'AfriSmile' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'AfriSmile',
+      logo: { '@type': 'ImageObject', url: `${origin}/assets/logo-afrismile.png` },
+    },
+    mainEntityOfPage: `${origin}/blog/${post.slug}`,
+    image: `${origin}/assets/page-blog.jpg`,
+  }
+
   return (
     <main className="container-page page-wrap space-y-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+
+      <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Blog', to: '/blog' }, { label: post.title }]} />
+
       <PageHero
         eyebrow="Blog AfriSmile"
         title={post.title}
@@ -33,6 +61,16 @@ export default function BlogPostPage() {
         <div className="mt-6 flex flex-wrap gap-3">
           <Link to="/contact" className="btn-primary">Parler à un conseiller</Link>
           <Link to="/blog" className="btn-secondary">Voir les autres articles</Link>
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Pages recommandées après cet article</h2>
+        <div className="mt-4 flex flex-wrap gap-2 text-sm">
+          {relatedMoneyPages.map((item) => (
+            <Link key={item.to} to={item.to} className="btn-secondary">{item.label}</Link>
+          ))}
+          <Link to="/contact" className="btn-primary">Demander un devis</Link>
         </div>
       </section>
     </main>

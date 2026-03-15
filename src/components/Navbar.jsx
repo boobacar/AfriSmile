@@ -6,6 +6,7 @@ const links = [
   ['/produits', 'Produits'],
   ['/solutions-cabinets', 'Solutions'],
   ['/service-technique', 'SAV'],
+  ['/modeles-achat', 'Modèles d’achat'],
   ['/marques', 'Marques'],
   ['/blog', 'Blog'],
   ['/a-propos', 'À propos'],
@@ -24,15 +25,15 @@ export default function Navbar() {
       </div>
 
       <div className="container-page flex items-center justify-between py-3">
-        <Link to="/" className="flex items-center gap-3">
-          <img src="/assets/logo-afrismile.png" alt="AfriSmile" className="h-11 w-11 rounded-xl border border-slate-200 bg-white p-1 object-contain" />
+        <Link to="/" className="group flex items-center gap-3">
+          <img src="/assets/logo-afrismile.png" alt="AfriSmile" className="h-12 w-12 rounded-xl border border-slate-200 bg-white p-1 object-contain transition group-hover:scale-105" />
           <div>
             <p className="font-heading text-lg font-extrabold text-brand-dark">AfriSmile</p>
-            <p className="text-xs text-slate-500">Dental Supply</p>
+            <p className="text-xs text-slate-500">Dental Supply & Accompagnement</p>
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-4 text-sm xl:flex">
+        <nav className="hidden items-center gap-3 text-sm xl:flex">
           {links.map(([to, label]) => (
             <NavLink
               key={to}

@@ -1,8 +1,16 @@
+import PageHero from '../components/PageHero'
+
 export default function MentionsPage() {
   return (
-    <main className="container-page page-wrap">
-      <h1 className="section-title">Mentions légales</h1>
-      <section className="card mt-6 space-y-3 text-slate-700">
+    <main className="container-page page-wrap space-y-8">
+      <PageHero
+        eyebrow="Cadre légal"
+        title="Mentions légales"
+        subtitle="Les informations ci-dessous précisent l’identité de l’éditeur, les contacts et les informations d’hébergement du site AfriSmile."
+        image="/assets/illustration-equipment.jpg"
+      />
+
+      <section className="section-shell space-y-3 text-slate-700">
         <p><strong>Éditeur :</strong> AfriSmile, Dakar, Sénégal.</p>
         <p><strong>Contact :</strong> contact@afrismile.com | +221 77 000 00 00</p>
         <p><strong>Hébergement :</strong> à compléter selon votre fournisseur.</p>

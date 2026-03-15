@@ -1,12 +1,18 @@
 import QuoteForm from '../components/QuoteForm'
+import PageHero from '../components/PageHero'
 
 export default function ContactPage() {
   return (
-    <main className="container-page page-wrap">
-      <h1 className="section-title">Contact / Devis</h1>
-      <p className="section-subtitle">Parlez-nous de votre projet d’ouverture, de renouvellement d’équipement ou de maintenance.</p>
+    <main className="container-page page-wrap space-y-8">
+      <PageHero
+        eyebrow="Parlons de votre projet"
+        title="Contact / Devis AfriSmile"
+        subtitle="Parlez-nous de votre ouverture, de votre renouvellement d’équipement ou d’un besoin de maintenance prioritaire."
+        image="/assets/illustration-equipment.jpg"
+        chips={['Réponse rapide', 'Conseil personnalisé', 'Suivi par un expert']}
+      />
 
-      <div className="mt-6 grid gap-6 lg:grid-cols-2">
+      <div className="grid gap-6 lg:grid-cols-2">
         <QuoteForm />
 
         <section className="card">

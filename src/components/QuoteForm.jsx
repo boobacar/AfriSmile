@@ -4,7 +4,7 @@ export default function QuoteForm() {
       <div className="mb-5 flex items-center justify-between gap-3">
         <div>
           <h3 className="font-heading text-2xl font-bold text-brand-dark">Demande de devis rapide</h3>
-          <p className="mt-1 text-sm text-slate-600">Réponse sous 24h ouvrées.</p>
+          <p className="mt-1 text-sm text-slate-600">Réponse sous 24h ouvrées avec proposition adaptée à votre budget.</p>
         </div>
         <span className="chip">Sans engagement</span>
       </div>
@@ -36,6 +36,10 @@ export default function QuoteForm() {
           <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">Votre besoin</label>
           <textarea rows="4" placeholder="Décrivez votre projet" className="input-ui" />
         </div>
+      </div>
+
+      <div className="mt-4 rounded-xl border border-brand-cyan/20 bg-brand-light/60 p-3 text-sm text-slate-700">
+        💡 Astuce : mentionnez votre calendrier d’ouverture pour recevoir un plan de déploiement réaliste.
       </div>
 
       <button type="submit" className="btn-primary mt-5 w-full">Envoyer la demande</button>

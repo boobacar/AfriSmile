@@ -2,56 +2,57 @@ import { Link } from 'react-router-dom'
 import PromoBanner from '../components/PromoBanner'
 import QuoteForm from '../components/QuoteForm'
 import ChairComparator from '../components/ChairComparator'
+import PageHero from '../components/PageHero'
 import { brands, categories } from '../data/siteData'
 
 const trustSignals = ['Livraison & installation', 'SAV réactif', 'Formations équipes', 'Conseil achat pro']
 
 export default function HomePage() {
   return (
-    <main className="container-page page-wrap space-y-12">
-      <section className="grid gap-8 lg:grid-cols-2 lg:items-center">
-        <div>
-          <p className="chip inline-block">Distributeur dentaire professionnel</p>
-          <h1 className="mt-4 font-heading text-4xl font-extrabold leading-tight text-brand-dark md:text-5xl">
-            Équipez votre cabinet avec une expérience d’achat claire, fiable et premium.
-          </h1>
-          <p className="mt-4 max-w-2xl text-base leading-relaxed text-slate-600">
-            AfriSmile accompagne les dentistes avec des équipements performants, une logistique locale, un support technique
-            terrain et des parcours de devis simples pour accélérer vos décisions.
-          </p>
+    <main className="container-page page-wrap space-y-10">
+      <PageHero
+        eyebrow="Distributeur dentaire professionnel"
+        title="Équipez votre cabinet avec une expérience d’achat claire, fiable et premium"
+        subtitle="AfriSmile accompagne les dentistes avec des équipements performants, une logistique locale et un support technique terrain pour accélérer vos décisions d’investissement."
+        image="/assets/illustration-clinic.jpg"
+        chips={['Dakar & régions', 'Devis personnalisés', 'Accompagnement de bout en bout']}
+      >
+        <Link to="/produits" className="btn-primary">Voir le catalogue</Link>
+        <a href="/catalogue-afrismile.pdf" className="btn-secondary">Télécharger le PDF</a>
+      </PageHero>
 
-          <div className="mt-6 flex flex-wrap gap-3">
-            <Link to="/produits" className="btn-primary">Voir le catalogue</Link>
-            <a href="/catalogue-afrismile.pdf" className="btn-secondary">Télécharger le PDF</a>
-          </div>
-
-          <div className="mt-6 flex flex-wrap gap-2">
+      <section className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
+        <div className="section-shell">
+          <h2 className="section-title">Pourquoi les cabinets choisissent AfriSmile</h2>
+          <p className="section-subtitle">Une approche orientée résultats cliniques, performance opérationnelle et sérénité après installation.</p>
+          <div className="mt-5 grid gap-4 md:grid-cols-2">
             {trustSignals.map((signal) => (
-              <span key={signal} className="chip">✓ {signal}</span>
+              <article key={signal} className="card-muted">
+                <p className="text-sm font-semibold text-brand-dark">✓ {signal}</p>
+                <p className="mt-1 text-sm text-slate-600">Processus clair, interlocuteur unique et suivi structuré de vos priorités.</p>
+              </article>
             ))}
           </div>
         </div>
-
         <PromoBanner />
       </section>
 
-      <section>
+      <section className="section-shell">
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
             <h2 className="section-title">Catégories à fort volume</h2>
-            <p className="section-subtitle">Une sélection lisible pour comparer rapidement les gammes.</p>
+            <p className="section-subtitle">Une sélection lisible pour comparer rapidement les gammes et finaliser votre shortlist.</p>
           </div>
           <Link to="/produits" className="btn-secondary">Tout le catalogue</Link>
         </div>
-
         <div className="mt-6 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {categories.map((cat) => (
             <article key={cat.key} className="card p-5">
               <h3 className="font-heading text-xl font-bold text-brand-dark">{cat.name}</h3>
-              <p className="mt-2 text-sm text-slate-600">{cat.products[0]?.name} et une gamme complète pour cabinets.</p>
+              <p className="mt-2 text-sm text-slate-600">{cat.products[0]?.name} et une gamme complète pour cabinets urbains et régionaux.</p>
               <div className="mt-4 flex items-center justify-between">
                 <span className="text-xs font-semibold uppercase tracking-wide text-brand-cyan">{cat.products.length} références</span>
-                <Link className="text-sm font-semibold text-brand-blue" to="/produits">Explorer →</Link>
+                <Link className="text-sm font-semibold text-brand-blue transition hover:text-brand-cyan" to="/produits">Explorer →</Link>
               </div>
             </article>
           ))}
@@ -63,26 +64,11 @@ export default function HomePage() {
         <ChairComparator />
       </section>
 
-      <section className="grid gap-6 lg:grid-cols-3">
-        <article className="card lg:col-span-2">
-          <h2 className="section-title">Service technique complet</h2>
-          <p className="section-subtitle">Installation, maintenance, formation et pièces de rechange avec une équipe dédiée pour réduire les interruptions.</p>
-          <Link to="/service-technique" className="btn-accent mt-5">Voir le service technique</Link>
-        </article>
-
-        <article className="card overflow-hidden">
-          <img src="/assets/illustration-clinic.jpg" alt="Cabinet dentaire moderne" className="h-36 w-full rounded-xl object-cover" />
-          <h2 className="mt-4 font-heading text-xl font-bold text-brand-dark">Cabinets modernisés</h2>
-          <p className="mt-2 text-sm text-slate-600">Accompagnement du choix à l’installation pour lancer ou moderniser votre activité.</p>
-          <Link to="/contact" className="btn-secondary mt-4">Parler à un conseiller</Link>
-        </article>
-      </section>
-
-      <section className="card">
+      <section className="section-shell">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
             <h2 className="section-title">Marques partenaires</h2>
-            <p className="section-subtitle">Des fabricants reconnus pour la qualité et la durabilité.</p>
+            <p className="section-subtitle">Des fabricants reconnus pour la qualité, la durabilité et la disponibilité des pièces.</p>
           </div>
           <Link to="/marques" className="btn-secondary">Voir toutes les marques</Link>
         </div>

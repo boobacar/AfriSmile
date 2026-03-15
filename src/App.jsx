@@ -8,6 +8,7 @@ import ProductsPage from './pages/ProductsPage'
 import SolutionsPage from './pages/SolutionsPage'
 import BrandsPage from './pages/BrandsPage'
 import BlogPage from './pages/BlogPage'
+import BlogPostPage from './pages/BlogPostPage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import ServiceTechniquePage from './pages/ServiceTechniquePage'
@@ -155,6 +156,7 @@ export default function App() {
         <Route path="/modeles-achat" element={<ModelesAchatPage />} />
         <Route path="/marques" element={<BrandsPage />} />
         <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:slug" element={<BlogPostPage />} />
         <Route path="/a-propos" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/conditions-generales" element={<ConditionsPage />} />

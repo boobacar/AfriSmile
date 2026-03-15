@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
 import { blogPosts } from '../data/siteData'
 
@@ -17,9 +18,14 @@ export default function BlogPage() {
         <div className="mt-6 grid gap-4">
           {blogPosts.map((post) => (
             <article key={post.id} className="card">
-              <h2 className="font-heading text-2xl font-bold text-brand-dark">{post.title}</h2>
+              <Link to={`/blog/${post.slug}`} className="block">
+                <h2 className="font-heading text-2xl font-bold text-brand-dark transition hover:text-brand-blue">{post.title}</h2>
+              </Link>
               <p className="mt-2 text-slate-600">{post.excerpt}</p>
-              <a href="/contact" className="mt-4 inline-block text-sm font-semibold text-brand-blue transition hover:text-brand-cyan">Recevoir un conseil personnalisé →</a>
+              <div className="mt-4 flex flex-wrap items-center gap-3">
+                <Link to={`/blog/${post.slug}`} className="text-sm font-semibold text-brand-blue transition hover:text-brand-cyan">Lire l’article →</Link>
+                <a href="/contact" className="text-sm font-semibold text-slate-600 transition hover:text-brand-blue">Recevoir un conseil personnalisé</a>
+              </div>
             </article>
           ))}
         </div>

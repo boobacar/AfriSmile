@@ -73,8 +73,12 @@ export default function HomePage() {
       </section>
 
       <section className="grid gap-8 lg:grid-cols-2">
-        <QuoteForm />
-        <ChairComparator />
+        <div className="min-w-0">
+          <QuoteForm />
+        </div>
+        <div className="min-w-0">
+          <ChairComparator />
+        </div>
       </section>
 
       <section className="section-shell">

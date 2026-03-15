@@ -38,10 +38,6 @@ export default function QuoteForm() {
         </div>
       </div>
 
-      <div className="mt-4 rounded-xl border border-brand-cyan/20 bg-brand-light/60 p-3 text-sm text-slate-700">
-        💡 Astuce : mentionnez votre calendrier d’ouverture pour recevoir un plan de déploiement réaliste.
-      </div>
-
       <button type="submit" className="btn-primary mt-5 w-full">Envoyer la demande</button>
     </form>
   )

@@ -4,7 +4,7 @@ export default function ChairComparator() {
   const chairs = categories.find((c) => c.key === 'fauteuils')?.products || []
 
   return (
-    <section className="card">
+    <section className="card min-w-0">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
           <h2 className="section-title">Comparateur de fauteuils dentaires</h2>
@@ -12,8 +12,8 @@ export default function ChairComparator() {
         </div>
         <span className="chip">Tarifs indicatifs TTC</span>
       </div>
-      <div className="mt-5 overflow-x-auto rounded-xl border border-slate-200 bg-white">
-        <table className="min-w-full text-sm">
+      <div className="mt-5 w-full max-w-full overflow-x-auto rounded-xl border border-slate-200 bg-white">
+        <table className="min-w-[720px] text-sm">
           <thead>
             <tr className="bg-brand-light text-left text-brand-dark">
               <th className="p-3 font-semibold">Modèle</th>

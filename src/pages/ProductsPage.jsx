@@ -8,7 +8,7 @@ export default function ProductsPage() {
         eyebrow="Catalogue professionnel"
         title="Produits dentaires sélectionnés pour performance et fiabilité"
         subtitle="Fauteuils, consommables, instruments, stérilisation et radiologie avec accompagnement de configuration, installation et service."
-        image="/assets/page-products.jpg"
+        image="/assets/illustration-equipment.jpg"
         chips={['Tarifs en FCFA', 'Stock & commande sur devis', 'Fiches techniques disponibles']}
       >
         <a href="/contact" className="btn-primary">Demander un devis global</a>
@@ -33,20 +33,10 @@ export default function ProductsPage() {
             </div>
 
             <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-              {cat.products.map((p) => (
+              {cat.products.map((p, idx) => (
                 <article key={p.id} className="card bg-white">
                   <img
-                    src={
-                      cat.key === 'fauteuils'
-                        ? '/assets/page-products.jpg'
-                        : cat.key === 'consommables'
-                          ? '/assets/page-service.jpg'
-                          : cat.key === 'instruments'
-                            ? '/assets/page-blog.jpg'
-                            : cat.key === 'sterilisation'
-                              ? '/assets/page-solutions.jpg'
-                              : '/assets/page-brands.jpg'
-                    }
+                    src={idx % 3 === 0 ? '/assets/illustration-equipment.jpg' : idx % 3 === 1 ? '/assets/illustration-instruments.jpg' : '/assets/illustration-clinic.jpg'}
                     alt={`Illustration ${p.name}`}
                     className="mb-4 h-36 w-full rounded-xl object-cover"
                     loading="lazy"

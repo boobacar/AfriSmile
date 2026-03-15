@@ -31,7 +31,7 @@ export default function Footer() {
           <p className="mt-3 text-sm text-slate-300"><strong>Adresse:</strong> Liberté 06 Cité CSE Villa 72, Dakar, Sénégal</p>
           <a href="tel:+221770946397" className="mt-1 block text-sm font-semibold text-white"><strong>Téléphone:</strong> +221 77 094 63 97</a>
           <a href="mailto:contact@afrismile.net" className="block text-sm text-slate-300 transition hover:text-white"><strong>Email:</strong> contact@afrismile.net</a>
-          <a href="/catalogue-afrismile.pdf" className="btn-accent mt-4">Télécharger le catalogue PDF</a>
+          <a href="https://wa.me/221770946397?text=Bonjour%20AfriSmile%2C%20je%20souhaite%20recevoir%20le%20catalogue%20PDF." target="_blank" rel="noreferrer" className="btn-accent mt-4">Recevoir le catalogue PDF</a>
         </div>
 
         <div>

@@ -51,12 +51,27 @@ export const brands = ['Cingol', 'Woodpecker', 'NSK', 'Dentsply', 'Mani', 'Being
 export const blogPosts = [
   {
     id: 1,
-    title: 'Comment bien choisir un fauteuil dentaire en 2026',
-    excerpt: 'Ergonomie, budget, maintenance: les 5 critères à comparer avant d’acheter.',
+    title: 'Comment bien choisir un fauteuil dentaire au Sénégal en 2026',
+    excerpt: 'Ergonomie, budget, maintenance et options cliniques: les critères qui évitent les mauvais investissements.',
   },
   {
     id: 2,
-    title: 'Stérilisation: check-list rapide pour votre cabinet',
-    excerpt: 'Une routine simple pour garantir conformité et sécurité patient.',
+    title: 'Autoclave Classe B: guide pratique pour cabinets dentaires à Dakar',
+    excerpt: 'Capacité, cycles, conformité et plan de maintenance: la checklist complète avant achat.',
+  },
+  {
+    id: 3,
+    title: 'Scanner intra-oral: ROI réel pour un cabinet dentaire au Sénégal',
+    excerpt: 'Quand la dentisterie numérique devient rentable: flux de travail, temps gagné et qualité perçue patient.',
+  },
+  {
+    id: 4,
+    title: 'Ouvrir un cabinet dentaire: matériel indispensable et priorités budget',
+    excerpt: 'Une feuille de route claire pour lancer votre activité avec les bons équipements, au bon moment.',
+  },
+  {
+    id: 5,
+    title: 'Maintenance préventive: comment prolonger la durée de vie de vos équipements',
+    excerpt: 'Routine simple pour réduire les pannes, protéger vos actes et sécuriser votre productivité.',
   },
 ]

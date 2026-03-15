@@ -23,9 +23,7 @@ export default function HomePage() {
       </PageHero>
 
       <section className="section-shell">
-        <h2 className="section-title">Pages clés matériel dentaire (SEO)</h2>
-        <p className="section-subtitle">Accès rapide vers nos expertises les plus recherchées sur Google.</p>
-        <div className="mt-4 flex flex-wrap gap-2 text-sm">
+        <div className="flex flex-wrap gap-2 text-sm">
           <Link to="/materiel-dentaire-senegal" className="btn-secondary">Matériel dentaire Sénégal</Link>
           <Link to="/equipement-dentaire-dakar" className="btn-secondary">Équipement dentaire Dakar</Link>
           <Link to="/fauteuil-dentaire-senegal" className="btn-secondary">Fauteuil dentaire Sénégal</Link>

@@ -15,7 +15,7 @@ export default function HomePage() {
         eyebrow="Distributeur dentaire professionnel"
         title="Équipez votre cabinet avec une expérience d’achat claire, fiable et premium"
         subtitle="AfriSmile accompagne les dentistes avec des équipements performants, une logistique locale et un support technique terrain pour accélérer vos décisions d’investissement."
-        image="/assets/illustration-clinic.jpg"
+        image="/assets/page-home.jpg"
         chips={['Dakar & régions', 'Devis personnalisés', 'Accompagnement de bout en bout']}
       >
         <Link to="/produits" className="btn-primary">Voir le catalogue</Link>

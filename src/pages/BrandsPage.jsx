@@ -8,7 +8,7 @@ export default function BrandsPage() {
         eyebrow="Réseau de fabricants"
         title="Des marques de référence pour sécuriser vos investissements"
         subtitle="AfriSmile distribue des références internationales reconnues pour la fiabilité, la durabilité et l’accessibilité des pièces."
-        image="/assets/illustration-equipment.jpg"
+        image="/assets/page-brands.jpg"
         chips={['Partenaires certifiés', 'Suivi local', 'Qualité éprouvée']}
       />
 

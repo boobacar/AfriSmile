@@ -2,6 +2,41 @@ import PageHero from '../components/PageHero'
 import Breadcrumbs from '../components/Breadcrumbs'
 import { categories } from '../data/siteData'
 
+const socialProof = [
+  'SAV local réactif',
+  'Installation et mise en service',
+  'Accompagnement décision achat',
+  'Support WhatsApp rapide',
+]
+
+const miniFaqByCategory = {
+  fauteuils: [
+    {
+      q: 'Quel fauteuil choisir pour démarrer un cabinet ?',
+      a: 'Nous recommandons un modèle ergonomique, évolutif et compatible avec votre volume d’actes.',
+    },
+    {
+      q: 'Le SAV est-il disponible au Sénégal ?',
+      a: 'Oui, AfriSmile assure la maintenance préventive et corrective avec support local.',
+    },
+  ],
+  sterilisation: [
+    {
+      q: 'Autoclave Classe B ou autre technologie ?',
+      a: 'La Classe B est généralement recommandée pour une stérilisation complète des instruments.',
+    },
+    {
+      q: 'Proposez-vous la mise en service ?',
+      a: 'Oui, installation, paramétrage et prise en main sont inclus selon le projet.',
+    },
+  ],
+}
+
+function makeWhatsappLink(productName) {
+  const text = encodeURIComponent(`Bonjour AfriSmile, je souhaite un devis pour ${productName}.`)
+  return `https://wa.me/221770000000?text=${text}`
+}
+
 export default function ProductsPage() {
   return (
     <main className="container-page page-wrap space-y-8">
@@ -16,6 +51,17 @@ export default function ProductsPage() {
       >
         <a href="/contact" className="btn-primary">Demander un devis global</a>
       </PageHero>
+
+      <section className="section-shell">
+        <h2 className="section-title">Pourquoi commander chez AfriSmile</h2>
+        <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {socialProof.map((item) => (
+            <div key={item} className="card-muted text-sm font-semibold text-slate-700">
+              ✓ {item}
+            </div>
+          ))}
+        </div>
+      </section>
 
       <div className="sticky top-[118px] z-30 overflow-x-auto rounded-xl border border-slate-200 bg-white/90 p-2 backdrop-blur">
         <div className="flex min-w-max items-center gap-2">
@@ -68,13 +114,27 @@ export default function ProductsPage() {
                     <li>• Brochure PDF sur demande</li>
                   </ul>
 
-                  <div className="mt-4 flex gap-2">
-                    <a href="/contact" className="btn-primary flex-1">Demander un devis</a>
-                    <a href="/catalogue-afrismile.pdf" className="btn-secondary">PDF</a>
+                  <div className="mt-4 grid gap-2 sm:grid-cols-2">
+                    <a href="/contact" className="btn-primary w-full text-center">Demander un devis</a>
+                    <a href={makeWhatsappLink(p.name)} target="_blank" rel="noreferrer" className="btn-secondary w-full text-center">WhatsApp</a>
                   </div>
                 </article>
               ))}
             </div>
+
+            {miniFaqByCategory[cat.key] && (
+              <div className="mt-5 rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                <h3 className="font-semibold text-brand-dark">FAQ rapide {cat.name.toLowerCase()}</h3>
+                <div className="mt-3 grid gap-3">
+                  {miniFaqByCategory[cat.key].map((item) => (
+                    <article key={item.q} className="text-sm text-slate-700">
+                      <p className="font-semibold">{item.q}</p>
+                      <p>{item.a}</p>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            )}
           </section>
         ))}
       </div>

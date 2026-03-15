@@ -19,7 +19,6 @@ export default function HomePage() {
         chips={['Dakar & régions', 'Devis personnalisés', 'Accompagnement de bout en bout']}
       >
         <Link to="/produits" className="btn-primary">Voir le catalogue</Link>
-        <a href="https://wa.me/221770946397?text=Bonjour%20AfriSmile%2C%20je%20souhaite%20recevoir%20le%20catalogue%20PDF." target="_blank" rel="noreferrer" className="btn-secondary">Recevoir le catalogue PDF</a>
       </PageHero>
 
       <section className="section-shell">

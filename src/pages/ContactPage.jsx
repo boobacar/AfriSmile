@@ -53,7 +53,6 @@ export default function ContactPage() {
 
           <div className="mt-5 flex flex-wrap gap-3">
             <a className="btn-primary" href="https://wa.me/221770946397?text=Bonjour%20AfriSmile%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noreferrer">WhatsApp direct</a>
-            <a href="https://wa.me/221770946397?text=Bonjour%20AfriSmile%2C%20je%20souhaite%20recevoir%20le%20catalogue%20PDF." target="_blank" rel="noreferrer" className="btn-secondary">Recevoir le catalogue PDF</a>
           </div>
 
           <div className="mt-6 rounded-xl border border-brand-cyan/20 bg-brand-light/60 p-4 text-sm text-slate-700">

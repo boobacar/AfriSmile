@@ -1,9 +1,12 @@
 import PageHero from '../components/PageHero'
+import Breadcrumbs from '../components/Breadcrumbs'
 import { categories } from '../data/siteData'
 
 export default function ProductsPage() {
   return (
     <main className="container-page page-wrap space-y-8">
+      <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Produits' }]} />
+
       <PageHero
         eyebrow="Catalogue professionnel"
         title="Produits dentaires sélectionnés pour performance et fiabilité"
@@ -23,6 +26,17 @@ export default function ProductsPage() {
           ))}
         </div>
       </div>
+
+      <section className="section-shell">
+        <h2 className="section-title">Guides d’achat par besoin</h2>
+        <div className="mt-4 flex flex-wrap gap-2 text-sm">
+          <a href="/materiel-dentaire-senegal" className="btn-secondary">Matériel dentaire Sénégal</a>
+          <a href="/equipement-dentaire-dakar" className="btn-secondary">Équipement dentaire Dakar</a>
+          <a href="/fauteuil-dentaire-senegal" className="btn-secondary">Fauteuil dentaire Sénégal</a>
+          <a href="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Autoclave Classe B</a>
+          <a href="/scanner-intra-oral-senegal" className="btn-secondary">Scanner intra-oral</a>
+        </div>
+      </section>
 
       <div className="space-y-8">
         {categories.map((cat) => (

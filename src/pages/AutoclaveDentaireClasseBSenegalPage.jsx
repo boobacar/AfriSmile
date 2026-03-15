@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
   { q: 'Pourquoi choisir un autoclave Classe B ?', a: 'La Classe B est recommandée pour des cycles complets et une stérilisation fiable des instruments emballés et complexes.' },
@@ -16,6 +17,7 @@ export default function AutoclaveDentaireClasseBSenegalPage() {
   return (
     <main className="container-page page-wrap space-y-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Autoclave dentaire Classe B Sénégal' }]} />
 
       <PageHero
         eyebrow="Stérilisation"

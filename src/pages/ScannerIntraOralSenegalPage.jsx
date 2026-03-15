@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
   { q: 'Un scanner intra-oral est-il rentable ?', a: 'Oui, il peut réduire les reprises, accélérer la prise d’empreinte et améliorer l’expérience patient.' },
@@ -16,6 +17,7 @@ export default function ScannerIntraOralSenegalPage() {
   return (
     <main className="container-page page-wrap space-y-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Scanner intra-oral Sénégal' }]} />
 
       <PageHero
         eyebrow="Dentisterie numérique"

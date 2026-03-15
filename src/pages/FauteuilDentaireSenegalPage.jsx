@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
   { q: 'Quel budget prévoir pour un fauteuil dentaire au Sénégal ?', a: 'Le budget dépend des options cliniques, de l’ergonomie et de la marque. Nous proposons plusieurs gammes et un devis personnalisé.' },
@@ -16,6 +17,7 @@ export default function FauteuilDentaireSenegalPage() {
   return (
     <main className="container-page page-wrap space-y-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Fauteuil dentaire Sénégal' }]} />
 
       <PageHero
         eyebrow="Fauteuils dentaires"

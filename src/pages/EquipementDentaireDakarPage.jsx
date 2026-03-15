@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
   { q: 'Intervenez-vous uniquement à Dakar ?', a: 'Nous intervenons à Dakar et dans les régions selon le projet, avec organisation logistique adaptée.' },
@@ -16,6 +17,7 @@ export default function EquipementDentaireDakarPage() {
   return (
     <main className="container-page page-wrap space-y-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Équipement dentaire Dakar' }]} />
 
       <PageHero
         eyebrow="Dakar"

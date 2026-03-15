@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
   {
@@ -49,6 +50,7 @@ export default function MaterielDentaireSenegalPage() {
     <main className="container-page page-wrap space-y-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
+      <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Sénégal' }]} />
 
       <PageHero
         eyebrow="Fournisseur B2B"
@@ -70,6 +72,16 @@ export default function MaterielDentaireSenegalPage() {
           <li className="card-muted">Imagerie et scanner intra-oral</li>
           <li className="card-muted">Consommables, pièces et accessoires</li>
         </ul>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Liens utiles pour décider vite</h2>
+        <div className="mt-4 flex flex-wrap gap-2 text-sm">
+          <Link to="/produits" className="btn-secondary">Voir le catalogue</Link>
+          <Link to="/fauteuil-dentaire-senegal" className="btn-secondary">Comparer les fauteuils</Link>
+          <Link to="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Autoclaves Classe B</Link>
+          <Link to="/contact" className="btn-primary">Demander un devis</Link>
+        </div>
       </section>
 
       <section className="section-shell">

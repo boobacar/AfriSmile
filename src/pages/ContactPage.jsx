@@ -47,12 +47,12 @@ export default function ContactPage() {
 
         <section className="card min-w-0">
           <h2 className="font-heading text-2xl font-bold text-brand-dark">Contact rapide</h2>
-          <p className="mt-4 text-slate-700">Adresse : Dakar, Sénégal</p>
-          <a className="mt-2 inline-flex items-center gap-2 font-medium text-brand-blue" href="tel:+221770000000"><Phone size={16} /> +221 77 000 00 00</a>
-          <a className="mt-1 inline-flex items-center gap-2 font-medium text-brand-blue" href="mailto:contact@afrismile.com"><Mail size={16} /> contact@afrismile.com</a>
+          <p className="mt-4 text-slate-700">Adresse : Liberté 06 Cité CSE Villa 72, Dakar, Sénégal</p>
+          <a className="mt-2 inline-flex items-center gap-2 font-medium text-brand-blue" href="tel:+221770946397"><Phone size={16} /> +221 77 094 63 97</a>
+          <a className="mt-1 inline-flex items-center gap-2 font-medium text-brand-blue" href="mailto:contact@afrismile.net"><Mail size={16} /> contact@afrismile.net</a>
 
           <div className="mt-5 flex flex-wrap gap-3">
-            <a className="btn-primary" href="https://wa.me/221770000000?text=Bonjour%20AfriSmile%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noreferrer">WhatsApp direct</a>
+            <a className="btn-primary" href="https://wa.me/221770946397?text=Bonjour%20AfriSmile%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noreferrer">WhatsApp direct</a>
             <a href="/catalogue-afrismile.pdf" className="btn-secondary">Télécharger le catalogue PDF</a>
           </div>
 

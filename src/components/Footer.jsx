@@ -11,7 +11,7 @@ export default function Footer() {
             Votre partenaire au Sénégal pour l’équipement dentaire, l’installation de cabinet,
             la maintenance technique et l’accompagnement professionnel.
           </p>
-          <a className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-brand-cyan transition hover:text-white" href="https://wa.me/221770000000" target="_blank" rel="noreferrer">
+          <a className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-brand-cyan transition hover:text-white" href="https://wa.me/221770946397" target="_blank" rel="noreferrer">
             <MessageCircle size={16} /> WhatsApp direct
           </a>
         </div>
@@ -28,9 +28,9 @@ export default function Footer() {
 
         <div>
           <h3 className="font-semibold text-white">Contact</h3>
-          <p className="mt-3 text-sm text-slate-300"><strong>Adresse:</strong> Dakar, Sénégal</p>
-          <a href="tel:+221770000000" className="mt-1 block text-sm font-semibold text-white"><strong>Téléphone:</strong> +221 77 000 00 00</a>
-          <a href="mailto:contact@afrismile.com" className="block text-sm text-slate-300 transition hover:text-white"><strong>Email:</strong> contact@afrismile.com</a>
+          <p className="mt-3 text-sm text-slate-300"><strong>Adresse:</strong> Liberté 06 Cité CSE Villa 72, Dakar, Sénégal</p>
+          <a href="tel:+221770946397" className="mt-1 block text-sm font-semibold text-white"><strong>Téléphone:</strong> +221 77 094 63 97</a>
+          <a href="mailto:contact@afrismile.net" className="block text-sm text-slate-300 transition hover:text-white"><strong>Email:</strong> contact@afrismile.net</a>
           <a href="/catalogue-afrismile.pdf" className="btn-accent mt-4">Télécharger le catalogue PDF</a>
         </div>
 

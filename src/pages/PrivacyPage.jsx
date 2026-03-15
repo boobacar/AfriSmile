@@ -13,7 +13,7 @@ export default function PrivacyPage() {
       <section className="section-shell space-y-4 text-slate-700">
         <p>AfriSmile collecte uniquement les données nécessaires au traitement des demandes de contact et devis.</p>
         <p>Les informations ne sont pas revendues à des tiers et sont utilisées pour le suivi commercial et technique.</p>
-        <p>Vous pouvez demander l’accès, la rectification ou la suppression de vos données via contact@afrismile.com.</p>
+        <p>Vous pouvez demander l’accès, la rectification ou la suppression de vos données via contact@afrismile.net.</p>
       </section>
     </main>
   )

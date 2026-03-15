@@ -34,7 +34,7 @@ const miniFaqByCategory = {
 
 function makeWhatsappLink(productName) {
   const text = encodeURIComponent(`Bonjour AfriSmile, je souhaite un devis pour ${productName}.`)
-  return `https://wa.me/221770000000?text=${text}`
+  return `https://wa.me/221770946397?text=${text}`
 }
 
 export default function ProductsPage() {

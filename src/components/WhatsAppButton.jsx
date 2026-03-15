@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react'
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/221770000000?text=Bonjour%20AfriSmile%2C%20je%20souhaite%20un%20devis."
+      href="https://wa.me/221770946397?text=Bonjour%20AfriSmile%2C%20je%20souhaite%20un%20devis."
       target="_blank"
       rel="noreferrer"
       aria-label="Contacter AfriSmile sur WhatsApp"

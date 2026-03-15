@@ -1,3 +1,5 @@
+import { MessageCircle } from 'lucide-react'
+
 export default function WhatsAppButton() {
   return (
     <a
@@ -7,7 +9,7 @@ export default function WhatsAppButton() {
       aria-label="Contacter AfriSmile sur WhatsApp"
       className="fixed bottom-5 right-5 z-50 inline-flex items-center gap-2 rounded-full bg-brand-green px-5 py-3 text-sm font-semibold text-white shadow-raised transition hover:brightness-95"
     >
-      <span className="text-base">💬</span>
+      <MessageCircle size={18} />
       WhatsApp Devis
     </a>
   )

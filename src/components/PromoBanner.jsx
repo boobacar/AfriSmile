@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { CheckCircle2 } from 'lucide-react'
 
 export default function PromoBanner() {
   return (
@@ -11,9 +12,9 @@ export default function PromoBanner() {
         Offre valable jusqu’au 31 mars, installation incluse à Dakar et périphérie, assistance technique à la mise en route et briefing opératoire inclus.
       </p>
       <ul className="mt-4 space-y-2 text-sm text-slate-700">
-        <li>✓ Garantie fabricant + support local</li>
-        <li>✓ Paramétrage ergonomique du fauteuil</li>
-        <li>✓ Session d’initiation de l’équipe</li>
+        {['Garantie fabricant + support local', 'Paramétrage ergonomique du fauteuil', 'Session d’initiation de l’équipe'].map((item) => (
+          <li key={item} className="inline-flex items-center gap-2"><CheckCircle2 size={16} className="text-brand-cyan" /> {item}</li>
+        ))}
       </ul>
       <div className="mt-5 flex flex-wrap gap-3">
         <Link to="/contact" className="btn-primary">Demander cette offre</Link>

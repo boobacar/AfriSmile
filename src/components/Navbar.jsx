@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { Phone } from 'lucide-react'
 
 const links = [
   ['/', 'Accueil'],
@@ -20,7 +21,7 @@ export default function Navbar() {
       <div className="border-b border-slate-100 bg-brand-dark text-[11px] text-slate-200">
         <div className="container-page flex flex-wrap items-center justify-between gap-2 py-2">
           <p>Équipements dentaires professionnels • Sénégal & Afrique de l’Ouest</p>
-          <p className="font-semibold">📞 +221 77 000 00 00</p>
+          <p className="inline-flex items-center gap-1.5 font-semibold"><Phone size={13} /> +221 77 000 00 00</p>
         </div>
       </div>
 

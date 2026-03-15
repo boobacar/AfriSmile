@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { MessageCircle } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -10,8 +11,8 @@ export default function Footer() {
             Votre partenaire au Sénégal pour l’équipement dentaire, l’installation de cabinet,
             la maintenance technique et l’accompagnement professionnel.
           </p>
-          <a className="mt-4 inline-block text-sm font-semibold text-brand-cyan transition hover:text-white" href="https://wa.me/221770000000" target="_blank" rel="noreferrer">
-            💬 WhatsApp direct
+          <a className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-brand-cyan transition hover:text-white" href="https://wa.me/221770000000" target="_blank" rel="noreferrer">
+            <MessageCircle size={16} /> WhatsApp direct
           </a>
         </div>
 

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { CheckCircle2 } from 'lucide-react'
 import PromoBanner from '../components/PromoBanner'
 import QuoteForm from '../components/QuoteForm'
 import ChairComparator from '../components/ChairComparator'
@@ -28,7 +29,7 @@ export default function HomePage() {
           <div className="mt-5 grid gap-4 md:grid-cols-2">
             {trustSignals.map((signal) => (
               <article key={signal} className="card-muted">
-                <p className="text-sm font-semibold text-brand-dark">✓ {signal}</p>
+                <p className="inline-flex items-center gap-2 text-sm font-semibold text-brand-dark"><CheckCircle2 size={16} className="text-brand-cyan" /> {signal}</p>
                 <p className="mt-1 text-sm text-slate-600">Processus clair, interlocuteur unique et suivi structuré de vos priorités.</p>
               </article>
             ))}

@@ -21,48 +21,73 @@ import EquipementDentaireDakarPage from './pages/EquipementDentaireDakarPage'
 import FauteuilDentaireSenegalPage from './pages/FauteuilDentaireSenegalPage'
 import AutoclaveDentaireClasseBSenegalPage from './pages/AutoclaveDentaireClasseBSenegalPage'
 import ScannerIntraOralSenegalPage from './pages/ScannerIntraOralSenegalPage'
+import { blogPosts } from './data/siteData'
 
 const seoPages = {
   '/': {
-    title: 'Matériel dentaire au Sénégal | AfriSmile Dakar',
+    title: 'Matériel dentaire au Sénégal | Vente, installation & SAV | AfriSmile',
     description:
-      'AfriSmile fournit du matériel médical dentaire au Sénégal: fauteuils, stérilisation, imagerie, installation, SAV et formation équipe.',
+      'AfriSmile fournit du matériel médical dentaire au Sénégal: fauteuils, stérilisation, imagerie, installation, SAV et accompagnement cabinet.',
   },
   '/produits': {
-    title: 'Vente matériel dentaire | Catalogue AfriSmile Sénégal',
+    title: 'Catalogue matériel dentaire Sénégal | Prix & devis | AfriSmile',
     description:
       'Catalogue de matériel dentaire professionnel: fauteuils, compresseurs, autoclaves, imagerie et consommables. Devis rapide à Dakar.',
   },
   '/equipement-dentaire-dakar': {
-    title: 'Équipement dentaire à Dakar | Vente, installation et SAV',
+    title: 'Équipement dentaire à Dakar | Livraison, installation, maintenance',
     description:
-      'Équipement dentaire à Dakar pour cabinets et cliniques: conseil, livraison, installation et maintenance technique locale avec AfriSmile.',
+      'Équipement dentaire à Dakar pour cabinets et cliniques: conseil achat, livraison, installation et maintenance technique locale AfriSmile.',
   },
   '/materiel-dentaire-senegal': {
-    title: 'Matériel dentaire Sénégal | Fournisseur AfriSmile',
+    title: 'Fournisseur matériel dentaire Sénégal | AfriSmile',
     description:
-      'Fournisseur de matériel dentaire au Sénégal pour cabinets privés, centres médicaux et projets dentaire: offre complète et accompagnement pro.',
+      'Fournisseur de matériel dentaire au Sénégal pour cabinets privés et centres médicaux: offre complète, mise en service et support terrain.',
   },
   '/fauteuil-dentaire-senegal': {
-    title: 'Fauteuil dentaire Sénégal | Prix, installation, SAV',
+    title: 'Fauteuil dentaire Sénégal | Comparatif, prix, installation | AfriSmile',
     description:
       'Choisissez un fauteuil dentaire adapté à votre cabinet au Sénégal: options, budget, ergonomie, installation et maintenance.',
   },
   '/autoclave-dentaire-classe-b-senegal': {
-    title: 'Autoclave dentaire Classe B Sénégal | Vente & support',
+    title: 'Autoclave dentaire Classe B Sénégal | Vente & mise en service',
     description:
-      'Autoclaves dentaires Classe B au Sénégal: conformité, cycles de stérilisation, mise en service et suivi technique AfriSmile.',
+      'Autoclaves dentaires Classe B au Sénégal: conformité, cycles de stérilisation, installation et suivi technique AfriSmile.',
   },
   '/scanner-intra-oral-senegal': {
-    title: 'Scanner intra-oral Sénégal | Solutions numériques dentaires',
+    title: 'Scanner intra-oral Sénégal | Devis & accompagnement | AfriSmile',
     description:
       'Scanner intra-oral au Sénégal pour dentistes: productivité, précision clinique, formation et intégration au flux numérique.',
   },
+  '/blog': {
+    title: 'Blog matériel dentaire Sénégal | Guides achat & conseils | AfriSmile',
+    description:
+      'Guides pratiques AfriSmile: fauteuils, stérilisation, scanner intra-oral et bonnes pratiques pour cabinets dentaires au Sénégal.',
+  },
   '/contact': {
-    title: 'Demande de devis matériel dentaire | AfriSmile',
+    title: 'Demande de devis matériel dentaire | Réponse rapide | AfriSmile',
     description:
       'Contactez AfriSmile pour un devis de matériel dentaire au Sénégal. Réponse rapide, conseil personnalisé et accompagnement de bout en bout.',
   },
+}
+
+const pathLabels = {
+  produits: 'Produits',
+  'solutions-cabinets': 'Solutions cabinets',
+  'service-technique': 'Service technique',
+  'modeles-achat': 'Modèles d’achat',
+  marques: 'Marques',
+  blog: 'Blog',
+  'a-propos': 'À propos',
+  contact: 'Contact',
+  'conditions-generales': 'Conditions générales',
+  'politique-confidentialite': 'Politique de confidentialité',
+  'mentions-legales': 'Mentions légales',
+  'materiel-dentaire-senegal': 'Matériel dentaire Sénégal',
+  'equipement-dentaire-dakar': 'Équipement dentaire Dakar',
+  'fauteuil-dentaire-senegal': 'Fauteuil dentaire Sénégal',
+  'autoclave-dentaire-classe-b-senegal': 'Autoclave dentaire Classe B',
+  'scanner-intra-oral-senegal': 'Scanner intra-oral Sénégal',
 }
 
 function ensureMeta(propertyOrName, attr = 'name') {
@@ -76,17 +101,65 @@ function ensureMeta(propertyOrName, attr = 'name') {
   return tag
 }
 
+function makeBlogSeo(pathname) {
+  if (!pathname.startsWith('/blog/')) return null
+  const slug = pathname.split('/')[2]
+  const post = blogPosts.find((item) => item.slug === slug)
+  if (!post) return null
+
+  return {
+    title: `${post.title} | Blog AfriSmile`,
+    description: post.excerpt,
+  }
+}
+
+function makeBreadcrumbJsonLd(origin, pathname) {
+  const segments = pathname.split('/').filter(Boolean)
+  const items = [{ name: 'Accueil', item: `${origin}/` }]
+
+  let currentPath = ''
+  segments.forEach((segment) => {
+    currentPath += `/${segment}`
+
+    let name = pathLabels[segment]
+    if (!name && segments[0] === 'blog' && segment !== 'blog') {
+      const post = blogPosts.find((item) => item.slug === segment)
+      name = post?.title || 'Article'
+    }
+    if (!name) {
+      name = segment
+        .replace(/-/g, ' ')
+        .replace(/\b\w/g, (c) => c.toUpperCase())
+    }
+
+    items.push({ name, item: `${origin}${currentPath}` })
+  })
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((entry, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: entry.name,
+      item: entry.item,
+    })),
+  }
+}
+
 function SeoHandler() {
   const location = useLocation()
 
   useEffect(() => {
-    const current = seoPages[location.pathname] || seoPages['/']
+    const dynamicBlogSeo = makeBlogSeo(location.pathname)
+    const current = dynamicBlogSeo || seoPages[location.pathname] || seoPages['/']
     const origin = window.location.origin
     const canonicalUrl = `${origin}${location.pathname}`
 
     document.title = current.title
 
     ensureMeta('description').setAttribute('content', current.description)
+    ensureMeta('robots').setAttribute('content', 'index, follow, max-image-preview:large')
     ensureMeta('og:title', 'property').setAttribute('content', current.title)
     ensureMeta('og:description', 'property').setAttribute('content', current.description)
     ensureMeta('og:type', 'property').setAttribute('content', 'website')
@@ -103,10 +176,12 @@ function SeoHandler() {
     }
     canonical.setAttribute('href', canonicalUrl)
 
-    const existing = document.getElementById('jsonld-organization')
-    if (existing) existing.remove()
+    const oldOrg = document.getElementById('jsonld-organization')
+    if (oldOrg) oldOrg.remove()
+    const oldBreadcrumb = document.getElementById('jsonld-breadcrumb')
+    if (oldBreadcrumb) oldBreadcrumb.remove()
 
-    const jsonLd = {
+    const organizationJsonLd = {
       '@context': 'https://schema.org',
       '@type': 'Organization',
       name: 'AfriSmile',
@@ -122,11 +197,18 @@ function SeoHandler() {
       areaServed: ['Sénégal', 'Afrique de l’Ouest'],
     }
 
-    const script = document.createElement('script')
-    script.id = 'jsonld-organization'
-    script.type = 'application/ld+json'
-    script.textContent = JSON.stringify(jsonLd)
-    document.head.appendChild(script)
+    const orgScript = document.createElement('script')
+    orgScript.id = 'jsonld-organization'
+    orgScript.type = 'application/ld+json'
+    orgScript.textContent = JSON.stringify(organizationJsonLd)
+    document.head.appendChild(orgScript)
+
+    const breadcrumbJsonLd = makeBreadcrumbJsonLd(origin, location.pathname)
+    const breadcrumbScript = document.createElement('script')
+    breadcrumbScript.id = 'jsonld-breadcrumb'
+    breadcrumbScript.type = 'application/ld+json'
+    breadcrumbScript.textContent = JSON.stringify(breadcrumbJsonLd)
+    document.head.appendChild(breadcrumbScript)
   }, [location.pathname])
 
   return null

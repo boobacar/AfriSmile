@@ -46,7 +46,7 @@ export default function ProductsPage() {
         eyebrow="Catalogue professionnel"
         title="Produits dentaires sélectionnés pour performance et fiabilité"
         subtitle="Fauteuils, consommables, instruments, stérilisation et radiologie avec accompagnement de configuration, installation et service."
-        image="/assets/page-products.jpg"
+        showImage={false}
         chips={['Tarifs en FCFA', 'Stock & commande sur devis', 'Fiches techniques disponibles']}
       >
         <a href="/contact" className="btn-primary">Demander un devis global</a>

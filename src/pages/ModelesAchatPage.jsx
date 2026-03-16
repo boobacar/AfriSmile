@@ -8,7 +8,7 @@ export default function ModelesAchatPage() {
         eyebrow="Parcours d’acquisition"
         title="Modèles d’achat flexibles selon vos objectifs de cabinet"
         subtitle="AfriSmile propose des parcours adaptés à votre phase de développement : ouverture, croissance ou modernisation technique."
-        image="/assets/page-products.jpg"
+        showImage={false}
         chips={['Devis personnalisés', 'Conseil budgétaire', 'Planification des échéances']}
       >
         <Link to="/contact" className="btn-primary">Obtenir une recommandation</Link>

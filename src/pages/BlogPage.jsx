@@ -12,7 +12,7 @@ export default function BlogPage() {
         eyebrow="Conseils experts"
         title="Blog AfriSmile : pratique, terrain et orienté décision"
         subtitle="Des contenus utiles pour optimiser vos choix d’équipement, vos standards de sécurité et l’organisation de votre cabinet."
-        image="/assets/page-blog.jpg"
+        showImage={false}
         chips={['Guides d’achat', 'Bonnes pratiques cliniques', 'Mises à jour secteur']}
       />
 

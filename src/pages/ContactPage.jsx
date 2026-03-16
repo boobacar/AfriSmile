@@ -14,7 +14,11 @@ const faqs = [
   },
   {
     q: 'Intervenez-vous en dehors de Dakar ?',
-    a: 'Oui, selon le projet, nous organisons la logistique et le support technique dans les régions.',
+    a: 'Oui, selon le projet, nous organisons la logistique et le support technique dans les régions et en Afrique de l’Ouest.',
+  },
+  {
+    q: 'Dans quels pays pouvez-vous livrer et installer ?',
+    a: 'Nous opérons au Sénégal, en Mauritanie, Côte d’Ivoire, Bénin, Burkina Faso, Cameroun, Cap-Vert, Gambie, Ghana, Guinée, Guinée-Bissau, Niger, Nigeria et Togo.',
   },
 ]
 
@@ -68,6 +72,9 @@ export default function ContactPage() {
           <div className="card-muted text-sm text-slate-700"><strong>Sénégal</strong><br/>Dakar et régions, intervention planifiée.</div>
           <div className="card-muted text-sm text-slate-700"><strong>Afrique de l’Ouest</strong><br/>Mauritanie, Côte d’Ivoire, Bénin, Burkina Faso, Cameroun, Cap-Vert, Gambie, Ghana.</div>
           <div className="card-muted text-sm text-slate-700"><strong>Autres pays couverts</strong><br/>Guinée, Guinée-Bissau, Niger, Nigeria, Togo.</div>
+        </div>
+        <div className="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-700">
+          <strong>Livraison & installation CEDEAO :</strong> déploiement sur étude technique avec planning, logistique et mise en service coordonnés selon le pays.
         </div>
       </section>
 

@@ -25,9 +25,9 @@ import { blogPosts } from './data/siteData'
 
 const seoPages = {
   '/': {
-    title: 'Matériel dentaire au Sénégal | Vente, installation & SAV | AfriSmile',
+    title: 'Matériel dentaire Sénégal & Afrique de l’Ouest | AfriSmile',
     description:
-      'AfriSmile fournit du matériel médical dentaire au Sénégal: fauteuils, stérilisation, imagerie, installation, SAV et accompagnement cabinet.',
+      'AfriSmile fournit du matériel dentaire au Sénégal et en Afrique de l’Ouest: fauteuils, stérilisation, imagerie, installation, SAV et accompagnement cabinet.',
   },
   '/produits': {
     title: 'Catalogue matériel dentaire Sénégal | Prix & devis | AfriSmile',
@@ -40,9 +40,9 @@ const seoPages = {
       'Équipement dentaire à Dakar pour cabinets et cliniques: conseil achat, livraison, installation et maintenance technique locale AfriSmile.',
   },
   '/materiel-dentaire-senegal': {
-    title: 'Fournisseur matériel dentaire Sénégal | AfriSmile',
+    title: 'Fournisseur matériel dentaire Sénégal & Afrique de l’Ouest | AfriSmile',
     description:
-      'Fournisseur de matériel dentaire au Sénégal pour cabinets privés et centres médicaux: offre complète, mise en service et support terrain.',
+      'Fournisseur de matériel dentaire au Sénégal et en Afrique de l’Ouest pour cabinets privés et centres médicaux: offre complète, mise en service et support terrain.',
   },
   '/fauteuil-dentaire-senegal': {
     title: 'Fauteuil dentaire Sénégal | Comparatif, prix, installation | AfriSmile',
@@ -65,9 +65,9 @@ const seoPages = {
       'Guides pratiques AfriSmile: fauteuils, stérilisation, scanner intra-oral et bonnes pratiques pour cabinets dentaires au Sénégal.',
   },
   '/contact': {
-    title: 'Demande de devis matériel dentaire | Réponse rapide | AfriSmile',
+    title: 'Devis matériel dentaire Sénégal & Afrique de l’Ouest | AfriSmile',
     description:
-      'Contactez AfriSmile pour un devis de matériel dentaire au Sénégal. Réponse rapide, conseil personnalisé et accompagnement de bout en bout.',
+      'Contactez AfriSmile pour un devis de matériel dentaire au Sénégal, Mauritanie, Côte d’Ivoire, Bénin, Burkina Faso, Cameroun, Cap-Vert, Gambie, Ghana, Guinée, Guinée-Bissau, Niger, Nigeria et Togo.',
   },
 }
 

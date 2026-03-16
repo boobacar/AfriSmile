@@ -32,7 +32,7 @@ export default function ServiceTechniquePage() {
         eyebrow="Support technique"
         title="Service technique AfriSmile : continuité, sécurité et rapidité"
         subtitle="Notre équipe terrain intervient pour garantir le bon fonctionnement de vos équipements et la continuité de votre activité clinique."
-        image="/assets/page-service.jpg"
+        showImage={false}
         chips={['Interventions planifiées', 'SAV réactif', 'Pièces critiques disponibles']}
       >
         <Link to="/contact" className="btn-primary">Ouvrir un dossier SAV</Link>

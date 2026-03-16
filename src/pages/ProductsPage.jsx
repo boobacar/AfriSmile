@@ -47,11 +47,11 @@ const productImages = {
   i2: '/assets/product-mani-kit.jpg',
   i3: '/assets/product-dentsply-sondes.jpg',
   s1: '/assets/product-autoclave-classe-b.jpg',
-  s2: '/assets/illustration-instruments.jpg',
-  s3: '/assets/illustration-instruments.jpg',
-  r1: '/assets/page-solutions.jpg',
-  r2: '/assets/page-solutions.jpg',
-  r3: '/assets/page-solutions.jpg',
+  s2: '/assets/product-sachets-sterilisation.webp',
+  s3: '/assets/product-bacs-ultrasons.webp',
+  r1: '/assets/product-capteur-rvg.webp',
+  r2: '/assets/product-generateur-rx.webp',
+  r3: '/assets/product-tablier-plombe.webp',
 }
 
 export default function ProductsPage() {

@@ -44,8 +44,8 @@ const productImages = {
   c2: '/assets/product-aiguilles-anesthesie.jpg',
   c3: '/assets/product-bavettes-premium.webp',
   i1: '/assets/product-nsk-turbine.jpg',
-  i2: '/assets/page-products.jpg',
-  i3: '/assets/product-dentsply-sondes.webp',
+  i2: '/assets/product-mani-kit.jpg',
+  i3: '/assets/product-dentsply-sondes.jpg',
   s1: '/assets/product-autoclave-classe-b.jpg',
   s2: '/assets/illustration-instruments.jpg',
   s3: '/assets/illustration-instruments.jpg',
@@ -113,7 +113,7 @@ export default function ProductsPage() {
               {cat.products.map((p) => (
                 <article key={p.id} className="card bg-white">
                   <img
-                    src={productImages[p.id] || '/assets/page-products.jpg'}
+                    src={productImages[p.id] || '/assets/product-mani-kit.jpg'}
                     alt={`Illustration ${p.name}`}
                     className="mb-4 h-36 w-full rounded-xl object-cover"
                     loading="lazy"

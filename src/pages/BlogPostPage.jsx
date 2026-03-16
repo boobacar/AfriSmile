@@ -52,12 +52,12 @@ export default function BlogPostPage() {
         eyebrow="Blog AfriSmile"
         title={post.title}
         subtitle={post.excerpt}
-        image="/assets/page-blog.jpg"
+        showImage={false}
         chips={['Guide pratique', 'Décision achat', 'Cabinets dentaires']}
       />
 
       <section className="section-shell">
-        <p className="text-sm leading-7 text-slate-700">{post.content}</p>
+        <p className="whitespace-pre-line text-sm leading-7 text-slate-700">{post.content}</p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link to="/contact" className="btn-primary">Parler à un conseiller</Link>
           <Link to="/blog" className="btn-secondary">Voir les autres articles</Link>

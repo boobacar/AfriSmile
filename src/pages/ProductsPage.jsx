@@ -48,10 +48,10 @@ const productImages = {
   i3: '/assets/product-dentsply-sondes.jpg',
   s1: '/assets/product-autoclave-classe-b.jpg',
   s2: '/assets/product-sachets-sterilisation.webp',
-  s3: '/assets/product-bacs-ultrasons.webp',
-  r1: '/assets/product-capteur-rvg.webp',
-  r2: '/assets/product-generateur-rx.webp',
-  r3: '/assets/product-tablier-plombe.webp',
+  s3: '/assets/product-bacs-ultrasons.jpg',
+  r1: '/assets/product-capteur-rvg.jpg',
+  r2: '/assets/product-generateur-rx.jpg',
+  r3: '/assets/product-tablier-plombe.jpg',
 }
 
 export default function ProductsPage() {

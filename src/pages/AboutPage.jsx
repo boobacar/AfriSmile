@@ -12,7 +12,7 @@ export default function AboutPage() {
     },
     {
       title: 'Présence régionale',
-      text: 'Interventions et accompagnement commercial sur plusieurs marchés d’Afrique de l’Ouest.',
+      text: 'Interventions au Sénégal et en Afrique de l’Ouest (Mauritanie, Côte d’Ivoire, Bénin, Burkina Faso, Cameroun, Cap-Vert, Gambie, Ghana, Guinée, Guinée-Bissau, Niger, Nigeria, Togo).',
     },
     {
       title: 'Expertise métier',

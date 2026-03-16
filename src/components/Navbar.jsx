@@ -20,7 +20,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/95 backdrop-blur">
       <div className="border-b border-slate-100 bg-brand-dark text-[11px] text-slate-200">
         <div className="container-page flex flex-wrap items-center justify-between gap-2 py-2">
-          <p>Équipements dentaires professionnels • Sénégal & Afrique de l’Ouest</p>
+          <p>Équipements dentaires pro • Sénégal + Afrique de l’Ouest</p>
           <p className="inline-flex items-center gap-1.5 font-semibold"><Phone size={13} /> +221 77 094 63 97</p>
         </div>
       </div>

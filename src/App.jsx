@@ -198,7 +198,22 @@ function SeoHandler() {
         addressRegion: 'Dakar',
         addressCountry: 'SN',
       },
-      areaServed: ['Dakar', 'Sénégal', 'Afrique de l’Ouest'],
+      areaServed: [
+        'Sénégal',
+        'Mauritanie',
+        'Côte d’Ivoire',
+        'Bénin',
+        'Burkina Faso',
+        'Cameroun',
+        'Cap-Vert',
+        'Gambie',
+        'Ghana',
+        'Guinée',
+        'Guinée-Bissau',
+        'Niger',
+        'Nigeria',
+        'Togo',
+      ],
       openingHoursSpecification: [
         {
           '@type': 'OpeningHoursSpecification',

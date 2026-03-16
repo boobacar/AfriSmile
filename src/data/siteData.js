@@ -3,9 +3,8 @@ export const categories = [
     key: 'fauteuils',
     name: 'Fauteuils dentaires',
     products: [
-      { id: 'f1', name: 'Cingol A3 Premium', price: 'À partir de 3 870 000 FCFA', specs: { moteur: 'Électrique silencieux', lampe: 'LED sans ombre', memo: '3 positions mémoire' } },
-      { id: 'f2', name: 'Being Comfort Plus', price: 'À partir de 3 150 000 FCFA', specs: { moteur: 'Hydraulique', lampe: 'LED intégrée', memo: '2 positions mémoire' } },
-      { id: 'f3', name: 'Woodpecker Elite Chair', price: 'À partir de 4 130 000 FCFA', specs: { moteur: 'Électrique haute précision', lampe: 'Capteur intelligent', memo: '4 positions mémoire' } },
+      { id: 'f1', name: 'KaVo Dental', price: 'Sur devis', specs: { moteur: 'Électrique silencieux', lampe: 'LED clinique', memo: 'Positions mémoire selon configuration' } },
+      { id: 'f2', name: 'Stern Weber', price: 'Sur devis', specs: { moteur: 'Électrique haute précision', lampe: 'LED intégrée', memo: 'Configuration modulaire' } },
     ],
   },
   {
@@ -46,7 +45,7 @@ export const categories = [
   },
 ]
 
-export const brands = ['Cingol', 'Woodpecker', 'NSK', 'Dentsply', 'Mani', 'Being']
+export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {

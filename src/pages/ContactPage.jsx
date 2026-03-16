@@ -63,11 +63,11 @@ export default function ContactPage() {
 
       <section className="section-shell">
         <h2 className="section-title">Zone d’intervention AfriSmile</h2>
-        <p className="section-subtitle">Base opérationnelle à Dakar avec accompagnement projets dans les régions du Sénégal et en Afrique de l’Ouest selon besoin.</p>
+        <p className="section-subtitle">Base opérationnelle à Dakar avec déploiement au Sénégal et dans plusieurs pays d’Afrique de l’Ouest.</p>
         <div className="mt-4 grid gap-3 md:grid-cols-3">
-          <div className="card-muted text-sm text-slate-700"><strong>Dakar</strong><br/>Intervention rapide sur site.</div>
-          <div className="card-muted text-sm text-slate-700"><strong>Régions du Sénégal</strong><br/>Logistique et installation planifiées.</div>
-          <div className="card-muted text-sm text-slate-700"><strong>Afrique de l’Ouest</strong><br/>Accompagnement projets sur étude.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Sénégal</strong><br/>Dakar et régions, intervention planifiée.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Afrique de l’Ouest</strong><br/>Mauritanie, Côte d’Ivoire, Bénin, Burkina Faso, Cameroun, Cap-Vert, Gambie, Ghana.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Autres pays couverts</strong><br/>Guinée, Guinée-Bissau, Niger, Nigeria, Togo.</div>
         </div>
       </section>
 

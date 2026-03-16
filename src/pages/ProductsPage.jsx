@@ -43,7 +43,7 @@ const productImages = {
   c1: '/assets/product-gants-nitrile.jpg',
   c2: '/assets/product-aiguilles-anesthesie.jpg',
   c3: '/assets/product-bavettes-premium.webp',
-  i1: '/assets/product-nsk-turbine.webp',
+  i1: '/assets/product-nsk-turbine.jpg',
   i2: '/assets/page-products.jpg',
   i3: '/assets/product-dentsply-sondes.webp',
   s1: '/assets/product-autoclave-classe-b.jpg',

@@ -67,7 +67,7 @@ const seoPages = {
   '/contact': {
     title: 'Devis matériel dentaire Sénégal & Afrique de l’Ouest | AfriSmile',
     description:
-      'Contactez AfriSmile pour un devis de matériel dentaire au Sénégal, Mauritanie, Côte d’Ivoire, Bénin, Burkina Faso, Cameroun, Cap-Vert, Gambie, Ghana, Guinée, Guinée-Bissau, Niger, Nigeria et Togo.',
+      'Contactez AfriSmile pour un devis rapide en matériel dentaire au Sénégal et en Afrique de l’Ouest : conseil, livraison, installation et SAV.',
   },
 }
 

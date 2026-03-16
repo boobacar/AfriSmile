@@ -7,7 +7,6 @@ const links = [
   ['/produits', 'Produits'],
   ['/solutions-cabinets', 'Solutions'],
   ['/service-technique', 'SAV'],
-  ['/modeles-achat', 'Modèles d’achat'],
   ['/marques', 'Marques'],
   ['/blog', 'Blog'],
   ['/a-propos', 'À propos'],

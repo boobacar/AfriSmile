@@ -313,7 +313,6 @@ export default function App() {
         <Route path="/produits" element={<ProductsPage />} />
         <Route path="/solutions-cabinets" element={<SolutionsPage />} />
         <Route path="/service-technique" element={<ServiceTechniquePage />} />
-        <Route path="/modeles-achat" element={<ModelesAchatPage />} />
         <Route path="/marques" element={<BrandsPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />

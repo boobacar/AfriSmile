@@ -37,6 +37,23 @@ function makeWhatsappLink(productName) {
   return `https://wa.me/221770946397?text=${text}`
 }
 
+const productImages = {
+  f1: '/assets/product-kavo-dental.webp',
+  f2: '/assets/product-stern-weber.jpg',
+  c1: '/assets/product-gants-nitrile.jpg',
+  c2: '/assets/product-aiguilles-anesthesie.jpg',
+  c3: '/assets/product-bavettes-premium.webp',
+  i1: '/assets/product-nsk-turbine.webp',
+  i2: '/assets/page-products.jpg',
+  i3: '/assets/product-dentsply-sondes.webp',
+  s1: '/assets/product-autoclave-classe-b.jpg',
+  s2: '/assets/illustration-instruments.jpg',
+  s3: '/assets/illustration-instruments.jpg',
+  r1: '/assets/page-solutions.jpg',
+  r2: '/assets/page-solutions.jpg',
+  r3: '/assets/page-solutions.jpg',
+}
+
 export default function ProductsPage() {
   return (
     <main className="container-page page-wrap space-y-8">
@@ -93,10 +110,10 @@ export default function ProductsPage() {
             </div>
 
             <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-              {cat.products.map((p, idx) => (
+              {cat.products.map((p) => (
                 <article key={p.id} className="card bg-white">
                   <img
-                    src={idx % 3 === 0 ? '/assets/page-products.jpg' : idx % 3 === 1 ? '/assets/page-blog.jpg' : '/assets/page-home.jpg'}
+                    src={productImages[p.id] || '/assets/page-products.jpg'}
                     alt={`Illustration ${p.name}`}
                     className="mb-4 h-36 w-full rounded-xl object-cover"
                     loading="lazy"

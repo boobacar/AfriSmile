@@ -178,12 +178,15 @@ function SeoHandler() {
 
     const oldOrg = document.getElementById('jsonld-organization')
     if (oldOrg) oldOrg.remove()
+    const oldService = document.getElementById('jsonld-service')
+    if (oldService) oldService.remove()
     const oldBreadcrumb = document.getElementById('jsonld-breadcrumb')
     if (oldBreadcrumb) oldBreadcrumb.remove()
 
     const organizationJsonLd = {
       '@context': 'https://schema.org',
       '@type': 'LocalBusiness',
+      '@id': `${origin}#organization`,
       name: 'AfriSmile',
       url: origin,
       logo: `${origin}/assets/logo-afrismile.png`,
@@ -226,8 +229,19 @@ function SeoHandler() {
         '@type': 'ContactPoint',
         telephone: '+221770946397',
         contactType: 'customer service',
-        areaServed: 'SN',
+        areaServed: ['SN', 'MR', 'CI', 'BJ', 'BF', 'CM', 'CV', 'GM', 'GH', 'GN', 'GW', 'NE', 'NG', 'TG'],
         availableLanguage: ['fr'],
+      },
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Catalogue AfriSmile',
+        itemListElement: [
+          { '@type': 'OfferCatalog', name: 'Fauteuils dentaires' },
+          { '@type': 'OfferCatalog', name: 'Stérilisation & autoclaves Classe B' },
+          { '@type': 'OfferCatalog', name: 'Scanner intra-oral & imagerie' },
+          { '@type': 'OfferCatalog', name: 'Consommables & instruments' },
+          { '@type': 'OfferCatalog', name: 'Installation & service technique' },
+        ],
       },
     }
 
@@ -236,6 +250,36 @@ function SeoHandler() {
     orgScript.type = 'application/ld+json'
     orgScript.textContent = JSON.stringify(organizationJsonLd)
     document.head.appendChild(orgScript)
+
+    const serviceJsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      '@id': `${origin}#service`,
+      serviceType: 'Fourniture, installation et maintenance de matériel dentaire',
+      provider: {
+        '@type': 'LocalBusiness',
+        '@id': `${origin}#organization`,
+      },
+      areaServed: ['SN', 'MR', 'CI', 'BJ', 'BF', 'CM', 'CV', 'GM', 'GH', 'GN', 'GW', 'NE', 'NG', 'TG'],
+      availableChannel: {
+        '@type': 'ServiceChannel',
+        serviceUrl: `${origin}/contact`,
+        availableLanguage: ['fr'],
+      },
+      offers: {
+        '@type': 'Offer',
+        url: `${origin}/contact`,
+        priceCurrency: 'XOF',
+        price: '0',
+        description: 'Tarification et déploiement sur devis selon configuration du cabinet et pays d’intervention.',
+      },
+    }
+
+    const serviceScript = document.createElement('script')
+    serviceScript.id = 'jsonld-service'
+    serviceScript.type = 'application/ld+json'
+    serviceScript.textContent = JSON.stringify(serviceJsonLd)
+    document.head.appendChild(serviceScript)
 
     const breadcrumbJsonLd = makeBreadcrumbJsonLd(origin, location.pathname)
     const breadcrumbScript = document.createElement('script')

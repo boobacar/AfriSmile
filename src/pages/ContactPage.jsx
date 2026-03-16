@@ -23,8 +23,22 @@ const faqs = [
 ]
 
 export default function ContactPage() {
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+      },
+    })),
+  }
+
   return (
     <main className="container-page page-wrap space-y-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Contact' }]} />
 
       <PageHero

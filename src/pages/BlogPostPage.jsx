@@ -36,6 +36,16 @@ const relatedBySlug = {
     { to: '/produits', label: 'Voir le catalogue équipements' },
     { to: '/contact', label: 'Ouvrir un dossier SAV' },
   ],
+  'prix-fauteuil-dentaire-senegal-budget-reel-2026': [
+    { to: '/fauteuil-dentaire-senegal', label: 'Fauteuil dentaire Sénégal' },
+    { to: '/modeles-achat', label: 'Optimiser le budget d’achat' },
+    { to: '/contact', label: 'Demander une estimation chiffrée' },
+  ],
+  'sterilisation-cabinet-dentaire-protocole-autoclave-classe-b': [
+    { to: '/autoclave-dentaire-classe-b-senegal', label: 'Autoclave Classe B Sénégal' },
+    { to: '/service-technique', label: 'Maintenance et suivi technique' },
+    { to: '/contact', label: 'Demander un devis autoclave' },
+  ],
 }
 
 export default function BlogPostPage() {

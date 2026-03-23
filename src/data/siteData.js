@@ -178,4 +178,56 @@ export const blogPosts = [
       },
     ],
   },
+  {
+    id: 6,
+    slug: 'prix-fauteuil-dentaire-senegal-budget-reel-2026',
+    title: 'Prix fauteuil dentaire au Sénégal : comment estimer votre budget réel en 2026',
+    excerpt: 'Prix fauteuil dentaire Sénégal: fourchettes, coût total de possession, installation, SAV et erreurs à éviter pour un achat rentable.',
+    metaTitle: 'Prix fauteuil dentaire Sénégal : budget réel 2026 | AfriSmile',
+    metaDescription: 'Guide prix fauteuil dentaire au Sénégal: coût d’achat, installation, maintenance, SAV et méthode pour éviter les surcoûts cachés.',
+    datePublished: '2026-03-23',
+    dateModified: '2026-03-23',
+    content:
+      'Quand un cabinet demande le prix d’un fauteuil dentaire au Sénégal, la réponse utile n’est jamais un simple chiffre. Le vrai sujet est le budget réel sur 3 à 5 ans. Un fauteuil dentaire professionnel représente un investissement stratégique qui influence votre cadence clinique, votre image patient, vos coûts de maintenance et la stabilité de votre activité.\n\nPremière étape: distinguer prix d’achat et coût total de possession. Le prix visible inclut rarement l’ensemble des postes nécessaires à un déploiement propre. Il faut intégrer: transport, installation, mise en service, calibrage, formation de l’équipe, maintenance préventive et disponibilité des pièces de rechange. Sans cette vision complète, le “moins cher” peut vite devenir le plus coûteux.\n\nDeuxième étape: positionner vos besoins cliniques réels. Le budget varie selon la spécialité (omnipratique, chirurgie, esthétique, pédodontie), le niveau d’ergonomie attendu, la qualité de l’éclairage, les options d’aspiration et la robustesse du système moteur. Un fauteuil sous-dimensionné entraîne fatigue, lenteur des actes et usure prématurée.\n\nTroisième étape: vérifier le modèle SAV local. Au Sénégal, la disponibilité du service technique est un critère de rentabilité. Demandez les délais moyens d’intervention, les garanties, le stock de pièces et la fréquence recommandée de maintenance. Un fauteuil immobilisé plusieurs jours peut coûter plus cher qu’un écart de prix initial.\n\nQuatrième étape: chiffrer par scénario. Construisez trois options: Essentiel, Standard, Premium. Pour chaque scénario, comparez coût initial, coût annuel de maintenance, niveau de performance clinique et impact sur la productivité. Cette méthode aide à décider sans surinvestir ni compromettre la qualité.\n\nCinquième étape: sécuriser contractuellement. Exigez un devis détaillé poste par poste, une checklist de mise en service, une formation opératoire et un plan de maintenance documenté. C’est la base pour protéger votre trésorerie et garantir la continuité de soin.\n\nChez AfriSmile, nous accompagnons les cabinets dentaires à Dakar et dans les régions pour estimer le budget réel d’un fauteuil dentaire, sélectionner le bon niveau d’équipement et sécuriser l’installation avec un SAV local réactif.',
+    faq: [
+      {
+        q: 'Quel est le prix d’un fauteuil dentaire au Sénégal ?',
+        a: 'Le prix dépend du niveau d’équipement, de l’ergonomie et des options techniques. Il faut comparer le coût total (achat + installation + maintenance + SAV) et pas seulement le prix catalogue.',
+      },
+      {
+        q: 'Pourquoi le coût total de possession est-il crucial ?',
+        a: 'Parce qu’il inclut les postes qui pèsent vraiment sur la rentabilité: installation, temps d’arrêt, pièces de rechange et maintenance préventive.',
+      },
+      {
+        q: 'AfriSmile peut-il proposer plusieurs scénarios de budget ?',
+        a: 'Oui, AfriSmile peut structurer une proposition Essentiel, Standard et Premium selon vos objectifs cliniques et votre capacité d’investissement.',
+      },
+    ],
+  },
+  {
+    id: 7,
+    slug: 'sterilisation-cabinet-dentaire-protocole-autoclave-classe-b',
+    title: 'Stérilisation en cabinet dentaire : protocole simple avec autoclave Classe B',
+    excerpt: 'Protocole de stérilisation dentaire avec autoclave Classe B: étapes clés, erreurs fréquentes, traçabilité et conformité opérationnelle.',
+    metaTitle: 'Stérilisation cabinet dentaire : protocole autoclave Classe B',
+    metaDescription: 'Méthode claire de stérilisation dentaire avec autoclave Classe B: pré-désinfection, conditionnement, cycle, traçabilité et contrôle qualité.',
+    datePublished: '2026-03-23',
+    dateModified: '2026-03-23',
+    content:
+      'La stérilisation en cabinet dentaire n’est pas une formalité technique: c’est un pilier de sécurité patient, de conformité et de réputation clinique. Avec un autoclave Classe B, vous pouvez structurer un protocole fiable et reproductible, même avec une équipe réduite, à condition de respecter une séquence rigoureuse.\n\nÉtape 1: pré-désinfection immédiate après usage. Les instruments doivent être traités sans délai pour éviter le séchage des souillures. Cette étape facilite le nettoyage et améliore l’efficacité de la stérilisation finale.\n\nÉtape 2: nettoyage et rinçage contrôlés. Qu’il soit manuel ou assisté, le nettoyage doit retirer les résidus visibles avant conditionnement. Sans nettoyage correct, aucun cycle d’autoclave ne garantit une stérilisation optimale.\n\nÉtape 3: séchage et inspection. Vérifiez l’intégrité des instruments, remplacez les éléments usés, puis conditionnez en sachets adaptés. Un conditionnement propre, bien fermé et correctement étiqueté améliore la traçabilité et la qualité du stockage.\n\nÉtape 4: chargement intelligent de l’autoclave Classe B. Ne surchargez pas la chambre. Respectez la circulation de vapeur et la disposition recommandée pour garantir la pénétration thermique. La surcharge est l’une des causes majeures de cycles inefficaces.\n\nÉtape 5: sélection du cycle adapté et suivi des paramètres. Utilisez le programme correspondant au type de charge, puis contrôlez les indicateurs de cycle. Les données de cycle doivent être archivées pour documenter la conformité et faciliter les audits internes.\n\nÉtape 6: libération, stockage et rotation. Après cycle validé, stockez dans une zone propre et appliquez une rotation claire des lots. Une bonne organisation évite les ruptures en pleine activité clinique et réduit le risque d’erreur opérationnelle.\n\nPour industrialiser ce protocole, créez une check-list quotidienne, assignez un responsable par poste et suivez des KPI simples: taux de cycles validés, incidents de stérilisation, temps moyen de rotation et disponibilité instrumentale. AfriSmile accompagne les cabinets dentaires au Sénégal avec le choix d’autoclave Classe B, la mise en service et la maintenance pour une stérilisation stable et maîtrisée.',
+    faq: [
+      {
+        q: 'Pourquoi choisir un autoclave Classe B pour un cabinet dentaire ?',
+        a: 'L’autoclave Classe B offre une stérilisation adaptée aux instruments complexes et emballés, avec un niveau de sécurité et de conformité supérieur pour l’activité dentaire.',
+      },
+      {
+        q: 'Quelle est l’erreur la plus fréquente en stérilisation ?',
+        a: 'La surcharge de la chambre et un mauvais conditionnement des instruments. Ces erreurs diminuent l’efficacité des cycles et augmentent les risques opérationnels.',
+      },
+      {
+        q: 'AfriSmile aide-t-il à formaliser un protocole d’équipe ?',
+        a: 'Oui, AfriSmile accompagne l’installation, la formation, la maintenance et la structuration d’un protocole simple avec traçabilité.',
+      },
+    ],
+  },
 ]

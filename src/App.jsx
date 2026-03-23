@@ -108,8 +108,8 @@ function makeBlogSeo(pathname) {
   if (!post) return null
 
   return {
-    title: `${post.title} | Blog AfriSmile`,
-    description: post.excerpt,
+    title: post.metaTitle || `${post.title} | Blog AfriSmile`,
+    description: post.metaDescription || post.excerpt,
   }
 }
 

@@ -3,12 +3,40 @@ import PageHero from '../components/PageHero'
 import Breadcrumbs from '../components/Breadcrumbs'
 import { blogPosts } from '../data/siteData'
 
-const relatedMoneyPages = [
+const defaultRelatedMoneyPages = [
   { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
   { to: '/fauteuil-dentaire-senegal', label: 'Fauteuil dentaire Sénégal' },
   { to: '/autoclave-dentaire-classe-b-senegal', label: 'Autoclave dentaire Classe B' },
   { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral Sénégal' },
 ]
+
+const relatedBySlug = {
+  'choisir-fauteuil-dentaire-senegal-2026': [
+    { to: '/fauteuil-dentaire-senegal', label: 'Comparer les fauteuils dentaires' },
+    { to: '/service-technique', label: 'Découvrir le service technique' },
+    { to: '/contact', label: 'Demander un devis fauteuil' },
+  ],
+  'autoclave-classe-b-guide-cabinet-dakar': [
+    { to: '/autoclave-dentaire-classe-b-senegal', label: 'Autoclave Classe B au Sénégal' },
+    { to: '/service-technique', label: 'Maintenance et SAV local' },
+    { to: '/contact', label: 'Demander un devis autoclave' },
+  ],
+  'scanner-intra-oral-roi-senegal': [
+    { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral Sénégal' },
+    { to: '/solutions-cabinets', label: 'Solutions pour cabinets' },
+    { to: '/contact', label: 'Planifier une démo' },
+  ],
+  'ouvrir-cabinet-dentaire-materiel-indispensable': [
+    { to: '/materiel-dentaire-senegal', label: 'Pack matériel cabinet dentaire' },
+    { to: '/modeles-achat', label: 'Modèles d’achat par étape' },
+    { to: '/contact', label: 'Construire un devis projet' },
+  ],
+  'maintenance-preventive-equipements-dentaires': [
+    { to: '/service-technique', label: 'Plan de maintenance AfriSmile' },
+    { to: '/produits', label: 'Voir le catalogue équipements' },
+    { to: '/contact', label: 'Ouvrir un dossier SAV' },
+  ],
+}
 
 export default function BlogPostPage() {
   const { slug } = useParams()
@@ -28,6 +56,7 @@ export default function BlogPostPage() {
 
   const origin = typeof window !== 'undefined' ? window.location.origin : 'https://afrismile.net'
   const articleUrl = `${origin}/blog/${post.slug}`
+  const relatedMoneyPages = relatedBySlug[post.slug] || defaultRelatedMoneyPages
 
   const articleJsonLd = {
     '@context': 'https://schema.org',

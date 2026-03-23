@@ -230,4 +230,56 @@ export const blogPosts = [
       },
     ],
   },
+  {
+    id: 8,
+    slug: 'scanner-intra-oral-vs-empreinte-classique-couts-delais-qualite',
+    title: 'Scanner intra-oral vs empreinte classique : coûts, délais et qualité clinique',
+    excerpt: 'Comparatif scanner intra-oral et empreinte classique: coût réel, vitesse, précision clinique, expérience patient et impact business.',
+    metaTitle: 'Scanner intra-oral vs empreinte classique : comparatif pro',
+    metaDescription: 'Analyse complète scanner intra-oral vs empreinte classique: coûts, délais, qualité, reprises et ROI pour cabinets dentaires au Sénégal.',
+    datePublished: '2026-03-23',
+    dateModified: '2026-03-23',
+    content:
+      'Le débat scanner intra-oral vs empreinte classique revient dans presque tous les projets de modernisation de cabinet dentaire. Le bon choix ne dépend pas d’un effet de mode, mais d’un calcul précis: coût global, délai opératoire, qualité des résultats et capacité de l’équipe à standardiser le workflow. Pour un cabinet au Sénégal, cette décision influence directement la productivité et l’image de service.\n\nSur le plan du temps clinique, le scanner intra-oral réduit souvent les étapes de correction et la répétition des empreintes. Avec une équipe formée, la capture devient plus fluide et la transmission au laboratoire plus rapide. L’empreinte classique reste viable, mais peut générer davantage de reprises, surtout sur des cas complexes ou lorsque le protocole n’est pas strictement respecté.\n\nSur le plan de la qualité, le scanner intra-oral améliore la lisibilité des détails et facilite la validation immédiate de l’empreinte. Cette vérification en temps réel réduit les erreurs tardives et limite les retours laboratoire. En contrepartie, la performance dépend du modèle choisi, de la maîtrise logicielle et de la discipline opératoire de l’équipe.\n\nSur le plan économique, il faut distinguer coût initial et coût cumulé. L’empreinte classique peut sembler moins chère à l’achat, mais les consommables récurrents, les reprises et les délais peuvent alourdir le coût global. Le scanner intra-oral implique un investissement initial plus élevé, compensé par des gains de temps, une meilleure prédictibilité et une amélioration de l’acceptation patient.\n\nSur le plan de l’expérience patient, la solution numérique est souvent plus confortable et plus pédagogique. Montrer un scan en direct facilite l’explication du plan de traitement et renforce la confiance. Dans un marché concurrentiel, cet avantage perçu peut devenir un vrai levier de différenciation.\n\nLa meilleure approche consiste à piloter un comparatif interne sur 60 à 90 jours: temps par acte, taux de reprise, satisfaction patient, taux d’acceptation et coût par cas. Avec ces données, vous choisissez sur des preuves, pas sur des impressions. AfriSmile accompagne cette transition au Sénégal avec sélection du scanner intra-oral, formation opérationnelle et support technique pour sécuriser la montée en puissance.',
+    faq: [
+      {
+        q: 'Le scanner intra-oral est-il toujours plus rentable que l’empreinte classique ?',
+        a: 'Pas automatiquement. La rentabilité dépend du volume de cas, de la qualité du protocole et du niveau de formation. Une bonne implémentation est essentielle pour capter le ROI.',
+      },
+      {
+        q: 'Quels indicateurs comparer avant de décider ?',
+        a: 'Comparez le temps par acte, le taux de reprises, le coût par cas, la satisfaction patient et le taux d’acceptation des plans de traitement.',
+      },
+      {
+        q: 'AfriSmile peut-il accompagner un test comparatif en cabinet ?',
+        a: 'Oui, AfriSmile accompagne la sélection, la démonstration, la formation équipe et le suivi terrain pour une décision basée sur des résultats mesurables.',
+      },
+    ],
+  },
+  {
+    id: 9,
+    slug: 'ouvrir-cabinet-dentaire-dakar-checklist-materiel-demarrage',
+    title: 'Ouvrir un cabinet dentaire à Dakar : checklist matériel pour démarrer vite',
+    excerpt: 'Checklist opérationnelle pour ouvrir un cabinet dentaire à Dakar: matériel prioritaire, budget, installation et erreurs de démarrage à éviter.',
+    metaTitle: 'Ouvrir un cabinet dentaire à Dakar : checklist matériel 2026',
+    metaDescription: 'Guide pratique pour ouvrir un cabinet dentaire à Dakar: équipement essentiel, plan budget, installation et mise en service sans retard.',
+    datePublished: '2026-03-23',
+    dateModified: '2026-03-23',
+    content:
+      'Ouvrir un cabinet dentaire à Dakar est un projet à fort potentiel, mais aussi à forte pression opérationnelle. Les retards viennent rarement d’un seul problème: ils naissent d’une mauvaise priorisation du matériel, d’un budget mal séquencé et d’un manque de coordination entre achat, installation et mise en service. Une checklist claire permet d’avancer plus vite avec moins de risques.\n\nBloc 1 — Matériel clinique indispensable. Pour démarrer sans blocage, priorisez: fauteuil dentaire, autoclave Classe B, compresseur, aspiration, instruments de base, éclairage clinique et consommables critiques. Ce socle doit être fonctionnel dès le premier jour, avec tests de conformité et validation terrain.\n\nBloc 2 — Organisation du budget. Structurez le financement en trois phases: démarrage, optimisation, montée en gamme. Cette approche protège la trésorerie et évite de surcharger les dépenses avant la montée réelle du flux patient. Chaque ligne budgétaire doit intégrer coût d’achat, installation, maintenance et support technique.\n\nBloc 3 — Plan d’installation. Définissez un calendrier précis: réception matériel, contrôle qualité, installation sur site, calibrage, formation équipe, puis période de rodage. Sans planning opérationnel, même du bon matériel peut démarrer en sous-performance.\n\nBloc 4 — Process qualité et stérilisation. Préparez dès l’ouverture les protocoles de stérilisation, de maintenance préventive et de suivi incidents. Une organisation simple mais rigoureuse réduit les risques cliniques et protège la réputation de votre cabinet.\n\nBloc 5 — Relation fournisseur et SAV. Choisissez un partenaire capable de répondre vite en cas d’aléa: disponibilité pièces, délais d’intervention, clarté de garantie et accompagnement post-installation. À Dakar, ce facteur fait souvent la différence entre un démarrage stable et une série d’interruptions coûteuses.\n\nPour aller vite sans compromis qualité, travaillez avec une logique “plan + exécution”: devis détaillé, checklists validées, responsabilités claires et suivi hebdomadaire des actions critiques. AfriSmile accompagne les porteurs de projet de Dakar et du Sénégal pour sécuriser l’ouverture d’un cabinet dentaire performant dès les premières semaines.',
+    faq: [
+      {
+        q: 'Quel matériel acheter en priorité pour ouvrir un cabinet dentaire à Dakar ?',
+        a: 'La priorité est le socle opérationnel: fauteuil, autoclave Classe B, compresseur, aspiration, instrumentation de base et consommables essentiels.',
+      },
+      {
+        q: 'Comment éviter les retards au lancement ?',
+        a: 'Avec un planning d’installation détaillé, une checklist de mise en service, et un fournisseur capable d’assurer support technique et SAV rapide.',
+      },
+      {
+        q: 'AfriSmile accompagne-t-il l’ouverture complète du cabinet ?',
+        a: 'Oui, AfriSmile accompagne le cadrage technique, le devis, la livraison, l’installation, la formation et le suivi de démarrage.',
+      },
+    ],
+  },
 ]

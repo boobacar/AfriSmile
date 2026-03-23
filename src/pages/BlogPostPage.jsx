@@ -46,6 +46,16 @@ const relatedBySlug = {
     { to: '/service-technique', label: 'Maintenance et suivi technique' },
     { to: '/contact', label: 'Demander un devis autoclave' },
   ],
+  'scanner-intra-oral-vs-empreinte-classique-couts-delais-qualite': [
+    { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral Sénégal' },
+    { to: '/solutions-cabinets', label: 'Moderniser le workflow cabinet' },
+    { to: '/contact', label: 'Demander une démo scanner' },
+  ],
+  'ouvrir-cabinet-dentaire-dakar-checklist-materiel-demarrage': [
+    { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire pour ouverture cabinet' },
+    { to: '/modeles-achat', label: 'Plan d’achat progressif' },
+    { to: '/contact', label: 'Lancer votre devis d’ouverture' },
+  ],
 }
 
 export default function BlogPostPage() {

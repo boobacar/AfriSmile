@@ -27,6 +27,8 @@ export default function BlogPostPage() {
   }
 
   const origin = typeof window !== 'undefined' ? window.location.origin : 'https://afrismile.net'
+  const articleUrl = `${origin}/blog/${post.slug}`
+
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -38,13 +40,31 @@ export default function BlogPostPage() {
       name: 'AfriSmile',
       logo: { '@type': 'ImageObject', url: `${origin}/assets/logo-afrismile.png` },
     },
-    mainEntityOfPage: `${origin}/blog/${post.slug}`,
+    mainEntityOfPage: articleUrl,
     image: `${origin}/assets/page-blog.jpg`,
   }
+
+  const faqJsonLd = post.faq?.length
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: post.faq.map((item) => ({
+          '@type': 'Question',
+          name: item.q,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: item.a,
+          },
+        })),
+      }
+    : null
+
+  const contentParagraphs = post.content.split('\n\n').filter(Boolean)
 
   return (
     <main className="container-page page-wrap space-y-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      {faqJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />}
 
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Blog', to: '/blog' }, { label: post.title }]} />
 
@@ -57,12 +77,31 @@ export default function BlogPostPage() {
       />
 
       <section className="section-shell">
-        <p className="whitespace-pre-line text-sm leading-7 text-slate-700">{post.content}</p>
+        <article className="space-y-4 text-sm leading-7 text-slate-700">
+          {contentParagraphs.map((paragraph, index) => (
+            <p key={`${post.id}-p-${index}`}>{paragraph}</p>
+          ))}
+        </article>
+
         <div className="mt-6 flex flex-wrap gap-3">
           <Link to="/contact" className="btn-primary">Parler à un conseiller</Link>
           <Link to="/blog" className="btn-secondary">Voir les autres articles</Link>
         </div>
       </section>
+
+      {post.faq?.length ? (
+        <section className="section-shell">
+          <h2 className="section-title">FAQ</h2>
+          <div className="mt-4 space-y-3">
+            {post.faq.map((item, index) => (
+              <article key={`${post.id}-faq-${index}`} className="card-muted">
+                <h3 className="font-heading text-base font-bold text-brand-dark">{item.q}</h3>
+                <p className="mt-2 text-sm text-slate-700">{item.a}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <section className="section-shell">
         <h2 className="section-title">Pages recommandées après cet article</h2>

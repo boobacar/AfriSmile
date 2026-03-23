@@ -62,7 +62,7 @@ export default function BlogPostPage() {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: post.title,
-    description: post.excerpt,
+    description: post.metaDescription || post.excerpt,
     author: { '@type': 'Organization', name: 'AfriSmile' },
     publisher: {
       '@type': 'Organization',
@@ -71,6 +71,9 @@ export default function BlogPostPage() {
     },
     mainEntityOfPage: articleUrl,
     image: `${origin}/assets/page-blog.jpg`,
+    datePublished: post.datePublished,
+    dateModified: post.dateModified || post.datePublished,
+    inLanguage: 'fr-SN',
   }
 
   const faqJsonLd = post.faq?.length
@@ -106,6 +109,9 @@ export default function BlogPostPage() {
       />
 
       <section className="section-shell">
+        <p className="mb-4 text-xs font-medium uppercase tracking-wide text-slate-500">
+          Publié le {post.datePublished} • Mis à jour le {post.dateModified || post.datePublished}
+        </p>
         <article className="space-y-4 text-sm leading-7 text-slate-700">
           {contentParagraphs.map((paragraph, index) => (
             <p key={`${post.id}-p-${index}`}>{paragraph}</p>

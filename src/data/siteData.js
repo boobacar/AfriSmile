@@ -49,6 +49,200 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 10,
+    slug: 'materiel-dentaire-senegal-checklist-ouverture-cabinet-2026',
+    title: 'Matériel dentaire au Sénégal : checklist complète pour ouvrir un cabinet en 2026',
+    excerpt: 'Checklist matériel dentaire Sénégal : fauteuil, autoclave, aspiration, radiologie, consommables et plan budget par étapes pour une ouverture sans blocage.',
+    metaTitle: 'Matériel dentaire Sénégal : checklist ouverture cabinet 2026 | AfriSmile',
+    metaDescription: 'Guide complet du matériel dentaire au Sénégal pour ouvrir un cabinet : priorités d’achat, budget, installation, SAV et erreurs à éviter.',
+    datePublished: '2026-04-10',
+    dateModified: '2026-04-10',
+    content:
+      `Ouvrir un cabinet dentaire au Sénégal commence par une question simple : quel matériel acheter en premier pour soigner vite, bien et en sécurité ? La réponse ne se résume pas à une liste de produits. Il faut une logique opérationnelle, un budget structuré et un plan d’installation réaliste.
+
+Premier bloc indispensable : unité de soins complète. Le fauteuil dentaire doit être choisi selon votre volume patient, vos actes principaux et l’ergonomie de l’équipe. Un bon fauteuil améliore la productivité clinique et réduit la fatigue opératoire.
+
+Deuxième bloc critique : stérilisation. L’autoclave Classe B est non négociable pour sécuriser la chaîne de soins. Ajoutez un protocole de traçabilité et une maintenance préventive programmée pour éviter les arrêts d’activité.
+
+Troisième bloc : air, aspiration et instrumentation. Le compresseur, l’aspiration chirurgicale et les instruments rotatifs doivent être dimensionnés selon votre rythme réel, pas uniquement selon le prix catalogue.
+
+Quatrième bloc : imagerie et diagnostic. Selon votre positionnement, une radiologie adaptée (RVG/panoramique) améliore la qualité des diagnostics et la confiance patient.
+
+Cinquième bloc : consommables et gestion des stocks. Sans méthode de rotation et de réapprovisionnement, les ruptures perturbent le planning clinique.
+
+La meilleure approche est un plan en 3 phases : démarrage (indispensable), optimisation (3-6 mois), montée en gamme (6-12 mois). Cette stratégie protège la trésorerie tout en garantissant un niveau de soin stable.
+
+AfriSmile accompagne les cabinets au Sénégal avec devis techniques détaillés, installation, mise en service et SAV local pour sécuriser l’ouverture et la croissance.`,
+    faq: [
+      {
+        q: 'Quel matériel acheter en priorité pour démarrer ?',
+        a: 'Commencez par le socle critique : fauteuil, autoclave Classe B, compresseur, aspiration, instrumentation de base et consommables essentiels.',
+      },
+      {
+        q: 'Comment éviter le surcoût au lancement ?',
+        a: 'Travaillez en phases d’investissement et comparez le coût total de possession (achat, installation, maintenance, SAV).',
+      },
+      {
+        q: 'AfriSmile peut-il accompagner toute l’ouverture ?',
+        a: 'Oui, de la sélection à la mise en service avec support technique local.',
+      },
+    ],
+  },
+  {
+    id: 11,
+    slug: 'service-technique-dentaire-senegal-sla-maintenance-sav-2026',
+    title: 'Service technique dentaire au Sénégal : SLA, maintenance et SAV qui protègent votre chiffre',
+    excerpt: 'SAV matériel dentaire Sénégal : délais d’intervention, pièces, maintenance préventive et KPI pour réduire les pannes et sécuriser la production.',
+    metaTitle: 'SAV dentaire Sénégal : SLA, maintenance, continuité | AfriSmile',
+    metaDescription: 'Comment choisir un service technique dentaire au Sénégal : SLA, délais SAV, maintenance préventive, pièces détachées et plan continuité.',
+    datePublished: '2026-04-10',
+    dateModified: '2026-04-10',
+    content:
+      `Un bon équipement sans bon service technique devient un risque business. Au Sénégal, la continuité d’un cabinet dépend autant de la qualité du matériel que de la vitesse de prise en charge SAV.
+
+Le premier indicateur à vérifier est le SLA (Service Level Agreement) : délai de réponse, délai d’intervention, niveau de priorité selon la criticité de la panne. Sans SLA clair, vous subissez des interruptions coûteuses.
+
+Deuxième point : la maintenance préventive planifiée. Un calendrier de visites techniques réduit les pannes lourdes et stabilise la disponibilité des équipements (fauteuil, autoclave, aspiration, compresseur, imagerie).
+
+Troisième point : la disponibilité des pièces. Un stock local ou une logistique rapide est indispensable. Les meilleurs contrats sont ceux qui anticipent les pièces d’usure.
+
+Quatrième point : les KPI de performance technique. Suivez le temps moyen de réparation, le taux de pannes répétitives, le coût de corrective vs préventive et le taux de disponibilité machine.
+
+Cinquième point : le protocole interne cabinet. Désignez un référent technique, formalisez un registre d’incidents et standardisez les checks hebdomadaires.
+
+Un service technique structuré protège votre agenda, votre réputation et votre trésorerie. AfriSmile propose un accompagnement SAV orienté continuité : diagnostic rapide, interventions planifiées et maintenance proactive.`,
+    faq: [
+      {
+        q: 'Pourquoi un SLA est-il crucial pour un cabinet ?',
+        a: 'Parce qu’il fixe des délais clairs d’intervention et limite les arrêts non planifiés qui impactent le chiffre d’affaires.',
+      },
+      {
+        q: 'Maintenance préventive ou corrective : que prioriser ?',
+        a: 'La préventive doit être prioritaire : elle coûte moins cher à long terme et réduit les pannes critiques.',
+      },
+      {
+        q: 'AfriSmile gère-t-il des contrats de suivi technique ?',
+        a: 'Oui, avec plan de maintenance, interventions SAV et reporting technique.',
+      },
+    ],
+  },
+  {
+    id: 12,
+    slug: 'prix-autoclave-dentaire-classe-b-senegal-guide-achat-2026',
+    title: 'Prix autoclave dentaire Classe B au Sénégal : guide achat intelligent 2026',
+    excerpt: 'Prix autoclave Classe B Sénégal : fourchettes, cycles, capacité utile, traçabilité, coût maintenance et critères pour un achat sécurisé.',
+    metaTitle: 'Prix autoclave Classe B Sénégal : guide achat 2026 | AfriSmile',
+    metaDescription: 'Guide prix autoclave dentaire Classe B au Sénégal : capacité, conformité, cycles, maintenance et méthode pour choisir sans erreur.',
+    datePublished: '2026-04-10',
+    dateModified: '2026-04-10',
+    content:
+      `Le prix d’un autoclave Classe B au Sénégal doit être analysé avec une logique de performance, pas seulement de coût initial. Un autoclave sous-dimensionné bloque la rotation instrumentale et dégrade le flux patient.
+
+Premier critère : capacité utile réelle selon votre charge quotidienne. Le bon dimensionnement dépend du nombre d’actes, du type d’instruments et des pics d’activité.
+
+Deuxième critère : qualité des cycles. Pré-vide fractionné, séchage fiable, répétabilité et simplicité des programmes sont essentiels pour la sécurité et la productivité.
+
+Troisième critère : traçabilité. Les cabinets performants privilégient les autoclaves avec archivage clair des cycles pour conformité, audits et gestion qualité.
+
+Quatrième critère : maintenance et SAV local. Vérifiez disponibilité des consommables, fréquence d’entretien, délais d’intervention et stock de pièces.
+
+Cinquième critère : coût total sur 3 à 5 ans. Additionnez achat, installation, maintenance, consommables et immobilisation potentielle.
+
+Un achat intelligent repose sur un devis détaillé, une formation équipe et un protocole d’exploitation. AfriSmile accompagne la sélection, l’installation et le suivi technique des autoclaves Classe B pour les cabinets au Sénégal.`,
+    faq: [
+      {
+        q: 'Comment choisir la bonne capacité d’autoclave ?',
+        a: 'Dimensionnez selon votre charge réelle quotidienne et votre rythme de rotation instrumentale.',
+      },
+      {
+        q: 'Le moins cher est-il le plus rentable ?',
+        a: 'Pas forcément. Le vrai indicateur est le coût total de possession avec SAV et maintenance.',
+      },
+      {
+        q: 'AfriSmile installe-t-il et forme-t-il l’équipe ?',
+        a: 'Oui, avec mise en service, formation et accompagnement technique.',
+      },
+    ],
+  },
+  {
+    id: 13,
+    slug: 'scanner-intra-oral-prix-senegal-comment-rentabiliser-2026',
+    title: 'Scanner intra-oral : prix au Sénégal et méthode concrète pour le rentabiliser',
+    excerpt: 'Scanner intra-oral Sénégal : coût, ROI, workflow cabinet, taux de reprise et conversion patient. Méthode pratique pour une adoption rentable.',
+    metaTitle: 'Scanner intra-oral Sénégal : prix et ROI cabinet | AfriSmile',
+    metaDescription: 'Comment rentabiliser un scanner intra-oral au Sénégal : budget, gains de temps, réduction des reprises et protocole de déploiement.',
+    datePublished: '2026-04-10',
+    dateModified: '2026-04-10',
+    content:
+      `Le prix d’un scanner intra-oral est une donnée de départ, pas une conclusion. La vraie question est : combien de valeur clinique et business cet outil va générer dans votre cabinet au Sénégal ?
+
+Le ROI vient de quatre leviers principaux. D’abord, le gain de temps opératoire : capture plus fluide, moins de reprises, transmission rapide au labo. Ensuite, la qualité d’empreinte : meilleure précision, moins de retouches et meilleure prédictibilité prothétique.
+
+Troisième levier : l’acceptation patient. La visualisation numérique en consultation augmente la compréhension et accélère la décision de traitement. Quatrième levier : l’organisation interne, avec un workflow standardisé entre praticien, assistante et laboratoire.
+
+Pour rentabiliser un scanner intra-oral, déployez une méthode en 90 jours :
+1) baseline de vos délais actuels,
+2) protocole d’usage par type d’acte,
+3) suivi hebdomadaire des indicateurs,
+4) ajustements opérationnels.
+
+KPI à suivre : temps moyen par empreinte, taux de reprise, délai labo, taux d’acceptation plan de traitement, satisfaction patient.
+
+Un scanner bien implémenté peut devenir un accélérateur de production et de qualité. AfriSmile accompagne les cabinets dans le choix, la démonstration, la formation et le support terrain pour un ROI mesurable.`,
+    faq: [
+      {
+        q: 'Le scanner intra-oral convient-il à tous les cabinets ?',
+        a: 'Oui, si le choix du modèle et le protocole d’adoption sont adaptés à vos actes dominants.',
+      },
+      {
+        q: 'Quels KPI suivre pour prouver la rentabilité ?',
+        a: 'Temps d’empreinte, taux de reprise, délai de livraison prothèse et taux d’acceptation des plans.',
+      },
+      {
+        q: 'AfriSmile propose-t-il des démonstrations ?',
+        a: 'Oui, avec accompagnement à l’intégration workflow.',
+      },
+    ],
+  },
+  {
+    id: 14,
+    slug: 'consommables-dentaires-senegal-optimiser-stock-marge-2026',
+    title: 'Consommables dentaires au Sénégal : optimiser vos stocks sans casser votre marge',
+    excerpt: 'Consommables dentaires Sénégal : méthode de gestion stock, rotation, seuil d’alerte, achats groupés et réduction des ruptures en cabinet.',
+    metaTitle: 'Consommables dentaires Sénégal : gestion stock & marge | AfriSmile',
+    metaDescription: 'Guide de gestion des consommables dentaires au Sénégal : éviter les ruptures, réduire le surstock et améliorer la marge cabinet.',
+    datePublished: '2026-04-10',
+    dateModified: '2026-04-10',
+    content:
+      `La rentabilité d’un cabinet dentaire se joue aussi dans la gestion des consommables. Trop peu de stock crée des ruptures et perturbe le planning. Trop de stock immobilise de la trésorerie et augmente les pertes.
+
+Premier principe : classer les consommables par criticité (A/B/C). Les produits A (gants, aiguilles, anesthésie, stérilisation) doivent être suivis au plus près avec seuils d’alerte stricts.
+
+Deuxième principe : définir des seuils mini/maxi selon votre consommation hebdomadaire réelle, pas selon l’intuition.
+
+Troisième principe : instaurer une routine de contrôle hebdomadaire et un responsable stock identifié.
+
+Quatrième principe : standardiser les références pour éviter la dispersion et simplifier les commandes.
+
+Cinquième principe : piloter la performance avec 4 KPI simples : taux de rupture, valeur du surstock, délai moyen de réapprovisionnement, et taux de péremption.
+
+Une gestion stock structurée améliore la continuité de soins, la qualité d’exécution et la marge nette du cabinet. AfriSmile accompagne les structures dentaires au Sénégal dans l’optimisation des achats consommables avec une logique opérationnelle orientée résultats.`,
+    faq: [
+      {
+        q: 'Comment éviter les ruptures de consommables critiques ?',
+        a: 'Mettez en place des seuils mini/maxi et une revue hebdomadaire avec responsable dédié.',
+      },
+      {
+        q: 'Comment réduire le surstock ?',
+        a: 'Analysez la rotation réelle par référence et ajustez les quantités de commande.',
+      },
+      {
+        q: 'AfriSmile peut-il aider sur la structuration achats ?',
+        a: 'Oui, avec recommandations de standardisation, fréquence de commande et suivi KPI.',
+      },
+    ],
+  },
+  {
     id: 1,
     slug: 'choisir-fauteuil-dentaire-senegal-2026',
     title: 'Comment choisir un fauteuil dentaire au Sénégal en 2026 : guide expert achat, installation et SAV',

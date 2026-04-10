@@ -56,6 +56,31 @@ const relatedBySlug = {
     { to: '/modeles-achat', label: 'Plan d’achat progressif' },
     { to: '/contact', label: 'Lancer votre devis d’ouverture' },
   ],
+  'materiel-dentaire-senegal-checklist-ouverture-cabinet-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Checklist matériel cabinet' },
+    { to: '/solutions-cabinets', label: 'Solutions cabinets dentaires' },
+    { to: '/contact', label: 'Demander un devis d’ouverture' },
+  ],
+  'service-technique-dentaire-senegal-sla-maintenance-sav-2026': [
+    { to: '/service-technique', label: 'Service technique AfriSmile' },
+    { to: '/produits', label: 'Catalogue équipements' },
+    { to: '/contact', label: 'Ouvrir un dossier SAV' },
+  ],
+  'prix-autoclave-dentaire-classe-b-senegal-guide-achat-2026': [
+    { to: '/autoclave-dentaire-classe-b-senegal', label: 'Autoclave Classe B Sénégal' },
+    { to: '/service-technique', label: 'Maintenance autoclave' },
+    { to: '/contact', label: 'Demander un devis autoclave' },
+  ],
+  'scanner-intra-oral-prix-senegal-comment-rentabiliser-2026': [
+    { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral Sénégal' },
+    { to: '/solutions-cabinets', label: 'Optimiser le workflow cabinet' },
+    { to: '/contact', label: 'Planifier une démonstration' },
+  ],
+  'consommables-dentaires-senegal-optimiser-stock-marge-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Consommables et matériel dentaire' },
+    { to: '/modeles-achat', label: 'Optimiser vos achats' },
+    { to: '/contact', label: 'Parler à un conseiller AfriSmile' },
+  ],
 }
 
 export default function BlogPostPage() {

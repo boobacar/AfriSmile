@@ -81,6 +81,16 @@ const relatedBySlug = {
     { to: '/modeles-achat', label: 'Optimiser vos achats' },
     { to: '/contact', label: 'Parler à un conseiller AfriSmile' },
   ],
+  'fournisseur-materiel-dentaire-senegal-checklist-pro-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Trouver votre matériel dentaire' },
+    { to: '/service-technique', label: 'Vérifier le niveau de SAV local' },
+    { to: '/contact', label: 'Demander un devis fournisseur sécurisé' },
+  ],
+  'roi-materiel-dentaire-calcul-simple-investissement-cabinet': [
+    { to: '/modeles-achat', label: 'Comparer vos modèles d’achat' },
+    { to: '/materiel-dentaire-senegal', label: 'Équipements dentaires à fort impact' },
+    { to: '/contact', label: 'Construire votre business case avec AfriSmile' },
+  ],
 }
 
 export default function BlogPostPage() {

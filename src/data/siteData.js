@@ -476,4 +476,80 @@ Une gestion stock structurée améliore la continuité de soins, la qualité d�
       },
     ],
   },
+
+  {
+    id: 15,
+    slug: 'fournisseur-materiel-dentaire-senegal-checklist-pro-2026',
+    title: 'Comment choisir un fournisseur de matériel dentaire au Sénégal : checklist pro 2026',
+    excerpt: 'Fournisseur matériel dentaire Sénégal : méthode d’évaluation, SLA, stock local, conformité et modèle de devis pour sécuriser vos achats B2B.',
+    metaTitle: 'Fournisseur matériel dentaire Sénégal : checklist pro 2026 | AfriSmile',
+    metaDescription: 'Checklist experte pour choisir un fournisseur de matériel dentaire au Sénégal : qualité, SAV, délais, financement et continuité opérationnelle.',
+    datePublished: '2026-04-13',
+    dateModified: '2026-04-13',
+    content:
+      `Choisir un fournisseur de matériel dentaire au Sénégal ne consiste pas à comparer uniquement des prix. En B2B dentaire, le vrai enjeu est la continuité clinique: disponibilité des équipements, réactivité SAV, qualité des consommables et capacité d'accompagnement dans la durée. Un mauvais partenaire crée des arrêts de production, des retards de soins et une pression inutile sur la trésorerie.
+
+Première étape: cadrer votre besoin par catégorie d'achat. Séparez les équipements stratégiques (fauteuil, autoclave, scanner, aspiration), les instruments et les consommables. Pour chaque catégorie, définissez vos critères non négociables: niveau de performance, budget cible, fréquence de maintenance et délais maximum d'interruption acceptables.
+
+Deuxième étape: auditer la solidité du fournisseur. Demandez des preuves concrètes: références clients au Sénégal ou en Afrique de l'Ouest, disponibilité locale des pièces, délais moyens d'intervention, existence d'un service technique structuré et couverture géographique. Un fournisseur fiable documente ses engagements et ne reste pas vague sur le post-vente.
+
+Troisième étape: comparer en coût total de possession, pas en coût d'entrée. Le devis le plus bas peut devenir le plus cher si l'installation est incomplète, si la maintenance est lente ou si les pièces critiques sont indisponibles. Construisez une grille simple sur 36 mois: achat, installation, formation, maintenance préventive, corrective, et coût estimé des immobilisations.
+
+Quatrième étape: négocier des conditions opérationnelles claires. Exigez un SLA écrit (délai de réponse, délai d'intervention, niveau de priorité), un planning de maintenance, la traçabilité des interventions et un interlocuteur unique. En pratique, c'est ce cadrage qui protège votre cabinet en période de forte activité.
+
+Cinquième étape: sécuriser la montée en charge. Si vous ouvrez ou développez un cabinet à Dakar, privilégiez un partenaire capable de proposer un plan d'achat progressif (Essentiel, Standard, Premium), aligné sur votre flux patient et votre plan de croissance.
+
+AfriSmile accompagne les cabinets et centres dentaires avec une approche orientée résultats: sélection fournisseur/marque, validation technique, installation, formation équipe et support local. L'objectif est simple: acheter mieux, éviter les ruptures et transformer chaque investissement en performance clinique durable.`,
+    faq: [
+      {
+        q: 'Quels critères sont prioritaires pour choisir un fournisseur dentaire ?',
+        a: 'Priorisez la fiabilité technique, le SAV local, la disponibilité des pièces, la clarté du SLA et le coût total de possession sur plusieurs années.',
+      },
+      {
+        q: 'Comment comparer deux devis fournisseur de façon objective ?',
+        a: 'Utilisez une grille unique: achat, installation, formation, maintenance, délais d’intervention et coût d’immobilisation pour obtenir une comparaison réaliste.',
+      },
+      {
+        q: 'AfriSmile peut-il aider à auditer un devis avant décision ?',
+        a: 'Oui, AfriSmile peut relire votre besoin, challenger les hypothèses techniques et proposer un plan d’achat sécurisé selon vos objectifs cabinet.',
+      },
+    ],
+  },
+  {
+    id: 16,
+    slug: 'roi-materiel-dentaire-calcul-simple-investissement-cabinet',
+    title: 'ROI équipement dentaire : calcul simple pour piloter vos investissements cabinet',
+    excerpt: 'ROI matériel dentaire : formule simple, exemples chiffrés et KPI terrain pour décider vos achats en cabinet dentaire au Sénégal.',
+    metaTitle: 'ROI matériel dentaire : méthode de calcul simple | AfriSmile',
+    metaDescription: 'Apprenez à calculer le ROI de vos équipements dentaires avec une méthode pratique: gains de temps, coûts cachés, seuil de rentabilité et plan d’action.',
+    datePublished: '2026-04-13',
+    dateModified: '2026-04-13',
+    content:
+      `Investir dans un équipement dentaire sans calcul de ROI revient à décider à l'instinct. Dans un cabinet à Dakar ou en Afrique de l'Ouest, la bonne question n'est pas “combien ça coûte ?”, mais “combien cet achat améliore ma production, ma qualité et ma marge nette ?”. Une méthode simple de ROI permet de prioriser les investissements qui créent un impact mesurable.
+
+Commencez par la formule opérationnelle: ROI = (gains annuels nets - coût annuel total) / coût annuel total. Les gains annuels nets incluent le temps clinique économisé, la réduction des reprises, l'augmentation du taux d'acceptation des plans et la diminution des pannes. Le coût annuel total inclut achat amorti, maintenance, consommables associés, formation et éventuelles immobilisations.
+
+Prenons un exemple concret. Un cabinet investit dans un scanner intra-oral et améliore son temps moyen de prise d'empreinte, réduit les retouches labo et augmente le taux de conversion des traitements prothétiques. Si ces gains cumulent une valeur supérieure au coût annuel de l'équipement, le ROI devient positif et l'investissement est justifié. La même logique s'applique à un fauteuil premium, un autoclave mieux dimensionné ou une solution d'aspiration plus fiable.
+
+Pour un pilotage réaliste, suivez 5 KPI clés: temps moyen par acte, taux de reprise clinique, taux de disponibilité machine, délai de livraison traitement, et marge par acte. Ces indicateurs transforment un achat en décision de gestion plutôt qu'en simple dépense technique.
+
+Ensuite, classez vos projets d'équipement par horizon: quick wins (3-6 mois), leviers de croissance (6-12 mois), et investissements structurants (12-24 mois). Cette priorisation évite de bloquer la trésorerie tout en maintenant une trajectoire de modernisation cohérente.
+
+Enfin, ne validez jamais un ROI seul sur le papier. Confrontez le calcul aux réalités terrain: compétence de l'équipe, qualité du fournisseur, robustesse du SAV et capacité d'adoption opérationnelle. AfriSmile aide les cabinets à construire des business cases d'équipement concrets, à sécuriser le déploiement et à suivre les résultats post-installation pour garantir un retour mesurable.`,
+    faq: [
+      {
+        q: 'Quelle formule simple utiliser pour calculer le ROI d’un équipement dentaire ?',
+        a: 'Utilisez ROI = (gains annuels nets - coût annuel total) / coût annuel total, avec des hypothèses terrain réalistes et mesurables.',
+      },
+      {
+        q: 'Quels KPI suivre après l’installation pour valider le ROI ?',
+        a: 'Surveillez le temps par acte, le taux de reprise, la disponibilité machine, le taux d’acceptation des plans et la marge par acte.',
+      },
+      {
+        q: 'AfriSmile accompagne-t-il la construction d’un business case équipement ?',
+        a: 'Oui, AfriSmile peut aider à cadrer les hypothèses, chiffrer les scénarios et sécuriser la mise en œuvre pour atteindre les objectifs fixés.',
+      },
+    ],
+  },
+
 ]

@@ -1,4 +1,4 @@
-import { Route, Routes, useLocation } from 'react-router-dom'
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -21,6 +21,7 @@ import EquipementDentaireDakarPage from './pages/EquipementDentaireDakarPage'
 import FauteuilDentaireSenegalPage from './pages/FauteuilDentaireSenegalPage'
 import AutoclaveDentaireClasseBSenegalPage from './pages/AutoclaveDentaireClasseBSenegalPage'
 import ScannerIntraOralSenegalPage from './pages/ScannerIntraOralSenegalPage'
+import NotFoundPage from './pages/NotFoundPage'
 import { blogPosts } from './data/siteData'
 
 const seoPages = {
@@ -69,6 +70,17 @@ const seoPages = {
     description:
       'Contactez AfriSmile pour un devis rapide en matériel dentaire au Sénégal et en Afrique de l’Ouest : conseil, livraison, installation et SAV.',
   },
+  '/modeles-achat': {
+    title: 'Modèles d’achat matériel dentaire au Sénégal | AfriSmile',
+    description:
+      'Comparez les modèles d’achat AfriSmile pour équiper votre cabinet dentaire au Sénégal: devis sur mesure, planification et accompagnement technique.',
+  },
+  '/404': {
+    title: 'Page introuvable | AfriSmile',
+    description:
+      'La page demandée est introuvable. Consultez nos solutions et notre catalogue de matériel dentaire au Sénégal.',
+    robots: 'noindex, follow',
+  },
 }
 
 const pathLabels = {
@@ -88,6 +100,7 @@ const pathLabels = {
   'fauteuil-dentaire-senegal': 'Fauteuil dentaire Sénégal',
   'autoclave-dentaire-classe-b-senegal': 'Autoclave dentaire Classe B',
   'scanner-intra-oral-senegal': 'Scanner intra-oral Sénégal',
+  '404': 'Page introuvable',
 }
 
 function ensureMeta(propertyOrName, attr = 'name') {
@@ -110,6 +123,7 @@ function makeBlogSeo(pathname) {
   return {
     title: post.metaTitle || `${post.title} | Blog AfriSmile`,
     description: post.metaDescription || post.excerpt,
+    imagePath: '/assets/page-blog.jpg',
   }
 }
 
@@ -152,21 +166,28 @@ function SeoHandler() {
 
   useEffect(() => {
     const dynamicBlogSeo = makeBlogSeo(location.pathname)
-    const current = dynamicBlogSeo || seoPages[location.pathname] || seoPages['/']
+    const current = dynamicBlogSeo || seoPages[location.pathname] || seoPages['/404']
     const origin = window.location.origin
-    const canonicalUrl = `${origin}${location.pathname}`
+    const canonicalPath = dynamicBlogSeo || seoPages[location.pathname] ? location.pathname : '/404'
+    const canonicalUrl = `${origin}${canonicalPath}`
+    const socialImageUrl = `${origin}${current.imagePath || '/assets/page-home.jpg'}`
+    const robotsContent = current.robots || 'index, follow, max-image-preview:large'
 
     document.title = current.title
 
     ensureMeta('description').setAttribute('content', current.description)
-    ensureMeta('robots').setAttribute('content', 'index, follow, max-image-preview:large')
+    ensureMeta('robots').setAttribute('content', robotsContent)
     ensureMeta('og:title', 'property').setAttribute('content', current.title)
     ensureMeta('og:description', 'property').setAttribute('content', current.description)
     ensureMeta('og:type', 'property').setAttribute('content', 'website')
+    ensureMeta('og:site_name', 'property').setAttribute('content', 'AfriSmile')
+    ensureMeta('og:locale', 'property').setAttribute('content', 'fr_SN')
     ensureMeta('og:url', 'property').setAttribute('content', canonicalUrl)
+    ensureMeta('og:image', 'property').setAttribute('content', socialImageUrl)
     ensureMeta('twitter:card').setAttribute('content', 'summary_large_image')
     ensureMeta('twitter:title').setAttribute('content', current.title)
     ensureMeta('twitter:description').setAttribute('content', current.description)
+    ensureMeta('twitter:image').setAttribute('content', socialImageUrl)
 
     let canonical = document.querySelector('link[rel="canonical"]')
     if (!canonical) {
@@ -281,7 +302,7 @@ function SeoHandler() {
     serviceScript.textContent = JSON.stringify(serviceJsonLd)
     document.head.appendChild(serviceScript)
 
-    const breadcrumbJsonLd = makeBreadcrumbJsonLd(origin, location.pathname)
+    const breadcrumbJsonLd = makeBreadcrumbJsonLd(origin, canonicalPath)
     const breadcrumbScript = document.createElement('script')
     breadcrumbScript.id = 'jsonld-breadcrumb'
     breadcrumbScript.type = 'application/ld+json'
@@ -313,6 +334,7 @@ export default function App() {
         <Route path="/produits" element={<ProductsPage />} />
         <Route path="/solutions-cabinets" element={<SolutionsPage />} />
         <Route path="/service-technique" element={<ServiceTechniquePage />} />
+        <Route path="/modeles-achat" element={<ModelesAchatPage />} />
         <Route path="/marques" element={<BrandsPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
@@ -326,6 +348,8 @@ export default function App() {
         <Route path="/fauteuil-dentaire-senegal" element={<FauteuilDentaireSenegalPage />} />
         <Route path="/autoclave-dentaire-classe-b-senegal" element={<AutoclaveDentaireClasseBSenegalPage />} />
         <Route path="/scanner-intra-oral-senegal" element={<ScannerIntraOralSenegalPage />} />
+        <Route path="/404" element={<NotFoundPage />} />
+        <Route path="*" element={<Navigate to="/404" replace />} />
       </Routes>
       <Footer />
       <WhatsAppButton />

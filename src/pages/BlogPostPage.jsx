@@ -91,6 +91,16 @@ const relatedBySlug = {
     { to: '/materiel-dentaire-senegal', label: 'Équipements dentaires à fort impact' },
     { to: '/contact', label: 'Construire votre business case avec AfriSmile' },
   ],
+  'maintenance-fauteuil-dentaire-10-pannes-frequentes-et-prevention': [
+    { to: '/service-technique', label: 'Mettre en place un plan de maintenance' },
+    { to: '/fauteuil-dentaire-senegal', label: 'Choisir un fauteuil fiable et maintenable' },
+    { to: '/contact', label: 'Demander un audit technique cabinet' },
+  ],
+  'autoclave-dentaire-18l-23l-ou-plus-guide-selon-flux-patient': [
+    { to: '/autoclave-dentaire-classe-b-senegal', label: 'Comparer les autoclaves Classe B' },
+    { to: '/materiel-dentaire-senegal', label: 'Optimiser votre plateau technique' },
+    { to: '/contact', label: 'Obtenir un devis dimensionné à votre flux' },
+  ],
 }
 
 export default function BlogPostPage() {

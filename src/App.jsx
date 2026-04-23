@@ -213,7 +213,7 @@ function SeoHandler() {
       logo: `${origin}/assets/logo-afrismile.png`,
       image: `${origin}/assets/page-home.jpg`,
       email: 'contact@afrismile.net',
-      telephone: '+221770946397',
+      telephone: '+221784389393',
       priceRange: '$$',
       address: {
         '@type': 'PostalAddress',
@@ -248,7 +248,7 @@ function SeoHandler() {
       ],
       contactPoint: {
         '@type': 'ContactPoint',
-        telephone: '+221770946397',
+        telephone: '+221784389393',
         contactType: 'customer service',
         areaServed: ['SN', 'MR', 'CI', 'BJ', 'BF', 'CM', 'CV', 'GM', 'GH', 'GN', 'GW', 'NE', 'NG', 'TG'],
         availableLanguage: ['fr'],

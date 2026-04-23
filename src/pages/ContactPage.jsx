@@ -66,11 +66,11 @@ export default function ContactPage() {
         <section className="card min-w-0">
           <h2 className="font-heading text-2xl font-bold text-brand-dark">Contact rapide</h2>
           <p className="mt-4 text-slate-700">Adresse : Liberté 06 Cité CSE Villa 72, Dakar, Sénégal</p>
-          <a className="mt-2 inline-flex items-center gap-2 font-medium text-brand-blue" href="tel:+221770946397"><Phone size={16} /> +221 77 094 63 97</a>
+          <a className="mt-2 inline-flex items-center gap-2 font-medium text-brand-blue" href="tel:+221784389393"><Phone size={16} /> +221 78 438 93 93</a>
           <a className="mt-1 inline-flex items-center gap-2 font-medium text-brand-blue" href="mailto:contact@afrismile.net"><Mail size={16} /> contact@afrismile.net</a>
 
           <div className="mt-5 flex flex-wrap gap-3">
-            <a className="btn-primary" href="https://wa.me/221770946397?text=Bonjour%20AfriSmile%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noreferrer">WhatsApp direct</a>
+            <a className="btn-primary" href="https://wa.me/221784389393?text=Bonjour%20AfriSmile%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noreferrer">WhatsApp direct</a>
           </div>
 
           <div className="mt-6 rounded-xl border border-brand-cyan/20 bg-brand-light/60 p-4 text-sm text-slate-700">

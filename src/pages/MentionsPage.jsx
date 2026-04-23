@@ -12,7 +12,7 @@ export default function MentionsPage() {
 
       <section className="section-shell space-y-3 text-slate-700">
         <p><strong>Éditeur :</strong> AfriSmile, Liberté 06 Cité CSE Villa 72, Dakar, Sénégal.</p>
-        <p><strong>Contact :</strong> contact@afrismile.net | +221 77 094 63 97</p>
+        <p><strong>Contact :</strong> contact@afrismile.net | +221 78 438 93 93</p>
         <p><strong>Hébergement :</strong> à compléter selon votre fournisseur.</p>
       </section>
     </main>

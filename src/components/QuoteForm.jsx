@@ -27,7 +27,7 @@ export default function QuoteForm() {
       `Besoin: ${form.need || 'Non précisé'}`,
     ].join('\n')
 
-    const url = `https://wa.me/221770946397?text=${encodeURIComponent(message)}`
+    const url = `https://wa.me/221784389393?text=${encodeURIComponent(message)}`
     window.open(url, '_blank', 'noopener,noreferrer')
   }
 

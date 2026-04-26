@@ -49,6 +49,212 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 26,
+    slug: 'equipement-dentaire-dakar-guide-achat-clinique-2026',
+    title: 'Équipement dentaire à Dakar : guide d’achat complet pour clinique et cabinet en 2026',
+    excerpt: 'Équipement dentaire Dakar : fauteuil, autoclave, imagerie, compresseur, aspiration, installation et SAV. La méthode pour acheter sans erreur.',
+    metaTitle: 'Équipement dentaire Dakar : guide achat clinique 2026 | AfriSmile',
+    metaDescription: 'Guide complet pour acheter de l’équipement dentaire à Dakar : priorités, budget, installation, maintenance, SAV et critères fournisseur.',
+    datePublished: '2026-04-26',
+    dateModified: '2026-04-26',
+    content:
+      `Acheter de l’équipement dentaire à Dakar demande une méthode plus rigoureuse qu’une simple comparaison de prix. Un cabinet ou une clinique doit sécuriser trois objectifs en même temps: démarrer les soins sans retard, maintenir une qualité clinique stable et protéger la trésorerie sur plusieurs années. Le bon choix est donc technique, financier et opérationnel.
+
+Le premier bloc à cadrer est le fauteuil dentaire. Il conditionne l’ergonomie, la cadence de travail, l’image patient et la continuité des actes. Avant de choisir, analysez le volume patient prévu, les spécialités dominantes, les options nécessaires et la disponibilité du service technique local.
+
+Le deuxième bloc est la chaîne de stérilisation. Un autoclave Classe B adapté, des sachets de qualité, un protocole clair et une traçabilité exploitable réduisent les risques et fluidifient les rotations instrumentales. La stérilisation ne doit jamais être dimensionnée au minimum si le cabinet vise une montée en charge rapide.
+
+Le troisième bloc concerne l’air, l’aspiration et l’imagerie. Compresseur, aspiration chirurgicale, capteur RVG ou scanner intra-oral doivent être choisis selon le workflow réel, pas selon une liste générique. Un équipement sous-dimensionné devient rapidement un goulot d’étranglement.
+
+Le quatrième bloc est l’installation. Vérifiez l’électricité, l’eau, l’évacuation, l’espace de circulation, l’accès technique et les contraintes de maintenance. Beaucoup de retards d’ouverture viennent d’un local mal préparé avant livraison.
+
+Le cinquième bloc est le SAV. À Dakar, la valeur d’un équipement dépend fortement du délai de diagnostic, de la disponibilité des pièces et de la compétence d’intervention. Exigez un engagement clair sur les délais, la maintenance préventive et la formation équipe.
+
+La bonne méthode consiste à construire trois scénarios: essentiel, standard et évolutif. Chaque scénario doit préciser le coût d’achat, l’installation, la maintenance annuelle, les options futures et l’impact sur la productivité.
+
+AfriSmile accompagne les cabinets et cliniques à Dakar avec une approche complète: audit du besoin, devis technique, sélection matériel, livraison, installation, mise en service et support terrain pour sécuriser l’investissement dès le premier jour.`,
+    faq: [
+      {
+        q: 'Quel équipement dentaire acheter en priorité à Dakar ?',
+        a: 'Priorisez le socle clinique: fauteuil, autoclave Classe B, compresseur, aspiration, instrumentation de base, consommables critiques et imagerie selon votre activité.',
+      },
+      {
+        q: 'Comment éviter les erreurs de budget au lancement ?',
+        a: 'Comparez le coût total de possession: achat, transport, installation, formation, maintenance, pièces et éventuels arrêts d’activité.',
+      },
+      {
+        q: 'AfriSmile peut-il gérer l’installation complète à Dakar ?',
+        a: 'Oui, AfriSmile accompagne la sélection, la livraison, l’installation, la mise en service et le suivi technique.',
+      },
+    ],
+  },
+  {
+    id: 25,
+    slug: 'fournisseur-materiel-dentaire-afrique-ouest-criteres-fiabilite-2026',
+    title: 'Fournisseur de matériel dentaire en Afrique de l’Ouest : 12 critères pour choisir un partenaire fiable',
+    excerpt: 'Fournisseur matériel dentaire Afrique de l’Ouest : stock, SAV, pièces, garanties, installation, conformité et accompagnement cabinet.',
+    metaTitle: 'Fournisseur matériel dentaire Afrique de l’Ouest | AfriSmile',
+    metaDescription: 'Les 12 critères pour choisir un fournisseur de matériel dentaire fiable en Afrique de l’Ouest : SAV, stock, installation et garanties.',
+    datePublished: '2026-04-26',
+    dateModified: '2026-04-26',
+    content:
+      `Le choix d’un fournisseur de matériel dentaire en Afrique de l’Ouest influence directement la qualité de soin, la rentabilité et la continuité d’un cabinet. Le prix d’un équipement compte, mais il ne suffit pas. Un fournisseur fiable doit vous aider à acheter juste, installer proprement et maintenir le matériel en état de production.
+
+Critère 1: la capacité de conseil. Un bon fournisseur commence par comprendre vos actes, votre volume patient, votre budget et votre trajectoire de croissance. Il ne pousse pas le même panier d’achat à tous les cabinets.
+
+Critère 2: la transparence du devis. Chaque ligne doit être claire: matériel, options, transport, installation, consommables, formation, garantie et maintenance. Les coûts cachés détruisent la confiance et compliquent la planification.
+
+Critère 3: la qualité du SAV local. Demandez les délais de réponse, les délais d’intervention, l’organisation des techniciens et le stock de pièces. Sans support local, même un bon équipement devient fragile.
+
+Critère 4: la disponibilité des pièces et consommables. Le fournisseur doit anticiper les pièces d’usure, les consommables critiques et les références compatibles pour éviter les interruptions.
+
+Critère 5: l’expérience d’installation. Un fauteuil, un autoclave ou une aspiration nécessitent une mise en service sérieuse. Le fournisseur doit contrôler les raccordements, tester les fonctions et former l’équipe.
+
+Critère 6: les garanties écrites. Les conditions doivent préciser la durée, le périmètre, les exclusions, la procédure SAV et les responsabilités de chaque partie.
+
+Critère 7: la capacité à accompagner la montée en gamme. Votre cabinet évoluera: imagerie, scanner intra-oral, instrumentation avancée, deuxième fauteuil. Le fournisseur doit pouvoir suivre cette croissance.
+
+Critère 8: la connaissance du terrain ouest-africain. Les contraintes logistiques, électriques, climatiques et opérationnelles ne sont pas identiques partout. L’expérience locale réduit les erreurs.
+
+Critères 9 à 12: références clients, formation documentée, maintenance préventive, et reporting après intervention. Ces éléments montrent si le fournisseur fonctionne comme un partenaire ou comme un simple vendeur.
+
+AfriSmile travaille avec les cabinets au Sénégal et en Afrique de l’Ouest pour structurer des projets d’équipement fiables: choix technique, devis détaillé, installation, formation et support continu.`,
+    faq: [
+      {
+        q: 'Quel est le critère le plus important pour choisir un fournisseur dentaire ?',
+        a: 'Le SAV local est central, car il protège la continuité de soin après l’achat. Le prix seul ne suffit pas à sécuriser l’exploitation.',
+      },
+      {
+        q: 'Pourquoi demander un devis détaillé poste par poste ?',
+        a: 'Cela permet de comparer les offres sur le coût réel: équipement, installation, formation, maintenance, garantie et pièces.',
+      },
+      {
+        q: 'AfriSmile fournit-il au-delà du Sénégal ?',
+        a: 'Oui, AfriSmile accompagne des projets au Sénégal et en Afrique de l’Ouest selon les besoins techniques et logistiques.',
+      },
+    ],
+  },
+  {
+    id: 24,
+    slug: 'imagerie-dentaire-senegal-rvg-panoramique-scanner-choisir-2026',
+    title: 'Imagerie dentaire au Sénégal : RVG, panoramique ou scanner intra-oral, que choisir en 2026 ?',
+    excerpt: 'Imagerie dentaire Sénégal : comparez RVG, panoramique et scanner intra-oral selon diagnostic, budget, workflow et rentabilité cabinet.',
+    metaTitle: 'Imagerie dentaire Sénégal : RVG, panoramique, scanner | AfriSmile',
+    metaDescription: 'Guide pour choisir une solution d’imagerie dentaire au Sénégal : capteur RVG, panoramique, scanner intra-oral, budget et workflow.',
+    datePublished: '2026-04-26',
+    dateModified: '2026-04-26',
+    content:
+      `L’imagerie dentaire est devenue un levier majeur de diagnostic, de pédagogie patient et de performance cabinet. Au Sénégal, le choix entre capteur RVG, panoramique et scanner intra-oral dépend du type d’actes, du volume patient, du budget et de l’ambition numérique du cabinet.
+
+Le capteur RVG est souvent le premier investissement d’imagerie. Il accélère le diagnostic, réduit les consommables liés au film argentique et améliore la communication avec le patient. Pour l’omnipratique, l’endodontie et le suivi quotidien, c’est un outil à fort impact.
+
+La radiographie panoramique répond à un besoin différent: vision globale, orthodontie, implantologie préliminaire, chirurgie, bilan initial et suivi de cas complexes. Elle demande plus d’espace, plus de budget et une organisation précise du flux patient.
+
+Le scanner intra-oral n’est pas une radiologie, mais il complète fortement le workflow numérique. Il remplace l’empreinte classique dans de nombreux cas, améliore la précision prothétique et facilite la collaboration avec le laboratoire.
+
+Pour choisir, partez des actes qui génèrent le plus de valeur dans votre cabinet. Si vous faites beaucoup d’endodontie ou de soins conservateurs, le RVG peut être prioritaire. Si vous structurez un pôle orthodontie ou chirurgie, le panoramique devient stratégique. Si vous voulez accélérer prothèse, esthétique et communication patient, le scanner intra-oral mérite une analyse ROI.
+
+Le budget doit intégrer l’installation, le logiciel, la formation, la maintenance, les mises à jour et l’intégration informatique. Un équipement d’imagerie mal intégré peut créer des lenteurs au lieu d’en supprimer.
+
+KPI utiles après installation: temps de diagnostic, taux d’acceptation des plans de traitement, délai de livraison prothétique, taux de reprise et satisfaction patient. Ces indicateurs permettent de vérifier que l’investissement améliore vraiment le cabinet.
+
+AfriSmile aide les cabinets dentaires au Sénégal à choisir l’imagerie adaptée: analyse du besoin, comparaison des options, installation, formation et accompagnement au workflow clinique.`,
+    faq: [
+      {
+        q: 'Faut-il commencer par un capteur RVG ou un panoramique ?',
+        a: 'Le RVG est souvent prioritaire pour l’omnipratique quotidienne. Le panoramique devient pertinent si votre activité justifie une vision globale régulière.',
+      },
+      {
+        q: 'Le scanner intra-oral remplace-t-il la radiographie ?',
+        a: 'Non, il complète l’imagerie en digitalisant l’empreinte et le workflow prothétique, mais il ne remplace pas les examens radiographiques.',
+      },
+      {
+        q: 'AfriSmile accompagne-t-il l’intégration logicielle ?',
+        a: 'Oui, AfriSmile peut accompagner l’installation, la formation et l’intégration au workflow cabinet.',
+      },
+    ],
+  },
+  {
+    id: 23,
+    slug: 'compresseur-aspiration-dentaire-senegal-dimensionnement-maintenance-2026',
+    title: 'Compresseur et aspiration dentaire au Sénégal : dimensionnement, maintenance et erreurs à éviter',
+    excerpt: 'Compresseur dentaire Sénégal et aspiration : choisir la bonne capacité, éviter les pannes, protéger les fauteuils et stabiliser la production.',
+    metaTitle: 'Compresseur dentaire Sénégal : aspiration & maintenance | AfriSmile',
+    metaDescription: 'Guide compresseur et aspiration dentaire au Sénégal : dimensionnement, bruit, air sec, maintenance, SAV et continuité cabinet.',
+    datePublished: '2026-04-26',
+    dateModified: '2026-04-26',
+    content:
+      `Le compresseur et l’aspiration sont souvent moins visibles qu’un fauteuil ou un scanner, mais ils déterminent la stabilité quotidienne du cabinet. Au Sénégal, un compresseur sous-dimensionné ou une aspiration mal entretenue provoque des baisses de performance, des interruptions d’actes et une usure prématurée des équipements.
+
+Le premier critère est le dimensionnement. Calculez le nombre de fauteuils, le type d’actes, la durée d’utilisation simultanée et les besoins futurs. Un cabinet avec un seul fauteuil aujourd’hui peut rapidement avoir besoin d’une capacité supérieure si l’activité progresse.
+
+Le deuxième critère est la qualité de l’air. L’air doit être propre, sec et stable pour protéger les instruments rotatifs, les circuits et la qualité des actes. Les compresseurs dentaires sans huile sont généralement privilégiés pour limiter les contaminations et simplifier l’exploitation clinique.
+
+Le troisième critère est le niveau sonore et l’emplacement. Un compresseur mal placé dégrade le confort patient et l’environnement de travail. L’installation doit prendre en compte ventilation, accessibilité technique, vibration, sécurité et distance avec les salles de soins.
+
+Le quatrième critère est l’aspiration. Une aspiration efficace améliore la visibilité opératoire, le confort patient et l’hygiène du champ clinique. Vérifiez la capacité, la compatibilité avec le fauteuil, la maintenance des filtres et la disponibilité des pièces.
+
+Le cinquième critère est la maintenance. Contrôles hebdomadaires, purge, filtres, joints, bruit anormal, pression et performance d’aspiration doivent être suivis dans un registre simple. Ces routines évitent les pannes lourdes.
+
+Erreurs fréquentes: acheter uniquement au prix, oublier la montée en charge, négliger l’emplacement technique, ne pas former l’équipe et attendre la panne avant d’appeler le SAV.
+
+AfriSmile accompagne les cabinets au Sénégal dans le choix, l’installation et le suivi des compresseurs et systèmes d’aspiration, avec une logique de continuité clinique et de maintenance préventive.`,
+    faq: [
+      {
+        q: 'Comment dimensionner un compresseur dentaire ?',
+        a: 'Il faut tenir compte du nombre de fauteuils, des actes pratiqués, de l’usage simultané et de la croissance prévue du cabinet.',
+      },
+      {
+        q: 'Pourquoi choisir un compresseur sans huile ?',
+        a: 'Il fournit un air plus adapté à l’usage dentaire et limite les risques de contamination des circuits et instruments.',
+      },
+      {
+        q: 'AfriSmile installe-t-il compresseur et aspiration ?',
+        a: 'Oui, AfriSmile accompagne le choix, l’installation, les tests de mise en service et la maintenance.',
+      },
+    ],
+  },
+  {
+    id: 22,
+    slug: 'cabinet-dentaire-senegal-business-plan-equipement-rentabilite-2026',
+    title: 'Business plan d’un cabinet dentaire au Sénégal : équipement, rentabilité et plan d’investissement',
+    excerpt: 'Business plan cabinet dentaire Sénégal : budget équipement, phases d’achat, ROI, maintenance, consommables et indicateurs de rentabilité.',
+    metaTitle: 'Business plan cabinet dentaire Sénégal : équipement & ROI',
+    metaDescription: 'Construire le business plan d’un cabinet dentaire au Sénégal : budget matériel, rentabilité, plan d’investissement et coûts de maintenance.',
+    datePublished: '2026-04-26',
+    dateModified: '2026-04-26',
+    content:
+      `Un business plan de cabinet dentaire au Sénégal doit aller au-delà du loyer, du personnel et du chiffre d’affaires prévisionnel. Le poste équipement est l’un des plus importants, car il conditionne la capacité de production, la qualité de soin, la vitesse de démarrage et la rentabilité à moyen terme.
+
+La première étape est de définir le positionnement clinique: omnipratique familiale, esthétique, implantologie, orthodontie, urgence, prothèse ou centre pluridisciplinaire. Chaque positionnement implique un panier d’équipement différent et une trajectoire d’investissement spécifique.
+
+La deuxième étape est de construire le budget matériel par phases. Phase 1: indispensable au démarrage, avec fauteuil, autoclave Classe B, compresseur, aspiration, instrumentation et consommables critiques. Phase 2: optimisation, avec imagerie, organisation stock et amélioration du confort opératoire. Phase 3: croissance, avec scanner intra-oral, deuxième fauteuil ou équipements spécialisés.
+
+La troisième étape est de calculer le coût total de possession. Un business plan solide intègre installation, formation, maintenance préventive, pièces d’usure, consommables associés et risque d’immobilisation. Ces coûts doivent être prévus avant l’ouverture, pas découverts en exploitation.
+
+La quatrième étape est de relier chaque investissement à un levier de revenus ou d’efficacité. Un fauteuil fiable augmente la disponibilité clinique. Un autoclave bien dimensionné fluidifie la rotation instrumentale. Un scanner intra-oral peut réduire les reprises et améliorer l’acceptation patient. L’équipement doit être justifié par sa contribution au modèle économique.
+
+La cinquième étape est de suivre des indicateurs dès le premier mois: nombre d’actes, chiffre d’affaires par fauteuil, taux de rendez-vous reportés pour cause technique, coût consommables par acte, taux de disponibilité machine et marge par famille de soins.
+
+Enfin, le business plan doit prévoir un plan de maintenance annuel et un budget de renouvellement. Un cabinet rentable n’est pas seulement bien lancé: il reste opérationnel, mesuré et capable d’investir au bon moment.
+
+AfriSmile aide les porteurs de projet à transformer une idée de cabinet en plan d’équipement réaliste: chiffrage, priorisation, scénarios d’achat, installation et support technique au Sénégal.`,
+    faq: [
+      {
+        q: 'Quelle part du business plan doit être dédiée au matériel dentaire ?',
+        a: 'Elle dépend du positionnement clinique et du niveau d’équipement visé. Le plus important est de phaser les achats et d’intégrer maintenance, installation et consommables.',
+      },
+      {
+        q: 'Comment relier équipement et rentabilité ?',
+        a: 'Associez chaque achat à un gain mesurable: disponibilité, temps gagné, réduction des reprises, acceptation patient ou capacité de production.',
+      },
+      {
+        q: 'AfriSmile peut-il aider à chiffrer un projet d’ouverture ?',
+        a: 'Oui, AfriSmile peut structurer plusieurs scénarios d’investissement et un devis technique adapté au projet.',
+      },
+    ],
+  },
+  {
     id: 10,
     slug: 'materiel-dentaire-senegal-checklist-ouverture-cabinet-2026',
     title: 'Matériel dentaire au Sénégal : checklist complète pour ouvrir un cabinet en 2026',

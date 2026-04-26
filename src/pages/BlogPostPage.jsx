@@ -91,6 +91,31 @@ const relatedBySlug = {
     { to: '/materiel-dentaire-senegal', label: 'Équipements dentaires à fort impact' },
     { to: '/contact', label: 'Construire votre business case avec AfriSmile' },
   ],
+  'equipement-dentaire-dakar-guide-achat-clinique-2026': [
+    { to: '/equipement-dentaire-dakar', label: 'Équipement dentaire à Dakar' },
+    { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
+    { to: '/contact', label: 'Demander un devis équipement' },
+  ],
+  'fournisseur-materiel-dentaire-afrique-ouest-criteres-fiabilite-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Fournisseur matériel dentaire' },
+    { to: '/service-technique', label: 'Évaluer le SAV local' },
+    { to: '/contact', label: 'Parler à AfriSmile' },
+  ],
+  'imagerie-dentaire-senegal-rvg-panoramique-scanner-choisir-2026': [
+    { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral Sénégal' },
+    { to: '/produits', label: 'Voir les solutions d’imagerie' },
+    { to: '/contact', label: 'Demander une recommandation' },
+  ],
+  'compresseur-aspiration-dentaire-senegal-dimensionnement-maintenance-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Équipements techniques cabinet' },
+    { to: '/service-technique', label: 'Maintenance et SAV' },
+    { to: '/contact', label: 'Dimensionner votre installation' },
+  ],
+  'cabinet-dentaire-senegal-business-plan-equipement-rentabilite-2026': [
+    { to: '/modeles-achat', label: 'Planifier vos achats' },
+    { to: '/materiel-dentaire-senegal', label: 'Construire votre panier matériel' },
+    { to: '/contact', label: 'Chiffrer votre projet' },
+  ],
 }
 
 export default function BlogPostPage() {

@@ -11,6 +11,16 @@ const defaultRelatedMoneyPages = [
 ]
 
 const relatedBySlug = {
+  'maintenance-fauteuil-dentaire-10-pannes-frequentes-eviter-2026': [
+    { to: '/service-technique', label: 'Mettre en place une maintenance préventive' },
+    { to: '/fauteuil-dentaire-senegal', label: 'Choisir un fauteuil fiable et maintenable' },
+    { to: '/contact', label: 'Demander un audit technique fauteuil' },
+  ],
+  'autoclave-dentaire-18l-23l-capacite-guide-flux-patient-2026': [
+    { to: '/autoclave-dentaire-classe-b-senegal', label: 'Comparer les autoclaves Classe B' },
+    { to: '/materiel-dentaire-senegal', label: 'Voir les équipements de stérilisation' },
+    { to: '/contact', label: 'Demander un devis autoclave adapté' },
+  ],
   'choisir-fauteuil-dentaire-senegal-2026': [
     { to: '/fauteuil-dentaire-senegal', label: 'Comparer les fauteuils dentaires' },
     { to: '/service-technique', label: 'Découvrir le service technique' },

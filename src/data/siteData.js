@@ -49,6 +49,103 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 28,
+    slug: 'maintenance-fauteuil-dentaire-10-pannes-frequentes-eviter-2026',
+    title: 'Maintenance fauteuil dentaire : les 10 pannes fréquentes et comment les éviter en 2026',
+    excerpt: 'Maintenance fauteuil dentaire au Sénégal : 10 pannes fréquentes, causes racines, plan préventif et actions terrain pour éviter les arrêts cabinet.',
+    metaTitle: 'Maintenance fauteuil dentaire : 10 pannes à éviter | AfriSmile',
+    metaDescription: 'Guide pratique pour prévenir les pannes de fauteuil dentaire : checklists, maintenance préventive, coûts cachés et plan d’action cabinet.',
+    datePublished: '2026-04-27',
+    dateModified: '2026-04-27',
+    content:
+      `Un fauteuil dentaire en panne n’est jamais un simple incident technique. Pour un cabinet à Dakar ou ailleurs en Afrique de l’Ouest, c’est une perte immédiate de créneaux, un stress d’équipe et parfois une dégradation de l’expérience patient. La bonne approche n’est pas d’attendre le SAV en urgence, mais de réduire la probabilité de panne avec une maintenance préventive structurée.
+
+Panne n°1: perte de pression ou mouvements lents. Cause fréquente: défaut d’alimentation pneumatique, filtre encrassé ou micro-fuite. Action: contrôler la pression de ligne, vérifier les raccords et programmer un contrôle mensuel des circuits.
+
+Panne n°2: pédale de commande intermittente. Cause: contact usé, câble endommagé, humidité. Action: inspection hebdomadaire, test de continuité et remplacement préventif des composants fragiles.
+
+Panne n°3: éclairage opératoire instable. Cause: alimentation fluctuante ou LED en fin de cycle. Action: vérifier la stabilité électrique, installer une protection adaptée et planifier le remplacement avant panne totale.
+
+Panne n°4: aspiration fauteuil insuffisante. Cause: filtre saturé, conduite partiellement obstruée, entretien irrégulier. Action: protocole de nettoyage quotidien, contrôle du débit et maintenance trimestrielle.
+
+Panne n°5: sellerie détériorée prématurément. Cause: produits de nettoyage inadaptés, abrasion répétée, chaleur. Action: standardiser les produits compatibles et former l’équipe aux bons gestes d’entretien.
+
+Panne n°6: accoudoirs ou têtière desserrés. Cause: micro-vibrations + absence de resserrage planifié. Action: checklist hebdomadaire de stabilité mécanique.
+
+Panne n°7: bruit anormal du moteur. Cause: usure mécanique, lubrification inadaptée ou surcharge. Action: ne jamais ignorer le signal sonore, ouvrir un diagnostic rapide avant la panne bloquante.
+
+Panne n°8: dysfonction du crachoir/unité eau. Cause: calcaire, joints fatigués, défaut de purge. Action: routine de purge, traitement anti-calcaire et remplacement périodique des joints.
+
+Panne n°9: arrêts électriques aléatoires. Cause: multiprises non adaptées, instabilité réseau, connectique faible. Action: audit électrique de la salle et sécurisation des circuits critiques.
+
+Panne n°10: indisponibilité prolongée faute de pièces. Cause: absence de stock minimal et dépendance à des délais import. Action: définir une liste de pièces d’usure critiques avec votre fournisseur et anticiper les approvisionnements.
+
+Pour passer d’un mode réactif à un mode préventif, adoptez un plan simple en 3 niveaux: contrôle opérateur quotidien, vérification technique hebdomadaire, intervention préventive trimestrielle. Pilotez ensuite 4 KPI: taux de disponibilité fauteuil, temps moyen de réparation, coût corrective vs préventive, et nombre d’incidents répétitifs.
+
+AfriSmile accompagne les cabinets au Sénégal avec un plan de maintenance fauteuil orienté continuité clinique: diagnostic, checklists, interventions programmées et suivi SAV local pour réduire les interruptions et protéger votre production.`,
+    faq: [
+      {
+        q: 'Quelle est la panne la plus coûteuse sur un fauteuil dentaire ?',
+        a: 'La plus coûteuse est souvent celle qui immobilise plusieurs créneaux sans solution de secours. Le coût indirect (reports patients, perte d’actes) dépasse souvent la réparation.',
+      },
+      {
+        q: 'À quelle fréquence faut-il faire une maintenance préventive du fauteuil ?',
+        a: 'Un rythme efficace combine contrôle quotidien opérateur, vérification hebdomadaire et maintenance technique programmée chaque trimestre.',
+      },
+      {
+        q: 'AfriSmile peut-il mettre en place un plan maintenance fauteuil clé en main ?',
+        a: 'Oui, AfriSmile peut structurer les checklists, planifier les interventions et assurer un suivi SAV local pour limiter les arrêts non planifiés.',
+      },
+    ],
+  },
+  {
+    id: 27,
+    slug: 'autoclave-dentaire-18l-23l-capacite-guide-flux-patient-2026',
+    title: 'Autoclave dentaire : 18L, 23L ou plus, comment choisir selon votre flux patient en 2026',
+    excerpt: 'Autoclave dentaire à Dakar : choisir 18L, 23L ou capacité supérieure selon volume patient, rotation instrumentale, coût total et objectifs de croissance.',
+    metaTitle: 'Autoclave dentaire 18L ou 23L : guide capacité cabinet | AfriSmile',
+    metaDescription: 'Guide pratique pour choisir la capacité d’autoclave dentaire selon votre flux patient : 18L, 23L ou plus, avec méthode de dimensionnement terrain.',
+    datePublished: '2026-04-27',
+    dateModified: '2026-04-27',
+    content:
+      `Le choix entre un autoclave 18L, 23L ou une capacité supérieure est une décision de productivité, pas uniquement de budget. Dans un cabinet dentaire, la stérilisation détermine le rythme réel de la journée. Si la capacité est trop juste, la rotation instrumentale ralentit, les actes se chevauchent mal et l’équipe travaille sous tension.
+
+Première règle: partez du flux patient, pas de la fiche produit. Mesurez vos actes par jour, le nombre de kits instrumentaux par type d’acte et les pics horaires. C’est ce volume réel qui doit guider la capacité de chambre et le nombre de cycles nécessaires.
+
+Quand un 18L peut suffire: cabinet à faible ou moyen volume, organisation instrumentale disciplinée, peu de pics simultanés, et objectif de maîtrise budgétaire au démarrage. Le 18L reste pertinent si le protocole de stérilisation est strict et que la montée en charge est maîtrisée.
+
+Quand un 23L devient stratégique: volume patient plus élevé, actes variés dans la journée, besoin de marge opérationnelle, réduction des tensions en période de pointe. Pour de nombreux cabinets en croissance, le 23L apporte une sécurité de flux qui compense son coût initial plus élevé.
+
+Quand viser au-delà: structures multi-fauteuils, activité chirurgicale soutenue, ou objectifs de développement rapide. Dans ce cas, l’autoclave doit être dimensionné comme un actif central de continuité, avec maintenance proactive et plan de secours.
+
+Le bon choix dépend aussi de 4 paramètres souvent oubliés: durée réelle des cycles (charge complète), qualité du séchage, ergonomie de chargement, et fiabilité SAV local. Une capacité élevée mal entretenue ne vaut pas mieux qu’une capacité plus petite mais parfaitement exploitée.
+
+Méthode pratique de décision en 5 étapes:
+1) calculez le nombre de kits à traiter sur une journée type,
+2) identifiez les pics de charge,
+3) estimez la marge de sécurité nécessaire (20 à 30%),
+4) comparez coût total sur 3 à 5 ans,
+5) validez le niveau de service technique avant achat.
+
+Le coût total doit intégrer l’installation, la maintenance, les consommables, les arrêts potentiels et la disponibilité des pièces. En B2B dentaire, la rentabilité vient de la continuité de production, pas du prix affiché seul.
+
+AfriSmile accompagne les cabinets au Sénégal et en Afrique de l’Ouest pour dimensionner l’autoclave selon votre flux patient, sécuriser l’installation et mettre en place un suivi technique durable orienté performance clinique.`,
+    faq: [
+      {
+        q: 'Comment savoir si 18L est suffisant pour mon cabinet ?',
+        a: 'Analysez votre volume d’actes, le nombre de kits à stériliser et vos pics horaires. Si la rotation reste fluide avec une marge de sécurité, 18L peut convenir.',
+      },
+      {
+        q: 'Pourquoi beaucoup de cabinets passent-ils au 23L ?',
+        a: 'Le 23L offre plus de marge en période de pointe et réduit le risque de goulot d’étranglement sur la chaîne de stérilisation.',
+      },
+      {
+        q: 'AfriSmile peut-il aider à dimensionner l’autoclave avant devis ?',
+        a: 'Oui, AfriSmile peut analyser votre flux patient, recommander la capacité adaptée et sécuriser l’installation avec support technique.',
+      },
+    ],
+  },
+  {
     id: 26,
     slug: 'equipement-dentaire-dakar-guide-achat-clinique-2026',
     title: 'Équipement dentaire à Dakar : guide d’achat complet pour clinique et cabinet en 2026',

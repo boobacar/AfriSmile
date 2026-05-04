@@ -11,6 +11,16 @@ const defaultRelatedMoneyPages = [
 ]
 
 const relatedBySlug = {
+  'fauteuil-dentaire-senegal-neuf-ou-reconditionne-comparatif-2026': [
+    { to: '/fauteuil-dentaire-senegal', label: 'Comparer les fauteuils dentaires disponibles' },
+    { to: '/service-technique', label: 'Sécuriser la maintenance et le SAV local' },
+    { to: '/contact', label: 'Demander un devis fauteuil personnalisé' },
+  ],
+  'financement-materiel-dentaire-senegal-credit-leasing-cashflow-2026': [
+    { to: '/modeles-achat', label: 'Construire votre modèle d’achat' },
+    { to: '/materiel-dentaire-senegal', label: 'Sélectionner les équipements prioritaires' },
+    { to: '/contact', label: 'Parler à un conseiller financement projet' },
+  ],
   'maintenance-fauteuil-dentaire-10-pannes-frequentes-eviter-2026': [
     { to: '/service-technique', label: 'Mettre en place une maintenance préventive' },
     { to: '/fauteuil-dentaire-senegal', label: 'Choisir un fauteuil fiable et maintenable' },

@@ -49,6 +49,86 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 30,
+    slug: 'fauteuil-dentaire-senegal-neuf-ou-reconditionne-comparatif-2026',
+    title: 'Fauteuil dentaire au Sénégal : neuf ou reconditionné, le comparatif décisionnel 2026',
+    excerpt: 'Fauteuil dentaire neuf vs reconditionné au Sénégal : coût total, risques SAV, disponibilité pièces et méthode B2B pour choisir sans erreur.',
+    metaTitle: 'Fauteuil dentaire Sénégal : neuf vs reconditionné 2026 | AfriSmile',
+    metaDescription: 'Guide expert pour choisir un fauteuil dentaire neuf ou reconditionné au Sénégal : coût total, fiabilité, SAV local et critères de décision.',
+    datePublished: '2026-05-04',
+    dateModified: '2026-05-04',
+    content:
+      `Le dilemme neuf ou reconditionné revient dans presque tous les projets d’équipement dentaire au Sénégal. La question n’est pas seulement budgétaire. Elle touche la continuité clinique, la qualité perçue par les patients, la charge de maintenance et la vitesse de retour sur investissement. Pour un cabinet à Dakar ou en Afrique de l’Ouest, le bon choix est celui qui protège la production sur 3 à 5 ans.
+
+Un fauteuil neuf offre généralement une meilleure prévisibilité technique. Vous bénéficiez d’une garantie constructeur, d’un historique d’usage nul et d’une compatibilité plus simple avec les accessoires récents. C’est souvent la meilleure option pour un cabinet qui ouvre, qui vise un positionnement premium ou qui veut minimiser les aléas durant les 24 premiers mois.
+
+Le fauteuil reconditionné peut être pertinent si le projet impose une contrainte de trésorerie forte au démarrage. Mais cette option doit être traitée comme un achat technique, jamais comme une opportunité prix seule. Il faut exiger un dossier de reconditionnement: pièces remplacées, tests réalisés, niveau d’usure, conformité électrique et hydraulique, disponibilité des pièces critiques.
+
+La bonne méthode consiste à comparer le coût total de possession. Intégrez le prix d’achat, l’installation, la formation équipe, la maintenance préventive, les immobilisations potentielles et la valeur de revente. Dans plusieurs cas, un fauteuil moins cher à l’entrée devient plus coûteux après 18 à 24 mois à cause des interruptions de service.
+
+Côté exploitation, 5 points doivent être audités avant décision: stabilité des mouvements, performance de l’éclairage, qualité des circuits eau/aspiration, ergonomie praticien-assistante, et niveau de bruit moteur. Un test opérationnel en conditions réelles vaut plus qu’une fiche commerciale.
+
+Pour un cabinet en croissance, la question clé est la résilience. Si une panne immobilise un fauteuil principal, l’impact sur le planning et la facturation est immédiat. C’est pourquoi la qualité du SAV local et la disponibilité de pièces d’usure pèsent souvent plus lourd que l’écart de prix initial.
+
+Approche recommandée en B2B: scénario A neuf pour continuité maximale, scénario B reconditionné premium avec garanties renforcées, scénario C mixte (un fauteuil neuf principal et un fauteuil secondaire optimisé budget). Cette logique permet de sécuriser la production tout en maîtrisant la trésorerie.
+
+AfriSmile accompagne les cabinets dentaires au Sénégal pour comparer objectivement neuf et reconditionné, vérifier les risques techniques, chiffrer le coût total et choisir une solution alignée sur vos objectifs cliniques et financiers.`,
+    faq: [
+      {
+        q: 'Un fauteuil reconditionné est-il toujours plus rentable qu’un neuf ?',
+        a: 'Pas forcément. La rentabilité dépend du coût total sur plusieurs années, incluant maintenance, immobilisations et disponibilité des pièces.',
+      },
+      {
+        q: 'Quels documents demander avant d’acheter un fauteuil reconditionné ?',
+        a: 'Demandez un rapport de reconditionnement détaillé, les pièces changées, les tests de performance, la garantie écrite et les conditions SAV.',
+      },
+      {
+        q: 'AfriSmile peut-il comparer plusieurs offres fauteuil avant achat ?',
+        a: 'Oui, AfriSmile peut auditer les offres, comparer les risques techniques et recommander le meilleur choix selon votre budget et votre flux patient.',
+      },
+    ],
+  },
+  {
+    id: 29,
+    slug: 'financement-materiel-dentaire-senegal-credit-leasing-cashflow-2026',
+    title: 'Financement du matériel dentaire au Sénégal : crédit, leasing et pilotage du cash-flow en 2026',
+    excerpt: 'Financer un équipement dentaire au Sénégal : comparer crédit, leasing et achat direct pour préserver la trésorerie et accélérer la rentabilité cabinet.',
+    metaTitle: 'Financement matériel dentaire Sénégal : crédit vs leasing | AfriSmile',
+    metaDescription: 'Guide pratique pour financer votre matériel dentaire au Sénégal : options bancaires, leasing, cash-flow, ROI et critères de décision B2B.',
+    datePublished: '2026-05-04',
+    dateModified: '2026-05-04',
+    content:
+      `Dans un projet d’équipement dentaire, le mode de financement peut avoir plus d’impact que le prix négocié. Au Sénégal, beaucoup de cabinets comparent les devis techniques mais sous-estiment la structure financière. Résultat: tension de trésorerie, reports d’investissements utiles et ralentissement de la croissance clinique.
+
+Trois approches dominent: achat direct, crédit d’investissement, et leasing. L’achat direct réduit la dette, mais mobilise fortement la trésorerie et limite la flexibilité en phase de lancement. Le crédit permet d’étaler l’effort, à condition de calibrer des mensualités compatibles avec le flux patient réel. Le leasing est souvent pertinent pour lisser la charge et préserver le cash pour les consommables, le recrutement et le marketing local.
+
+La meilleure option dépend de votre cycle d’encaissement. Un cabinet qui encaisse rapidement peut supporter un effort mensuel plus élevé. À l’inverse, un modèle avec délais de paiement ou montée en charge progressive doit privilégier une structure qui protège le fonds de roulement.
+
+Pour décider, utilisez une matrice simple sur 5 critères: impact trésorerie à 12 mois, coût total de financement, vitesse de mise en service, souplesse en cas d’évolution, et risque opérationnel si l’activité varie. Cette lecture évite de choisir une solution financière uniquement sur le taux nominal.
+
+Le financement doit aussi intégrer les coûts invisibles: installation, maintenance, pièces d’usure, formation, consommables de démarrage et éventuels arrêts. Un montage “bon marché” peut devenir fragile s’il laisse peu de marge pour le SAV et les imprévus.
+
+En pratique, beaucoup de cabinets performants adoptent une logique mixte: financement structuré pour les actifs lourds (fauteuil, autoclave, imagerie) et trésorerie dédiée pour les consommables et la maintenance préventive. Ce modèle améliore la résilience et accélère la montée en cadence.
+
+Avant signature, sécurisez 4 points contractuels: pénalités de remboursement anticipé, couverture assurance, délais de déblocage, et conditions de maintenance associées. Un contrat bien lu protège autant que le choix de l’équipement.
+
+AfriSmile accompagne les décideurs dentaires à Dakar et en Afrique de l’Ouest pour aligner stratégie d’achat et stratégie de financement, afin de lancer ou développer le cabinet sans casser le cash-flow.`,
+    faq: [
+      {
+        q: 'Le leasing est-il adapté à un cabinet qui démarre ?',
+        a: 'Oui, il peut être très adapté pour préserver la trésorerie initiale, à condition de bien comparer le coût global et les clauses contractuelles.',
+      },
+      {
+        q: 'Quel indicateur suivre pour éviter une tension de trésorerie ?',
+        a: 'Suivez le ratio mensualités d’équipement sur marge opérationnelle mensuelle, avec une marge de sécurité pour maintenance et imprévus.',
+      },
+      {
+        q: 'AfriSmile peut-il aider à structurer un plan d’achat finançable ?',
+        a: 'Oui, AfriSmile peut proposer un phasage d’investissement réaliste, aligné sur vos objectifs cliniques et votre capacité de financement.',
+      },
+    ],
+  },
+  {
     id: 28,
     slug: 'maintenance-fauteuil-dentaire-10-pannes-frequentes-eviter-2026',
     title: 'Maintenance fauteuil dentaire : les 10 pannes fréquentes et comment les éviter en 2026',

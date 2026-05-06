@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "sitemap": "node scripts/generate-sitemap.mjs",
+    "prerender:seo": "node scripts/prerender-seo.mjs",
     "prebuild": "npm run sitemap",
-    "build": "vite build",
+    "build": "vite build && npm run prerender:seo",
     "lint": "eslint .",
     "preview": "vite preview"
   },

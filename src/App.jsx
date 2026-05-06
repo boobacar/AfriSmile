@@ -23,65 +23,7 @@ import AutoclaveDentaireClasseBSenegalPage from './pages/AutoclaveDentaireClasse
 import ScannerIntraOralSenegalPage from './pages/ScannerIntraOralSenegalPage'
 import NotFoundPage from './pages/NotFoundPage'
 import { blogPosts } from './data/siteData'
-
-const seoPages = {
-  '/': {
-    title: 'Matériel dentaire Sénégal & Afrique de l’Ouest | AfriSmile',
-    description:
-      'AfriSmile fournit du matériel dentaire au Sénégal et en Afrique de l’Ouest: fauteuils, stérilisation, imagerie, installation, SAV et accompagnement cabinet.',
-  },
-  '/produits': {
-    title: 'Catalogue matériel dentaire Sénégal | Prix & devis | AfriSmile',
-    description:
-      'Catalogue de matériel dentaire professionnel: fauteuils, compresseurs, autoclaves, imagerie et consommables. Devis rapide à Dakar.',
-  },
-  '/equipement-dentaire-dakar': {
-    title: 'Équipement dentaire à Dakar | Livraison, installation, maintenance',
-    description:
-      'Équipement dentaire à Dakar pour cabinets et cliniques: conseil achat, livraison, installation et maintenance technique locale AfriSmile.',
-  },
-  '/materiel-dentaire-senegal': {
-    title: 'Fournisseur matériel dentaire Sénégal & Afrique de l’Ouest | AfriSmile',
-    description:
-      'Fournisseur de matériel dentaire au Sénégal et en Afrique de l’Ouest pour cabinets privés et centres médicaux: offre complète, mise en service et support terrain.',
-  },
-  '/fauteuil-dentaire-senegal': {
-    title: 'Fauteuil dentaire Sénégal | Comparatif, prix, installation | AfriSmile',
-    description:
-      'Choisissez un fauteuil dentaire adapté à votre cabinet au Sénégal: options, budget, ergonomie, installation et maintenance.',
-  },
-  '/autoclave-dentaire-classe-b-senegal': {
-    title: 'Autoclave dentaire Classe B Sénégal | Vente & mise en service',
-    description:
-      'Autoclaves dentaires Classe B au Sénégal: conformité, cycles de stérilisation, installation et suivi technique AfriSmile.',
-  },
-  '/scanner-intra-oral-senegal': {
-    title: 'Scanner intra-oral Sénégal | Devis & accompagnement | AfriSmile',
-    description:
-      'Scanner intra-oral au Sénégal pour dentistes: productivité, précision clinique, formation et intégration au flux numérique.',
-  },
-  '/blog': {
-    title: 'Blog matériel dentaire Sénégal | Guides achat & conseils | AfriSmile',
-    description:
-      'Guides pratiques AfriSmile: fauteuils, stérilisation, scanner intra-oral et bonnes pratiques pour cabinets dentaires au Sénégal.',
-  },
-  '/contact': {
-    title: 'Devis matériel dentaire Sénégal & Afrique de l’Ouest | AfriSmile',
-    description:
-      'Contactez AfriSmile pour un devis rapide en matériel dentaire au Sénégal et en Afrique de l’Ouest : conseil, livraison, installation et SAV.',
-  },
-  '/modeles-achat': {
-    title: 'Modèles d’achat matériel dentaire au Sénégal | AfriSmile',
-    description:
-      'Comparez les modèles d’achat AfriSmile pour équiper votre cabinet dentaire au Sénégal: devis sur mesure, planification et accompagnement technique.',
-  },
-  '/404': {
-    title: 'Page introuvable | AfriSmile',
-    description:
-      'La page demandée est introuvable. Consultez nos solutions et notre catalogue de matériel dentaire au Sénégal.',
-    robots: 'noindex, follow',
-  },
-}
+import { SITE_ORIGIN, getSeoForPath } from './data/seoData'
 
 const pathLabels = {
   produits: 'Produits',
@@ -112,19 +54,6 @@ function ensureMeta(propertyOrName, attr = 'name') {
     document.head.appendChild(tag)
   }
   return tag
-}
-
-function makeBlogSeo(pathname) {
-  if (!pathname.startsWith('/blog/')) return null
-  const slug = pathname.split('/')[2]
-  const post = blogPosts.find((item) => item.slug === slug)
-  if (!post) return null
-
-  return {
-    title: post.metaTitle || `${post.title} | Blog AfriSmile`,
-    description: post.metaDescription || post.excerpt,
-    imagePath: '/assets/page-blog.jpg',
-  }
 }
 
 function makeBreadcrumbJsonLd(origin, pathname) {
@@ -165,13 +94,12 @@ function SeoHandler() {
   const location = useLocation()
 
   useEffect(() => {
-    const dynamicBlogSeo = makeBlogSeo(location.pathname)
-    const current = dynamicBlogSeo || seoPages[location.pathname] || seoPages['/404']
-    const origin = window.location.origin
-    const canonicalPath = dynamicBlogSeo || seoPages[location.pathname] ? location.pathname : '/404'
-    const canonicalUrl = `${origin}${canonicalPath}`
-    const socialImageUrl = `${origin}${current.imagePath || '/assets/page-home.jpg'}`
-    const robotsContent = current.robots || 'index, follow, max-image-preview:large'
+    const current = getSeoForPath(location.pathname)
+    const origin = SITE_ORIGIN
+    const canonicalPath = current.canonicalPath
+    const canonicalUrl = current.canonicalUrl
+    const socialImageUrl = current.socialImageUrl
+    const robotsContent = current.robots
 
     document.title = current.title
 
@@ -179,7 +107,7 @@ function SeoHandler() {
     ensureMeta('robots').setAttribute('content', robotsContent)
     ensureMeta('og:title', 'property').setAttribute('content', current.title)
     ensureMeta('og:description', 'property').setAttribute('content', current.description)
-    ensureMeta('og:type', 'property').setAttribute('content', 'website')
+    ensureMeta('og:type', 'property').setAttribute('content', current.type || 'website')
     ensureMeta('og:site_name', 'property').setAttribute('content', 'AfriSmile')
     ensureMeta('og:locale', 'property').setAttribute('content', 'fr_SN')
     ensureMeta('og:url', 'property').setAttribute('content', canonicalUrl)

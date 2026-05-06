@@ -11,6 +11,26 @@ const defaultRelatedMoneyPages = [
 ]
 
 const relatedBySlug = {
+  'fauteuil-dentaire-senegal-neuf-ou-reconditionne-comparatif-2026': [
+    { to: '/fauteuil-dentaire-senegal', label: 'Comparer les fauteuils dentaires disponibles' },
+    { to: '/service-technique', label: 'Sécuriser la maintenance et le SAV local' },
+    { to: '/contact', label: 'Demander un devis fauteuil personnalisé' },
+  ],
+  'financement-materiel-dentaire-senegal-credit-leasing-cashflow-2026': [
+    { to: '/modeles-achat', label: 'Construire votre modèle d’achat' },
+    { to: '/materiel-dentaire-senegal', label: 'Sélectionner les équipements prioritaires' },
+    { to: '/contact', label: 'Parler à un conseiller financement projet' },
+  ],
+  'maintenance-fauteuil-dentaire-10-pannes-frequentes-eviter-2026': [
+    { to: '/service-technique', label: 'Mettre en place une maintenance préventive' },
+    { to: '/fauteuil-dentaire-senegal', label: 'Choisir un fauteuil fiable et maintenable' },
+    { to: '/contact', label: 'Demander un audit technique fauteuil' },
+  ],
+  'autoclave-dentaire-18l-23l-capacite-guide-flux-patient-2026': [
+    { to: '/autoclave-dentaire-classe-b-senegal', label: 'Comparer les autoclaves Classe B' },
+    { to: '/materiel-dentaire-senegal', label: 'Voir les équipements de stérilisation' },
+    { to: '/contact', label: 'Demander un devis autoclave adapté' },
+  ],
   'choisir-fauteuil-dentaire-senegal-2026': [
     { to: '/fauteuil-dentaire-senegal', label: 'Comparer les fauteuils dentaires' },
     { to: '/service-technique', label: 'Découvrir le service technique' },
@@ -100,6 +120,31 @@ const relatedBySlug = {
     { to: '/autoclave-dentaire-classe-b-senegal', label: 'Comparer les autoclaves Classe B' },
     { to: '/materiel-dentaire-senegal', label: 'Optimiser votre plateau technique' },
     { to: '/contact', label: 'Obtenir un devis dimensionné à votre flux' },
+  ],
+  'equipement-dentaire-dakar-guide-achat-clinique-2026': [
+    { to: '/equipement-dentaire-dakar', label: 'Équipement dentaire à Dakar' },
+    { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
+    { to: '/contact', label: 'Demander un devis équipement' },
+  ],
+  'fournisseur-materiel-dentaire-afrique-ouest-criteres-fiabilite-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Fournisseur matériel dentaire' },
+    { to: '/service-technique', label: 'Évaluer le SAV local' },
+    { to: '/contact', label: 'Parler à AfriSmile' },
+  ],
+  'imagerie-dentaire-senegal-rvg-panoramique-scanner-choisir-2026': [
+    { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral Sénégal' },
+    { to: '/produits', label: 'Voir les solutions d’imagerie' },
+    { to: '/contact', label: 'Demander une recommandation' },
+  ],
+  'compresseur-aspiration-dentaire-senegal-dimensionnement-maintenance-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Équipements techniques cabinet' },
+    { to: '/service-technique', label: 'Maintenance et SAV' },
+    { to: '/contact', label: 'Dimensionner votre installation' },
+  ],
+  'cabinet-dentaire-senegal-business-plan-equipement-rentabilite-2026': [
+    { to: '/modeles-achat', label: 'Planifier vos achats' },
+    { to: '/materiel-dentaire-senegal', label: 'Construire votre panier matériel' },
+    { to: '/contact', label: 'Chiffrer votre projet' },
   ],
 }
 

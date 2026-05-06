@@ -17,11 +17,12 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="font-semibold text-white">Navigation</h3>
+          <h3 className="font-semibold text-white">Pages utiles</h3>
           <ul className="mt-3 space-y-2 text-sm text-slate-300">
             <li><Link to="/produits" className="transition hover:text-white">Produits</Link></li>
-            <li><Link to="/solutions-cabinets" className="transition hover:text-white">Solutions</Link></li>
-            <li><Link to="/service-technique" className="transition hover:text-white">Service technique</Link></li>
+            <li><Link to="/materiel-dentaire-senegal" className="transition hover:text-white">Matériel dentaire Sénégal</Link></li>
+            <li><Link to="/equipement-dentaire-dakar" className="transition hover:text-white">Équipement dentaire Dakar</Link></li>
+            <li><Link to="/service-technique" className="transition hover:text-white">SAV matériel dentaire</Link></li>
             <li><Link to="/contact" className="transition hover:text-white">Contact / devis</Link></li>
           </ul>
         </div>

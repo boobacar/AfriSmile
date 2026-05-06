@@ -40,6 +40,20 @@ export default function FauteuilDentaireSenegalPage() {
       </section>
 
       <section className="section-shell">
+        <h2 className="section-title">Prix, installation et coût total</h2>
+        <p className="section-subtitle">
+          Le prix d’un fauteuil dentaire au Sénégal varie selon la marque, les options, l’unité d’instruments,
+          la lampe, l’aspiration, les raccordements et le niveau de maintenance. Un devis fiable doit intégrer
+          l’installation, la formation de l’équipe, les pièces d’usure et le support technique après mise en service.
+        </p>
+        <div className="mt-4 grid gap-3 md:grid-cols-3">
+          <div className="card-muted text-sm text-slate-700"><strong>Cabinet en ouverture</strong><br/>Priorité à la fiabilité, au confort patient et à une configuration simple à maintenir.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Cabinet en croissance</strong><br/>Options évolutives, ergonomie renforcée et anticipation d’un deuxième poste de soin.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Clinique multi-praticiens</strong><br/>Standardisation des modèles, planning de maintenance et disponibilité des pièces.</div>
+        </div>
+      </section>
+
+      <section className="section-shell">
         <h2 className="section-title">FAQ fauteuil dentaire Sénégal</h2>
         <div className="mt-4 grid gap-3">
           {faqs.map((item) => (

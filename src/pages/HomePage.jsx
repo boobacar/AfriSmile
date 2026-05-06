@@ -13,7 +13,7 @@ export default function HomePage() {
     <main className="container-page page-wrap space-y-10">
       <PageHero
         eyebrow="Distributeur dentaire professionnel"
-        title="Équipez votre cabinet avec une expérience d’achat claire, fiable et premium"
+        title="Matériel dentaire au Sénégal pour équiper votre cabinet avec confiance"
         subtitle="AfriSmile accompagne les dentistes avec des équipements performants, une logistique locale et un support technique terrain pour accélérer vos décisions d’investissement."
         image="/assets/page-home.jpg"
         chips={['Dakar & régions', 'Devis personnalisés', 'Accompagnement de bout en bout']}

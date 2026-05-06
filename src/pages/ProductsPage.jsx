@@ -61,7 +61,7 @@ export default function ProductsPage() {
 
       <PageHero
         eyebrow="Catalogue professionnel"
-        title="Produits dentaires sélectionnés pour performance et fiabilité"
+        title="Catalogue de matériel dentaire professionnel au Sénégal"
         subtitle="Fauteuils, consommables, instruments, stérilisation et radiologie avec accompagnement de configuration, installation et service."
         showImage={false}
         chips={['Tarifs en FCFA', 'Stock & commande sur devis', 'Fiches techniques disponibles']}
@@ -98,6 +98,20 @@ export default function ProductsPage() {
           <a href="/fauteuil-dentaire-senegal" className="btn-secondary">Fauteuil dentaire Sénégal</a>
           <a href="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Autoclave Classe B</a>
           <a href="/scanner-intra-oral-senegal" className="btn-secondary">Scanner intra-oral</a>
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Comment obtenir un prix fiable</h2>
+        <p className="section-subtitle">
+          Le prix d’un équipement dentaire dépend de la configuration du cabinet, des options cliniques,
+          de l’installation et du niveau de maintenance attendu. AfriSmile prépare des devis en FCFA avec
+          les postes essentiels séparés pour comparer le coût réel avant achat.
+        </p>
+        <div className="mt-4 grid gap-3 md:grid-cols-3">
+          <div className="card-muted text-sm text-slate-700"><strong>1. Besoin clinique</strong><br/>Fauteuil, stérilisation, imagerie, instrumentation ou consommables prioritaires.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>2. Contraintes du local</strong><br/>Électricité, eau, aspiration, accès technique et planning de mise en service.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>3. Support après achat</strong><br/>Formation, pièces, maintenance préventive et délais d’intervention SAV.</div>
         </div>
       </section>
 

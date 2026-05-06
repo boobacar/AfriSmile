@@ -56,6 +56,19 @@ export default function ServiceTechniquePage() {
           })}
         </div>
       </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">SAV matériel dentaire au Sénégal</h2>
+        <p className="section-subtitle">
+          Un bon service technique réduit les annulations de rendez-vous, protège le chiffre d’affaires
+          et prolonge la durée de vie des fauteuils, autoclaves, compresseurs, aspirations et solutions d’imagerie.
+        </p>
+        <div className="mt-4 grid gap-3 md:grid-cols-3">
+          <div className="card-muted text-sm text-slate-700"><strong>Diagnostic</strong><br/>Qualification de la panne, priorité selon criticité et recommandation d’intervention.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Préventif</strong><br/>Contrôles planifiés pour limiter les arrêts et anticiper les pièces d’usure.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Suivi</strong><br/>Conseils d’utilisation, historique d’incidents et amélioration continue du parc matériel.</div>
+        </div>
+      </section>
     </main>
   )
 }

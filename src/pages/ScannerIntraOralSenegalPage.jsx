@@ -40,6 +40,20 @@ export default function ScannerIntraOralSenegalPage() {
       </section>
 
       <section className="section-shell">
+        <h2 className="section-title">Prix, ROI et intégration laboratoire</h2>
+        <p className="section-subtitle">
+          Le choix d’un scanner intra-oral ne se limite pas au prix d’achat. Il faut vérifier la compatibilité
+          logicielle, les coûts d’abonnement éventuels, la formation de l’équipe, le temps gagné en empreinte
+          et la qualité de collaboration avec le laboratoire prothétique.
+        </p>
+        <div className="mt-4 grid gap-3 md:grid-cols-3">
+          <div className="card-muted text-sm text-slate-700"><strong>Cas fréquents</strong><br/>Prothèse, esthétique, orthodontie, implantologie et communication patient.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Critères techniques</strong><br/>Précision, rapidité, ergonomie, format d’export et stabilité du logiciel.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Accompagnement</strong><br/>Démonstration, formation, intégration workflow et support après installation.</div>
+        </div>
+      </section>
+
+      <section className="section-shell">
         <h2 className="section-title">FAQ scanner intra-oral Sénégal</h2>
         <div className="mt-4 grid gap-3">
           {faqs.map((item) => (

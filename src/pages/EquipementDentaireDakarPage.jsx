@@ -33,6 +33,26 @@ export default function EquipementDentaireDakarPage() {
       <section className="section-shell">
         <h2 className="section-title">Pourquoi AfriSmile à Dakar</h2>
         <p className="section-subtitle">Un interlocuteur unique pour accélérer vos décisions d’investissement et sécuriser votre exploitation quotidienne.</p>
+        <div className="mt-4 grid gap-3 md:grid-cols-3">
+          <div className="card-muted text-sm text-slate-700"><strong>Audit du besoin</strong><br/>Nous cadrons votre spécialité, le volume patient, le budget et les priorités d’ouverture.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Installation locale</strong><br/>Préparation du local, livraison, raccordements, tests et mise en service des équipements.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>SAV à Dakar</strong><br/>Maintenance préventive, diagnostic rapide, pièces selon disponibilité et suivi après installation.</div>
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Équipements les plus demandés à Dakar</h2>
+        <p className="section-subtitle">
+          Les projets d’ouverture et de modernisation commencent souvent par un socle fiable: fauteuil dentaire,
+          autoclave Classe B, compresseur, aspiration, instrumentation et imagerie. AfriSmile aide à prioriser
+          les achats pour éviter les surcoûts et les retards de démarrage.
+        </p>
+        <div className="mt-4 flex flex-wrap gap-2 text-sm">
+          <Link to="/fauteuil-dentaire-senegal" className="btn-secondary">Fauteuil dentaire</Link>
+          <Link to="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Autoclave Classe B</Link>
+          <Link to="/scanner-intra-oral-senegal" className="btn-secondary">Scanner intra-oral</Link>
+          <Link to="/contact" className="btn-primary">Recevoir un devis Dakar</Link>
+        </div>
       </section>
 
       <section className="section-shell">

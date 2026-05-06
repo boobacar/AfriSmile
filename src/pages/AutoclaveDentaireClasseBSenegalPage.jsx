@@ -32,6 +32,21 @@ export default function AutoclaveDentaireClasseBSenegalPage() {
       <section className="section-shell">
         <h2 className="section-title">Points de contrôle avant achat</h2>
         <p className="section-subtitle">Capacité utile, durée des cycles, traçabilité, disponibilité des pièces, et plan de maintenance préventive.</p>
+        <div className="mt-4 grid gap-3 md:grid-cols-2">
+          <div className="card-muted text-sm text-slate-700"><strong>Dimensionnement</strong><br/>Choisir le volume utile selon le nombre de praticiens, la rotation instrumentale et les pics d’activité.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Mise en service</strong><br/>Contrôle de l’eau, test des cycles, formation équipe et consignes de traçabilité dès l’installation.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Maintenance</strong><br/>Planifier les contrôles, joints, filtres et consommables pour limiter les arrêts de stérilisation.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Devis complet</strong><br/>Comparer prix, capacité, garantie, disponibilité pièces et accompagnement technique au Sénégal.</div>
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Quand remplacer ou ajouter un autoclave</h2>
+        <p className="section-subtitle">
+          Un autoclave sous-dimensionné ralentit les soins et augmente le risque d’erreur de protocole.
+          En cas d’ouverture de cabinet, de hausse du volume patient ou de spécialités chirurgicales, AfriSmile
+          aide à choisir une Classe B adaptée au rythme réel du cabinet.
+        </p>
       </section>
 
       <section className="section-shell">

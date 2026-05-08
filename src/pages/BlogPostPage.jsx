@@ -11,6 +11,31 @@ const defaultRelatedMoneyPages = [
 ]
 
 const relatedBySlug = {
+  'devis-materiel-dentaire-senegal-7-questions-avant-acheter-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Comparer les équipements dentaires' },
+    { to: '/modeles-achat', label: 'Structurer votre modèle d’achat' },
+    { to: '/contact', label: 'Demander un devis complet' },
+  ],
+  'pack-ouverture-cabinet-dentaire-senegal-budget-priorites-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Construire votre pack matériel' },
+    { to: '/solutions-cabinets', label: 'Préparer l’ouverture du cabinet' },
+    { to: '/contact', label: 'Chiffrer votre projet d’ouverture' },
+  ],
+  'prix-fauteuil-dentaire-dakar-ce-qui-fait-varier-devis-2026': [
+    { to: '/fauteuil-dentaire-senegal', label: 'Comparer les fauteuils dentaires' },
+    { to: '/equipement-dentaire-dakar', label: 'Équiper un cabinet à Dakar' },
+    { to: '/contact', label: 'Demander un devis fauteuil' },
+  ],
+  'autoclave-classe-b-prix-senegal-erreurs-devis-2026': [
+    { to: '/autoclave-dentaire-classe-b-senegal', label: 'Choisir un autoclave Classe B' },
+    { to: '/service-technique', label: 'Sécuriser maintenance et SAV' },
+    { to: '/contact', label: 'Recevoir un devis autoclave' },
+  ],
+  'scanner-intra-oral-senegal-questions-demo-avant-devis-2026': [
+    { to: '/scanner-intra-oral-senegal', label: 'Voir les scanners intra-oraux' },
+    { to: '/solutions-cabinets', label: 'Moderniser le workflow cabinet' },
+    { to: '/contact', label: 'Planifier une démonstration' },
+  ],
   'fauteuil-dentaire-senegal-neuf-ou-reconditionne-comparatif-2026': [
     { to: '/fauteuil-dentaire-senegal', label: 'Comparer les fauteuils dentaires disponibles' },
     { to: '/service-technique', label: 'Sécuriser la maintenance et le SAV local' },

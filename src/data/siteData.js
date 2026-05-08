@@ -49,6 +49,224 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 35,
+    slug: 'devis-materiel-dentaire-senegal-7-questions-avant-acheter-2026',
+    title: 'Devis matériel dentaire au Sénégal : 7 questions à poser avant d’acheter en 2026',
+    excerpt: 'Avant de valider un devis de matériel dentaire au Sénégal, vérifiez ces 7 points pour éviter les coûts cachés, les retards et les erreurs de SAV.',
+    metaTitle: 'Devis matériel dentaire Sénégal : 7 questions avant achat | AfriSmile',
+    metaDescription: 'Guide pratique pour analyser un devis de matériel dentaire au Sénégal : prix, installation, garantie, maintenance, pièces et accompagnement AfriSmile.',
+    datePublished: '2026-05-08',
+    dateModified: '2026-05-08',
+    content:
+      `Un devis de matériel dentaire ne doit jamais être lu comme une simple addition de prix. Pour un cabinet au Sénégal, il doit confirmer que l’équipement choisi peut être livré, installé, maintenu et rentabilisé dans des conditions réelles. Les mauvaises surprises viennent souvent de lignes absentes: raccordement, formation, consommables de démarrage, pièces d’usure ou maintenance préventive.
+
+Question 1: le devis précise-t-il exactement les références, options et accessoires inclus ? Un fauteuil dentaire, un autoclave ou un capteur RVG peuvent changer fortement de valeur selon la configuration. Demandez une description claire, pas seulement un nom commercial.
+
+Question 2: l’installation est-elle incluse et cadrée ? Le devis doit indiquer les prérequis du local, les raccordements, la mise en service, les tests et la formation de l’équipe. Sans ce cadrage, un prix attractif peut générer des frais supplémentaires au moment du déploiement.
+
+Question 3: quelle garantie s’applique vraiment au Sénégal ? Vérifiez la durée, les exclusions, la procédure SAV, les pièces couvertes et le délai de prise en charge. Une garantie utile est une garantie compréhensible et actionnable localement.
+
+Question 4: les pièces critiques sont-elles disponibles ? Pour un cabinet, l’enjeu n’est pas seulement de réparer, mais de réduire le temps d’arrêt. Demandez quelles pièces d’usure sont suivies: joints, filtres, flexibles, cartes, lampes, pédales, instruments et consommables liés.
+
+Question 5: le devis intègre-t-il le coût total de possession ? Ajoutez transport, installation, maintenance annuelle, consommables, formation et risque d’immobilisation. Cette lecture montre souvent qu’une offre moins chère à l’achat peut coûter plus cher sur 24 à 36 mois.
+
+Question 6: le fournisseur peut-il expliquer le choix selon votre flux patient ? Un bon devis est adapté à vos actes, votre volume, votre budget et votre trajectoire de croissance. S’il ne tient pas compte du quotidien clinique, il reste incomplet.
+
+Question 7: quelles sont les prochaines étapes après validation ? Le planning de livraison, la préparation du local, la mise en service et le suivi post-installation doivent être visibles dès le départ. Cela réduit les retards et protège l’ouverture ou la continuité du cabinet.
+
+Avant de signer, comparez les devis sur une grille simple: conformité au besoin, qualité d’installation, robustesse du SAV, coût total et capacité à évoluer. Cette méthode évite de choisir uniquement le prix le plus bas.
+
+AfriSmile accompagne les cabinets dentaires au Sénégal pour construire des devis lisibles, comparer les scénarios d’achat et sécuriser l’installation avec un support terrain orienté continuité clinique.`,
+    faq: [
+      {
+        q: 'Pourquoi comparer plusieurs devis de matériel dentaire ?',
+        a: 'Parce que deux devis peuvent inclure des niveaux très différents d’installation, garantie, accessoires, maintenance et pièces disponibles.',
+      },
+      {
+        q: 'Quel est le piège le plus fréquent dans un devis dentaire ?',
+        a: 'Le piège le plus fréquent est de comparer seulement le prix d’achat sans intégrer installation, SAV, consommables, formation et coût d’arrêt.',
+      },
+      {
+        q: 'AfriSmile peut-il préparer un devis complet pour ouverture de cabinet ?',
+        a: 'Oui, AfriSmile peut structurer un devis selon votre local, vos actes, votre budget et votre planning de démarrage.',
+      },
+    ],
+  },
+  {
+    id: 34,
+    slug: 'pack-ouverture-cabinet-dentaire-senegal-budget-priorites-2026',
+    title: 'Pack ouverture cabinet dentaire au Sénégal : budget, priorités et erreurs à éviter en 2026',
+    excerpt: 'Ouvrir un cabinet dentaire au Sénégal : le pack matériel prioritaire, les postes de budget à prévoir et la méthode pour acheter par étapes.',
+    metaTitle: 'Pack ouverture cabinet dentaire Sénégal : budget 2026 | AfriSmile',
+    metaDescription: 'Checklist d’équipement pour ouvrir un cabinet dentaire au Sénégal : fauteuil, autoclave, instruments, imagerie, consommables, installation et SAV.',
+    datePublished: '2026-05-08',
+    dateModified: '2026-05-08',
+    content:
+      `Le bon pack d’ouverture d’un cabinet dentaire au Sénégal doit permettre de démarrer vite, soigner correctement et garder une marge financière pour les premiers mois d’activité. Acheter trop peu bloque la production. Acheter trop large consomme la trésorerie avant que le flux patient soit stabilisé.
+
+Le socle prioritaire commence par le fauteuil dentaire, l’unit, l’éclairage, l’aspiration et les instruments de base. Ce bloc conditionne l’ergonomie, la cadence des actes et la perception patient. Il doit être choisi avec une logique de fiabilité, pas seulement de prix.
+
+Deuxième priorité: la stérilisation. Un autoclave Classe B, des sachets, des bacs ultrasons, une zone propre et un protocole simple sont indispensables pour sécuriser les actes. La stérilisation doit être pensée comme un flux quotidien, pas comme un équipement isolé.
+
+Troisième priorité: l’air, l’aspiration et les consommables critiques. Compresseur, aspiration, gants, bavettes, aiguilles, fraises, instrumentation diagnostique et produits d’hygiène doivent être disponibles dès le premier jour. Un cabinet peut avoir un bon fauteuil et perdre du temps faute de consommables.
+
+Quatrième priorité: l’imagerie selon le positionnement. Un capteur RVG peut devenir rapidement rentable pour l’omnipratique et l’endodontie. Le scanner intra-oral ou le panoramique se justifient davantage selon la stratégie clinique, le volume et le plan de développement.
+
+Pour maîtriser le budget, classez chaque achat en trois catégories: indispensable au démarrage, utile dans les 90 jours, évolutif après traction patient. Cette méthode évite de bloquer l’ouverture à cause d’un équipement non prioritaire.
+
+Les erreurs fréquentes sont simples: sous-estimer l’installation, oublier la maintenance, acheter sans disponibilité de pièces, négliger la préparation du local et ne pas prévoir de stock consommables. Ces erreurs créent des retards ou des arrêts dès les premières semaines.
+
+Un pack d’ouverture efficace doit aussi inclure un planning: validation du local, prérequis techniques, livraison, installation, tests, formation équipe et suivi après mise en service. Ce planning vaut autant que le choix des marques.
+
+AfriSmile aide les praticiens à construire un pack d’ouverture réaliste pour le Sénégal: matériel prioritaire, devis progressif, installation, formation et SAV local pour lancer le cabinet avec moins d’incertitude.`,
+    faq: [
+      {
+        q: 'Quel matériel acheter en premier pour ouvrir un cabinet dentaire ?',
+        a: 'Priorisez fauteuil, stérilisation, compresseur, aspiration, instruments de base, consommables critiques et imagerie selon votre activité.',
+      },
+      {
+        q: 'Faut-il tout acheter avant l’ouverture ?',
+        a: 'Non. Le plus efficace est souvent de sécuriser le socle indispensable, puis d’ajouter les équipements évolutifs selon le flux patient.',
+      },
+      {
+        q: 'AfriSmile peut-il proposer un pack d’ouverture sur mesure ?',
+        a: 'Oui, AfriSmile peut construire un pack adapté au local, au budget, aux actes prévus et au calendrier d’ouverture.',
+      },
+    ],
+  },
+  {
+    id: 33,
+    slug: 'prix-fauteuil-dentaire-dakar-ce-qui-fait-varier-devis-2026',
+    title: 'Prix d’un fauteuil dentaire à Dakar : ce qui fait vraiment varier le devis en 2026',
+    excerpt: 'Le prix d’un fauteuil dentaire à Dakar dépend des options, de l’installation, du SAV et des pièces. Voici comment lire un devis sans se tromper.',
+    metaTitle: 'Prix fauteuil dentaire Dakar : comprendre le devis 2026 | AfriSmile',
+    metaDescription: 'Découvrez les facteurs qui font varier le prix d’un fauteuil dentaire à Dakar : options, marque, installation, garantie, maintenance et SAV.',
+    datePublished: '2026-05-08',
+    dateModified: '2026-05-08',
+    content:
+      `Le prix d’un fauteuil dentaire à Dakar varie fortement parce qu’un fauteuil n’est pas un produit unique. Deux modèles peuvent sembler comparables sur photo, mais différer sur la motorisation, l’unit, la lampe, les instruments, l’aspiration, la qualité des circuits, la sellerie, la garantie et le niveau de service technique.
+
+Premier facteur: la configuration clinique. Un fauteuil destiné à l’omnipratique simple n’a pas les mêmes besoins qu’un fauteuil orienté chirurgie, prothèse ou activité à fort volume. Plus les options sont nombreuses, plus le devis doit être précis.
+
+Deuxième facteur: la marque et la disponibilité des pièces. Un prix bas perd son intérêt si les composants critiques sont difficiles à remplacer. À Dakar, la valeur réelle d’un fauteuil dépend beaucoup de la capacité du fournisseur à diagnostiquer et intervenir rapidement.
+
+Troisième facteur: l’installation. Raccordements eau, air, aspiration, électricité, évacuation, tests et formation peuvent être inclus ou facturés séparément. Un devis sérieux doit préciser ce qui est compris dans la mise en service.
+
+Quatrième facteur: la garantie et la maintenance. Un fauteuil bien accompagné peut coûter plus cher à l’achat mais réduire les interruptions, les reprises et les urgences techniques. Le coût pertinent est donc le coût total sur plusieurs années.
+
+Cinquième facteur: le niveau de confort praticien-patient. Ergonomie, fluidité des mouvements, bruit, éclairage et positionnement influencent directement la productivité et la qualité perçue. Ces éléments peuvent justifier un investissement supérieur si le cabinet vise un volume soutenu.
+
+Pour analyser un devis, demandez une ventilation claire: fauteuil, accessoires, instruments, installation, transport, garantie, maintenance et pièces recommandées. Cela permet de comparer les offres sur la même base.
+
+La bonne question n’est pas seulement “combien coûte le fauteuil ?”, mais “combien me coûte une journée d’arrêt ?”. Si le fauteuil est central dans la production, la fiabilité et le SAV deviennent des critères économiques majeurs.
+
+AfriSmile accompagne les cabinets à Dakar pour comparer les fauteuils dentaires, lire les devis, sécuriser l’installation et choisir une configuration cohérente avec le budget et le flux patient.`,
+    faq: [
+      {
+        q: 'Pourquoi les prix de fauteuils dentaires varient-ils autant ?',
+        a: 'Les différences viennent des options, de la marque, de l’installation, de la garantie, du SAV, des accessoires et de la disponibilité des pièces.',
+      },
+      {
+        q: 'Quel élément vérifier en priorité dans un devis fauteuil ?',
+        a: 'Vérifiez ce qui est inclus dans l’installation et le niveau de support technique local après mise en service.',
+      },
+      {
+        q: 'AfriSmile peut-il recommander un fauteuil selon mon budget ?',
+        a: 'Oui, AfriSmile peut comparer plusieurs configurations et proposer un fauteuil adapté à votre activité, votre local et votre budget.',
+      },
+    ],
+  },
+  {
+    id: 32,
+    slug: 'autoclave-classe-b-prix-senegal-erreurs-devis-2026',
+    title: 'Autoclave Classe B au Sénégal : prix, devis et 6 erreurs qui coûtent cher en 2026',
+    excerpt: 'Acheter un autoclave Classe B au Sénégal : les erreurs de capacité, installation, maintenance et consommables qui font grimper le coût réel.',
+    metaTitle: 'Autoclave Classe B Sénégal : prix, devis, erreurs 2026 | AfriSmile',
+    metaDescription: 'Guide pour acheter un autoclave Classe B au Sénégal : capacité 18L/23L, prix réel, installation, maintenance, consommables et SAV.',
+    datePublished: '2026-05-08',
+    dateModified: '2026-05-08',
+    content:
+      `Le prix d’un autoclave Classe B au Sénégal ne se résume pas à la capacité affichée. Un 18L, un 23L ou un modèle supérieur peuvent avoir des performances très différentes selon la qualité des cycles, le séchage, la traçabilité, la maintenance et la disponibilité des pièces.
+
+Erreur 1: choisir uniquement le prix le plus bas. En stérilisation, un arrêt d’autoclave ralentit toute la journée clinique. Le coût réel inclut donc la fiabilité, le SAV, les consommables et la capacité à maintenir le flux patient.
+
+Erreur 2: sous-dimensionner la capacité. Un cabinet qui monte vite en charge peut saturer un petit autoclave et multiplier les cycles. Le bon volume dépend du nombre de kits, des actes, des pics horaires et de la marge de sécurité nécessaire.
+
+Erreur 3: oublier la qualité de l’eau et l’environnement d’installation. Un autoclave mal alimenté, mal ventilé ou installé sans contrôle technique s’use plus vite. Les prérequis doivent être validés avant livraison.
+
+Erreur 4: négliger les consommables. Sachets, indicateurs, produits de nettoyage, filtres et accessoires doivent être disponibles. Un autoclave sans consommables suivis devient un point de friction opérationnelle.
+
+Erreur 5: ne pas prévoir la maintenance préventive. Les joints, filtres, pompes et contrôles de performance doivent être suivis. La maintenance programmée coûte souvent moins cher qu’un arrêt non planifié.
+
+Erreur 6: ne pas former l’équipe. Mauvais chargement, cycles mal sélectionnés, absence de nettoyage ou traçabilité insuffisante peuvent réduire la performance même avec un bon équipement.
+
+Pour lire un devis, exigez une réponse claire sur 5 points: capacité utile, installation, garantie, maintenance, consommables disponibles. Ajoutez ensuite une estimation de coût total sur 3 ans pour comparer objectivement.
+
+AfriSmile accompagne les cabinets au Sénégal dans le choix de l’autoclave Classe B, le dimensionnement selon le flux patient, l’installation et le suivi technique pour sécuriser la chaîne de stérilisation.`,
+    faq: [
+      {
+        q: 'Un autoclave 18L suffit-il pour un cabinet dentaire ?',
+        a: 'Il peut suffire pour un flux modéré, mais il faut calculer le nombre de kits, les pics horaires et la marge de sécurité nécessaire.',
+      },
+      {
+        q: 'Que doit inclure un devis d’autoclave Classe B ?',
+        a: 'Le devis doit préciser capacité, installation, garantie, maintenance, consommables, formation et conditions de SAV.',
+      },
+      {
+        q: 'AfriSmile installe-t-il les autoclaves au Sénégal ?',
+        a: 'Oui, AfriSmile accompagne le choix, la livraison, l’installation, la formation et le suivi technique des autoclaves.',
+      },
+    ],
+  },
+  {
+    id: 31,
+    slug: 'scanner-intra-oral-senegal-questions-demo-avant-devis-2026',
+    title: 'Scanner intra-oral au Sénégal : 9 questions à poser pendant une démo avant devis',
+    excerpt: 'Avant d’acheter un scanner intra-oral au Sénégal, utilisez ces 9 questions pour évaluer précision, workflow, formation, SAV et rentabilité.',
+    metaTitle: 'Scanner intra-oral Sénégal : questions démo avant devis | AfriSmile',
+    metaDescription: 'Préparez votre démo de scanner intra-oral au Sénégal : précision, logiciels, formation, laboratoire, coût, ROI, maintenance et intégration cabinet.',
+    datePublished: '2026-05-08',
+    dateModified: '2026-05-08',
+    content:
+      `Une démo de scanner intra-oral doit prouver plus qu’une belle image 3D. Pour un cabinet au Sénégal, elle doit montrer comment l’outil s’intègre au fauteuil, au laboratoire, au planning et au modèle économique. Les bonnes questions évitent d’acheter une technologie sous-utilisée.
+
+Question 1: combien de temps faut-il pour scanner une arcade complète dans des conditions réelles ? Le temps annoncé doit être vérifié avec un patient ou un cas proche de votre pratique.
+
+Question 2: quelle est la précision sur les cas que vous traitez le plus ? Prothèse, orthodontie, implantologie et esthétique n’ont pas les mêmes exigences. La démo doit correspondre à vos actes prioritaires.
+
+Question 3: le logiciel est-il simple pour l’équipe ? Un scanner rentable est utilisé régulièrement. Si l’interface ralentit le praticien ou l’assistante, l’adoption sera plus faible.
+
+Question 4: comment les fichiers sont-ils envoyés au laboratoire ? Vérifiez les formats, la compatibilité, les délais, la traçabilité et les coûts éventuels liés à la plateforme.
+
+Question 5: quelle formation est incluse ? La formation doit couvrir la prise d’empreinte, les erreurs fréquentes, la communication patient et la gestion des fichiers.
+
+Question 6: quels coûts reviennent chaque année ? Licences, mises à jour, support logiciel, accessoires et maintenance doivent être intégrés au calcul ROI.
+
+Question 7: comment le scanner améliore-t-il l’acceptation des plans de traitement ? La visualisation patient peut devenir un levier commercial si elle est utilisée avec méthode.
+
+Question 8: que se passe-t-il en cas de panne ou de blocage logiciel ? Demandez les délais de support, les procédures de diagnostic et le niveau d’assistance locale.
+
+Question 9: quel volume d’actes faut-il pour rentabiliser l’investissement ? Le calcul doit partir de vos cas mensuels, des reprises évitées, du temps gagné et de la collaboration labo.
+
+Après la démo, notez l’outil sur 5 critères: rapidité, précision, simplicité, intégration labo et rentabilité. Cette grille rend la décision plus objective.
+
+AfriSmile accompagne les cabinets au Sénégal pour choisir un scanner intra-oral, organiser une démo utile, former l’équipe et intégrer le flux numérique au quotidien clinique.`,
+    faq: [
+      {
+        q: 'Une démo de scanner intra-oral suffit-elle pour décider ?',
+        a: 'Elle est indispensable, mais elle doit être complétée par une analyse ROI, une vérification de l’intégration labo et un plan de formation.',
+      },
+      {
+        q: 'Quel critère compte le plus pour rentabiliser un scanner ?',
+        a: 'L’usage régulier sur des actes rentables compte plus que la fiche technique seule. L’adoption par l’équipe est déterminante.',
+      },
+      {
+        q: 'AfriSmile peut-il organiser une démonstration scanner ?',
+        a: 'Oui, AfriSmile peut accompagner la sélection, la démonstration, le devis et l’intégration du scanner intra-oral.',
+      },
+    ],
+  },
+  {
     id: 30,
     slug: 'fauteuil-dentaire-senegal-neuf-ou-reconditionne-comparatif-2026',
     title: 'Fauteuil dentaire au Sénégal : neuf ou reconditionné, le comparatif décisionnel 2026',

@@ -49,6 +49,86 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 32,
+    slug: 'amenagement-salle-sterilisation-cabinet-dentaire-senegal-normes-flux-2026',
+    title: 'Aménagement de la salle de stérilisation d’un cabinet dentaire au Sénégal : normes, flux et erreurs coûteuses en 2026',
+    excerpt: 'Salle de stérilisation dentaire au Sénégal : organiser les flux, choisir les équipements et éviter les erreurs qui bloquent la productivité clinique.',
+    metaTitle: 'Salle de stérilisation dentaire Sénégal : guide 2026 | AfriSmile',
+    metaDescription: 'Guide expert pour aménager une salle de stérilisation dentaire au Sénégal : flux propre/sale, autoclave, traçabilité et plan d’action opérationnel.',
+    datePublished: '2026-05-11',
+    dateModified: '2026-05-11',
+    content:
+      `Dans un cabinet dentaire à Dakar, la salle de stérilisation n’est pas une pièce secondaire. C’est un centre de production clinique. Quand elle est mal pensée, toute la journée se ralentit: instruments en attente, équipe sous pression, retards patients et risque de non-conformité. Quand elle est bien conçue, elle fluidifie le travail, protège la qualité des soins et sécurise votre chiffre d’affaires.
+
+Le principe de base est simple: séparer clairement le sale, le propre et le stérile. Pourtant, sur le terrain, beaucoup de cabinets mélangent les flux par manque de plan initial. Résultat, les manipulations augmentent, les risques aussi, et le temps opératoire s’allonge. Un bon aménagement réduit ces frictions dès le premier mois.
+
+Commencez par cartographier votre flux réel: combien de kits instrumentaux entrent chaque heure, combien de cycles autoclave sont nécessaires, et où se créent les bouchons. Cette analyse permet de dimensionner la zone de pré-désinfection, la zone de conditionnement, la zone de stérilisation et le stockage stérile sans surinvestir.
+
+Côté équipements, trois priorités dominent: un autoclave Classe B fiable, des plans de travail résistants à l’humidité, et une traçabilité exploitable. La traçabilité n’est pas qu’un document qualité. C’est un levier de pilotage pour détecter les retards de cycle, les erreurs de conditionnement et les incidents récurrents.
+
+L’ergonomie est souvent négligée. Pourtant, quelques décisions simples changent la performance: sens unique de circulation, hauteur de plan adaptée, accès immédiat aux consommables critiques, et routine visuelle claire pour l’équipe. Ces points réduisent la fatigue, limitent les oublis et accélèrent la rotation.
+
+En Afrique de l’Ouest, il faut aussi intégrer la robustesse opérationnelle: stabilité électrique, qualité de l’eau, maintenance planifiée, et disponibilité locale des pièces d’usure. Une salle bien aménagée mais mal maintenue retombe vite en mode urgence.
+
+Méthode B2B recommandée en 5 étapes: audit de flux, zoning fonctionnel, sélection technique des équipements, protocole équipe, et plan de maintenance trimestriel. Cette approche vous donne une salle de stérilisation qui soutient réellement la croissance du cabinet.
+
+AfriSmile accompagne les cabinets dentaires au Sénégal pour concevoir et équiper des salles de stérilisation performantes, conformes et orientées productivité, avec un support terrain de l’étude au suivi technique.`,
+    faq: [
+      {
+        q: 'Quelle est l’erreur la plus fréquente dans une salle de stérilisation dentaire ?',
+        a: 'Le mélange des flux sale et propre. Cette erreur augmente les manipulations, ralentit les cycles et fragilise la qualité opérationnelle.',
+      },
+      {
+        q: 'Faut-il forcément un autoclave Classe B pour un cabinet à Dakar ?',
+        a: 'Dans la majorité des configurations de cabinet moderne, oui. Le Classe B apporte une stérilisation adaptée aux charges variées et une meilleure sécurité de protocole.',
+      },
+      {
+        q: 'AfriSmile peut-il aider à aménager une salle de stérilisation clé en main ?',
+        a: 'Oui, AfriSmile peut auditer vos flux, recommander les équipements, structurer les protocoles et accompagner l’installation avec suivi technique local.',
+      },
+    ],
+  },
+  {
+    id: 31,
+    slug: 'scanner-intra-oral-cabinet-dentaire-senegal-plan-deploiement-equipe-2026',
+    title: 'Scanner intra-oral en cabinet dentaire au Sénégal : plan de déploiement équipe, laboratoire et rentabilité en 2026',
+    excerpt: 'Scanner intra-oral au Sénégal : méthode de déploiement en cabinet pour réduire les reprises, accélérer les délais prothétiques et sécuriser le ROI.',
+    metaTitle: 'Scanner intra-oral Sénégal : plan de déploiement cabinet 2026 | AfriSmile',
+    metaDescription: 'Déployer un scanner intra-oral en cabinet dentaire au Sénégal : workflow équipe, connexion laboratoire, indicateurs ROI et plan opérationnel.',
+    datePublished: '2026-05-11',
+    dateModified: '2026-05-11',
+    content:
+      `Beaucoup de cabinets dentaires au Sénégal investissent dans un scanner intra-oral, mais n’obtiennent pas les gains attendus les trois premiers mois. Le problème n’est pas l’outil lui-même. C’est l’absence de plan de déploiement opérationnel entre praticien, assistante et laboratoire. Sans méthode, les reprises persistent, les délais restent longs et le ROI se dilue.
+
+Le scanner doit être intégré comme un workflow, pas comme un achat isolé. La première étape consiste à définir les cas prioritaires: prothèse unitaire, aligneurs, réhabilitation partielle, suivi occlusal. Cette sélection évite de forcer des usages trop complexes dès le départ et sécurise une adoption rapide.
+
+Deuxième étape, standardiser la prise d’empreinte numérique. Même scanner, mêmes réglages de base, même protocole de préparation et de scan. Cette discipline réduit fortement les fichiers incomplets qui provoquent des retours laboratoire et des rendez-vous supplémentaires.
+
+Troisième étape, formaliser l’interface laboratoire. Définissez un format d’envoi, une checklist pré-validation, des délais cibles et un canal de feedback clinique. Un bon partenariat labo est le principal accélérateur de productivité numérique.
+
+Quatrième étape, piloter les indicateurs de performance. Suivez le taux de reprise, le délai moyen entre scan et validation labo, le nombre de cas finalisés/mois et la valeur moyenne par cas. Ces KPI montrent rapidement si le scanner crée réellement du rendement.
+
+Cinquième étape, sécuriser la continuité technique. Un scanner intra-oral performant reste dépendant d’une bonne maintenance, d’un support utilisateur réactif et d’une équipe formée. Sans ce socle, l’outil est sous-utilisé et la rentabilité chute.
+
+Dans un contexte Dakar et Afrique de l’Ouest, l’avantage compétitif vient de la vitesse d’exécution et de la fiabilité des résultats. Un cabinet qui maîtrise son flux numérique gagne en expérience patient, en efficacité clinique et en capacité de croissance.
+
+AfriSmile accompagne les cabinets pour sélectionner, déployer et rentabiliser le scanner intra-oral avec une approche terrain: cadrage des cas, protocole équipe, connexion laboratoire et suivi d’indicateurs orientés performance.`,
+    faq: [
+      {
+        q: 'Combien de temps faut-il pour rentabiliser un scanner intra-oral en cabinet ?',
+        a: 'Cela dépend du volume de cas et de la discipline workflow, mais un pilotage rigoureux permet souvent de voir des gains opérationnels dès les premières semaines.',
+      },
+      {
+        q: 'Pourquoi les reprises persistent après l’achat d’un scanner ?',
+        a: 'Principalement à cause d’un protocole de scan non standardisé et d’une interface laboratoire mal structurée.',
+      },
+      {
+        q: 'AfriSmile propose-t-il un accompagnement de déploiement scanner intra-oral ?',
+        a: 'Oui, AfriSmile peut accompagner le choix, la mise en service, la formation équipe et l’optimisation du workflow avec le laboratoire.',
+      },
+    ],
+  },
+  {
     id: 30,
     slug: 'fauteuil-dentaire-senegal-neuf-ou-reconditionne-comparatif-2026',
     title: 'Fauteuil dentaire au Sénégal : neuf ou reconditionné, le comparatif décisionnel 2026',

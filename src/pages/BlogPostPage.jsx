@@ -11,6 +11,16 @@ const defaultRelatedMoneyPages = [
 ]
 
 const relatedBySlug = {
+  'amenagement-salle-sterilisation-cabinet-dentaire-senegal-normes-flux-2026': [
+    { to: '/autoclave-dentaire-classe-b-senegal', label: 'Choisir un autoclave Classe B adapté' },
+    { to: '/service-technique', label: 'Mettre en place un suivi technique fiable' },
+    { to: '/contact', label: 'Demander un devis stérilisation complet' },
+  ],
+  'scanner-intra-oral-cabinet-dentaire-senegal-plan-deploiement-equipe-2026': [
+    { to: '/scanner-intra-oral-senegal', label: 'Comparer les scanners intra-oraux' },
+    { to: '/solutions-cabinets', label: 'Optimiser votre workflow cabinet' },
+    { to: '/contact', label: 'Planifier un déploiement scanner avec AfriSmile' },
+  ],
   'fauteuil-dentaire-senegal-neuf-ou-reconditionne-comparatif-2026': [
     { to: '/fauteuil-dentaire-senegal', label: 'Comparer les fauteuils dentaires disponibles' },
     { to: '/service-technique', label: 'Sécuriser la maintenance et le SAV local' },

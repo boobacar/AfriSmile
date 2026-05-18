@@ -1257,4 +1257,87 @@ Un programme préventif bien exécuté réduit les coûts, stabilise la producti
     ],
   },
 
+  {
+    id: 33,
+    slug: 'audit-technique-cabinet-dentaire-senegal-pre-ouverture-2026',
+    title: 'Audit technique d’un cabinet dentaire au Sénégal avant ouverture : méthode terrain pour éviter les retards en 2026',
+    excerpt: 'Audit technique pré-ouverture cabinet dentaire : électricité, eau, stérilisation, installation équipements et checklist opérationnelle à Dakar.',
+    metaTitle: 'Audit technique cabinet dentaire Sénégal : guide pré-ouverture | AfriSmile',
+    metaDescription: 'Préparez l’ouverture de votre cabinet dentaire au Sénégal avec un audit technique complet : infrastructure, équipements, risques critiques et plan d’action.',
+    datePublished: '2026-05-18',
+    dateModified: '2026-05-18',
+    content:
+      `Beaucoup de projets de cabinets dentaires à Dakar démarrent avec un bon budget équipement mais perdent plusieurs semaines au moment de l’ouverture. La cause principale n’est pas le choix du fauteuil ou de l’autoclave. C’est l’absence d’audit technique pré-ouverture. Sans cette étape, les écarts d’infrastructure apparaissent trop tard, quand les équipes sont déjà mobilisées et que les coûts de correction explosent.
+
+Un audit technique efficace commence par les fondations du local. Vérifiez la stabilité électrique, la capacité des lignes dédiées, la protection des équipements sensibles et la mise à la terre. En dentaire, une micro-instabilité peut perturber un autoclave, un compresseur ou l’éclairage clinique, et créer des interruptions dès les premiers jours.
+
+Deuxième bloc, l’eau et les évacuations. Un débit mal calibré, une pression irrégulière ou une évacuation lente affectent directement l’unité de soins, la stérilisation et l’hygiène opérationnelle. Le contrôle doit inclure des tests réels en charge, pas seulement une validation visuelle du chantier.
+
+Troisième bloc, le zoning clinique. L’ouverture rapide dépend d’une circulation logique entre accueil, salle de soins, zone de stérilisation et stockage. Un mauvais flux augmente les pertes de temps, les manipulations inutiles et les risques d’erreur. Le bon schéma est simple: moins de croisements, plus de continuité.
+
+Quatrième bloc, la préparation des équipements critiques. Chaque actif doit être validé sur une checklist de mise en service: installation, calibrage, test fonctionnel, protocole d’usage et traçabilité de démarrage. Cela concerne en priorité le fauteuil, l’autoclave Classe B, l’aspiration, le compresseur et l’imagerie.
+
+Cinquième bloc, la readiness équipe. Un cabinet peut être techniquement prêt mais opérationnellement fragile si l’équipe n’a pas répété les routines de base: ouverture de journée, contrôle stérilisation, plan d’escalade SAV et gestion d’incident simple.
+
+Méthode recommandée en B2B sur 10 jours: audit initial, scoring des risques, corrections prioritaires, test de charge, répétition des protocoles et validation finale go-live. Cette séquence limite les surprises, protège la trésorerie et accélère la mise en production clinique.
+
+AfriSmile accompagne les porteurs de projet au Sénégal avec un audit technique pré-ouverture orienté résultats: réduction des retards, sécurité opérationnelle et démarrage plus fluide du cabinet.`,
+    faq: [
+      {
+        q: 'Pourquoi faire un audit technique avant l’ouverture d’un cabinet dentaire ?',
+        a: 'Parce qu’il identifie les risques critiques avant le go-live: électricité, eau, flux, installation et protocoles équipe, afin d’éviter des retards coûteux.',
+      },
+      {
+        q: 'Quels équipements doivent être testés en priorité ?',
+        a: 'Le fauteuil dentaire, l’autoclave Classe B, le compresseur, l’aspiration et les solutions d’imagerie, avec des tests fonctionnels en conditions réelles.',
+      },
+      {
+        q: 'AfriSmile peut-il accompagner un audit pré-ouverture à Dakar ?',
+        a: 'Oui, AfriSmile peut cadrer l’audit, prioriser les corrections et sécuriser la mise en service technique avant l’ouverture.',
+      },
+    ],
+  },
+  {
+    id: 34,
+    slug: 'contrat-maintenance-dentaire-senegal-sla-kpi-negocier-2026',
+    title: 'Contrat de maintenance dentaire au Sénégal : SLA et KPI à négocier pour protéger votre cabinet en 2026',
+    excerpt: 'Contrat maintenance matériel dentaire Sénégal : clauses SLA, délais d’intervention, pièces, KPI et modèle de pilotage pour cabinets à Dakar.',
+    metaTitle: 'Contrat maintenance dentaire Sénégal : SLA & KPI | AfriSmile',
+    metaDescription: 'Guide pratique pour négocier un contrat de maintenance dentaire au Sénégal : SLA, engagements SAV, indicateurs de performance et continuité clinique.',
+    datePublished: '2026-05-18',
+    dateModified: '2026-05-18',
+    content:
+      `Signer un contrat de maintenance dentaire au Sénégal ne doit jamais être une formalité administrative. C’est un levier direct de continuité clinique. Un cabinet peut avoir d’excellents équipements, mais perdre en rentabilité si les délais SAV sont flous ou si les responsabilités techniques sont mal définies.
+
+La première clause à cadrer est le SLA. Demandez des délais précis sur trois niveaux: réponse initiale, diagnostic et intervention. Sans seuils mesurables, le contrat protège rarement le cabinet en période de forte activité. En pratique, un bon SLA réduit les immobilisations et stabilise l’agenda patient.
+
+Deuxième point, le périmètre des équipements couverts. Beaucoup de contrats restent vagues sur les accessoires et sous-systèmes critiques. Listez clairement fauteuil, autoclave, compresseur, aspiration, imagerie et consommables techniques liés à la maintenance.
+
+Troisième point, la gestion des pièces détachées. Vérifiez la disponibilité locale des pièces d’usure, les délais d’approvisionnement et les alternatives temporaires en cas de rupture. Cette clause est décisive pour éviter les arrêts prolongés.
+
+Quatrième point, la maintenance préventive planifiée. Un contrat solide doit inclure un calendrier annuel, des checklists d’intervention et un rapport après chaque visite. Le préventif est presque toujours moins coûteux que le correctif subi.
+
+Cinquième point, le pilotage par KPI. Suivez au minimum: taux de disponibilité machine, temps moyen de réparation, incidents répétitifs, ratio préventif/correctif et délai moyen de clôture ticket. Ces indicateurs transforment la relation fournisseur en performance mesurable.
+
+Sixième point, l’escalade et la gouvernance. Désignez des interlocuteurs nommés côté cabinet et côté prestataire, avec un processus d’escalade documenté pour les pannes critiques. Cela évite la perte de temps et les ambiguïtés lors des urgences.
+
+Approche recommandée: négocier le contrat comme un dispositif de production clinique, pas comme une simple assurance. Un bon cadre contractuel protège le chiffre d’affaires, l’expérience patient et la sérénité de l’équipe.
+
+AfriSmile aide les cabinets dentaires à Dakar et en Afrique de l’Ouest à structurer des contrats de maintenance robustes, avec des engagements opérationnels clairs et un suivi technique orienté résultats.`,
+    faq: [
+      {
+        q: 'Quelles clauses SLA sont prioritaires dans un contrat de maintenance dentaire ?',
+        a: 'Les délais de réponse, de diagnostic et d’intervention, avec des niveaux de priorité selon la criticité de la panne.',
+      },
+      {
+        q: 'Quels KPI faut-il suivre chaque mois ?',
+        a: 'Taux de disponibilité, temps moyen de réparation, incidents récurrents, ratio maintenance préventive/corrective et délai de clôture des tickets.',
+      },
+      {
+        q: 'AfriSmile peut-il aider à relire ou structurer un contrat SAV ?',
+        a: 'Oui, AfriSmile peut aider à cadrer les clauses techniques, les KPI et le plan de maintenance pour sécuriser l’exploitation du cabinet.',
+      },
+    ],
+  },
+
 ]

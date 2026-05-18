@@ -16,6 +16,16 @@ const relatedBySlug = {
     { to: '/service-technique', label: 'Mettre en place un suivi technique fiable' },
     { to: '/contact', label: 'Demander un devis stérilisation complet' },
   ],
+  'audit-technique-cabinet-dentaire-senegal-pre-ouverture-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Préparer votre socle matériel d’ouverture' },
+    { to: '/service-technique', label: 'Sécuriser la mise en service et le SAV' },
+    { to: '/contact', label: 'Demander un audit pré-ouverture AfriSmile' },
+  ],
+  'contrat-maintenance-dentaire-senegal-sla-kpi-negocier-2026': [
+    { to: '/service-technique', label: 'Structurer votre maintenance avec AfriSmile' },
+    { to: '/materiel-dentaire-senegal', label: 'Équiper votre cabinet avec suivi technique' },
+    { to: '/contact', label: 'Obtenir un modèle de contrat SAV orienté KPI' },
+  ],
   'scanner-intra-oral-cabinet-dentaire-senegal-plan-deploiement-equipe-2026': [
     { to: '/scanner-intra-oral-senegal', label: 'Comparer les scanners intra-oraux' },
     { to: '/solutions-cabinets', label: 'Optimiser votre workflow cabinet' },

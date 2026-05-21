@@ -11,6 +11,46 @@ const defaultRelatedMoneyPages = [
 ]
 
 const relatedBySlug = {
+  'comment-ouvrir-une-clinique-dentaire-en-cote-divoire-2026': [
+    { to: '/materiel-dentaire-cote-divoire', label: 'Matériel dentaire Côte d\'Ivoire' },
+    { to: '/solutions-cabinets', label: 'Solutions d\'aménagement' },
+    { to: '/contact', label: 'Demander un devis' },
+  ],
+  'comparatif-meilleurs-compresseurs-dentaires-afrique': [
+    { to: '/produits', label: 'Voir nos compresseurs' },
+    { to: '/service-technique', label: 'Installation & SAV' },
+    { to: '/contact', label: 'Obtenir un devis compresseur' },
+  ],
+  'transition-empreinte-numerique-scanner-3d-afrique-ouest': [
+    { to: '/scanner-intra-oral-senegal', label: 'Scanners intra-oraux' },
+    { to: '/solutions-cabinets', label: 'Moderniser votre clinique' },
+    { to: '/contact', label: 'Planifier une démo' },
+  ],
+  'maintenance-preventive-autoclaves-guide-complet': [
+    { to: '/autoclave-dentaire-classe-b-senegal', label: 'Autoclaves Classe B' },
+    { to: '/service-technique', label: 'Contrat de maintenance' },
+    { to: '/contact', label: 'Réserver un technicien' },
+  ],
+  'comment-choisir-instruments-rotatifs-dentaires': [
+    { to: '/produits', label: 'Instruments rotatifs' },
+    { to: '/marques', label: 'Nos marques partenaires' },
+    { to: '/contact', label: 'Demander le catalogue' },
+  ],
+  'guide-ultime-amenagement-cabinet-dentaire-moderne': [
+    { to: '/solutions-cabinets', label: 'Nos solutions d\'aménagement' },
+    { to: '/produits', label: 'Fauteuils et équipements' },
+    { to: '/contact', label: 'Parler à un expert' },
+  ],
+  'gerer-stock-consommables-dentaires-efficacement': [
+    { to: '/produits', label: 'Consommables dentaires' },
+    { to: '/modeles-achat', label: 'Optimiser vos achats' },
+    { to: '/contact', label: 'Commander vos consommables' },
+  ],
+  'radiologie-panoramique-vs-cone-beam-cbct-lequel-choisir': [
+    { to: '/produits', label: 'Imagerie 2D et 3D' },
+    { to: '/scanner-intra-oral-senegal', label: 'Scanner Intra-Oral' },
+    { to: '/contact', label: 'Devis Cone Beam / Pano' },
+  ],
   'devis-materiel-dentaire-senegal-7-questions-avant-acheter-2026': [
     { to: '/materiel-dentaire-senegal', label: 'Comparer les équipements dentaires' },
     { to: '/modeles-achat', label: 'Structurer votre modèle d’achat' },

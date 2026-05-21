@@ -49,6 +49,314 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 43,
+    slug: 'comment-ouvrir-une-clinique-dentaire-en-cote-divoire-2026',
+    title: 'Comment ouvrir une clinique dentaire en Côte d’Ivoire en 2026',
+    excerpt: 'Les démarches, le matériel prioritaire et les conseils pour réussir l’ouverture de votre clinique dentaire à Abidjan et en Côte d’Ivoire.',
+    metaTitle: 'Ouvrir une clinique dentaire en Côte d’Ivoire | Guide 2026',
+    metaDescription: 'Le guide complet pour ouvrir et équiper un cabinet dentaire en Côte d’Ivoire. Choix du matériel, budget, fournisseurs et SAV à Abidjan.',
+    datePublished: '2026-05-21',
+    dateModified: '2026-05-21',
+    content:
+      `Ouvrir une clinique dentaire en Côte d'Ivoire, particulièrement à Abidjan, est un projet ambitieux qui nécessite une préparation rigoureuse. Le marché est dynamique, mais les exigences des patients en matière de qualité de soins et d'hygiène n'ont jamais été aussi élevées.
+
+La première étape consiste à valider le local et son aménagement technique. Un cabinet dentaire nécessite des raccordements spécifiques (eau, air comprimé, électricité stabilisée, aspiration). Ne signez pas de bail sans l'avis d'un technicien qualifié pour vérifier la faisabilité.
+
+Ensuite vient le choix du matériel. Pour démarrer en Côte d'Ivoire, priorisez la fiabilité et la garantie d'un SAV local. Votre pack d'ouverture doit inclure : un fauteuil dentaire ergonomique, un autoclave de Classe B (minimum 18L), un compresseur sans huile, une aspiration chirurgicale, et l'instrumentation rotative de base.
+
+Le budget d'équipement représente souvent la plus grosse part de l'investissement initial. Il est crucial de comparer les offres non pas seulement sur le prix d'achat, mais sur le Coût Total de Possession (TCO). Un fauteuil bon marché qui tombe en panne au bout de 6 mois sans pièces de rechange disponibles à Abidjan vous coûtera beaucoup plus cher en perte d'exploitation.
+
+Ne négligez pas la stérilisation. C'est aujourd'hui un critère de choix pour les patients et une exigence légale. L'autoclave doit être performant et accompagné d'une soudeuse, de bacs à ultrasons et de tests de validation (Helix, Bowie & Dick).
+
+Enfin, sécurisez vos approvisionnements en consommables. Aiguilles, anesthésiques, composites, gants : la rupture de stock est le pire ennemi du praticien. Travaillez avec un fournisseur capable de vous livrer rapidement et régulièrement en Côte d'Ivoire.
+
+AfriSmile vous accompagne de la conception de votre projet jusqu'à l'installation et la maintenance de votre équipement dentaire en Côte d'Ivoire.`,
+    faq: [
+      {
+        q: 'Quel est le matériel indispensable pour ouvrir un cabinet à Abidjan ?',
+        a: 'Un fauteuil dentaire, un compresseur, un autoclave Classe B, une aspiration, de l\'instrumentation et un stock de consommables de base.',
+      },
+      {
+        q: 'AfriSmile livre-t-il et installe-t-il en Côte d\'Ivoire ?',
+        a: 'Oui, nous accompagnons les chirurgiens-dentistes ivoiriens avec des solutions d\'équipement complètes et un service d\'installation.',
+      },
+      {
+        q: 'Comment financer son matériel dentaire ?',
+        a: 'Plusieurs options existent : fonds propres, crédit bancaire professionnel ou leasing. Il est important de présenter un business plan solide.',
+      }
+    ],
+  },
+  {
+    id: 42,
+    slug: 'comparatif-meilleurs-compresseurs-dentaires-afrique',
+    title: 'Comparatif : Les meilleurs compresseurs dentaires pour l’Afrique',
+    excerpt: 'Sans huile, insonorisé, avec sécheur ? Comment choisir le compresseur idéal pour votre cabinet dentaire face aux contraintes climatiques africaines.',
+    metaTitle: 'Meilleur Compresseur Dentaire pour l’Afrique | Comparatif',
+    metaDescription: 'Découvrez comment choisir un compresseur dentaire fiable et adapté aux fortes chaleurs et à l\'humidité en Afrique. Guide et comparatif 2026.',
+    datePublished: '2026-05-20',
+    dateModified: '2026-05-20',
+    content:
+      `Le compresseur dentaire est le poumon de votre cabinet. S'il s'arrête, toute l'activité s'arrête. En Afrique de l'Ouest, les conditions climatiques (chaleur, humidité) imposent de choisir un équipement particulièrement robuste.
+
+Première règle d'or : le compresseur doit être "sans huile". L'air propulsé dans la bouche du patient et dans vos instruments rotatifs doit être d'une pureté absolue. L'huile endommagerait vos turbines et compromettrait l'hygiène des soins.
+
+Deuxième critère essentiel : la présence d'un sécheur d'air. Dans des régions très humides comme Dakar, Abidjan ou Conakry, la condensation se forme rapidement dans la cuve. Sans sécheur, l'eau va remonter dans vos cordons, endommager vos instruments et favoriser la prolifération bactérienne. Un bon sécheur à membrane ou à dessiccant est obligatoire.
+
+Troisième élément : le dimensionnement. Un compresseur sous-dimensionné tournera en permanence, surchauffera et tombera en panne prématurément. Pour un fauteuil unique, une cuve de 20 à 30 litres avec un débit restitué d'au moins 60 L/min est recommandée. Si vous avez deux fauteuils ou une aspiration à air, doublez ces capacités.
+
+L'insonorisation est également à prendre en compte. Si le compresseur est installé à proximité de la salle de soins, optez pour un modèle capoté insonorisé (moins de 60 dB) pour le confort de vos patients et de votre équipe.
+
+L'entretien régulier est la clé de la longévité. Purgez la cuve hebdomadairement (même avec un sécheur), vérifiez les filtres d'aspiration d'air et assurez-vous que le local technique est bien ventilé. Un compresseur qui respire de l'air chaud s'usera beaucoup plus vite.
+
+Chez AfriSmile, nous recommandons des marques reconnues pour leur fiabilité en milieu tropical et nous assurons le SAV local pour garantir votre tranquillité d'esprit.`,
+    faq: [
+      {
+        q: 'Pourquoi un compresseur sans huile est-il obligatoire ?',
+        a: 'Pour garantir un air sec et pur, essentiel pour la santé du patient et la durée de vie de vos instruments rotatifs (turbines, contre-angles).',
+      },
+      {
+        q: 'Le sécheur d\'air est-il vraiment nécessaire au Sénégal ou en Côte d\'Ivoire ?',
+        a: 'Absolument. L\'humidité ambiante crée de la condensation. Le sécheur empêche l\'eau d\'atteindre vos instruments et de les rouiller.',
+      },
+      {
+        q: 'Quelle est la durée de vie d\'un bon compresseur dentaire ?',
+        a: 'Avec un bon entretien et s\'il est bien dimensionné, un compresseur de qualité peut durer entre 7 et 12 ans.',
+      }
+    ],
+  },
+  {
+    id: 41,
+    slug: 'transition-empreinte-numerique-scanner-3d-afrique-ouest',
+    title: 'La transition vers l’empreinte numérique (Scanner 3D) en Afrique de l’Ouest',
+    excerpt: 'Pourquoi les dentistes en Afrique de l’Ouest passent au scanner intra-oral et comment réussir cette transition vers le flux numérique.',
+    metaTitle: 'Scanner Intra-Oral & Empreinte Numérique Afrique de l’Ouest',
+    metaDescription: 'Avantages, coûts et conseils pour intégrer un scanner intra-oral dans votre clinique dentaire au Sénégal, Côte d\'Ivoire ou Mali. Le guide du flux numérique.',
+    datePublished: '2026-05-19',
+    dateModified: '2026-05-19',
+    content:
+      `La dentisterie numérique n'est plus le futur, c'est le présent. En Afrique de l'Ouest, de plus en plus de cabinets franchissent le pas de l'empreinte optique via un scanner intra-oral (IOS). Les avantages sont considérables, tant sur le plan clinique que financier.
+
+Pourquoi abandonner l'alginate et le silicone ? Premièrement, le confort du patient. L'empreinte numérique élimine le réflexe nauséeux et rend la prise d'empreinte ludique. Deuxièmement, la précision. Fini les tirages, les bulles ou les déformations liées aux variations de température (fréquentes sous nos climats).
+
+Le flux de travail avec le laboratoire de prothèse est révolutionné. Au lieu d'attendre un coursier et risquer une détérioration de l'empreinte physique, le fichier STL ou PLY est envoyé instantanément par email ou via un portail sécurisé. Cela réduit drastiquement les délais de fabrication et les essayages multiples.
+
+Cependant, investir dans un scanner intra-oral demande une réflexion. Le coût initial est important. Il faut choisir un scanner ouvert (qui n'oblige pas à travailler avec un seul laboratoire ou un système fermé) et sans frais de licence annuels prohibitifs. 
+
+La courbe d'apprentissage est réelle. Votre équipe doit être formée non seulement à la manipulation de la caméra, mais aussi à la gestion des fichiers informatiques. Assurez-vous que votre revendeur inclut une formation solide et un support technique réactif (prise en main à distance).
+
+L'outil est aussi un fantastique levier de communication. Montrer à un patient sa bouche en 3D sur grand écran augmente considérablement le taux d'acceptation des plans de traitement, notamment en orthodontie par aligneurs ou en implantologie.
+
+AfriSmile distribue les meilleurs scanners intra-oraux du marché et vous accompagne pas-à-pas dans cette transition digitale, avec formation et support local.`,
+    faq: [
+      {
+        q: 'Quel est le principal avantage du scanner intra-oral ?',
+        a: 'La précision clinique, le confort du patient (plus de pâte) et la rapidité d\'envoi au prothésiste.',
+      },
+      {
+        q: 'Un scanner intra-oral remplace-t-il totalement les pâtes à empreinte ?',
+        a: 'Dans 95% des cas, oui (prothèse conjointe, ortho, implanto). Les empreintes classiques restent utiles pour certaines prothèses adjointes complexes.',
+      },
+      {
+        q: 'Faut-il payer un abonnement logiciel chaque année ?',
+        a: 'Cela dépend des marques. AfriSmile conseille de privilégier des scanners "ouverts" et sans abonnement obligatoire pour maîtriser vos coûts.',
+      }
+    ],
+  },
+  {
+    id: 40,
+    slug: 'maintenance-preventive-autoclaves-guide-complet',
+    title: 'Maintenance préventive des autoclaves : Guide complet pour les dentistes',
+    excerpt: 'Prévenez les pannes de votre autoclave Classe B grâce à ce guide complet de maintenance préventive pour les cabinets dentaires.',
+    metaTitle: 'Maintenance Autoclave Dentaire | Guide et Prévention',
+    metaDescription: 'Comment entretenir votre autoclave Classe B pour éviter les pannes ? Guide de maintenance préventive, nettoyage, joints et cycles de test pour cabinet dentaire.',
+    datePublished: '2026-05-18',
+    dateModified: '2026-05-18',
+    content:
+      `L'autoclave de Classe B est le cœur de la chaîne d'hygiène de votre clinique. Une panne d'autoclave signifie souvent la paralysie totale du cabinet. Pourtant, 80% des pannes pourraient être évitées grâce à une maintenance préventive rigoureuse.
+
+L'entretien quotidien : La base absolue est d'utiliser exclusivement de l'eau distillée ou déminéralisée de haute qualité (conductivité < 15 µS/cm). L'eau du robinet, même filtrée, détruira les électrovannes et la chambre de chauffe. Nettoyez le joint de porte et la face interne de la porte avec un chiffon doux humide (sans produit abrasif) pour retirer les impuretés qui pourraient causer une micro-fuite.
+
+L'entretien hebdomadaire : Nettoyez la chambre de stérilisation et les plateaux. Videz complètement et nettoyez les réservoirs d'eau propre et d'eau usée. Les résidus biologiques peuvent s'y accumuler et créer un biofilm (des algues), bouchant ainsi les filtres internes.
+
+Les tests de validation : Pour prouver que votre autoclave stérilise réellement (et pas seulement qu'il chauffe), vous devez réaliser :
+- Un test de vide (Vacuum Test) pour vérifier l'étanchéité.
+- Un test de pénétration de vapeur (Bowie & Dick ou Helix) quotidiennement ou hebdomadairement selon vos protocoles, pour valider que la vapeur atteint le cœur des corps creux.
+
+La maintenance annuelle (ou toutes les 1000/1500 cycles) : Elle doit être réalisée par un technicien agréé. Elle inclut le remplacement systématique du joint de porte, du filtre bactériologique, et le nettoyage approfondi du condenseur et des filtres internes.
+
+Ignorer cette maintenance sous prétexte que "la machine fonctionne très bien" est une erreur coûteuse. Une réparation consécutive à un défaut d'entretien (ex: pompe à vide grillée) coûte souvent trois fois le prix d'un contrat d'entretien annuel.
+
+Faites confiance à l'équipe technique d'AfriSmile pour planifier et réaliser la maintenance préventive de vos stérilisateurs.`,
+    faq: [
+      {
+        q: 'Quelle eau utiliser dans un autoclave Classe B ?',
+        a: 'Uniquement de l\'eau distillée ou déminéralisée de haute qualité (idéalement produite par un déminéralisateur ou un osmoseur certifié).',
+      },
+      {
+        q: 'À quelle fréquence faut-il changer le joint de porte ?',
+        a: 'En général, une fois par an ou tous les 1000 cycles, ou dès qu\'il présente des signes de faiblesse (fuite de vapeur).',
+      },
+      {
+        q: 'Que faire si l\'autoclave affiche une erreur de vide ?',
+        a: 'Vérifiez que le joint de porte est propre et bien en place, assurez-vous qu\'aucun sachet ne coince la porte, puis relancez le cycle.',
+      }
+    ],
+  },
+  {
+    id: 39,
+    slug: 'comment-choisir-instruments-rotatifs-dentaires',
+    title: 'Comment choisir ses instruments rotatifs dentaires ?',
+    excerpt: 'Turbines, contre-angles, micromoteurs : critères de choix pour allier performance clinique, ergonomie et durabilité.',
+    metaTitle: 'Choisir ses Instruments Rotatifs Dentaires | Turbines & Contre-angles',
+    metaDescription: 'Guide pour bien choisir vos instruments rotatifs dentaires : turbines, contre-angles bagues rouges/bleues, micromoteurs électriques. Fiabilité et ergonomie.',
+    datePublished: '2026-05-17',
+    dateModified: '2026-05-17',
+    content:
+      `Les instruments rotatifs sont le prolongement direct de la main du chirurgien-dentiste. Un mauvais choix entraîne fatigue, perte de précision et coûts de réparation faramineux. Voici comment choisir vos turbines et contre-angles.
+
+La Turbine vs Le Contre-Angle Multiplicateur (Bague Rouge) : Historiquement, la turbine (à air) régnait en maître. Aujourd'hui, la tendance lourde est au micromoteur électrique couplé à un contre-angle multiplicateur (bague rouge 1:5). Pourquoi ? Le couple (la force) est constant. Contrairement à la turbine qui ralentit dès qu'elle touche l'émail, le bague rouge maintient sa vitesse, offrant une coupe infiniment plus nette, plus rapide et générant moins d'aérosols. C'est l'outil indispensable pour la prothèse.
+
+L'éclairage LED : Ne choisissez plus d'instruments sans lumière. La LED offre une vision parfaite du champ opératoire. Assurez-vous que la source de lumière est générée de manière fiable (générateur intégré dans le raccord pour les turbines, ou via le micromoteur pour les CA).
+
+Le poids et l'ergonomie : Un instrument lourd (souvent en laiton chromé) provoque des micro-traumatismes et des tendinites à long terme. Privilégiez les instruments en titane ou en alliages légers. L'équilibre avec le cordon est essentiel : l'instrument ne doit pas tirer sur votre poignet.
+
+Le refroidissement (Sprays) : Pour éviter l'échauffement de la dent (et la nécrose pulpaire), exigez un système à 3 ou 4 sprays d'eau. Cela garantit un refroidissement optimal même si la fraise bloque l'un des jets.
+
+La maintenance et la stérilisation : Vos instruments subissent l'enfer : rotation à 400 000 tr/min, chaleur de l'autoclave à 134°C, produits chimiques. Optez pour des marques réputées (NSK, KaVo, Bien-Air) dont les roulements en céramique supportent ces contraintes. Mais rappelez-vous : même le meilleur instrument mourra en 3 mois sans une lubrification rigoureuse après chaque utilisation et AVANT stérilisation.
+
+Consultez le catalogue AfriSmile pour trouver la gamme d'instruments rotatifs adaptée à vos besoins cliniques.`,
+    faq: [
+      {
+        q: 'Vaut-il mieux investir dans une bonne turbine ou un bon contre-angle bague rouge ?',
+        a: 'Le contre-angle bague rouge (si vous avez un micromoteur électrique) offre une taille de préparation supérieure et un couple constant, idéal pour les couronnes.',
+      },
+      {
+        q: 'Faut-il lubrifier les instruments rotatifs tous les jours ?',
+        a: 'Oui, et même après CHAQUE patient avant de les mettre à l\'autoclave. Utilisez l\'huile recommandée par le fabricant.',
+      },
+      {
+        q: 'Qu\'est-ce qu\'un roulement en céramique ?',
+        a: 'C\'est un roulement plus léger et plus résistant que l\'acier, qui prolonge la durée de vie de la turbine et réduit le bruit.',
+      }
+    ],
+  },
+  {
+    id: 38,
+    slug: 'guide-ultime-amenagement-cabinet-dentaire-moderne',
+    title: 'Le guide ultime pour l’aménagement d’un cabinet dentaire moderne',
+    excerpt: 'Optimiser l\'espace, l\'ergonomie et le flux des patients : les clés pour concevoir un cabinet dentaire performant et accueillant.',
+    metaTitle: 'Aménagement Cabinet Dentaire Moderne | Guide et Plans',
+    metaDescription: 'Conseils d\'experts pour l\'aménagement de votre cabinet dentaire. Respect des normes, flux patient/praticien, salle de stérilisation et design intérieur.',
+    datePublished: '2026-05-16',
+    dateModified: '2026-05-16',
+    content:
+      `Concevoir l'aménagement d'un cabinet dentaire ne s'improvise pas. L'espace doit répondre à des contraintes techniques strictes tout en offrant un environnement rassurant pour le patient et ergonomique pour l'équipe soignante.
+
+Le principe fondamental est la séparation des flux. Vous devez conceptualiser trois zones distinctes : la zone publique (accueil, salle d'attente, sanitaires patients), la zone clinique (salles de soins, panoramique), et la zone technique/personnel (stérilisation, salle des machines, vestiaires).
+
+La salle de soins : Elle requiert un minimum de 12 à 15 m² pour tourner confortablement autour du fauteuil. Pensez au principe de la dentisterie à quatre mains : l'assistante doit avoir accès aux instruments et à l'aspiration sans croiser le praticien. Les meubles doivent être suspendus ou sur roulettes pour faciliter le bionettoyage des sols. La lumière naturelle est un énorme atout, mais évitez qu'elle ne soit dans les yeux du patient.
+
+La salle de stérilisation : C'est le centre névralgique. Elle doit obéir à la marche en avant : une zone "sale" (réception, bac à ultrasons, laveur-désinfecteur) et une zone "propre" (soudure, autoclave, stockage). Ces deux zones ne doivent jamais se croiser pour éviter toute contamination croisée.
+
+Le local technique : Compresseur et aspiration chirurgicale génèrent du bruit et de la chaleur. Le local doit être parfaitement insonorisé et très bien ventilé. Prévoyez-le le plus éloigné possible des salles d'attente et de soins, tout en limitant la distance des tuyaux d'aspiration (idéalement moins de 10 mètres) pour ne pas perdre en puissance.
+
+Les réseaux (Plomberie, Air, Électricité) : Faites passer les réseaux dans le sol (chape ou plancher technique) jusqu'à la boîte de raccordement sous le fauteuil dentaire. Les canalisations d'évacuation d'aspiration doivent avoir une pente d'au moins 1 à 2 % et éviter les coudes à 90° pour empêcher la stagnation et les mauvaises odeurs.
+
+Un bon aménagement se pense sur plan avant le moindre coup de marteau. AfriSmile vous aide à valider vos plans techniques avec vos architectes et entrepreneurs pour éviter les erreurs irréversibles.`,
+    faq: [
+      {
+        q: 'Quelle taille minimum pour une salle de soins dentaires ?',
+        a: 'Le strict minimum réglementaire est souvent de 9m², mais pour une ergonomie correcte, visez entre 12m² et 15m².',
+      },
+      {
+        q: 'Qu\'est-ce que la marche en avant en stérilisation ?',
+        a: 'C\'est un principe d\'hygiène où les instruments sales entrent d\'un côté, sont traités, et ressortent stériles de l\'autre côté sans jamais revenir en arrière ou croiser le flux sale.',
+      },
+      {
+        q: 'Le compresseur peut-il être placé dans la salle de soins ?',
+        a: 'Non, c\'est fortement déconseillé à cause du bruit, de la chaleur et des règles d\'hygiène. Il doit être dans un local technique séparé et ventilé.',
+      }
+    ],
+  },
+  {
+    id: 37,
+    slug: 'gerer-stock-consommables-dentaires-efficacement',
+    title: 'Gérer son stock de consommables dentaires efficacement',
+    excerpt: 'Fini les ruptures de gants ou de composites ! Méthodes simples pour gérer vos stocks, réduire le gaspillage et maîtriser votre trésorerie.',
+    metaTitle: 'Gestion de Stock Consommables Cabinet Dentaire | AfriSmile',
+    metaDescription: 'Comment optimiser la gestion de stock de votre cabinet dentaire. Méthodes Kanban, inventaires tournants et réduction des coûts liés aux consommables périmés.',
+    datePublished: '2026-05-15',
+    dateModified: '2026-05-15',
+    content:
+      `La mauvaise gestion des consommables est un trou noir financier pour de nombreux cabinets dentaires. Entre le sur-stockage qui immobilise la trésorerie et entraîne des dates de péremption dépassées, et les ruptures de stock qui forcent à repousser des soins, l'équilibre est précaire.
+
+La première règle est de centraliser et standardiser. Vous ne devriez avoir qu'un seul stock principal, géré par une seule personne (souvent l'assistante dentaire coordinatrice). Standardisez vos achats : limitez le nombre de marques de composites ou de systèmes adhésifs. Moins vous avez de références différentes, plus le stock est facile à contrôler.
+
+Implémentez le système du "Plein / Vide" (ou système Kanban). Pour chaque produit, ayez deux boîtes. Quand la première boîte est vide, on l'ouvre la seconde, et l'étiquette de la première part dans la bannette de commande. Cela garantit que vous commandez AVANT d'être en rupture de stock.
+
+Définissez des "Stock d'Alerte" ou minimums. Combien de boîtes de gants consommez-vous en un mois ? Si le délai de livraison est de 15 jours, votre stock d'alerte doit être d'au moins 3 semaines de consommation.
+
+Faites un inventaire tournant. Plutôt que de fermer le cabinet une journée par an pour tout compter, vérifiez une catégorie de produit par semaine (ex: les endos lundi, les composites mardi).
+
+Attention aux promotions illusoires (le fameux "10 boîtes achetées, 3 offertes"). Si vous mettez trois ans à consommer ces 13 boîtes, la date de péremption sera dépassée et votre trésorerie aura été immobilisée pour rien. Achetez juste.
+
+Enfin, classez vos produits selon la méthode FEFO (First Expired, First Out - Premier Périmé, Premier Sorti). Les nouveaux produits reçus vont systématiquement au FOND de l'étagère ou du tiroir.
+
+Avec AfriSmile, vous bénéficiez de conseils pour optimiser vos approvisionnements et de livraisons fiables de consommables de qualité.`,
+    faq: [
+      {
+        q: 'Qui doit s\'occuper des commandes dans le cabinet ?',
+        a: 'L\'idéal est de déléguer cette tâche à une seule personne référente (assistante), avec validation finale par le praticien pour les gros montants.',
+      },
+      {
+        q: 'Comment éviter que les composites ne se périment ?',
+        a: 'Achetez en petites quantités régulières, appliquez la règle du FEFO (les plus récents au fond), et limitez le nombre de teintes exotiques peu utilisées.',
+      },
+      {
+        q: 'Le système Kanban est-il adapté aux petits cabinets ?',
+        a: 'Oui, c\'est même la méthode visuelle la plus simple et la plus efficace, ne nécessitant aucun logiciel complexe.',
+      }
+    ],
+  },
+  {
+    id: 36,
+    slug: 'radiologie-panoramique-vs-cone-beam-cbct-lequel-choisir',
+    title: 'Radiologie panoramique vs Cone Beam (CBCT) : Lequel choisir ?',
+    excerpt: 'Comprendre les différences cliniques et financières entre une panoramique 2D et un scanner CBCT 3D pour faire le bon investissement.',
+    metaTitle: 'Panoramique 2D vs Cone Beam CBCT | Lequel Choisir ?',
+    metaDescription: 'Comparatif entre la radiographie panoramique dentaire (2D) et le Cone Beam CBCT (3D). Indications cliniques, prix, et retour sur investissement pour votre cabinet.',
+    datePublished: '2026-05-14',
+    dateModified: '2026-05-14',
+    content:
+      `La mise à niveau de la salle d'imagerie est une étape cruciale pour un cabinet dentaire. Le choix entre une panoramique 2D classique et un Cone Beam Computed Tomography (CBCT / Imagerie 3D) dépend de votre spécialité, de votre volume de patients et de votre business model.
+
+La radiographie panoramique (OPG - 2D) reste l'outil de débrouillage par excellence. Elle permet un diagnostic global rapide des arcades, la détection des lésions carieuses importantes, l'évaluation de l'os alvéolaire et la position des dents de sagesse. C'est l'outil de base indispensable pour l'omnipratique et les bilans initiaux. Son coût d'acquisition est maîtrisé et l'interprétation est rapide.
+
+Le Cone Beam (CBCT - 3D), en revanche, apporte la troisième dimension. Il élimine les superpositions de structures qui rendent parfois la 2D illisible. Le CBCT est devenu le gold standard absolu, voire une obligation médico-légale, en implantologie. Il permet de mesurer exactement le volume osseux disponible et de repérer avec précision le nerf alvéolaire inférieur ou le sinus maxillaire.
+
+Le CBCT est également d'une aide inestimable en endodontie complexe (recherche de canaux supplémentaires, détection de fêlures ou de lésions apicales non visibles en 2D) et en chirurgie (dents incluses complexes).
+
+La question financière : Un équipement CBCT coûte souvent le double ou le triple d'une simple panoramique. Cependant, le retour sur investissement (ROI) peut être très rapide si vous posez des implants. Effectuer les examens 3D "in house" génère un acte facturable supplémentaire et, surtout, augmente l'acceptation des plans de traitement par le patient (l'effet visuel de la 3D est puissant), tout en vous faisant gagner le temps d'un second rendez-vous.
+
+Notre recommandation : Si vous avez un budget limité et faites peu de chirurgie, commencez par une panoramique 2D de qualité, de préférence "évolutive 3D" (upgradable). Si l'implantologie ou la chirurgie avancée fait partie intégrante de votre pratique hebdomadaire, le CBCT est un investissement obligatoire.
+
+Consultez les experts en imagerie d'AfriSmile pour évaluer la solution la plus adaptée à vos besoins cliniques.`,
+    faq: [
+      {
+        q: 'Peut-on poser des implants en sécurité avec une simple panoramique 2D ?',
+        a: 'Aujourd\'hui, les standards de soins recommandent fortement l\'usage de la 3D (CBCT) pour la planification implantaire afin d\'éviter les lésions nerveuses ou sinusiennes.',
+      },
+      {
+        q: 'Qu\'est-ce qu\'une panoramique évolutive 3D ?',
+        a: 'C\'est un appareil acheté en 2D, mais qui possède le capteur et la mécanique permettant l\'ajout ultérieur d\'un module 3D via une simple mise à jour (moyennant finance), sans changer la machine entière.',
+      },
+      {
+        q: 'Le Cone Beam est-il plus irradiant pour le patient ?',
+        a: 'Le CBCT est plus irradiant qu\'une panoramique 2D, mais nettement moins qu\'un scanner médical (TDM) d\'hôpital. Les doses sont optimisées pour la zone dentaire.',
+      }
+    ],
+  },
+  {
     id: 35,
     slug: 'devis-materiel-dentaire-senegal-7-questions-avant-acheter-2026',
     title: 'Devis matériel dentaire au Sénégal : 7 questions à poser avant d’acheter en 2026',

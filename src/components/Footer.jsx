@@ -21,6 +21,8 @@ export default function Footer() {
           <ul className="mt-3 space-y-2 text-sm text-slate-300">
             <li><Link to="/produits" className="transition hover:text-white">Produits</Link></li>
             <li><Link to="/materiel-dentaire-senegal" className="transition hover:text-white">Matériel dentaire Sénégal</Link></li>
+            <li><Link to="/materiel-dentaire-cote-divoire" className="transition hover:text-white">Matériel dentaire Côte d'Ivoire</Link></li>
+            <li><Link to="/materiel-dentaire-mali" className="transition hover:text-white">Matériel dentaire Mali</Link></li>
             <li><Link to="/equipement-dentaire-dakar" className="transition hover:text-white">Équipement dentaire Dakar</Link></li>
             <li><Link to="/service-technique" className="transition hover:text-white">SAV matériel dentaire</Link></li>
             <li><Link to="/contact" className="transition hover:text-white">Contact / devis</Link></li>

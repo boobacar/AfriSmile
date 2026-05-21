@@ -21,6 +21,8 @@ import EquipementDentaireDakarPage from './pages/EquipementDentaireDakarPage'
 import FauteuilDentaireSenegalPage from './pages/FauteuilDentaireSenegalPage'
 import AutoclaveDentaireClasseBSenegalPage from './pages/AutoclaveDentaireClasseBSenegalPage'
 import ScannerIntraOralSenegalPage from './pages/ScannerIntraOralSenegalPage'
+import MaterielDentaireCoteDIvoirePage from './pages/MaterielDentaireCoteDIvoirePage'
+import MaterielDentaireMaliPage from './pages/MaterielDentaireMaliPage'
 import NotFoundPage from './pages/NotFoundPage'
 import { blogPosts } from './data/siteData'
 import { SITE_ORIGIN, getSeoForPath } from './data/seoData'
@@ -276,6 +278,8 @@ export default function App() {
         <Route path="/fauteuil-dentaire-senegal" element={<FauteuilDentaireSenegalPage />} />
         <Route path="/autoclave-dentaire-classe-b-senegal" element={<AutoclaveDentaireClasseBSenegalPage />} />
         <Route path="/scanner-intra-oral-senegal" element={<ScannerIntraOralSenegalPage />} />
+        <Route path="/materiel-dentaire-cote-divoire" element={<MaterielDentaireCoteDIvoirePage />} />
+        <Route path="/materiel-dentaire-mali" element={<MaterielDentaireMaliPage />} />
         <Route path="/404" element={<NotFoundPage />} />
         <Route path="*" element={<Navigate to="/404" replace />} />
       </Routes>

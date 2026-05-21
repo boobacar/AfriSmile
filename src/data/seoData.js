@@ -105,6 +105,16 @@ export const seoPages = {
       'Mentions légales du site AfriSmile: éditeur, coordonnées, hébergement et informations de contact pour le Sénégal et l’Afrique de l’Ouest.',
     imagePath: '/assets/page-legal.jpg',
   },
+  '/materiel-dentaire-cote-divoire': {
+    title: 'Matériel Dentaire Côte d\'Ivoire & Abidjan | AfriSmile',
+    description: 'Fournisseur de matériel dentaire en Côte d\'Ivoire. Équipez votre cabinet à Abidjan avec nos fauteuils, autoclaves, et scanners intra-oraux.',
+    imagePath: '/assets/illustration-clinic.jpg',
+  },
+  '/materiel-dentaire-mali': {
+    title: 'Matériel Dentaire Mali & Bamako | AfriSmile',
+    description: 'Équipement dentaire professionnel au Mali. Livraison et installation à Bamako : fauteuils, stérilisation et imagerie 3D.',
+    imagePath: '/assets/illustration-instruments.jpg',
+  },
   '/404': {
     title: 'Page introuvable | AfriSmile',
     description:

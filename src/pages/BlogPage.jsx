@@ -29,6 +29,19 @@ export default function BlogPage() {
         </div>
       </section>
 
+
+      <section className="section-shell">
+        <h2 className="section-title">Cibles Afrique de l’Ouest</h2>
+        <div className="mt-4 flex flex-wrap gap-2 text-sm">
+          <Link to="/materiel-dentaire-cote-divoire" className="btn-secondary">Côte d’Ivoire</Link>
+          <Link to="/materiel-dentaire-cameroun" className="btn-secondary">Cameroun</Link>
+          <Link to="/materiel-dentaire-ghana" className="btn-secondary">Ghana</Link>
+          <Link to="/materiel-dentaire-nigeria" className="btn-secondary">Nigeria</Link>
+          <Link to="/materiel-dentaire-mauritanie" className="btn-secondary">Mauritanie</Link>
+          <Link to="/materiel-dentaire-niger" className="btn-secondary">Niger</Link>
+        </div>
+      </section>
+
       <section className="section-shell">
         <h2 className="section-title">Articles récents</h2>
         <div className="mt-6 grid gap-4">

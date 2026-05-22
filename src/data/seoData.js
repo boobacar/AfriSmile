@@ -115,6 +115,21 @@ export const seoPages = {
     description: 'Équipement dentaire professionnel au Mali. Livraison et installation à Bamako : fauteuils, stérilisation et imagerie 3D.',
     imagePath: '/assets/illustration-instruments.jpg',
   },
+  '/materiel-dentaire-cameroun': {
+    title: 'Matériel Dentaire Cameroun (Douala, Yaoundé) | AfriSmile',
+    description: 'Fournisseur de matériel dentaire au Cameroun: fauteuils, autoclaves Classe B, imagerie, installation et support technique pour cliniques à Douala et Yaoundé.',
+    imagePath: '/assets/illustration-equipment.jpg',
+  },
+  '/materiel-dentaire-ghana': {
+    title: 'Matériel Dentaire Ghana (Accra, Kumasi) | AfriSmile',
+    description: 'Équipement dentaire professionnel au Ghana: conseil achat, livraison, installation et maintenance pour cabinets à Accra, Kumasi et au-delà.',
+    imagePath: '/assets/illustration-clinic.jpg',
+  },
+  '/materiel-dentaire-nigeria': {
+    title: 'Matériel Dentaire Nigeria (Lagos, Abuja) | AfriSmile',
+    description: 'AfriSmile accompagne les cabinets au Nigeria avec du matériel dentaire fiable, de la stérilisation à l’imagerie, et un support orienté continuité clinique.',
+    imagePath: '/assets/illustration-instruments.jpg',
+  },
   '/404': {
     title: 'Page introuvable | AfriSmile',
     description:

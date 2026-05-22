@@ -31,6 +31,9 @@ export default function HomePage() {
           <Link to="/materiel-dentaire-cameroun" className="btn-secondary">Matériel dentaire Cameroun</Link>
           <Link to="/materiel-dentaire-ghana" className="btn-secondary">Matériel dentaire Ghana</Link>
           <Link to="/materiel-dentaire-nigeria" className="btn-secondary">Matériel dentaire Nigeria</Link>
+          <Link to="/materiel-dentaire-mauritanie" className="btn-secondary">Matériel dentaire Mauritanie</Link>
+          <Link to="/materiel-dentaire-niger" className="btn-secondary">Matériel dentaire Niger</Link>
+          <Link to="/materiel-dentaire-guinee-bissau" className="btn-secondary">Matériel dentaire Guinée-Bissau</Link>
         </div>
       </section>
 

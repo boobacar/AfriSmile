@@ -23,6 +23,9 @@ export default function BlogPage() {
           <Link to="/fauteuil-dentaire-senegal" className="btn-secondary">Fauteuil dentaire Sénégal</Link>
           <Link to="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Autoclave Classe B</Link>
           <Link to="/scanner-intra-oral-senegal" className="btn-secondary">Scanner intra-oral</Link>
+          <Link to="/materiel-dentaire-cameroun" className="btn-secondary">Matériel dentaire Cameroun</Link>
+          <Link to="/materiel-dentaire-ghana" className="btn-secondary">Matériel dentaire Ghana</Link>
+          <Link to="/materiel-dentaire-nigeria" className="btn-secondary">Matériel dentaire Nigeria</Link>
         </div>
       </section>
 

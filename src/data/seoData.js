@@ -10,7 +10,7 @@ export const seoPages = {
     imagePath: '/assets/page-home.jpg',
   },
   '/produits': {
-    title: 'Catalogue matériel dentaire Sénégal | Prix & devis | AfriSmile',
+    title: 'Catalogue Matériel Dentaire Sénégal (Prix & Devis Rapide) | AfriSmile',
     description:
       'Catalogue de matériel dentaire professionnel: fauteuils, compresseurs, autoclaves, imagerie et consommables. Devis rapide à Dakar.',
     imagePath: '/assets/page-products.jpg',
@@ -46,7 +46,7 @@ export const seoPages = {
     imagePath: '/assets/page-about.jpg',
   },
   '/equipement-dentaire-dakar': {
-    title: 'Équipement dentaire à Dakar | Livraison, installation, maintenance',
+    title: 'Équipement Dentaire à Dakar : Livraison + Installation + SAV | AfriSmile',
     description:
       'Équipement dentaire à Dakar pour cabinets et cliniques: conseil achat, livraison, installation et maintenance technique locale AfriSmile.',
     imagePath: '/assets/illustration-clinic.jpg',
@@ -58,13 +58,13 @@ export const seoPages = {
     imagePath: '/assets/illustration-equipment.jpg',
   },
   '/fauteuil-dentaire-senegal': {
-    title: 'Fauteuil dentaire Sénégal | Comparatif, prix, installation | AfriSmile',
+    title: 'Fauteuil Dentaire Sénégal : Comparatif Prix + Installation | AfriSmile',
     description:
       'Choisissez un fauteuil dentaire adapté à votre cabinet au Sénégal: options, budget, ergonomie, installation et maintenance.',
     imagePath: '/assets/page-products.jpg',
   },
   '/autoclave-dentaire-classe-b-senegal': {
-    title: 'Autoclave dentaire Classe B Sénégal | Vente & mise en service',
+    title: 'Autoclave Dentaire Classe B Sénégal : Prix, Vente & Mise en Service',
     description:
       'Autoclaves dentaires Classe B au Sénégal: conformité, cycles de stérilisation, installation et suivi technique AfriSmile.',
     imagePath: '/assets/illustration-instruments.jpg',
@@ -82,7 +82,7 @@ export const seoPages = {
     imagePath: '/assets/page-blog.jpg',
   },
   '/contact': {
-    title: 'Devis matériel dentaire Sénégal & Afrique de l’Ouest | AfriSmile',
+    title: 'Devis Matériel Dentaire Sénégal & Afrique de l’Ouest en 24h | AfriSmile',
     description:
       'Contactez AfriSmile pour un devis rapide en matériel dentaire au Sénégal et en Afrique de l’Ouest : conseil, livraison, installation et SAV.',
     imagePath: '/assets/page-contact.jpg',
@@ -128,6 +128,21 @@ export const seoPages = {
   '/materiel-dentaire-nigeria': {
     title: 'Matériel Dentaire Nigeria (Lagos, Abuja) | AfriSmile',
     description: 'AfriSmile accompagne les cabinets au Nigeria avec du matériel dentaire fiable, de la stérilisation à l’imagerie, et un support orienté continuité clinique.',
+    imagePath: '/assets/illustration-instruments.jpg',
+  },
+  '/materiel-dentaire-mauritanie': {
+    title: 'Matériel Dentaire Mauritanie (Nouakchott) | AfriSmile',
+    description: 'Équipez votre cabinet en Mauritanie avec AfriSmile: fauteuils, autoclaves Classe B, imagerie, installation et accompagnement technique.',
+    imagePath: '/assets/illustration-clinic.jpg',
+  },
+  '/materiel-dentaire-niger': {
+    title: 'Matériel Dentaire Niger (Niamey) | AfriSmile',
+    description: 'Solutions de matériel dentaire au Niger: conseil achat, installation, maintenance et suivi pour cliniques et cabinets à Niamey.',
+    imagePath: '/assets/illustration-equipment.jpg',
+  },
+  '/materiel-dentaire-guinee-bissau': {
+    title: 'Matériel Dentaire Guinée-Bissau | AfriSmile',
+    description: 'AfriSmile accompagne les cabinets en Guinée-Bissau avec des équipements dentaires fiables, un déploiement structuré et un support technique.',
     imagePath: '/assets/illustration-instruments.jpg',
   },
   '/404': {

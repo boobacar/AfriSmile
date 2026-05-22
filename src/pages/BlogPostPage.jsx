@@ -207,6 +207,32 @@ const relatedBySlug = {
     { to: '/contact', label: 'Dimensionner votre installation' },
   ],
 
+
+  'prix-materiel-dentaire-dakar-comment-reduire-cout-total-2026': [
+    { to: '/equipement-dentaire-dakar', label: 'Équipement dentaire à Dakar' },
+    { to: '/modeles-achat', label: 'Optimiser le budget d’achat' },
+    { to: '/contact', label: 'Demander un devis à Dakar' },
+  ],
+  'devis-cabinet-dentaire-abidjan-checklist-avant-signature-2026': [
+    { to: '/materiel-dentaire-cote-divoire', label: 'Matériel dentaire Côte d’Ivoire' },
+    { to: '/service-technique', label: 'Vérifier le support technique' },
+    { to: '/contact', label: 'Demander un devis Abidjan' },
+  ],
+  'equipement-dentaire-douala-priorites-ouverture-clinique-2026': [
+    { to: '/materiel-dentaire-cameroun', label: 'Matériel dentaire Cameroun' },
+    { to: '/solutions-cabinets', label: 'Préparer votre ouverture' },
+    { to: '/contact', label: 'Construire votre plan d’équipement' },
+  ],
+  'scanner-intra-oral-accra-rentabilite-cabinet-2026': [
+    { to: '/materiel-dentaire-ghana', label: 'Matériel dentaire Ghana' },
+    { to: '/scanner-intra-oral-senegal', label: 'Solutions scanner intra-oral' },
+    { to: '/contact', label: 'Planifier une démo scanner' },
+  ],
+  'materiel-dentaire-lagos-comment-choisir-fournisseur-fiable-2026': [
+    { to: '/materiel-dentaire-nigeria', label: 'Matériel dentaire Nigeria' },
+    { to: '/service-technique', label: 'Maintenance et SAV' },
+    { to: '/contact', label: 'Parler à un conseiller AfriSmile' },
+  ],
   'materiel-dentaire-cameroun-douala-yaounde-guide-achat-2026': [
     { to: '/materiel-dentaire-cameroun', label: 'Matériel dentaire Cameroun' },
     { to: '/service-technique', label: 'Sécuriser installation et SAV' },

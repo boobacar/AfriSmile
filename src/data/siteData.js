@@ -49,6 +49,108 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 54,
+    slug: 'prix-materiel-dentaire-dakar-comment-reduire-cout-total-2026',
+    title: 'Prix matériel dentaire à Dakar : comment réduire le coût total en 2026',
+    excerpt: 'Méthode simple pour comparer les devis à Dakar et réduire le coût réel d’équipement de votre cabinet dentaire.',
+    metaTitle: 'Prix matériel dentaire Dakar : réduire le coût total 2026',
+    metaDescription: 'Comparez les devis de matériel dentaire à Dakar avec une méthode orientée coût total, maintenance et rentabilité cabinet.',
+    datePublished: '2026-05-22',
+    dateModified: '2026-05-22',
+    content: `Le prix d’un équipement dentaire à Dakar dépend autant du service autour que de la machine elle-même. Pour réduire votre coût total, comparez installation, garantie, maintenance et disponibilité des pièces.
+
+Un devis bas sans support local peut coûter plus cher à cause des arrêts d’activité. Construisez une grille de comparaison en 5 lignes : prix initial, installation, SAV, consommables, coût d’arrêt.
+
+Priorisez ensuite les postes critiques : fauteuil, stérilisation, compresseur/aspiration. Les équipements secondaires peuvent être phasés selon le flux patient.
+
+Cette logique vous aide à investir mieux, sans sacrifier la qualité clinique.`,
+    faq: [
+      { q: 'Comment comparer deux devis à Dakar ?', a: 'Utilisez une grille coût total: achat, installation, maintenance, pièces et risque d’arrêt.' },
+      { q: 'Faut-il acheter tout dès le départ ?', a: 'Non, sécurisez le socle puis ajoutez les options évolutives selon la traction clinique.' },
+      { q: 'AfriSmile aide-t-il à lire les devis ?', a: 'Oui, AfriSmile peut comparer et structurer les options selon vos priorités.' },
+    ],
+  },
+  {
+    id: 53,
+    slug: 'devis-cabinet-dentaire-abidjan-checklist-avant-signature-2026',
+    title: 'Devis cabinet dentaire à Abidjan : checklist avant signature (2026)',
+    excerpt: '7 points à vérifier avant de signer un devis d’équipement dentaire en Côte d’Ivoire.',
+    metaTitle: 'Devis cabinet dentaire Abidjan : checklist 2026',
+    metaDescription: 'Checklist pratique pour sécuriser un devis cabinet dentaire à Abidjan: installation, SAV, garantie, pièces et coût total.',
+    datePublished: '2026-05-22',
+    dateModified: '2026-05-22',
+    content: `Avant de signer un devis à Abidjan, vérifiez le périmètre réel: références exactes, accessoires, installation, formation, garantie et maintenance.
+
+La plupart des écarts de coût viennent de ce qui n’est pas écrit. Clarifiez les délais d’intervention et la disponibilité des pièces critiques.
+
+Enfin, comparez les offres sur 24 à 36 mois, pas uniquement au prix d’achat.`,
+    faq: [
+      { q: 'Quel est le plus grand risque ?', a: 'Signer un devis incomplet sans installation ni plan SAV détaillé.' },
+      { q: 'Pourquoi vérifier les pièces ?', a: 'Parce que l’immobilisation d’un fauteuil ou autoclave coûte très cher en production.' },
+      { q: 'AfriSmile intervient-il en Côte d’Ivoire ?', a: 'Oui, avec accompagnement de la sélection à l’installation.' },
+    ],
+  },
+  {
+    id: 52,
+    slug: 'equipement-dentaire-douala-priorites-ouverture-clinique-2026',
+    title: 'Équipement dentaire à Douala : priorités pour ouvrir une clinique en 2026',
+    excerpt: 'Le bon ordre d’achat pour démarrer une clinique à Douala avec un budget maîtrisé.',
+    metaTitle: 'Équipement dentaire Douala : priorités ouverture 2026',
+    metaDescription: 'Guide d’ouverture clinique à Douala: fauteuil, stérilisation, compresseur, imagerie et plan d’achat progressif.',
+    datePublished: '2026-05-22',
+    dateModified: '2026-05-22',
+    content: `Pour ouvrir vite à Douala, sécurisez d’abord le socle clinique indispensable: fauteuil, autoclave Classe B, compresseur/aspiration, instruments et consommables.
+
+Ensuite, planifiez les extensions selon vos actes les plus rentables: RVG, scanner intra-oral, options premium.
+
+Cette approche réduit la pression trésorerie tout en gardant un haut niveau de qualité patient.`,
+    faq: [
+      { q: 'Quel matériel acheter en premier ?', a: 'Fauteuil, stérilisation, compresseur/aspiration et instrumentation essentielle.' },
+      { q: 'Comment protéger le budget ?', a: 'En phaseant les achats et en comparant le coût total.' },
+      { q: 'AfriSmile peut-il proposer un plan par étapes ?', a: 'Oui, selon votre volume et vos objectifs de croissance.' },
+    ],
+  },
+  {
+    id: 51,
+    slug: 'scanner-intra-oral-accra-rentabilite-cabinet-2026',
+    title: 'Scanner intra-oral à Accra : comment rentabiliser l’investissement en 2026',
+    excerpt: 'Calcul simple du ROI scanner intra-oral pour cabinets à Accra.',
+    metaTitle: 'Scanner intra-oral Accra : ROI cabinet 2026',
+    metaDescription: 'Mesurez la rentabilité d’un scanner intra-oral à Accra: gain de temps, acceptation patient, productivité et coût réel.',
+    datePublished: '2026-05-22',
+    dateModified: '2026-05-22',
+    content: `À Accra, un scanner intra-oral peut devenir un levier fort de productivité si le flux clinique est bien organisé.
+
+Le ROI repose sur trois leviers: réduction des reprises d’empreinte, accélération labo et meilleur taux d’acceptation des plans de traitement.
+
+Avant d’investir, vérifiez l’ouverture des formats, la formation équipe et le support technique.`,
+    faq: [
+      { q: 'Le scanner est-il rentable pour un petit cabinet ?', a: 'Oui si le volume prothèse/ortho est régulier et que le workflow est bien formé.' },
+      { q: 'Quel coût caché surveiller ?', a: 'Les abonnements logiciels et la dépendance à un écosystème fermé.' },
+      { q: 'AfriSmile accompagne la formation ?', a: 'Oui, avec support de déploiement et prise en main.' },
+    ],
+  },
+  {
+    id: 50,
+    slug: 'materiel-dentaire-lagos-comment-choisir-fournisseur-fiable-2026',
+    title: 'Matériel dentaire à Lagos : comment choisir un fournisseur fiable en 2026',
+    excerpt: 'Checklist rapide pour sélectionner un fournisseur dentaire solide à Lagos.',
+    metaTitle: 'Matériel dentaire Lagos : choisir un fournisseur fiable 2026',
+    metaDescription: 'Checklist fournisseur matériel dentaire à Lagos: fiabilité produit, installation, maintenance, pièces et délais SAV.',
+    datePublished: '2026-05-22',
+    dateModified: '2026-05-22',
+    content: `À Lagos, le choix du fournisseur impacte directement la continuité clinique. Analysez la fiabilité produit, la qualité d’installation, les délais SAV et la disponibilité des pièces.
+
+Évitez les offres trop peu détaillées: exigez une configuration claire et un plan de maintenance.
+
+Le meilleur fournisseur est celui qui sécurise votre production sur la durée.`,
+    faq: [
+      { q: 'Quel critère prime ?', a: 'La capacité à maintenir votre cabinet opérationnel avec un SAV réactif.' },
+      { q: 'Pourquoi la maintenance est-elle cruciale ?', a: 'Parce qu’elle réduit les pannes et protège vos revenus.' },
+      { q: 'AfriSmile peut-il accompagner un cabinet à Lagos ?', a: 'Oui, avec une approche orientée fiabilité et ROI.' },
+    ],
+  },
+  {
     id: 49,
     slug: 'materiel-dentaire-cameroun-douala-yaounde-guide-achat-2026',
     title: 'Matériel dentaire au Cameroun (Douala, Yaoundé) : guide d’achat 2026',

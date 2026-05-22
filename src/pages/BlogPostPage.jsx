@@ -206,6 +206,37 @@ const relatedBySlug = {
     { to: '/service-technique', label: 'Maintenance et SAV' },
     { to: '/contact', label: 'Dimensionner votre installation' },
   ],
+
+  'materiel-dentaire-cameroun-douala-yaounde-guide-achat-2026': [
+    { to: '/materiel-dentaire-cameroun', label: 'Matériel dentaire Cameroun' },
+    { to: '/service-technique', label: 'Sécuriser installation et SAV' },
+    { to: '/contact', label: 'Demander un devis Cameroun' },
+  ],
+  'materiel-dentaire-ghana-accra-kumasi-fournisseur-clinique-2026': [
+    { to: '/materiel-dentaire-ghana', label: 'Matériel dentaire Ghana' },
+    { to: '/modeles-achat', label: 'Structurer le budget d’équipement' },
+    { to: '/contact', label: 'Demander un devis Ghana' },
+  ],
+  'materiel-dentaire-nigeria-lagos-abuja-ouvrir-clinique-2026': [
+    { to: '/materiel-dentaire-nigeria', label: 'Matériel dentaire Nigeria' },
+    { to: '/solutions-cabinets', label: 'Préparer votre ouverture cabinet' },
+    { to: '/contact', label: 'Demander un devis Nigeria' },
+  ],
+  'materiel-dentaire-benin-togo-guide-equipement-cabinet-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Hub matériel dentaire Afrique de l’Ouest' },
+    { to: '/service-technique', label: 'Maintenance & SAV' },
+    { to: '/contact', label: 'Parler à un conseiller AfriSmile' },
+  ],
+  'materiel-dentaire-burkina-faso-ougadougou-prix-devis-2026': [
+    { to: '/modeles-achat', label: 'Analyser votre devis d’équipement' },
+    { to: '/materiel-dentaire-senegal', label: 'Comparer les catégories matériel' },
+    { to: '/contact', label: 'Demander une revue de devis' },
+  ],
+  'materiel-dentaire-guinee-conakry-cabinet-moderne-2026': [
+    { to: '/solutions-cabinets', label: 'Moderniser votre cabinet' },
+    { to: '/autoclave-dentaire-classe-b-senegal', label: 'Sécuriser la stérilisation' },
+    { to: '/contact', label: 'Construire votre plan d’équipement' },
+  ],
   'cabinet-dentaire-senegal-business-plan-equipement-rentabilite-2026': [
     { to: '/modeles-achat', label: 'Planifier vos achats' },
     { to: '/materiel-dentaire-senegal', label: 'Construire votre panier matériel' },

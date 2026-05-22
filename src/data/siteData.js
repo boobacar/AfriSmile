@@ -49,6 +49,255 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 49,
+    slug: 'materiel-dentaire-cameroun-douala-yaounde-guide-achat-2026',
+    title: 'Matériel dentaire au Cameroun (Douala, Yaoundé) : guide d’achat 2026',
+    excerpt: 'Comment choisir un fournisseur fiable pour équiper votre cabinet dentaire au Cameroun, avec installation, SAV et coût total maîtrisé.',
+    metaTitle: 'Matériel dentaire Cameroun (Douala, Yaoundé) | Guide 2026',
+    metaDescription: 'Guide 2026 pour acheter du matériel dentaire au Cameroun : fauteuils, autoclaves, scanner intra-oral, installation et support technique.',
+    datePublished: '2026-05-22',
+    dateModified: '2026-05-22',
+    content:
+      `Le marché du matériel dentaire au Cameroun, notamment à Douala et Yaoundé, devient de plus en plus exigeant. Les praticiens recherchent aujourd’hui des équipements performants, mais surtout un partenaire capable d’assurer la continuité clinique après installation.
+
+
+La première étape consiste à prioriser les achats qui impactent directement la production : fauteuil dentaire fiable, autoclave Classe B, compresseur sans huile avec sécheur, aspiration et instrumentation rotative. Sans ce socle, la qualité de service et le rythme des actes deviennent difficiles à maintenir.
+
+
+Deuxième point critique : la préparation technique du local. Les raccordements eau, air, électricité et évacuation doivent être validés avant livraison. Un mauvais prérequis technique rallonge les délais et crée des surcoûts évitables.
+
+
+Troisième point : comparer les devis sur le coût total, pas uniquement sur le prix d’achat. Il faut intégrer installation, garantie, maintenance, pièces d’usure et temps d’arrêt potentiel. Cette lecture donne une vision beaucoup plus réaliste de la rentabilité.
+
+
+Pour Douala et Yaoundé, il est également utile de structurer un plan d’équipement en phases : indispensable au démarrage, extension à 90 jours, puis montée en gamme selon le flux patient. Cette méthode protège la trésorerie.
+
+
+AfriSmile accompagne les cliniques au Cameroun avec un dispositif orienté performance : conseil d’achat, devis structuré, installation et accompagnement technique.`,
+    faq: [
+      {
+        q: 'Quel équipement prioriser pour un cabinet à Douala ?',
+        a: 'Priorisez fauteuil, stérilisation Classe B, compresseur sans huile, aspiration et instruments de base.',
+      },
+      {
+        q: 'Pourquoi regarder le coût total et pas seulement le prix ?',
+        a: 'Parce que la maintenance, les pièces et les arrêts de service influencent fortement la rentabilité réelle.',
+      },
+      {
+        q: 'AfriSmile intervient-il à Yaoundé ?',
+        a: 'Oui, AfriSmile accompagne les projets d’équipement à Yaoundé et dans le reste du Cameroun.',
+      },
+    ],
+  },
+  {
+    id: 48,
+    slug: 'materiel-dentaire-ghana-accra-kumasi-fournisseur-clinique-2026',
+    title: 'Matériel dentaire au Ghana (Accra, Kumasi) : comment choisir votre fournisseur en 2026',
+    excerpt: 'Les critères clés pour sélectionner un fournisseur de matériel dentaire au Ghana : fiabilité, SAV, installation et capacité d’évolution.',
+    metaTitle: 'Matériel dentaire Ghana (Accra, Kumasi) : fournisseur 2026',
+    metaDescription: 'Comment choisir un fournisseur de matériel dentaire au Ghana en 2026 : qualité des équipements, maintenance, installation et ROI.',
+    datePublished: '2026-05-22',
+    dateModified: '2026-05-22',
+    content:
+      `Au Ghana, les cabinets dentaires d’Accra et Kumasi cherchent des équipements capables de soutenir la croissance du flux patient. Le bon fournisseur ne se limite pas à vendre un produit : il sécurise un système clinique durable.
+
+
+Commencez par définir vos priorités médicales et business. Si votre activité est généraliste avec fort volume, la fiabilité du fauteuil, de la stérilisation et de la chaîne air/aspiration devient essentielle. Pour des actes avancés, l’imagerie numérique et le scanner intra-oral apportent un vrai avantage compétitif.
+
+
+Ensuite, exigez des devis transparents : référence exacte, options incluses, conditions d’installation, délais, garantie, maintenance et pièces. Cette clarté évite les mauvaises surprises au moment de la mise en service.
+
+
+Le troisième levier est le support post-installation. Un cabinet qui attend trop longtemps une pièce critique perd des actes et des revenus. Évaluez donc le niveau de réactivité SAV avant de signer.
+
+
+Enfin, adoptez une stratégie d’achat évolutive. Démarrez avec un socle robuste, puis ajoutez les équipements premium selon votre montée en charge clinique. Cette approche améliore le retour sur investissement.
+
+
+AfriSmile accompagne les professionnels dentaires au Ghana avec des solutions adaptées au terrain, de la sélection matériel jusqu’au suivi technique.`,
+    faq: [
+      {
+        q: 'Quels critères de choix sont les plus importants au Ghana ?',
+        a: 'La fiabilité des équipements, la qualité de l’installation et la réactivité du service technique.',
+      },
+      {
+        q: 'Faut-il investir tout de suite dans l’imagerie avancée ?',
+        a: 'Pas forcément. Une montée en gamme progressive selon le flux patient est souvent plus rentable.',
+      },
+      {
+        q: 'AfriSmile peut-il aider à comparer plusieurs scénarios ?',
+        a: 'Oui, AfriSmile peut structurer des options d’équipement selon votre budget et vos objectifs.',
+      },
+    ],
+  },
+  {
+    id: 47,
+    slug: 'materiel-dentaire-nigeria-lagos-abuja-ouvrir-clinique-2026',
+    title: 'Matériel dentaire au Nigeria (Lagos, Abuja) : réussir l’équipement de votre clinique en 2026',
+    excerpt: 'Checklist pratique pour équiper une clinique au Nigeria : fauteuil, stérilisation, imagerie, maintenance et stratégie d’achat.',
+    metaTitle: 'Matériel dentaire Nigeria (Lagos, Abuja) | Checklist 2026',
+    metaDescription: 'Guide 2026 pour choisir votre matériel dentaire au Nigeria : configuration cabinet, budget, installation et maintenance.',
+    datePublished: '2026-05-22',
+    dateModified: '2026-05-22',
+    content:
+      `Équiper une clinique dentaire au Nigeria, notamment à Lagos ou Abuja, demande une méthode rigoureuse. Les décisions d’achat doivent répondre à deux enjeux : qualité clinique et continuité opérationnelle.
+
+
+Le pack de base à sécuriser comprend généralement un fauteuil dentaire performant, un autoclave Classe B, un compresseur sans huile avec sécheur, une aspiration fiable et un stock initial de consommables critiques.
+
+
+La deuxième clé est la cohérence entre votre plateau technique et votre plan de croissance. Si vous visez plus de prothèse, d’implantologie ou d’orthodontie, prévoyez dès le départ une architecture évolutive vers le flux numérique et l’imagerie.
+
+
+Côté budget, comparez les offres sur 24 à 36 mois : prix d’achat, installation, maintenance, pièces, formation équipe et coût d’arrêt. Cette vision évite les décisions purement “prix bas” qui deviennent coûteuses ensuite.
+
+
+N’oubliez pas le facteur temps : un planning précis livraison-installation-tests-formation accélère la mise en production et réduit les imprévus d’ouverture.
+
+
+AfriSmile accompagne les cliniques au Nigeria avec un cadre de décision orienté résultats : équipement adapté, déploiement maîtrisé et support technique.`,
+    faq: [
+      {
+        q: 'Quel matériel est indispensable pour démarrer à Lagos ?',
+        a: 'Fauteuil, autoclave Classe B, compresseur sans huile, aspiration et consommables critiques.',
+      },
+      {
+        q: 'Comment éviter les arrêts techniques coûteux ?',
+        a: 'En validant installation, maintenance préventive et disponibilité des pièces dès la phase devis.',
+      },
+      {
+        q: 'AfriSmile intervient-il pour des projets à Abuja ?',
+        a: 'Oui, AfriSmile accompagne les projets d’équipement pour Abuja et d’autres villes du Nigeria.',
+      },
+    ],
+  },
+  {
+    id: 46,
+    slug: 'materiel-dentaire-benin-togo-guide-equipement-cabinet-2026',
+    title: 'Matériel dentaire au Bénin et au Togo : guide équipement cabinet 2026',
+    excerpt: 'Les priorités d’équipement pour cabinets dentaires au Bénin et au Togo : budget, fiabilité, installation et support.',
+    metaTitle: 'Matériel dentaire Bénin & Togo : guide cabinet 2026',
+    metaDescription: 'Guide 2026 Bénin et Togo pour choisir un matériel dentaire fiable : fauteuil, autoclave, compresseur, installation et SAV.',
+    datePublished: '2026-05-22',
+    dateModified: '2026-05-22',
+    content:
+      `Au Bénin et au Togo, les cabinets dentaires ont besoin d’un matériel fiable, simple à maintenir et cohérent avec leur volume d’activité. Le principal défi est d’équilibrer performance clinique et maîtrise des coûts.
+
+
+La stratégie la plus sûre consiste à construire un socle robuste : fauteuil, stérilisation Classe B, chaîne air/aspiration, instrumentation et consommables critiques. Ce socle garantit la continuité des soins.
+
+
+Ensuite, il faut cadrer l’installation. Un déploiement réussi dépend des prérequis techniques du local : alimentation, évacuation, ventilation, ergonomie et protocole de stérilisation.
+
+
+Pour les investissements secondaires (imagerie avancée, scanner intra-oral, équipements premium), une approche progressive est recommandée. Elle permet de financer la montée en gamme via la croissance réelle du cabinet.
+
+
+Un fournisseur sérieux doit aussi proposer un plan de support : maintenance préventive, accès pièces, temps de réponse SAV et accompagnement utilisateur.
+
+
+AfriSmile aide les praticiens du Bénin et du Togo à structurer des décisions d’achat claires, avec un suivi orienté efficacité clinique et stabilité opérationnelle.`,
+    faq: [
+      {
+        q: 'Quel est le meilleur ordre d’achat pour un nouveau cabinet ?',
+        a: 'Commencez par le socle clinique indispensable, puis ajoutez les équipements évolutifs selon la traction patient.',
+      },
+      {
+        q: 'Pourquoi l’installation est-elle aussi importante que le produit ?',
+        a: 'Une installation mal préparée génère pannes, retards et coûts cachés, même avec un bon équipement.',
+      },
+      {
+        q: 'AfriSmile peut-il proposer un plan d’équipement progressif ?',
+        a: 'Oui, avec des phases d’investissement adaptées à votre budget et à votre activité.',
+      },
+    ],
+  },
+  {
+    id: 45,
+    slug: 'materiel-dentaire-burkina-faso-ougadougou-prix-devis-2026',
+    title: 'Matériel dentaire au Burkina Faso (Ouagadougou) : prix, devis et points de vigilance 2026',
+    excerpt: 'Comment lire un devis de matériel dentaire au Burkina Faso et éviter les erreurs qui coûtent cher après installation.',
+    metaTitle: 'Matériel dentaire Burkina Faso (Ouagadougou) : devis 2026',
+    metaDescription: 'Guide devis 2026 pour matériel dentaire au Burkina Faso : comparaison d’offres, installation, garantie, maintenance et coût total.',
+    datePublished: '2026-05-22',
+    dateModified: '2026-05-22',
+    content:
+      `À Ouagadougou comme ailleurs, un devis de matériel dentaire doit être interprété comme un plan de production, pas comme une simple liste de prix. Ce sont les lignes invisibles qui créent souvent les plus grands écarts de coût.
+
+
+Premier point : vérifier précisément ce qui est inclus (accessoires, configuration, installation, formation). Deux devis “proches” peuvent être incomparables si le périmètre n’est pas clair.
+
+
+Deuxième point : sécuriser le support technique. Les délais d’intervention, la disponibilité des pièces et la politique de maintenance influencent directement votre capacité à travailler sans interruption.
+
+
+Troisième point : analyser le coût total sur 2 à 3 ans. L’offre la moins chère à l’achat n’est pas toujours la plus économique en exploitation.
+
+
+Quatrième point : valider la compatibilité avec votre flux clinique. Un équipement sous-dimensionné vous fera perdre du temps ; un surdimensionnement immobilise inutilement la trésorerie.
+
+
+Avec une grille de comparaison simple et des priorités bien définies, vous pouvez sécuriser vos décisions d’investissement et protéger la qualité de service du cabinet.
+
+
+AfriSmile accompagne les cabinets au Burkina Faso pour structurer les devis et choisir des configurations alignées avec les objectifs cliniques et business.`,
+    faq: [
+      {
+        q: 'Quel est le piège le plus fréquent dans un devis ?',
+        a: 'Comparer uniquement le prix d’achat sans intégrer installation, SAV, maintenance et pièces.',
+      },
+      {
+        q: 'Comment réduire le risque d’arrêt de service ?',
+        a: 'En choisissant un fournisseur avec plan de maintenance préventive et disponibilité des pièces critiques.',
+      },
+      {
+        q: 'AfriSmile peut-il relire un devis existant ?',
+        a: 'Oui, AfriSmile peut aider à analyser et comparer les offres sur des critères techniques et économiques.',
+      },
+    ],
+  },
+  {
+    id: 44,
+    slug: 'materiel-dentaire-guinee-conakry-cabinet-moderne-2026',
+    title: 'Matériel dentaire en Guinée (Conakry) : équiper un cabinet moderne en 2026',
+    excerpt: 'Les étapes pour équiper un cabinet dentaire à Conakry avec une logique de fiabilité, d’hygiène et de rentabilité.',
+    metaTitle: 'Matériel dentaire Guinée (Conakry) : cabinet moderne 2026',
+    metaDescription: 'Guide 2026 pour cabinets à Conakry : fauteuil, autoclave Classe B, compresseur, imagerie, installation et support technique.',
+    datePublished: '2026-05-22',
+    dateModified: '2026-05-22',
+    content:
+      `À Conakry, moderniser un cabinet dentaire commence par une architecture technique claire. L’objectif est simple : garantir des soins constants, limiter les interruptions et améliorer l’expérience patient.
+
+
+Le premier pilier est l’ergonomie clinique : fauteuil fiable, instrumentation efficace, aspiration et éclairage adaptés. Ce socle améliore le confort praticien et la cadence des actes.
+
+
+Le deuxième pilier est l’hygiène : autoclave Classe B, organisation de la stérilisation, consommables et protocoles de contrôle. Une stérilisation robuste protège à la fois la sécurité médicale et la réputation du cabinet.
+
+
+Le troisième pilier est la vision long terme. Si vous envisagez de développer la prothèse, l’orthodontie ou l’implantologie, préparez une trajectoire vers l’imagerie numérique et le scanner intra-oral.
+
+
+Sur le plan financier, la meilleure approche reste progressive : base solide au démarrage, puis extensions ciblées selon les actes les plus demandés et la rentabilité observée.
+
+
+AfriSmile accompagne les praticiens en Guinée avec une méthode orientée terrain : évaluation du besoin, devis structuré, installation et appui technique.`,
+    faq: [
+      {
+        q: 'Quel équipement est prioritaire pour un cabinet à Conakry ?',
+        a: 'Fauteuil, autoclave Classe B, compresseur/aspiration, instrumentation et consommables essentiels.',
+      },
+      {
+        q: 'Faut-il investir tôt dans le numérique ?',
+        a: 'Oui si votre stratégie clinique le justifie ; sinon, prévoyez une montée en gamme planifiée.',
+      },
+      {
+        q: 'AfriSmile peut-il accompagner un projet de modernisation ?',
+        a: 'Oui, avec une approche progressive et un support technique aligné sur votre activité.',
+      },
+    ],
+  },
+  {
     id: 43,
     slug: 'comment-ouvrir-une-clinique-dentaire-en-cote-divoire-2026',
     title: 'Comment ouvrir une clinique dentaire en Côte d’Ivoire en 2026',

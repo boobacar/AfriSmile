@@ -76,7 +76,7 @@ export const seoPages = {
     imagePath: '/assets/page-solutions.jpg',
   },
   '/blog': {
-    title: 'Blog matériel dentaire Sénégal | Guides achat & conseils | AfriSmile',
+    title: 'Blog matériel dentaire Sénégal: guides achat | AfriSmile',
     description:
       'Guides pratiques AfriSmile pour cabinets en Afrique: fauteuils, stérilisation, scanner intra-oral, budget et décisions d’achat.',
     imagePath: '/assets/page-blog.jpg',
@@ -88,19 +88,19 @@ export const seoPages = {
     imagePath: '/assets/page-contact.jpg',
   },
   '/conditions-generales': {
-    title: 'Conditions générales de vente | AfriSmile',
+    title: 'Conditions générales AfriSmile Sénégal | AfriSmile',
     description:
       'Conditions générales AfriSmile pour la vente, livraison, installation et maintenance de matériel dentaire au Sénégal et en Afrique de l’Ouest.',
     imagePath: '/assets/page-legal.jpg',
   },
   '/politique-confidentialite': {
-    title: 'Politique de confidentialité | AfriSmile',
+    title: 'Politique confidentialité AfriSmile Sénégal | AfriSmile',
     description:
       'Politique de confidentialité AfriSmile: traitement des demandes de devis, contact, données personnelles et sécurité des informations clients.',
     imagePath: '/assets/page-legal.jpg',
   },
   '/mentions-legales': {
-    title: 'Mentions légales | AfriSmile',
+    title: 'Mentions légales AfriSmile Sénégal | AfriSmile',
     description:
       'Mentions légales du site AfriSmile: éditeur, coordonnées, hébergement et informations de contact pour le Sénégal et l’Afrique de l’Ouest.',
     imagePath: '/assets/page-legal.jpg',
@@ -111,7 +111,7 @@ export const seoPages = {
     imagePath: '/assets/illustration-clinic.jpg',
   },
   '/materiel-dentaire-mali': {
-    title: 'Matériel Dentaire Mali & Bamako | AfriSmile',
+    title: 'Matériel dentaire Mali: fournisseur à Bamako | AfriSmile',
     description: 'Équipement dentaire professionnel au Mali: livraison et installation à Bamako pour fauteuils, stérilisation et imagerie.',
     imagePath: '/assets/illustration-instruments.jpg',
   },
@@ -136,19 +136,19 @@ export const seoPages = {
     imagePath: '/assets/illustration-clinic.jpg',
   },
   '/materiel-dentaire-niger': {
-    title: 'Matériel Dentaire Niger (Niamey) | AfriSmile',
+    title: 'Matériel dentaire Niger: fournisseur à Niamey | AfriSmile',
     description: 'Solutions de matériel dentaire au Niger: conseil achat, installation, maintenance et suivi pour cliniques et cabinets à Niamey.',
     imagePath: '/assets/illustration-equipment.jpg',
   },
   '/materiel-dentaire-guinee-bissau': {
-    title: 'Matériel Dentaire Guinée-Bissau | AfriSmile',
+    title: 'Matériel dentaire Guinée-Bissau: devis pro | AfriSmile',
     description: 'AfriSmile accompagne les cabinets en Guinée-Bissau avec des équipements dentaires fiables, un déploiement structuré et un support technique.',
     imagePath: '/assets/illustration-instruments.jpg',
   },
   '/404': {
-    title: 'Page introuvable | AfriSmile',
+    title: 'Page introuvable AfriSmile Sénégal | AfriSmile',
     description:
-      'La page demandée est introuvable. Consultez nos solutions et notre catalogue de matériel dentaire au Sénégal.',
+      'La page demandée est introuvable. Découvrez les solutions AfriSmile au Sénégal: catalogue, conseils d’achat, devis et accompagnement technique.',
     robots: 'noindex, follow',
   },
 }

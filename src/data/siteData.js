@@ -53,8 +53,8 @@ export const blogPosts = [
     slug: 'prix-materiel-dentaire-dakar-comment-reduire-cout-total-2026',
     title: 'Prix matériel dentaire à Dakar : comment réduire le coût total en 2026',
     excerpt: 'Méthode simple pour comparer les devis à Dakar et réduire le coût réel d’équipement de votre cabinet dentaire.',
-    metaTitle: 'Prix matériel dentaire Dakar : réduire le coût total 2026',
-    metaDescription: 'Comparez les devis de matériel dentaire à Dakar avec une méthode orientée coût total, maintenance et rentabilité cabinet.',
+    metaTitle: 'Prix matériel dentaire Dakar: réduire le coût total | AfriSmile',
+    metaDescription: 'Méthode simple pour comparer vos devis à Dakar: achat, installation, maintenance et coût d’arrêt. Optimisez votre rentabilité cabinet.',
     datePublished: '2026-05-22',
     dateModified: '2026-05-22',
     content: `Le prix d’un équipement dentaire à Dakar dépend autant du service autour que de la machine elle-même. Pour réduire votre coût total, comparez installation, garantie, maintenance et disponibilité des pièces.
@@ -75,8 +75,8 @@ Cette logique vous aide à investir mieux, sans sacrifier la qualité clinique.`
     slug: 'devis-cabinet-dentaire-abidjan-checklist-avant-signature-2026',
     title: 'Devis cabinet dentaire à Abidjan : checklist avant signature (2026)',
     excerpt: '7 points à vérifier avant de signer un devis d’équipement dentaire en Côte d’Ivoire.',
-    metaTitle: 'Devis cabinet dentaire Abidjan : checklist 2026',
-    metaDescription: 'Checklist pratique pour sécuriser un devis cabinet dentaire à Abidjan: installation, SAV, garantie, pièces et coût total.',
+    metaTitle: 'Devis cabinet dentaire Abidjan: checklist avant signature',
+    metaDescription: 'Les 7 vérifications clés avant de signer un devis à Abidjan: installation, SAV, garantie, pièces et coût total sur 24–36 mois.',
     datePublished: '2026-05-22',
     dateModified: '2026-05-22',
     content: `Avant de signer un devis à Abidjan, vérifiez le périmètre réel: références exactes, accessoires, installation, formation, garantie et maintenance.

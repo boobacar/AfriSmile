@@ -11,6 +11,16 @@ const defaultRelatedMoneyPages = [
 ]
 
 const relatedBySlug = {
+  'fauteuil-dentaire-senegal-ergonomie-praticien-assistante-productivite-2026': [
+    { to: '/fauteuil-dentaire-senegal', label: 'Choisir un fauteuil dentaire ergonomique' },
+    { to: '/service-technique', label: 'Sécuriser réglages et maintenance terrain' },
+    { to: '/contact', label: 'Demander un audit ergonomique AfriSmile' },
+  ],
+  'autoclave-classe-b-senegal-erreurs-installation-performance-2026': [
+    { to: '/autoclave-dentaire-classe-b-senegal', label: 'Comparer les autoclaves Classe B' },
+    { to: '/service-technique', label: 'Mettre en place un suivi technique fiable' },
+    { to: '/contact', label: 'Demander un audit d’installation autoclave' },
+  ],
   'amenagement-salle-sterilisation-cabinet-dentaire-senegal-normes-flux-2026': [
     { to: '/autoclave-dentaire-classe-b-senegal', label: 'Choisir un autoclave Classe B adapté' },
     { to: '/service-technique', label: 'Mettre en place un suivi technique fiable' },

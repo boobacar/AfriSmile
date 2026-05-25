@@ -49,6 +49,96 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 36,
+    slug: 'fauteuil-dentaire-senegal-ergonomie-praticien-assistante-productivite-2026',
+    title: 'Fauteuil dentaire au Sénégal : ergonomie praticien-assistante et productivité clinique en 2026',
+    excerpt: 'Comment choisir et configurer un fauteuil dentaire ergonomique au Sénégal pour réduire la fatigue, gagner du temps clinique et améliorer la rentabilité.',
+    metaTitle: 'Fauteuil dentaire Sénégal : ergonomie et productivité 2026 | AfriSmile',
+    metaDescription: 'Guide expert pour optimiser l’ergonomie du fauteuil dentaire au Sénégal : posture, configuration, flux assistante et KPI de productivité cabinet.',
+    datePublished: '2026-05-25',
+    dateModified: '2026-05-25',
+    content:
+      `Dans beaucoup de cabinets dentaires à Dakar, la baisse de productivité n’est pas liée au manque de patients. Elle vient d’un facteur sous-estimé: l’ergonomie du poste de soins. Un fauteuil dentaire mal configuré augmente les micro-pauses, ralentit les gestes cliniques et fatigue le binôme praticien-assistante. Sur une semaine, ce sont des heures perdues et une qualité d’exécution moins stable.
+
+Le fauteuil doit être pensé comme une plateforme de production clinique. La hauteur de travail, la mobilité de la têtière, l’orientation du plateau instruments, la zone d’accès assistante et l’éclairage opératoire influencent directement la cadence. Quand ces éléments sont mal alignés, l’équipe compense par des postures contraignantes et des mouvements inutiles.
+
+Premier axe d’optimisation: la posture praticien. Une position neutre, un accès visuel stable et une amplitude de mouvement courte réduisent la fatigue cervicale et lombaire. Cela améliore la précision sur les actes longs et limite les écarts de qualité en fin de journée.
+
+Deuxième axe: le travail à quatre mains. Le fauteuil doit faciliter la coordination avec l’assistante: passage instrumental fluide, accès simultané sans conflit de zone, et séquences opératoires standardisées. Cette organisation réduit les temps morts et améliore l’expérience patient.
+
+Troisième axe: la configuration technique adaptée au type d’activité. Un cabinet orienté omnipratique, prothèse ou chirurgie n’utilise pas le fauteuil de la même manière. Il faut ajuster les options (éclairage, aspiration, commandes, sellerie, accessoires) au flux réel, pas à une fiche commerciale générique.
+
+Quatrième axe: la maintenance ergonomique. Même un fauteuil premium perd en performance sans réglages périodiques. Vérification des positions mémoire, stabilité mécanique, confort sellerie et fluidité des commandes doivent être inclus dans la routine technique.
+
+Cinquième axe: le pilotage par KPI. Suivez le temps moyen par acte, le nombre d’interruptions liées au poste, la fatigue perçue en fin de journée et la disponibilité fauteuil. Ces indicateurs permettent de mesurer l’impact réel des ajustements.
+
+Approche recommandée: audit ergonomique court, corrections rapides, test sur 30 jours, puis standardisation équipe. Cette méthode transforme le fauteuil en levier de performance durable.
+
+AfriSmile accompagne les cabinets dentaires au Sénégal pour sélectionner, configurer et maintenir des fauteuils orientés productivité clinique, confort opératoire et croissance maîtrisée.`,
+    faq: [
+      {
+        q: 'Comment savoir si mon fauteuil dentaire freine la productivité du cabinet ?',
+        a: 'Si vous observez des interruptions fréquentes, une fatigue marquée du binôme clinique et des temps d’acte qui s’allongent, l’ergonomie du fauteuil est probablement en cause.',
+      },
+      {
+        q: 'L’ergonomie a-t-elle un impact mesurable sur la rentabilité ?',
+        a: 'Oui. Une meilleure ergonomie réduit les temps morts, améliore la fluidité des actes et augmente la capacité de production sans dégrader la qualité.',
+      },
+      {
+        q: 'AfriSmile peut-il réaliser un audit ergonomique du poste de soins ?',
+        a: 'Oui, AfriSmile peut auditer votre organisation praticien-assistante, recommander les réglages utiles et accompagner la mise en place terrain.',
+      },
+    ],
+  },
+  {
+    id: 35,
+    slug: 'autoclave-classe-b-senegal-erreurs-installation-performance-2026',
+    title: 'Autoclave Classe B au Sénégal : 9 erreurs d’installation qui dégradent la performance en 2026',
+    excerpt: 'Évitez les erreurs d’installation d’un autoclave Classe B à Dakar : alimentation, eau, ventilation, protocole équipe et maintenance pour une stérilisation fiable.',
+    metaTitle: 'Autoclave Classe B Sénégal : erreurs d’installation à éviter | AfriSmile',
+    metaDescription: 'Guide pratique sur les erreurs d’installation d’autoclave Classe B au Sénégal : causes, impacts sur les cycles et plan de correction opérationnel.',
+    datePublished: '2026-05-25',
+    dateModified: '2026-05-25',
+    content:
+      `Un autoclave Classe B performant peut produire de mauvais résultats si son installation est mal cadrée. Dans les cabinets dentaires au Sénégal, beaucoup d’écarts de stérilisation viennent de décisions prises avant la mise en service: alimentation instable, traitement de l’eau insuffisant, ventilation négligée ou protocole équipe incomplet.
+
+Erreur 1: sous-estimer l’alimentation électrique. Les variations de tension perturbent les cycles, accélèrent l’usure et créent des arrêts imprévus. Une ligne dédiée protégée est indispensable.
+
+Erreur 2: négliger la qualité de l’eau. Une eau inadaptée augmente les dépôts, dégrade les composants internes et impacte la répétabilité des cycles. Le traitement et le contrôle régulier sont obligatoires.
+
+Erreur 3: installer l’autoclave dans un espace mal ventilé. La surchauffe ambiante réduit la stabilité opérationnelle et complique le séchage.
+
+Erreur 4: mauvaise ergonomie de la zone de stérilisation. Si le flux sale/propre/stérile se croise, l’équipe perd du temps et augmente le risque d’erreur.
+
+Erreur 5: absence de protocole de chargement. Surcharge, mauvais conditionnement ou mélange de charges pénalisent l’efficacité du cycle.
+
+Erreur 6: traçabilité partielle. Sans registre exploitable, il devient difficile de détecter les dérives et de prouver la conformité en cas de contrôle.
+
+Erreur 7: maintenance préventive non planifiée. Attendre la panne coûte plus cher et bloque la rotation instrumentale.
+
+Erreur 8: absence de stock minimum consommables techniques. Un simple manque peut interrompre la chaîne de stérilisation.
+
+Erreur 9: formation insuffisante de l’équipe. Une machine bien installée reste fragile sans routine claire d’exploitation.
+
+Plan de sécurisation recommandé: audit d’installation, correction des points critiques, standardisation des checklists, suivi KPI (cycles validés, incidents, délai de rotation), et maintenance trimestrielle.
+
+AfriSmile accompagne les cabinets à Dakar et en Afrique de l’Ouest pour installer, fiabiliser et maintenir les autoclaves Classe B avec une approche orientée continuité clinique et performance.`,
+    faq: [
+      {
+        q: 'Quelle erreur d’installation est la plus critique pour un autoclave Classe B ?',
+        a: 'L’instabilité électrique est souvent la plus critique, car elle affecte directement la répétabilité des cycles et la disponibilité de l’équipement.',
+      },
+      {
+        q: 'Pourquoi la qualité de l’eau impacte-t-elle la performance ?',
+        a: 'Une eau non adaptée favorise les dépôts internes et peut dégrader les composants, ce qui augmente les incidents techniques et les écarts de cycle.',
+      },
+      {
+        q: 'AfriSmile peut-il auditer une installation autoclave existante ?',
+        a: 'Oui, AfriSmile peut auditer votre installation, proposer les corrections prioritaires et mettre en place un plan de suivi technique.',
+      },
+    ],
+  },
+  {
     id: 32,
     slug: 'amenagement-salle-sterilisation-cabinet-dentaire-senegal-normes-flux-2026',
     title: 'Aménagement de la salle de stérilisation d’un cabinet dentaire au Sénégal : normes, flux et erreurs coûteuses en 2026',

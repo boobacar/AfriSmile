@@ -49,6 +49,70 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 58,
+    slug: 'autoclave-dentaire-afrique-comparatif-classes-2026',
+    title: 'Autoclave dentaire en Afrique : guide comparatif classes B vs N 2026',
+    excerpt: 'Comparatif complet autoclaves dentaires Classe B vs N pour l\'Afrique : prix, cycles, conformité et maintenance adaptée au climat tropical.',
+    metaTitle: 'Autoclave dentaire Afrique : comparatif classes B vs N 2026 | AfriSmile',
+    metaDescription: 'Guide comparatif autoclaves dentaires en Afrique : Classe B vs N, prix, cycles, maintenance et conformité. Choisissez la stérilisation adaptée à votre cabinet. Devis en 24h.',
+    datePublished: '2026-06-09',
+    dateModified: '2026-06-09',
+    content: 'Le choix entre un autoclave Classe B et Classe N est déterminant pour la sécurité de votre stérilisation. En Afrique, les contraintes climatiques (humidité, chaleur) et logistiques (disponibilité des pièces) ajoutent des critères spécifiques.\n\nL\'autoclave Classe B réalise un cycle complet avec vide fractionné : il élimine l\'air résiduel et stérilise tous types d\'instruments, y compris les corps creux et les textiles. La Classe N se limite aux instruments pleins non emballés.\n\nPour un cabinet moderne en Afrique, la Classe B est le standard recommandé : traçabilité des cycles, sécurité patient et conformité réglementaire. Le surcoût initial est amorti par la fiabilité et l\'absence de re-stérilisation.\n\nAfriSmile installe et maintient les autoclaves Classe B au Sénégal et en Afrique de l\'Ouest avec un SAV local.',
+    faq: [
+      { q: 'Quelle différence entre autoclave Classe B et Classe N ?', a: 'La Classe B stérilise tous les types d\'instruments avec vide fractionné. La Classe N ne traite que les instruments pleins non emballés.' },
+      { q: 'Un autoclave Classe B est-il obligatoire en Afrique ?', a: 'Pas partout, mais il est fortement recommandé pour la sécurité patient et la conformité aux standards internationaux.' },
+      { q: 'AfriSmile installe-t-il des autoclaves Classe B ?', a: 'Oui, installation complète, formation du personnel et SAV local inclus.' }
+    ]
+  },
+  {
+    id: 57,
+    slug: 'scanner-intra-oral-afrique-comparatif-modeles-2026',
+    title: 'Scanner intra-oral en Afrique : quel modèle choisir pour votre cabinet en 2026',
+    excerpt: 'Comparatif des scanners intra-oraux disponibles en Afrique : prix, précision, rapidité et retour sur investissement pour votre cabinet dentaire.',
+    metaTitle: 'Scanner intra-oral Afrique : comparatif modèles 2026 | AfriSmile',
+    metaDescription: 'Choisissez le bon scanner intra-oral pour votre cabinet en Afrique : comparatif prix, précision, rapidité et rentabilité. Démo et devis AfriSmile en 24h.',
+    datePublished: '2026-06-09',
+    dateModified: '2026-06-09',
+    content: 'Le scanner intra-oral transforme le flux numérique du cabinet dentaire. En Afrique, son adoption s\'accélère avec la demande croissante de prothèses CFAO et d\'aligneurs. Mais quel modèle choisir ?\n\nCritères clés : précision de scan, vitesse d\'acquisition, poids et ergonomie de la pièce à main, compatibilité avec les logiciels de CFAO, et surtout disponibilité du SAV local. Le prix d\'achat doit être mis en perspective avec le retour sur investissement : gain de temps au fauteuil, réduction des retouches prothétiques, satisfaction patient.\n\nPour un cabinet en Afrique, privilégiez un modèle léger, sans fil, avec un bon support technique local. La formation de l\'équipe est aussi importante que le matériel lui-même.\n\nAfriSmile propose des démonstrations de scanners intra-oraux au Sénégal et accompagne votre transition numérique.',
+    faq: [
+      { q: 'Quel est le prix d\'un scanner intra-oral en Afrique ?', a: 'Le prix varie selon la marque et les fonctionnalités. AfriSmile propose des devis sur mesure avec installation et formation.' },
+      { q: 'Combien de temps pour rentabiliser un scanner intra-oral ?', a: 'Selon le flux patient, le ROI se fait généralement en 12 à 18 mois grâce aux gains de productivité et à la réduction des retouches.' },
+      { q: 'AfriSmile propose-t-il une démonstration ?', a: 'Oui, nous organisons des démonstrations au Sénégal et dans la sous-région pour tester les scanners avant achat.' }
+    ]
+  },
+  {
+    id: 56,
+    slug: 'materiel-dentaire-ouagadougou-prix-devis-2026',
+    title: 'Matériel dentaire Ouagadougou : prix et devis pour votre cabinet en 2026',
+    excerpt: 'Trouvez du matériel dentaire à Ouagadougou : comparez prix, installation et SAV pour ouvrir ou moderniser votre cabinet au Burkina Faso.',
+    metaTitle: 'Matériel dentaire Ouagadougou : prix et devis 2026 | AfriSmile',
+    metaDescription: 'Matériel dentaire à Ouagadougou : comparez prix, installation et SAV. Fauteuils, autoclaves, imagerie pour votre cabinet au Burkina Faso. Devis gratuit en 24h.',
+    datePublished: '2026-06-02',
+    dateModified: '2026-06-02',
+    content: 'Équiper un cabinet dentaire à Ouagadougou demande une approche structurée. Le prix du matériel varie selon la marque, le service d\'installation et la disponibilité du SAV local.\n\nPour un investissement maîtrisé, commencez par le socle critique : fauteuil, autoclave Classe B, compresseur et aspiration. Ces équipements déterminent votre productivité clinique. Les ajouts (scanner intra-oral, imagerie) peuvent être phasés.\n\nComparez toujours le coût total sur 36 mois : prix d\'achat + installation + maintenance + pièces + risque d\'arrêt. Un devis bas sans SAV peut coûter plus cher qu\'un équipement bien accompagné.\n\nAfriSmile livre et installe à Ouagadougou avec un support technique local.',
+    faq: [
+      { q: 'Quel budget pour équiper un cabinet dentaire à Ouagadougou ?', a: 'Le budget dépend de la configuration. AfriSmile propose des devis sur mesure selon votre projet et vos priorités cliniques.' },
+      { q: 'AfriSmile installe-t-il le matériel à Ouagadougou ?', a: 'Oui, installation complète, formation et SAV local inclus dans l\'accompagnement.' },
+      { q: 'Combien de temps pour recevoir un devis ?', a: 'Réponse en 24h après description de votre projet sur la page contact.' }
+    ]
+  },
+  {
+    id: 55,
+    slug: 'ouvrir-cabinet-dentaire-senegal-budget-complet-2026',
+    title: 'Ouvrir un cabinet dentaire au Sénégal : budget complet et étapes clés 2026',
+    excerpt: 'Checklist complète pour ouvrir votre cabinet dentaire au Sénégal : budget matériel, démarches, installation et rentabilité en 2026.',
+    metaTitle: 'Ouvrir cabinet dentaire Sénégal : budget complet 2026 | AfriSmile',
+    metaDescription: 'Ouvrez votre cabinet dentaire au Sénégal : budget matériel, étapes administratives, installation et rentabilité. Checklist complète 2026 avec AfriSmile.',
+    datePublished: '2026-06-02',
+    dateModified: '2026-06-02',
+    content: 'Ouvrir un cabinet dentaire au Sénégal en 2026 demande une préparation méthodique. Au-delà du matériel, le budget doit couvrir le local, les démarches administratives et le fonds de roulement initial.\n\nCôté équipement, le socle minimum comprend : fauteuil dentaire, autoclave Classe B, compresseur, aspiration, instrumentation et consommables. Prévoyez aussi l\'imagerie (RVG ou scanner intra-oral) selon votre pratique.\n\nLes étapes clés : étude de zone, business plan, choix du local, autorisations, commande matériel, installation, recrutement, ouverture. Prévoyez 3 à 6 mois entre la décision et l\'ouverture.\n\nAfriSmile vous accompagne de l\'étude de besoin à l\'installation, avec un suivi technique post-ouverture.',
+    faq: [
+      { q: 'Quel budget total pour ouvrir un cabinet au Sénégal ?', a: 'Le budget varie selon la taille et l\'équipement. Comptez le matériel + local + administratif + fonds de roulement. AfriSmile vous guide sur la partie équipement.' },
+      { q: 'Combien de temps pour ouvrir un cabinet dentaire ?', a: 'Prévoyez 3 à 6 mois de la décision à l\'ouverture. La livraison et installation du matériel prend 2 à 4 semaines.' },
+      { q: 'AfriSmile aide-t-il pour les démarches administratives ?', a: 'AfriSmile vous oriente sur les interlocuteurs, mais les démarches administratives relèvent du praticien.' }
+    ]
+  },
+  {
     id: 54,
     slug: 'prix-materiel-dentaire-dakar-comment-reduire-cout-total-2026',
     title: 'Prix matériel dentaire à Dakar : comment réduire le coût total en 2026',

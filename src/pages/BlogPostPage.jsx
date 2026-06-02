@@ -253,10 +253,30 @@ const relatedBySlug = {
     { to: '/service-technique', label: 'Maintenance & SAV' },
     { to: '/contact', label: 'Parler à un conseiller AfriSmile' },
   ],
+  'autoclave-dentaire-afrique-comparatif-classes-2026': [
+    { to: '/autoclave-dentaire-classe-b-senegal', label: 'Autoclave Classe B Sénégal' },
+    { to: '/service-technique', label: 'Maintenance et SAV' },
+    { to: '/contact', label: 'Demander un devis autoclave' },
+  ],
+  'scanner-intra-oral-afrique-comparatif-modeles-2026': [
+    { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral Sénégal' },
+    { to: '/solutions-cabinets', label: 'Moderniser votre cabinet' },
+    { to: '/contact', label: 'Planifier une démonstration' },
+  ],
   'materiel-dentaire-burkina-faso-ougadougou-prix-devis-2026': [
     { to: '/modeles-achat', label: 'Analyser votre devis d’équipement' },
     { to: '/materiel-dentaire-senegal', label: 'Comparer les catégories matériel' },
     { to: '/contact', label: 'Demander une revue de devis' },
+  ],
+  'materiel-dentaire-ouagadougou-prix-devis-2026': [
+    { to: '/materiel-dentaire-burkina-faso', label: 'Matériel dentaire Burkina Faso' },
+    { to: '/modeles-achat', label: 'Structurer votre budget d’achat' },
+    { to: '/contact', label: 'Demander un devis Burkina Faso' },
+  ],
+  'ouvrir-cabinet-dentaire-senegal-budget-complet-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
+    { to: '/solutions-cabinets', label: 'Préparer l’ouverture du cabinet' },
+    { to: '/contact', label: 'Chiffrer votre projet d’ouverture' },
   ],
   'materiel-dentaire-guinee-conakry-cabinet-moderne-2026': [
     { to: '/solutions-cabinets', label: 'Moderniser votre cabinet' },

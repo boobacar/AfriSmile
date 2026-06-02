@@ -34,7 +34,7 @@ export const seoPages = {
     imagePath: '/assets/page-products.jpg',
   },
   '/marques': {
-    title: 'Marques matériel dentaire | KaVo, Stern Weber, NSK | AfriSmile',
+    title: 'Marques dentaires au Sénégal : KaVo, Stern Weber, NSK | AfriSmile',
     description:
       'Découvrez les marques dentaires distribuées par AfriSmile au Sénégal: fauteuils, instruments, stérilisation, imagerie et pièces disponibles.',
     imagePath: '/assets/page-brands.jpg',
@@ -52,27 +52,27 @@ export const seoPages = {
     imagePath: '/assets/illustration-clinic.jpg',
   },
   '/materiel-dentaire-senegal': {
-    title: 'Matériel dentaire Sénégal: fournisseur local | AfriSmile',
+    title: 'Matériel Dentaire Sénégal: Devis, Prix & Installation | AfriSmile',
     description:
-      'Fournisseur de matériel dentaire au Sénégal pour cabinets et cliniques: fauteuils, stérilisation, installation, SAV local et accompagnement projet.',
+      'Matériel dentaire au Sénégal : devis rapide, prix transparents et installation clé en main. Fauteuils, stérilisation, imagerie et SAV local AfriSmile.',
     imagePath: '/assets/illustration-equipment.jpg',
   },
   '/fauteuil-dentaire-senegal': {
-    title: 'Fauteuil dentaire Sénégal: prix, comparatif, devis | AfriSmile',
+    title: 'Fauteuil Dentaire Sénégal 2026 : Comparatif, Prix et Devis | AfriSmile',
     description:
-      'Comparez les fauteuils dentaires au Sénégal: budget, ergonomie, installation et maintenance. Demandez un devis adapté à votre cabinet.',
+      'Comparatif fauteuils dentaires 2026 au Sénégal : prix, ergonomie, installation et SAV local. Devis gratuit adapté à votre cabinet.',
     imagePath: '/assets/page-products.jpg',
   },
   '/autoclave-dentaire-classe-b-senegal': {
-    title: 'Autoclave classe B Sénégal: prix, devis, installation | AfriSmile',
+    title: 'Autoclave Classe B Sénégal : Prix, Devis et Installation | AfriSmile',
     description:
-      'Choisissez un autoclave Classe B au Sénégal: conformité, cycles fiables, installation et support technique pour une stérilisation continue.',
+      'Autoclave Classe B au Sénégal : prix, conformité, installation et SAV local. Stérilisation fiable pour cabinets et cliniques. Devis gratuit en 24h.',
     imagePath: '/assets/illustration-instruments.jpg',
   },
   '/scanner-intra-oral-senegal': {
-    title: 'Scanner intra-oral Sénégal | Devis & accompagnement | AfriSmile',
+    title: 'Scanner Intra-Oral Sénégal : Prix, Devis et Rentabilité | AfriSmile',
     description:
-      'Scanner intra-oral au Sénégal: gagnez en productivité et précision clinique avec formation, démo et intégration au flux numérique.',
+      'Scanner intra-oral au Sénégal : devis, installation et retour sur investissement. Optimisez votre flux numérique et la satisfaction patient. Devis 24h.',
     imagePath: '/assets/page-solutions.jpg',
   },
   '/blog': {
@@ -82,9 +82,9 @@ export const seoPages = {
     imagePath: '/assets/page-blog.jpg',
   },
   '/contact': {
-    title: 'Devis matériel dentaire Sénégal: réponse en 24h | AfriSmile',
+    title: 'Devis Gratuit Matériel Dentaire Sénégal | Réponse 24h | AfriSmile',
     description:
-      'Demandez votre devis matériel dentaire en 24h: conseil, livraison, installation et SAV AfriSmile au Sénégal et en Afrique de l’Ouest.',
+      'Devis gratuit matériel dentaire Sénégal : réponse en 24h. Comparez prix, installation, SAV local et coût total. AfriSmile accompagne votre cabinet.',
     imagePath: '/assets/page-contact.jpg',
   },
   '/conditions-generales': {
@@ -144,6 +144,11 @@ export const seoPages = {
     title: 'Matériel dentaire Guinée-Bissau: devis pro | AfriSmile',
     description: 'AfriSmile accompagne les cabinets en Guinée-Bissau avec des équipements dentaires fiables, un déploiement structuré et un support technique.',
     imagePath: '/assets/illustration-instruments.jpg',
+  },
+  '/materiel-dentaire-burkina-faso': {
+    title: 'Matériel Dentaire Burkina Faso : Devis, Prix et Installation | AfriSmile',
+    description: 'Matériel dentaire au Burkina Faso : fauteuils, autoclaves Classe B, imagerie. Devis gratuit, installation et SAV local à Ouagadougou et Bobo-Dioulasso.',
+    imagePath: '/assets/illustration-equipment.jpg',
   },
   '/404': {
     title: 'Page introuvable AfriSmile Sénégal | AfriSmile',

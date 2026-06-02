@@ -29,6 +29,13 @@ const staticRoutes = [
   { path: '/scanner-intra-oral-senegal', changefreq: 'weekly', priority: '0.85' },
   { path: '/materiel-dentaire-cote-divoire', changefreq: 'weekly', priority: '0.9' },
   { path: '/materiel-dentaire-mali', changefreq: 'weekly', priority: '0.9' },
+  { path: '/materiel-dentaire-cameroun', changefreq: 'weekly', priority: '0.9' },
+  { path: '/materiel-dentaire-ghana', changefreq: 'weekly', priority: '0.9' },
+  { path: '/materiel-dentaire-nigeria', changefreq: 'weekly', priority: '0.9' },
+  { path: '/materiel-dentaire-mauritanie', changefreq: 'weekly', priority: '0.9' },
+  { path: '/materiel-dentaire-niger', changefreq: 'weekly', priority: '0.9' },
+  { path: '/materiel-dentaire-guinee-bissau', changefreq: 'weekly', priority: '0.85' },
+  { path: '/materiel-dentaire-burkina-faso', changefreq: 'weekly', priority: '0.85' },
 ]
 
 const blogRoutes = blogPosts.map((post) => ({

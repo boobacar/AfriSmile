@@ -58,19 +58,19 @@ export const seoPages = {
     imagePath: '/assets/illustration-equipment.jpg',
   },
   '/fauteuil-dentaire-senegal': {
-    title: 'Fauteuil Dentaire Sénégal 2026 : Comparatif, Prix et Devis | AfriSmile',
+    title: 'Fauteuil Dentaire Sénégal : Prix et Devis 2026 | AfriSmile',
     description:
       'Comparatif fauteuils dentaires 2026 au Sénégal : prix, ergonomie, installation et SAV local. Devis gratuit adapté à votre cabinet.',
     imagePath: '/assets/page-products.jpg',
   },
   '/autoclave-dentaire-classe-b-senegal': {
-    title: 'Autoclave Classe B Sénégal : Prix, Devis et Installation | AfriSmile',
+    title: 'Autoclave Classe B Sénégal : Prix, Devis et SAV | AfriSmile',
     description:
       'Autoclave Classe B au Sénégal : prix, conformité, installation et SAV local. Stérilisation fiable pour cabinets et cliniques. Devis gratuit en 24h.',
     imagePath: '/assets/illustration-instruments.jpg',
   },
   '/scanner-intra-oral-senegal': {
-    title: 'Scanner Intra-Oral Sénégal : Prix, Devis et Rentabilité | AfriSmile',
+    title: 'Scanner Intra-Oral Sénégal : Prix, Devis et Démo | AfriSmile',
     description:
       'Scanner intra-oral au Sénégal : devis, installation et retour sur investissement. Optimisez votre flux numérique et la satisfaction patient. Devis 24h.',
     imagePath: '/assets/page-solutions.jpg',
@@ -146,7 +146,7 @@ export const seoPages = {
     imagePath: '/assets/illustration-instruments.jpg',
   },
   '/materiel-dentaire-burkina-faso': {
-    title: 'Matériel Dentaire Burkina Faso : Devis, Prix et Installation | AfriSmile',
+    title: 'Matériel Dentaire Burkina Faso : Devis, Prix et SAV | AfriSmile',
     description: 'Matériel dentaire au Burkina Faso : fauteuils, autoclaves Classe B, imagerie. Devis gratuit, installation et SAV local à Ouagadougou et Bobo-Dioulasso.',
     imagePath: '/assets/illustration-equipment.jpg',
   },

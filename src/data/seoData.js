@@ -106,13 +106,13 @@ export const seoPages = {
     imagePath: '/assets/page-legal.jpg',
   },
   '/materiel-dentaire-cote-divoire': {
-    title: 'Matériel Dentaire Côte d\'Ivoire & Abidjan | AfriSmile',
-    description: 'Fournisseur de matériel dentaire en Côte d\'Ivoire. Équipez votre cabinet à Abidjan avec nos fauteuils, autoclaves, et scanners intra-oraux.',
+    title: "Matériel Dentaire Côte d'Ivoire : Devis, Prix et Installation | AfriSmile",
+    description: "Matériel dentaire en Côte d'Ivoire : devis rapide, prix transparents et installation clé en main à Abidjan. Fauteuils, autoclaves, scanners et SAV local AfriSmile.",
     imagePath: '/assets/illustration-clinic.jpg',
   },
   '/materiel-dentaire-mali': {
-    title: 'Matériel dentaire Mali: fournisseur à Bamako | AfriSmile',
-    description: 'Équipement dentaire professionnel au Mali: livraison et installation à Bamako pour fauteuils, stérilisation et imagerie.',
+    title: "Matériel dentaire Mali & Afrique de l'Ouest : fournisseur à Bamako | AfriSmile",
+    description: "Équipement dentaire professionnel au Mali et en Afrique de l'Ouest : livraison, installation à Bamako et SAV local. Devis gratuit pour fauteuils, stérilisation et imagerie.",
     imagePath: '/assets/illustration-instruments.jpg',
   },
   '/materiel-dentaire-cameroun': {
@@ -141,8 +141,8 @@ export const seoPages = {
     imagePath: '/assets/illustration-equipment.jpg',
   },
   '/materiel-dentaire-guinee-bissau': {
-    title: 'Matériel dentaire Guinée-Bissau: devis pro | AfriSmile',
-    description: 'AfriSmile accompagne les cabinets en Guinée-Bissau avec des équipements dentaires fiables, un déploiement structuré et un support technique.',
+    title: "Matériel dentaire Guinée-Bissau & Afrique : Devis, Installation pro | AfriSmile",
+    description: "AfriSmile accompagne les cabinets en Guinée-Bissau et en Afrique de l'Ouest avec des équipements fiables, déploiement structuré et support technique. Devis gratuit en 24h.",
     imagePath: '/assets/illustration-instruments.jpg',
   },
   '/materiel-dentaire-burkina-faso': {

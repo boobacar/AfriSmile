@@ -106,13 +106,13 @@ export const seoPages = {
     imagePath: '/assets/page-legal.jpg',
   },
   '/materiel-dentaire-cote-divoire': {
-    title: "Matériel Dentaire Côte d'Ivoire : Devis, Prix et Installation | AfriSmile",
-    description: "Matériel dentaire en Côte d'Ivoire : devis rapide, prix transparents et installation clé en main à Abidjan. Fauteuils, autoclaves, scanners et SAV local AfriSmile.",
+    title: 'Matériel dentaire Côte d’Ivoire : devis rapide | AfriSmile',
+    description: 'Matériel dentaire en Côte d’Ivoire : devis rapide, installation clé en main et SAV local à Abidjan. Fauteuils, autoclaves, scanners, support AfriSmile.',
     imagePath: '/assets/illustration-clinic.jpg',
   },
   '/materiel-dentaire-mali': {
-    title: "Matériel dentaire Mali & Afrique de l'Ouest : fournisseur à Bamako | AfriSmile",
-    description: "Équipement dentaire professionnel au Mali et en Afrique de l'Ouest : livraison, installation à Bamako et SAV local. Devis gratuit pour fauteuils, stérilisation et imagerie.",
+    title: 'Matériel dentaire Mali en Afrique : devis | AfriSmile',
+    description: 'Matériel dentaire au Mali : devis rapide, livraison à Bamako, installation et SAV local. Fauteuils, autoclaves, imagerie et support AfriSmile.',
     imagePath: '/assets/illustration-instruments.jpg',
   },
   '/materiel-dentaire-cameroun': {
@@ -141,8 +141,8 @@ export const seoPages = {
     imagePath: '/assets/illustration-equipment.jpg',
   },
   '/materiel-dentaire-guinee-bissau': {
-    title: "Matériel dentaire Guinée-Bissau & Afrique : Devis, Installation pro | AfriSmile",
-    description: "AfriSmile accompagne les cabinets en Guinée-Bissau et en Afrique de l'Ouest avec des équipements fiables, déploiement structuré et support technique. Devis gratuit en 24h.",
+    title: 'Matériel dentaire Guinée-Bissau en Afrique : devis | AfriSmile',
+    description: 'Matériel dentaire en Guinée-Bissau : devis rapide, installation et SAV local. Équipements pour cabinet, stérilisation et support AfriSmile.',
     imagePath: '/assets/illustration-instruments.jpg',
   },
   '/materiel-dentaire-burkina-faso': {

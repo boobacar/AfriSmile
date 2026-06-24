@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://afrismile.net/sitemap.xml
+Sitemap: https://www.afrismile.net/sitemap.xml

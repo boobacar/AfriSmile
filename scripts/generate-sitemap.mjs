@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const projectRoot = path.resolve(__dirname, '..')
 
-const baseUrl = (process.env.SITE_URL || 'https://afrismile.net').replace(/\/+$/, '')
+const baseUrl = (process.env.SITE_URL || 'https://www.afrismile.net').replace(/\/+$/, '')
 
 const staticRoutes = [
   { path: '/', changefreq: 'weekly', priority: '1.0' },

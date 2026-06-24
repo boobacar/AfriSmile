@@ -1,6 +1,6 @@
 import { blogPosts } from './siteData.js'
 
-export const SITE_ORIGIN = 'https://afrismile.net'
+export const SITE_ORIGIN = 'https://www.afrismile.net'
 
 export const seoPages = {
   '/': {

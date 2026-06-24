@@ -36,6 +36,7 @@ const staticRoutes = [
   { path: '/materiel-dentaire-niger', changefreq: 'weekly', priority: '0.9' },
   { path: '/materiel-dentaire-guinee-bissau', changefreq: 'weekly', priority: '0.85' },
   { path: '/materiel-dentaire-burkina-faso', changefreq: 'weekly', priority: '0.85' },
+  { path: '/devis-materiel-dentaire', changefreq: 'weekly', priority: '0.9' },
 ]
 
 const blogRoutes = blogPosts.map((post) => ({

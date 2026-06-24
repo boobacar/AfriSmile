@@ -66,7 +66,7 @@ export default function ProductsPage() {
         showImage={false}
         chips={['Tarifs en FCFA', 'Stock & commande sur devis', 'Fiches techniques disponibles']}
       >
-        <a href="/contact" className="btn-primary">Demander un devis global</a>
+        <a href="/devis-materiel-dentaire" className="btn-primary">Demander un devis global</a>
       </PageHero>
 
       <section className="section-shell">
@@ -98,6 +98,7 @@ export default function ProductsPage() {
           <a href="/fauteuil-dentaire-senegal" className="btn-secondary">Fauteuil dentaire Sénégal</a>
           <a href="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Autoclave Classe B</a>
           <a href="/scanner-intra-oral-senegal" className="btn-secondary">Scanner intra-oral</a>
+          <a href="/devis-materiel-dentaire" className="btn-primary">Devis gratuit →</a>
         </div>
       </section>
 

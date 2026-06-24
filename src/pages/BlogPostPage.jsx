@@ -4,6 +4,7 @@ import Breadcrumbs from '../components/Breadcrumbs'
 import { blogPosts } from '../data/siteData'
 
 const defaultRelatedMoneyPages = [
+  { to: '/devis-materiel-dentaire', label: 'Devis gratuit en 24h' },
   { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
   { to: '/fauteuil-dentaire-senegal', label: 'Fauteuil dentaire Sénégal' },
   { to: '/autoclave-dentaire-classe-b-senegal', label: 'Autoclave dentaire Classe B' },

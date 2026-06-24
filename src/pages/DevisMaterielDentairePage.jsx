@@ -1,0 +1,105 @@
+import { Link } from 'react-router-dom'
+import PageHero from '../components/PageHero'
+import QuoteForm from '../components/QuoteForm'
+import Breadcrumbs from '../components/Breadcrumbs'
+
+const avantages = [
+  { title: 'Réponse en 24h', desc: 'Un conseiller technique analyse votre projet et vous envoie un devis détaillé sous 24h ouvrées.' },
+  { title: 'Pas d\'engagement', desc: 'Le devis est gratuit et sans obligation. Comparez, posez vos questions, ajustez votre budget.' },
+  { title: 'Installation incluse', desc: 'Chaque devis intègre l\'installation, la mise en service et la formation de votre équipe.' },
+  { title: 'SAV local', desc: 'Maintenance préventive, diagnostic et pièces disponibles au Sénégal et en Afrique de l\'Ouest.' },
+]
+
+const faqs = [
+  {
+    q: 'Que contient un devis AfriSmile ?',
+    a: 'Un devis détaillé avec le prix unitaire de chaque équipement, le coût d\'installation, les délais de livraison et les conditions de SAV. Tout est transparent, sans frais cachés.',
+  },
+  {
+    q: 'Combien de temps pour recevoir un devis ?',
+    a: 'Nous répondons en moins de 24h ouvrées. Pour les projets complexes (ouverture de cabinet complet), nous planifions un appel technique sous 48h.',
+  },
+  {
+    q: 'Pouvez-vous adapter le devis à mon budget ?',
+    a: 'Oui, nous proposons plusieurs configurations (entrée de gamme, milieu de gamme, premium) pour chaque type de cabinet. Vous choisissez selon vos priorités cliniques et financières.',
+  },
+  {
+    q: 'Intervenez-vous en dehors de Dakar ?',
+    a: 'Oui, nous couvrons tout le Sénégal et 13 pays d\'Afrique de l\'Ouest : Mauritanie, Côte d\'Ivoire, Bénin, Burkina Faso, Cameroun, Ghana, Guinée, Guinée-Bissau, Mali, Niger, Nigeria, Togo.',
+  },
+]
+
+export default function DevisMaterielDentairePage() {
+  return (
+    <main className="container-page page-wrap space-y-8">
+      <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Devis matériel dentaire' }]} />
+
+      <PageHero
+        eyebrow="Devis gratuit et sans engagement"
+        title="Devis matériel dentaire au Sénégal et en Afrique de l'Ouest"
+        subtitle="Remplissez le formulaire ci-dessous et recevez en 24h un devis détaillé adapté à votre projet : ouverture, modernisation ou extension de cabinet."
+        showImage={false}
+        chips={['Réponse 24h', 'Installation incluse', 'SAV local']}
+      />
+
+      <section className="grid gap-6 lg:grid-cols-2">
+        <div className="min-w-0">
+          <QuoteForm />
+        </div>
+
+        <div className="space-y-4">
+          <h2 className="font-heading text-2xl font-bold text-brand-dark">Pourquoi demander un devis AfriSmile ?</h2>
+          <div className="grid gap-3">
+            {avantages.map((item) => (
+              <div key={item.title} className="card-muted">
+                <h3 className="font-semibold text-brand-dark">{item.title}</h3>
+                <p className="mt-1 text-sm text-slate-600">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Nos catégories d'équipement</h2>
+        <p className="section-subtitle">Un devis peut couvrir une ou plusieurs catégories selon l'ampleur de votre projet.</p>
+        <div className="mt-5 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          {[
+            { name: 'Fauteuils dentaires', link: '/fauteuil-dentaire-senegal', icon: '🪑' },
+            { name: 'Stérilisation & autoclaves', link: '/autoclave-dentaire-classe-b-senegal', icon: '🧪' },
+            { name: 'Scanner intra-oral', link: '/scanner-intra-oral-senegal', icon: '📐' },
+            { name: 'Imagerie (RVG, panoramique)', link: '/produits', icon: '🩻' },
+            { name: 'Consommables & instruments', link: '/produits', icon: '💉' },
+            { name: 'Installation & service technique', link: '/service-technique', icon: '🔧' },
+          ].map((cat) => (
+            <Link key={cat.name} to={cat.link} className="card p-4 transition hover:border-brand-cyan">
+              <span className="text-2xl">{cat.icon}</span>
+              <h3 className="mt-2 font-semibold text-brand-dark">{cat.name}</h3>
+              <span className="mt-1 text-sm text-brand-blue">Voir →</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Questions fréquentes sur les devis</h2>
+        <div className="mt-4 grid gap-3">
+          {faqs.map((item) => (
+            <article key={item.q} className="card-muted">
+              <h3 className="font-semibold text-brand-dark">{item.q}</h3>
+              <p className="mt-1 text-sm text-slate-700">{item.a}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="rounded-2xl bg-brand-dark p-8 text-center text-white">
+        <h2 className="font-heading text-2xl font-bold">Prêt à équiper votre cabinet ?</h2>
+        <p className="mt-3 text-slate-300">Un conseiller AfriSmile vous recontacte pour affiner votre devis et planifier l'installation.</p>
+        <a href="https://wa.me/221784389393?text=Bonjour%20AfriSmile%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noreferrer" className="mt-5 inline-block rounded-full bg-brand-cyan px-8 py-3 font-semibold text-brand-dark transition hover:bg-white">
+          WhatsApp direct
+        </a>
+      </section>
+    </main>
+  )
+}

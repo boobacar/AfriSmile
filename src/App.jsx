@@ -31,6 +31,7 @@ import MaterielDentaireNigerPage from './pages/MaterielDentaireNigerPage'
 import MaterielDentaireGuineeBissauPage from './pages/MaterielDentaireGuineeBissauPage'
 import MaterielDentaireBurkinaFasoPage from './pages/MaterielDentaireBurkinaFasoPage'
 import NotFoundPage from './pages/NotFoundPage'
+import DevisMaterielDentairePage from './pages/DevisMaterielDentairePage'
 import { blogPosts } from './data/siteData'
 import { SITE_ORIGIN, getSeoForPath } from './data/seoData'
 
@@ -58,6 +59,7 @@ const pathLabels = {
   'materiel-dentaire-niger': 'Matériel dentaire Niger',
   'materiel-dentaire-guinee-bissau': 'Matériel dentaire Guinée-Bissau',
   'materiel-dentaire-burkina-faso': 'Matériel dentaire Burkina Faso',
+  'devis-materiel-dentaire': 'Devis matériel dentaire',
   '404': 'Page introuvable',
 }
 
@@ -301,6 +303,7 @@ export default function App() {
         <Route path="/materiel-dentaire-niger" element={<MaterielDentaireNigerPage />} />
         <Route path="/materiel-dentaire-guinee-bissau" element={<MaterielDentaireGuineeBissauPage />} />
         <Route path="/materiel-dentaire-burkina-faso" element={<MaterielDentaireBurkinaFasoPage />} />
+        <Route path="/devis-materiel-dentaire" element={<DevisMaterielDentairePage />} />
         <Route path="/404" element={<NotFoundPage />} />
         <Route path="*" element={<Navigate to="/404" replace />} />
       </Routes>

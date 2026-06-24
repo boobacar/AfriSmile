@@ -32,6 +32,7 @@ export default function Footer() {
             <li><Link to="/equipement-dentaire-dakar" className="transition hover:text-white">Équipement dentaire Dakar</Link></li>
             <li><Link to="/service-technique" className="transition hover:text-white">SAV matériel dentaire</Link></li>
             <li><Link to="/contact" className="transition hover:text-white">Contact / devis</Link></li>
+            <li><Link to="/devis-materiel-dentaire" className="transition hover:text-white font-semibold text-brand-cyan">Devis gratuit en 24h</Link></li>
           </ul>
         </div>
 

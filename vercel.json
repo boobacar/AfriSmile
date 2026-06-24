@@ -1,6 +1,25 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
+  "redirects": [
+    { "source": "/blog/autoclave-classe-b-guide-cabinet-dakar", "destination": "/blog/sterilisation-cabinet-dentaire-protocole-autoclave-classe-b", "permanent": true },
+    { "source": "/blog/autoclave-dentaire-18l-23l-ou-plus-guide-selon-flux-patient", "destination": "/blog/sterilisation-cabinet-dentaire-protocole-autoclave-classe-b", "permanent": true },
+    { "source": "/blog/autoclave-classe-b-senegal-erreurs-installation-performance-2026", "destination": "/blog/sterilisation-cabinet-dentaire-protocole-autoclave-classe-b", "permanent": true },
+    { "source": "/blog/prix-autoclave-dentaire-classe-b-senegal-guide-achat-2026", "destination": "/blog/sterilisation-cabinet-dentaire-protocole-autoclave-classe-b", "permanent": true },
+    { "source": "/blog/autoclave-classe-b-prix-senegal-erreurs-devis-2026", "destination": "/blog/sterilisation-cabinet-dentaire-protocole-autoclave-classe-b", "permanent": true },
+    { "source": "/blog/autoclave-dentaire-afrique-comparatif-classes-2026", "destination": "/blog/sterilisation-cabinet-dentaire-protocole-autoclave-classe-b", "permanent": true },
+    { "source": "/blog/autoclave-dentaire-18l-23l-capacite-guide-flux-patient-2026", "destination": "/blog/sterilisation-cabinet-dentaire-protocole-autoclave-classe-b", "permanent": true },
+    { "source": "/blog/choisir-fauteuil-dentaire-senegal-2026", "destination": "/blog/prix-fauteuil-dentaire-senegal-budget-reel-2026", "permanent": true },
+    { "source": "/blog/fauteuil-dentaire-senegal-neuf-ou-reconditionne-comparatif-2026", "destination": "/blog/prix-fauteuil-dentaire-senegal-budget-reel-2026", "permanent": true },
+    { "source": "/blog/fauteuil-dentaire-prix-senegal-cout-total-possession-2026", "destination": "/blog/prix-fauteuil-dentaire-senegal-budget-reel-2026", "permanent": true },
+    { "source": "/blog/maintenance-preventive-equipements-dentaires", "destination": "/blog/maintenance-fauteuil-dentaire-10-pannes-frequentes-et-prevention", "permanent": true },
+    { "source": "/blog/maintenance-equipements-dentaires-senegal-plan-annuel-preventif-2026", "destination": "/blog/maintenance-fauteuil-dentaire-10-pannes-frequentes-et-prevention", "permanent": true },
+    { "source": "/blog/scanner-intra-oral-senegal-integration-laboratoire-workflow-2026", "destination": "/blog/scanner-intra-oral-roi-senegal", "permanent": true },
+    { "source": "/blog/scanner-intra-oral-senegal-questions-demo-avant-devis-2026", "destination": "/blog/scanner-intra-oral-roi-senegal", "permanent": true },
+    { "source": "/blog/ouvrir-cabinet-dentaire-dakar-checklist-materiel-demarrage", "destination": "/blog/ouvrir-cabinet-dentaire-materiel-indispensable", "permanent": true },
+    { "source": "/blog/sterilisation-cabinet-dentaire-senegal-audit-protocole-2026", "destination": "/blog/sterilisation-cabinet-dentaire-protocole-autoclave-classe-b", "permanent": true },
+    { "source": "/blog/maintenance-fauteuil-dentaire-10-pannes-frequentes-eviter-2026", "destination": "/blog/maintenance-fauteuil-dentaire-10-pannes-frequentes-et-prevention", "permanent": true }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",

@@ -23,6 +23,7 @@ export default function HomePage() {
 
       <section className="section-shell">
         <div className="flex flex-wrap gap-2 text-sm">
+          <Link to="/devis-materiel-dentaire" className="btn-primary">Devis gratuit →</Link>
           <Link to="/materiel-dentaire-senegal" className="btn-secondary">Matériel dentaire Sénégal</Link>
           <Link to="/equipement-dentaire-dakar" className="btn-secondary">Équipement dentaire Dakar</Link>
           <Link to="/fauteuil-dentaire-senegal" className="btn-secondary">Fauteuil dentaire Sénégal</Link>

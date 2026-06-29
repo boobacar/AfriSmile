@@ -10,9 +10,9 @@ export const seoPages = {
     imagePath: '/assets/page-home.jpg',
   },
   '/produits': {
-    title: 'Catalogue Matériel Dentaire : Prix, Devis & Livraison | AfriSmile',
+    title: 'Matériel Dentaire Sénégal : Prix & Devis Rapide | AfriSmile',
     description:
-      'Catalogue complet matériel dentaire : fauteuils, autoclaves, scanners et consommables. Prix transparents, devis gratuit en 24h, installation et SAV local au Sénégal.',
+      'Catalogue matériel dentaire Sénégal : fauteuils, autoclaves et scanners. Prix clairs, devis en 24h, installation et SAV local AfriSmile.',
     imagePath: '/assets/page-products.jpg',
   },
   '/solutions-cabinets': {
@@ -82,9 +82,9 @@ export const seoPages = {
     imagePath: '/assets/page-blog.jpg',
   },
   '/devis-materiel-dentaire': {
-    title: 'Devis Matériel Dentaire Gratuit | Réponse 24h | AfriSmile',
+    title: 'Devis Matériel Dentaire Sénégal : Réponse 24h | AfriSmile',
     description:
-      'Devis gratuit matériel dentaire au Sénégal et en Afrique. Fauteuils, autoclaves, imagerie. Réponse rapide, installation incluse, SAV local. Demandez votre devis.',
+      'Demandez un devis matériel dentaire au Sénégal : fauteuils, autoclaves, imagerie, installation et SAV local. Réponse AfriSmile sous 24h.',
     imagePath: '/assets/page-contact.jpg',
   },
   '/contact': {

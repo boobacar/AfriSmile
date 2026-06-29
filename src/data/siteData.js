@@ -2174,8 +2174,8 @@ AfriSmile accompagne les cabinets avec des plans de maintenance fauteuil personn
     slug: 'autoclave-dentaire-18l-23l-ou-plus-guide-selon-flux-patient',
     title: 'Autoclave dentaire 18L, 23L ou plus : comment choisir selon votre flux patient',
     excerpt: 'Guide décisionnel autoclave dentaire : capacité 18L, 23L ou supérieure, productivité, cycles, coût total et méthode de dimensionnement pour cabinets au Sénégal.',
-    metaTitle: 'Autoclave dentaire 18L ou 23L : guide capacité cabinet | AfriSmile',
-    metaDescription: 'Choisissez la bonne capacité d’autoclave dentaire selon votre flux patient, vos cycles et vos contraintes d’activité en cabinet à Dakar et au Sénégal.',
+    metaTitle: 'Autoclave dentaire Sénégal : choisir 18L ou 23L | AfriSmile',
+    metaDescription: 'Choisissez un autoclave dentaire 18L ou 23L selon votre flux patient, vos cycles et vos contraintes en cabinet à Dakar et au Sénégal.',
     datePublished: '2026-04-20',
     dateModified: '2026-04-20',
     content:

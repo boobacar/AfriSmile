@@ -49,6 +49,259 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 62,
+    slug: 'fauteuil-dentaire-senegal-ergonomie-praticien-assistante-productivite-2026',
+    title: 'Fauteuil dentaire au Sénégal : ergonomie praticien-assistante et productivité clinique en 2026',
+    excerpt: 'Comment choisir et configurer un fauteuil dentaire ergonomique au Sénégal pour réduire la fatigue, gagner du temps clinique et améliorer la rentabilité.',
+    metaTitle: 'Fauteuil dentaire Sénégal : ergonomie et productivité 2026 | AfriSmile',
+    metaDescription: 'Guide expert pour optimiser l’ergonomie du fauteuil dentaire au Sénégal : posture, configuration, flux assistante et KPI de productivité cabinet.',
+    datePublished: '2026-05-25',
+    dateModified: '2026-05-25',
+    content:
+      `Dans beaucoup de cabinets dentaires à Dakar, la baisse de productivité n’est pas liée au manque de patients. Elle vient d’un facteur sous-estimé: l’ergonomie du poste de soins. Un fauteuil dentaire mal configuré augmente les micro-pauses, ralentit les gestes cliniques et fatigue le binôme praticien-assistante. Sur une semaine, ce sont des heures perdues et une qualité d’exécution moins stable.
+
+Le fauteuil doit être pensé comme une plateforme de production clinique. La hauteur de travail, la mobilité de la têtière, l’orientation du plateau instruments, la zone d’accès assistante et l’éclairage opératoire influencent directement la cadence. Quand ces éléments sont mal alignés, l’équipe compense par des postures contraignantes et des mouvements inutiles.
+
+Premier axe d’optimisation: la posture praticien. Une position neutre, un accès visuel stable et une amplitude de mouvement courte réduisent la fatigue cervicale et lombaire. Cela améliore la précision sur les actes longs et limite les écarts de qualité en fin de journée.
+
+Deuxième axe: le travail à quatre mains. Le fauteuil doit faciliter la coordination avec l’assistante: passage instrumental fluide, accès simultané sans conflit de zone, et séquences opératoires standardisées. Cette organisation réduit les temps morts et améliore l’expérience patient.
+
+Troisième axe: la configuration technique adaptée au type d’activité. Un cabinet orienté omnipratique, prothèse ou chirurgie n’utilise pas le fauteuil de la même manière. Il faut ajuster les options (éclairage, aspiration, commandes, sellerie, accessoires) au flux réel, pas à une fiche commerciale générique.
+
+Quatrième axe: la maintenance ergonomique. Même un fauteuil premium perd en performance sans réglages périodiques. Vérification des positions mémoire, stabilité mécanique, confort sellerie et fluidité des commandes doivent être inclus dans la routine technique.
+
+Cinquième axe: le pilotage par KPI. Suivez le temps moyen par acte, le nombre d’interruptions liées au poste, la fatigue perçue en fin de journée et la disponibilité fauteuil. Ces indicateurs permettent de mesurer l’impact réel des ajustements.
+
+Approche recommandée: audit ergonomique court, corrections rapides, test sur 30 jours, puis standardisation équipe. Cette méthode transforme le fauteuil en levier de performance durable.
+
+AfriSmile accompagne les cabinets dentaires au Sénégal pour sélectionner, configurer et maintenir des fauteuils orientés productivité clinique, confort opératoire et croissance maîtrisée.`,
+    faq: [
+      {
+        q: 'Comment savoir si mon fauteuil dentaire freine la productivité du cabinet ?',
+        a: 'Si vous observez des interruptions fréquentes, une fatigue marquée du binôme clinique et des temps d’acte qui s’allongent, l’ergonomie du fauteuil est probablement en cause.',
+      },
+      {
+        q: 'L’ergonomie a-t-elle un impact mesurable sur la rentabilité ?',
+        a: 'Oui. Une meilleure ergonomie réduit les temps morts, améliore la fluidité des actes et augmente la capacité de production sans dégrader la qualité.',
+      },
+      {
+        q: 'AfriSmile peut-il réaliser un audit ergonomique du poste de soins ?',
+        a: 'Oui, AfriSmile peut auditer votre organisation praticien-assistante, recommander les réglages utiles et accompagner la mise en place terrain.',
+      },
+    ],
+  },
+  {
+    id: 63,
+    slug: 'autoclave-classe-b-senegal-erreurs-installation-performance-2026',
+    title: 'Autoclave Classe B au Sénégal : 9 erreurs d’installation qui dégradent la performance en 2026',
+    excerpt: 'Évitez les erreurs d’installation d’un autoclave Classe B à Dakar : alimentation, eau, ventilation, protocole équipe et maintenance pour une stérilisation fiable.',
+    metaTitle: 'Autoclave Classe B Sénégal : erreurs d’installation à éviter | AfriSmile',
+    metaDescription: 'Guide pratique sur les erreurs d’installation d’autoclave Classe B au Sénégal : causes, impacts sur les cycles et plan de correction opérationnel.',
+    datePublished: '2026-05-25',
+    dateModified: '2026-05-25',
+    content:
+      `Un autoclave Classe B performant peut produire de mauvais résultats si son installation est mal cadrée. Dans les cabinets dentaires au Sénégal, beaucoup d’écarts de stérilisation viennent de décisions prises avant la mise en service: alimentation instable, traitement de l’eau insuffisant, ventilation négligée ou protocole équipe incomplet.
+
+Erreur 1: sous-estimer l’alimentation électrique. Les variations de tension perturbent les cycles, accélèrent l’usure et créent des arrêts imprévus. Une ligne dédiée protégée est indispensable.
+
+Erreur 2: négliger la qualité de l’eau. Une eau inadaptée augmente les dépôts, dégrade les composants internes et impacte la répétabilité des cycles. Le traitement et le contrôle régulier sont obligatoires.
+
+Erreur 3: installer l’autoclave dans un espace mal ventilé. La surchauffe ambiante réduit la stabilité opérationnelle et complique le séchage.
+
+Erreur 4: mauvaise ergonomie de la zone de stérilisation. Si le flux sale/propre/stérile se croise, l’équipe perd du temps et augmente le risque d’erreur.
+
+Erreur 5: absence de protocole de chargement. Surcharge, mauvais conditionnement ou mélange de charges pénalisent l’efficacité du cycle.
+
+Erreur 6: traçabilité partielle. Sans registre exploitable, il devient difficile de détecter les dérives et de prouver la conformité en cas de contrôle.
+
+Erreur 7: maintenance préventive non planifiée. Attendre la panne coûte plus cher et bloque la rotation instrumentale.
+
+Erreur 8: absence de stock minimum consommables techniques. Un simple manque peut interrompre la chaîne de stérilisation.
+
+Erreur 9: formation insuffisante de l’équipe. Une machine bien installée reste fragile sans routine claire d’exploitation.
+
+Plan de sécurisation recommandé: audit d’installation, correction des points critiques, standardisation des checklists, suivi KPI (cycles validés, incidents, délai de rotation), et maintenance trimestrielle.
+
+AfriSmile accompagne les cabinets à Dakar et en Afrique de l’Ouest pour installer, fiabiliser et maintenir les autoclaves Classe B avec une approche orientée continuité clinique et performance.`,
+    faq: [
+      {
+        q: 'Quelle erreur d’installation est la plus critique pour un autoclave Classe B ?',
+        a: 'L’instabilité électrique est souvent la plus critique, car elle affecte directement la répétabilité des cycles et la disponibilité de l’équipement.',
+      },
+      {
+        q: 'Pourquoi la qualité de l’eau impacte-t-elle la performance ?',
+        a: 'Une eau non adaptée favorise les dépôts internes et peut dégrader les composants, ce qui augmente les incidents techniques et les écarts de cycle.',
+      },
+      {
+        q: 'AfriSmile peut-il auditer une installation autoclave existante ?',
+        a: 'Oui, AfriSmile peut auditer votre installation, proposer les corrections prioritaires et mettre en place un plan de suivi technique.',
+      },
+    ],
+  },
+  {
+    id: 64,
+    slug: 'amenagement-salle-sterilisation-cabinet-dentaire-senegal-normes-flux-2026',
+    title: 'Aménagement de la salle de stérilisation d’un cabinet dentaire au Sénégal : normes, flux et erreurs coûteuses en 2026',
+    excerpt: 'Salle de stérilisation dentaire au Sénégal : organiser les flux, choisir les équipements et éviter les erreurs qui bloquent la productivité clinique.',
+    metaTitle: 'Salle de stérilisation dentaire Sénégal : guide 2026 | AfriSmile',
+    metaDescription: 'Guide expert pour aménager une salle de stérilisation dentaire au Sénégal : flux propre/sale, autoclave, traçabilité et plan d’action opérationnel.',
+    datePublished: '2026-05-11',
+    dateModified: '2026-05-11',
+    content:
+      `Dans un cabinet dentaire à Dakar, la salle de stérilisation n’est pas une pièce secondaire. C’est un centre de production clinique. Quand elle est mal pensée, toute la journée se ralentit: instruments en attente, équipe sous pression, retards patients et risque de non-conformité. Quand elle est bien conçue, elle fluidifie le travail, protège la qualité des soins et sécurise votre chiffre d’affaires.
+
+Le principe de base est simple: séparer clairement le sale, le propre et le stérile. Pourtant, sur le terrain, beaucoup de cabinets mélangent les flux par manque de plan initial. Résultat, les manipulations augmentent, les risques aussi, et le temps opératoire s’allonge. Un bon aménagement réduit ces frictions dès le premier mois.
+
+Commencez par cartographier votre flux réel: combien de kits instrumentaux entrent chaque heure, combien de cycles autoclave sont nécessaires, et où se créent les bouchons. Cette analyse permet de dimensionner la zone de pré-désinfection, la zone de conditionnement, la zone de stérilisation et le stockage stérile sans surinvestir.
+
+Côté équipements, trois priorités dominent: un autoclave Classe B fiable, des plans de travail résistants à l’humidité, et une traçabilité exploitable. La traçabilité n’est pas qu’un document qualité. C’est un levier de pilotage pour détecter les retards de cycle, les erreurs de conditionnement et les incidents récurrents.
+
+L’ergonomie est souvent négligée. Pourtant, quelques décisions simples changent la performance: sens unique de circulation, hauteur de plan adaptée, accès immédiat aux consommables critiques, et routine visuelle claire pour l’équipe. Ces points réduisent la fatigue, limitent les oublis et accélèrent la rotation.
+
+En Afrique de l’Ouest, il faut aussi intégrer la robustesse opérationnelle: stabilité électrique, qualité de l’eau, maintenance planifiée, et disponibilité locale des pièces d’usure. Une salle bien aménagée mais mal maintenue retombe vite en mode urgence.
+
+Méthode B2B recommandée en 5 étapes: audit de flux, zoning fonctionnel, sélection technique des équipements, protocole équipe, et plan de maintenance trimestriel. Cette approche vous donne une salle de stérilisation qui soutient réellement la croissance du cabinet.
+
+AfriSmile accompagne les cabinets dentaires au Sénégal pour concevoir et équiper des salles de stérilisation performantes, conformes et orientées productivité, avec un support terrain de l’étude au suivi technique.`,
+    faq: [
+      {
+        q: 'Quelle est l’erreur la plus fréquente dans une salle de stérilisation dentaire ?',
+        a: 'Le mélange des flux sale et propre. Cette erreur augmente les manipulations, ralentit les cycles et fragilise la qualité opérationnelle.',
+      },
+      {
+        q: 'Faut-il forcément un autoclave Classe B pour un cabinet à Dakar ?',
+        a: 'Dans la majorité des configurations de cabinet moderne, oui. Le Classe B apporte une stérilisation adaptée aux charges variées et une meilleure sécurité de protocole.',
+      },
+      {
+        q: 'AfriSmile peut-il aider à aménager une salle de stérilisation clé en main ?',
+        a: 'Oui, AfriSmile peut auditer vos flux, recommander les équipements, structurer les protocoles et accompagner l’installation avec suivi technique local.',
+      },
+    ],
+  },
+  {
+    id: 65,
+    slug: 'scanner-intra-oral-cabinet-dentaire-senegal-plan-deploiement-equipe-2026',
+    title: 'Scanner intra-oral en cabinet dentaire au Sénégal : plan de déploiement équipe, laboratoire et rentabilité en 2026',
+    excerpt: 'Scanner intra-oral au Sénégal : méthode de déploiement en cabinet pour réduire les reprises, accélérer les délais prothétiques et sécuriser le ROI.',
+    metaTitle: 'Scanner intra-oral Sénégal : plan de déploiement cabinet 2026 | AfriSmile',
+    metaDescription: 'Déployer un scanner intra-oral en cabinet dentaire au Sénégal : workflow équipe, connexion laboratoire, indicateurs ROI et plan opérationnel.',
+    datePublished: '2026-05-11',
+    dateModified: '2026-05-11',
+    content:
+      `Beaucoup de cabinets dentaires au Sénégal investissent dans un scanner intra-oral, mais n’obtiennent pas les gains attendus les trois premiers mois. Le problème n’est pas l’outil lui-même. C’est l’absence de plan de déploiement opérationnel entre praticien, assistante et laboratoire. Sans méthode, les reprises persistent, les délais restent longs et le ROI se dilue.
+
+Le scanner doit être intégré comme un workflow, pas comme un achat isolé. La première étape consiste à définir les cas prioritaires: prothèse unitaire, aligneurs, réhabilitation partielle, suivi occlusal. Cette sélection évite de forcer des usages trop complexes dès le départ et sécurise une adoption rapide.
+
+Deuxième étape, standardiser la prise d’empreinte numérique. Même scanner, mêmes réglages de base, même protocole de préparation et de scan. Cette discipline réduit fortement les fichiers incomplets qui provoquent des retours laboratoire et des rendez-vous supplémentaires.
+
+Troisième étape, formaliser l’interface laboratoire. Définissez un format d’envoi, une checklist pré-validation, des délais cibles et un canal de feedback clinique. Un bon partenariat labo est le principal accélérateur de productivité numérique.
+
+Quatrième étape, piloter les indicateurs de performance. Suivez le taux de reprise, le délai moyen entre scan et validation labo, le nombre de cas finalisés/mois et la valeur moyenne par cas. Ces KPI montrent rapidement si le scanner crée réellement du rendement.
+
+Cinquième étape, sécuriser la continuité technique. Un scanner intra-oral performant reste dépendant d’une bonne maintenance, d’un support utilisateur réactif et d’une équipe formée. Sans ce socle, l’outil est sous-utilisé et la rentabilité chute.
+
+Dans un contexte Dakar et Afrique de l’Ouest, l’avantage compétitif vient de la vitesse d’exécution et de la fiabilité des résultats. Un cabinet qui maîtrise son flux numérique gagne en expérience patient, en efficacité clinique et en capacité de croissance.
+
+AfriSmile accompagne les cabinets pour sélectionner, déployer et rentabiliser le scanner intra-oral avec une approche terrain: cadrage des cas, protocole équipe, connexion laboratoire et suivi d’indicateurs orientés performance.`,
+    faq: [
+      {
+        q: 'Combien de temps faut-il pour rentabiliser un scanner intra-oral en cabinet ?',
+        a: 'Cela dépend du volume de cas et de la discipline workflow, mais un pilotage rigoureux permet souvent de voir des gains opérationnels dès les premières semaines.',
+      },
+      {
+        q: 'Pourquoi les reprises persistent après l’achat d’un scanner ?',
+        a: 'Principalement à cause d’un protocole de scan non standardisé et d’une interface laboratoire mal structurée.',
+      },
+      {
+        q: 'AfriSmile propose-t-il un accompagnement de déploiement scanner intra-oral ?',
+        a: 'Oui, AfriSmile peut accompagner le choix, la mise en service, la formation équipe et l’optimisation du workflow avec le laboratoire.',
+      },
+    ],
+  },
+  {
+    id: 66,
+    slug: 'audit-technique-cabinet-dentaire-senegal-pre-ouverture-2026',
+    title: 'Audit technique d’un cabinet dentaire au Sénégal avant ouverture : méthode terrain pour éviter les retards en 2026',
+    excerpt: 'Audit technique pré-ouverture cabinet dentaire : électricité, eau, stérilisation, installation équipements et checklist opérationnelle à Dakar.',
+    metaTitle: 'Audit technique cabinet dentaire Sénégal : guide pré-ouverture | AfriSmile',
+    metaDescription: 'Préparez l’ouverture de votre cabinet dentaire au Sénégal avec un audit technique complet : infrastructure, équipements, risques critiques et plan d’action.',
+    datePublished: '2026-05-18',
+    dateModified: '2026-05-18',
+    content:
+      `Beaucoup de projets de cabinets dentaires à Dakar démarrent avec un bon budget équipement mais perdent plusieurs semaines au moment de l’ouverture. La cause principale n’est pas le choix du fauteuil ou de l’autoclave. C’est l’absence d’audit technique pré-ouverture. Sans cette étape, les écarts d’infrastructure apparaissent trop tard, quand les équipes sont déjà mobilisées et que les coûts de correction explosent.
+
+Un audit technique efficace commence par les fondations du local. Vérifiez la stabilité électrique, la capacité des lignes dédiées, la protection des équipements sensibles et la mise à la terre. En dentaire, une micro-instabilité peut perturber un autoclave, un compresseur ou l’éclairage clinique, et créer des interruptions dès les premiers jours.
+
+Deuxième bloc, l’eau et les évacuations. Un débit mal calibré, une pression irrégulière ou une évacuation lente affectent directement l’unité de soins, la stérilisation et l’hygiène opérationnelle. Le contrôle doit inclure des tests réels en charge, pas seulement une validation visuelle du chantier.
+
+Troisième bloc, le zoning clinique. L’ouverture rapide dépend d’une circulation logique entre accueil, salle de soins, zone de stérilisation et stockage. Un mauvais flux augmente les pertes de temps, les manipulations inutiles et les risques d’erreur. Le bon schéma est simple: moins de croisements, plus de continuité.
+
+Quatrième bloc, la préparation des équipements critiques. Chaque actif doit être validé sur une checklist de mise en service: installation, calibrage, test fonctionnel, protocole d’usage et traçabilité de démarrage. Cela concerne en priorité le fauteuil, l’autoclave Classe B, l’aspiration, le compresseur et l’imagerie.
+
+Cinquième bloc, la readiness équipe. Un cabinet peut être techniquement prêt mais opérationnellement fragile si l’équipe n’a pas répété les routines de base: ouverture de journée, contrôle stérilisation, plan d’escalade SAV et gestion d’incident simple.
+
+Méthode recommandée en B2B sur 10 jours: audit initial, scoring des risques, corrections prioritaires, test de charge, répétition des protocoles et validation finale go-live. Cette séquence limite les surprises, protège la trésorerie et accélère la mise en production clinique.
+
+AfriSmile accompagne les porteurs de projet au Sénégal avec un audit technique pré-ouverture orienté résultats: réduction des retards, sécurité opérationnelle et démarrage plus fluide du cabinet.`,
+    faq: [
+      {
+        q: 'Pourquoi faire un audit technique avant l’ouverture d’un cabinet dentaire ?',
+        a: 'Parce qu’il identifie les risques critiques avant le go-live: électricité, eau, flux, installation et protocoles équipe, afin d’éviter des retards coûteux.',
+      },
+      {
+        q: 'Quels équipements doivent être testés en priorité ?',
+        a: 'Le fauteuil dentaire, l’autoclave Classe B, le compresseur, l’aspiration et les solutions d’imagerie, avec des tests fonctionnels en conditions réelles.',
+      },
+      {
+        q: 'AfriSmile peut-il accompagner un audit pré-ouverture à Dakar ?',
+        a: 'Oui, AfriSmile peut cadrer l’audit, prioriser les corrections et sécuriser la mise en service technique avant l’ouverture.',
+      },
+    ],
+  },
+  {
+    id: 67,
+    slug: 'contrat-maintenance-dentaire-senegal-sla-kpi-negocier-2026',
+    title: 'Contrat de maintenance dentaire au Sénégal : SLA et KPI à négocier pour protéger votre cabinet en 2026',
+    excerpt: 'Contrat maintenance matériel dentaire Sénégal : clauses SLA, délais d’intervention, pièces, KPI et modèle de pilotage pour cabinets à Dakar.',
+    metaTitle: 'Contrat maintenance dentaire Sénégal : SLA & KPI | AfriSmile',
+    metaDescription: 'Guide pratique pour négocier un contrat de maintenance dentaire au Sénégal : SLA, engagements SAV, indicateurs de performance et continuité clinique.',
+    datePublished: '2026-05-18',
+    dateModified: '2026-05-18',
+    content:
+      `Signer un contrat de maintenance dentaire au Sénégal ne doit jamais être une formalité administrative. C’est un levier direct de continuité clinique. Un cabinet peut avoir d’excellents équipements, mais perdre en rentabilité si les délais SAV sont flous ou si les responsabilités techniques sont mal définies.
+
+La première clause à cadrer est le SLA. Demandez des délais précis sur trois niveaux: réponse initiale, diagnostic et intervention. Sans seuils mesurables, le contrat protège rarement le cabinet en période de forte activité. En pratique, un bon SLA réduit les immobilisations et stabilise l’agenda patient.
+
+Deuxième point, le périmètre des équipements couverts. Beaucoup de contrats restent vagues sur les accessoires et sous-systèmes critiques. Listez clairement fauteuil, autoclave, compresseur, aspiration, imagerie et consommables techniques liés à la maintenance.
+
+Troisième point, la gestion des pièces détachées. Vérifiez la disponibilité locale des pièces d’usure, les délais d’approvisionnement et les alternatives temporaires en cas de rupture. Cette clause est décisive pour éviter les arrêts prolongés.
+
+Quatrième point, la maintenance préventive planifiée. Un contrat solide doit inclure un calendrier annuel, des checklists d’intervention et un rapport après chaque visite. Le préventif est presque toujours moins coûteux que le correctif subi.
+
+Cinquième point, le pilotage par KPI. Suivez au minimum: taux de disponibilité machine, temps moyen de réparation, incidents répétitifs, ratio préventif/correctif et délai moyen de clôture ticket. Ces indicateurs transforment la relation fournisseur en performance mesurable.
+
+Sixième point, l’escalade et la gouvernance. Désignez des interlocuteurs nommés côté cabinet et côté prestataire, avec un processus d’escalade documenté pour les pannes critiques. Cela évite la perte de temps et les ambiguïtés lors des urgences.
+
+Approche recommandée: négocier le contrat comme un dispositif de production clinique, pas comme une simple assurance. Un bon cadre contractuel protège le chiffre d’affaires, l’expérience patient et la sérénité de l’équipe.
+
+AfriSmile aide les cabinets dentaires à Dakar et en Afrique de l’Ouest à structurer des contrats de maintenance robustes, avec des engagements opérationnels clairs et un suivi technique orienté résultats.`,
+    faq: [
+      {
+        q: 'Quelles clauses SLA sont prioritaires dans un contrat de maintenance dentaire ?',
+        a: 'Les délais de réponse, de diagnostic et d’intervention, avec des niveaux de priorité selon la criticité de la panne.',
+      },
+      {
+        q: 'Quels KPI faut-il suivre chaque mois ?',
+        a: 'Taux de disponibilité, temps moyen de réparation, incidents récurrents, ratio maintenance préventive/corrective et délai de clôture des tickets.',
+      },
+      {
+        q: 'AfriSmile peut-il aider à relire ou structurer un contrat SAV ?',
+        a: 'Oui, AfriSmile peut aider à cadrer les clauses techniques, les KPI et le plan de maintenance pour sécuriser l’exploitation du cabinet.',
+      },
+    ],
+  },
+
+  {
     id: 61,
     slug: 'appareil-dentaire-prix-dakar-senegal-2026',
     title: 'Appareil dentaire prix Dakar et Sénégal : ce qui fait varier le devis en 2026',

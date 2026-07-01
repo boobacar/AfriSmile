@@ -20,6 +20,10 @@ export default function BlogPage() {
         <h2 className="section-title">Pages stratégiques à consulter</h2>
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
           <Link to="/materiel-dentaire-senegal" className="btn-secondary">Matériel dentaire Sénégal</Link>
+          <Link to="/devis-materiel-dentaire" className="btn-secondary">Devis matériel dentaire</Link>
+          <Link to="/blog/devis-materiel-dentaire-senegal-comment-comparer-2026" className="btn-secondary">Comparer un devis</Link>
+          <Link to="/blog/materiel-cabinet-dentaire-complet-prix-senegal-2026" className="btn-secondary">Prix cabinet complet</Link>
+          <Link to="/blog/appareil-dentaire-prix-dakar-senegal-2026" className="btn-secondary">Prix appareil dentaire Dakar</Link>
           <Link to="/fauteuil-dentaire-senegal" className="btn-secondary">Fauteuil dentaire Sénégal</Link>
           <Link to="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Autoclave Classe B</Link>
           <Link to="/scanner-intra-oral-senegal" className="btn-secondary">Scanner intra-oral</Link>

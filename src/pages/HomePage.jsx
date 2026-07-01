@@ -4,9 +4,17 @@ import PromoBanner from '../components/PromoBanner'
 import QuoteForm from '../components/QuoteForm'
 import ChairComparator from '../components/ChairComparator'
 import PageHero from '../components/PageHero'
-import { brands, categories } from '../data/siteData'
+import { blogPosts, brands, categories } from '../data/siteData'
 
 const trustSignals = ['Livraison & installation', 'SAV réactif', 'Formations équipes', 'Conseil achat pro']
+const prioritySeoSlugs = [
+  'devis-materiel-dentaire-senegal-comment-comparer-2026',
+  'materiel-cabinet-dentaire-complet-prix-senegal-2026',
+  'appareil-dentaire-prix-dakar-senegal-2026',
+]
+const prioritySeoPosts = prioritySeoSlugs
+  .map((slug) => blogPosts.find((post) => post.slug === slug))
+  .filter(Boolean)
 
 export default function HomePage() {
   return (
@@ -24,6 +32,9 @@ export default function HomePage() {
       <section className="section-shell">
         <div className="flex flex-wrap gap-2 text-sm">
           <Link to="/devis-materiel-dentaire" className="btn-primary">Devis gratuit →</Link>
+          <Link to="/blog/devis-materiel-dentaire-senegal-comment-comparer-2026" className="btn-secondary">Comparer un devis</Link>
+          <Link to="/blog/materiel-cabinet-dentaire-complet-prix-senegal-2026" className="btn-secondary">Prix cabinet complet</Link>
+          <Link to="/blog/appareil-dentaire-prix-dakar-senegal-2026" className="btn-secondary">Prix appareil dentaire Dakar</Link>
           <Link to="/materiel-dentaire-senegal" className="btn-secondary">Matériel dentaire Sénégal</Link>
           <Link to="/equipement-dentaire-dakar" className="btn-secondary">Équipement dentaire Dakar</Link>
           <Link to="/fauteuil-dentaire-senegal" className="btn-secondary">Fauteuil dentaire Sénégal</Link>
@@ -35,6 +46,27 @@ export default function HomePage() {
           <Link to="/materiel-dentaire-mauritanie" className="btn-secondary">Matériel dentaire Mauritanie</Link>
           <Link to="/materiel-dentaire-niger" className="btn-secondary">Matériel dentaire Niger</Link>
           <Link to="/materiel-dentaire-guinee-bissau" className="btn-secondary">Matériel dentaire Guinée-Bissau</Link>
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h2 className="section-title">Articles créés depuis les données Search Console</h2>
+            <p className="section-subtitle">Cibles avec impressions Google mais peu de clics : devis, prix cabinet complet et appareil dentaire à Dakar.</p>
+          </div>
+          <Link to="/blog" className="btn-secondary">Tous les guides</Link>
+        </div>
+        <div className="mt-6 grid gap-4 md:grid-cols-3">
+          {prioritySeoPosts.map((post) => (
+            <article key={post.id} className="card p-5">
+              <Link to={`/blog/${post.slug}`} className="block">
+                <h3 className="font-heading text-xl font-bold text-brand-dark transition hover:text-brand-blue">{post.title}</h3>
+              </Link>
+              <p className="mt-2 text-sm text-slate-600">{post.excerpt}</p>
+              <Link to={`/blog/${post.slug}`} className="mt-4 inline-flex text-sm font-semibold text-brand-blue transition hover:text-brand-cyan">Lire le guide →</Link>
+            </article>
+          ))}
         </div>
       </section>
 

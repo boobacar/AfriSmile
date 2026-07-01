@@ -4,9 +4,9 @@ export const SITE_ORIGIN = 'https://www.afrismile.net'
 
 export const seoPages = {
   '/': {
-    title: 'Matériel dentaire Sénégal & Afrique de l’Ouest | AfriSmile',
+    title: 'Matériel Dentaire Sénégal : Devis, Prix & SAV | AfriSmile',
     description:
-      'AfriSmile fournit du matériel dentaire au Sénégal et en Afrique de l’Ouest: fauteuils, stérilisation, imagerie, installation, SAV et accompagnement cabinet.',
+      'AfriSmile fournit du matériel dentaire au Sénégal : devis gratuit 24h, prix clairs, fauteuils, autoclaves, imagerie, installation et SAV local.',
     imagePath: '/assets/page-home.jpg',
   },
   '/produits': {

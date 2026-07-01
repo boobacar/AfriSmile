@@ -12,6 +12,21 @@ const defaultRelatedMoneyPages = [
 ]
 
 const relatedBySlug = {
+  'appareil-dentaire-prix-dakar-senegal-2026': [
+    { to: '/equipement-dentaire-dakar', label: 'Équipement dentaire Dakar' },
+    { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral et flux numérique' },
+    { to: '/contact', label: 'Demander un conseil équipement' },
+  ],
+  'materiel-cabinet-dentaire-complet-prix-senegal-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
+    { to: '/devis-materiel-dentaire', label: 'Devis matériel complet' },
+    { to: '/solutions-cabinets', label: 'Solutions d’ouverture cabinet' },
+  ],
+  'devis-materiel-dentaire-senegal-comment-comparer-2026': [
+    { to: '/devis-materiel-dentaire', label: 'Demander un devis en 24h' },
+    { to: '/modeles-achat', label: 'Comparer les modèles d’achat' },
+    { to: '/materiel-dentaire-senegal', label: 'Voir les équipements prioritaires' },
+  ],
   'comment-ouvrir-une-clinique-dentaire-en-cote-divoire-2026': [
     { to: '/materiel-dentaire-cote-divoire', label: 'Matériel dentaire Côte d\'Ivoire' },
     { to: '/solutions-cabinets', label: 'Solutions d\'aménagement' },
@@ -307,7 +322,7 @@ export default function BlogPostPage() {
     )
   }
 
-  const origin = typeof window !== 'undefined' ? window.location.origin : 'https://afrismile.net'
+  const origin = typeof window !== 'undefined' ? window.location.origin : 'https://www.afrismile.net'
   const articleUrl = `${origin}/blog/${post.slug}`
   const relatedMoneyPages = relatedBySlug[post.slug] || defaultRelatedMoneyPages
 

@@ -49,6 +49,72 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 61,
+    slug: 'appareil-dentaire-prix-dakar-senegal-2026',
+    title: 'Appareil dentaire prix Dakar et Sénégal : ce qui fait varier le devis en 2026',
+    excerpt: 'Repères clairs pour comprendre le prix d’un appareil dentaire à Dakar et au Sénégal : indication clinique, laboratoire, matériaux, délais et devis.',
+    metaTitle: 'Appareil dentaire prix Dakar Sénégal : guide devis 2026',
+    metaDescription: 'Prix appareil dentaire à Dakar et au Sénégal : critères de devis, matériaux, laboratoire, délais et questions à poser avant achat. Guide AfriSmile 2026.',
+    datePublished: '2026-07-01',
+    dateModified: '2026-07-01',
+    content: `La requête “appareil dentaire prix Dakar” mélange souvent plusieurs besoins : orthodontie, prothèse, gouttière, aligneur ou équipement de cabinet. Pour éviter les comparaisons trompeuses, le premier réflexe est de préciser l’indication clinique et le résultat attendu.
+
+Le prix dépend ensuite du matériau, du niveau de personnalisation, du laboratoire impliqué, des essayages, du délai de fabrication et du suivi après pose. Un devis sérieux doit donc détailler ce qui est inclus : empreinte ou scan, fabrication, ajustements, contrôles et éventuelles reprises.
+
+Pour un cabinet dentaire, la qualité du matériel influence directement la précision et la rapidité : scanner intra-oral, instruments rotatifs fiables, consommables adaptés et relation laboratoire structurée. Ces éléments réduisent les retouches et améliorent l’expérience patient.
+
+Avant de valider un devis, demandez toujours la durée du traitement ou de fabrication, les garanties, les conditions de suivi et les coûts possibles en cas d’ajustement. AfriSmile accompagne les cabinets dans le choix des équipements qui sécurisent ces parcours patients.`,
+    faq: [
+      { q: 'Quel est le prix d’un appareil dentaire à Dakar ?', a: 'Le prix varie selon le type d’appareil, le matériau, le laboratoire, les essayages et le suivi. Un devis détaillé est indispensable.' },
+      { q: 'Pourquoi les devis varient-ils autant ?', a: 'Parce qu’ils n’incluent pas toujours les mêmes prestations : diagnostic, scan, fabrication, ajustements, contrôles et reprises.' },
+      { q: 'AfriSmile vend-il des appareils pour patients ?', a: 'AfriSmile équipe les cabinets dentaires avec le matériel, les consommables et les solutions numériques qui améliorent la fabrication et le suivi.' },
+    ],
+  },
+  {
+    id: 60,
+    slug: 'materiel-cabinet-dentaire-complet-prix-senegal-2026',
+    title: 'Matériel cabinet dentaire complet : prix et liste prioritaire au Sénégal en 2026',
+    excerpt: 'La liste complète du matériel pour cabinet dentaire au Sénégal : fauteuil, autoclave, compresseur, imagerie, instruments, consommables et coût total.',
+    metaTitle: 'Matériel cabinet dentaire complet prix Sénégal 2026',
+    metaDescription: 'Liste matériel cabinet dentaire complet et prix au Sénégal : fauteuil, autoclave, compresseur, imagerie, installation et SAV. Devis AfriSmile 24h.',
+    datePublished: '2026-07-01',
+    dateModified: '2026-07-01',
+    content: `Pour estimer le prix d’un cabinet dentaire complet au Sénégal, il faut raisonner par blocs fonctionnels plutôt que par produit isolé. Le socle de démarrage comprend le fauteuil, l’autoclave Classe B, le compresseur sans huile, l’aspiration, l’instrumentation rotative, les instruments de base et les consommables.
+
+Le deuxième niveau concerne la productivité : capteur RVG, générateur RX, scanner intra-oral, éclairage, mobilier clinique et organisation de la stérilisation. Ces équipements ne sont pas toujours indispensables au jour 1, mais ils changent fortement la qualité et la vitesse du cabinet.
+
+Le prix réel doit intégrer l’installation, la formation, la garantie, la maintenance, les pièces d’usure et le risque d’arrêt. Un devis moins cher sans SAV peut devenir plus coûteux dès la première panne critique.
+
+La bonne méthode consiste à demander trois scénarios : démarrage essentiel, cabinet performant et cabinet premium. AfriSmile structure ces scénarios pour aider le praticien à investir au bon rythme, sans bloquer la croissance du cabinet.`,
+    faq: [
+      { q: 'Quelle est la liste minimale pour ouvrir un cabinet dentaire ?', a: 'Fauteuil, autoclave Classe B, compresseur, aspiration, instruments, rotatifs, consommables et préparation technique du local.' },
+      { q: 'Faut-il acheter tout le matériel dès l’ouverture ?', a: 'Non. Il est souvent plus rentable de sécuriser le socle puis d’ajouter imagerie, scanner ou options premium selon le flux patient.' },
+      { q: 'Comment obtenir un prix fiable ?', a: 'Demandez un devis détaillé avec références, installation, garantie, maintenance et disponibilité des pièces.' },
+    ],
+  },
+  {
+    id: 59,
+    slug: 'devis-materiel-dentaire-senegal-comment-comparer-2026',
+    title: 'Devis matériel dentaire Sénégal : comment comparer sans se tromper en 2026',
+    excerpt: 'Checklist simple pour comparer un devis de matériel dentaire au Sénégal : références, installation, SAV, garantie, délais et coût total.',
+    metaTitle: 'Devis matériel dentaire Sénégal : comparer les offres 2026',
+    metaDescription: 'Comparez vos devis matériel dentaire au Sénégal : références, installation, SAV, garantie, délais, pièces et coût total. Checklist AfriSmile.',
+    datePublished: '2026-07-01',
+    dateModified: '2026-07-01',
+    content: `La recherche “devis” génère beaucoup d’impressions, mais peu de clics lorsque la page ne répond pas clairement à l’intention. Un professionnel veut savoir quoi envoyer, combien de temps attendre et comment comparer deux offres.
+
+Un devis matériel dentaire utile doit préciser les références exactes, les options incluses, les prérequis techniques, le délai de livraison, l’installation, la formation, la garantie, la maintenance et la disponibilité des pièces. Sans ces éléments, la comparaison se limite au prix d’achat et devient risquée.
+
+Pour comparer deux devis, créez une grille simple : coût initial, installation, SAV, garantie, consommables, pièces critiques et coût d’arrêt en cas de panne. Cette lecture révèle souvent que l’offre la moins chère n’est pas la plus rentable.
+
+AfriSmile répond aux demandes de devis avec une logique de scénario : besoin immédiat, évolution possible et sécurisation technique. L’objectif est d’aider le cabinet à acheter utile, au bon moment, avec un support clair après installation.`,
+    faq: [
+      { q: 'Combien de temps pour recevoir un devis AfriSmile ?', a: 'AfriSmile vise une réponse sous 24h lorsque le besoin est bien décrit.' },
+      { q: 'Quelles informations envoyer pour un devis ?', a: 'Type de cabinet, ville, équipements recherchés, budget indicatif, urgence, contraintes du local et besoin d’installation.' },
+      { q: 'Comment comparer deux devis matériel dentaire ?', a: 'Comparez le coût total : achat, installation, garantie, maintenance, pièces, formation et impact d’un arrêt de service.' },
+    ],
+  },
+  {
     id: 58,
     slug: 'autoclave-dentaire-afrique-comparatif-classes-2026',
     title: 'Autoclave dentaire en Afrique : guide comparatif classes B vs N 2026',

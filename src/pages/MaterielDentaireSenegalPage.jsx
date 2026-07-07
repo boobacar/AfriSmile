@@ -70,9 +70,9 @@ export default function MaterielDentaireSenegalPage() {
       <PageHero
         eyebrow="Fournisseur B2B"
         title="Matériel dentaire au Sénégal pour cabinets, cliniques et centres médicaux"
-        subtitle="AfriSmile vous aide à choisir, financer et déployer votre équipement dentaire avec une approche orientée performance clinique et fiabilité opérationnelle."
+        subtitle="AfriSmile vous aide à choisir, chiffrer et déployer votre équipement dentaire avec une approche orientée performance clinique, prix lisibles et fiabilité opérationnelle au Sénégal et en Afrique de l’Ouest."
         image="/assets/illustration-equipment.jpg"
-        chips={['Conseil achat', 'Installation', 'SAV local']}
+        chips={['Conseil achat', 'Installation', 'SAV local', 'Afrique de l’Ouest']}
       >
         <Link to="/contact" className="btn-primary">Demander un devis</Link>
         <Link to="/produits" className="btn-secondary">Voir les produits</Link>
@@ -95,7 +95,18 @@ export default function MaterielDentaireSenegalPage() {
           <Link to="/produits" className="btn-secondary">Voir le catalogue</Link>
           <Link to="/fauteuil-dentaire-senegal" className="btn-secondary">Comparer les fauteuils</Link>
           <Link to="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Autoclaves Classe B</Link>
+          <Link to="/devis-materiel-dentaire" className="btn-secondary">Comparer un devis</Link>
           <Link to="/contact" className="btn-primary">Demander un devis</Link>
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Pourquoi les cabinets choisissent AfriSmile</h2>
+        <p className="section-subtitle">Les recherches “fournisseur matériel dentaire Sénégal” et “devis matériel dentaire” attendent des réponses concrètes sur la disponibilité, le coût total et le SAV.</p>
+        <div className="mt-4 grid gap-3 md:grid-cols-3">
+          <div className="card-muted text-sm text-slate-700"><strong>Devis structurés</strong><br/>Références, options, installation, garantie et maintenance séparées pour comparer utilement.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Approche coût total</strong><br/>Achat, pièces, immobilisation et support post-installation pris en compte avant décision.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Couverture régionale</strong><br/>Base à Dakar avec accompagnement de projets au Sénégal et dans plusieurs pays d’Afrique de l’Ouest.</div>
         </div>
       </section>
 

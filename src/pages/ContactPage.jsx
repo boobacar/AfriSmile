@@ -44,9 +44,9 @@ export default function ContactPage() {
       <PageHero
         eyebrow="Parlons de votre projet"
         title="Contact / Devis AfriSmile"
-        subtitle="Parlez-nous de votre ouverture, de votre renouvellement d’équipement ou d’un besoin de maintenance prioritaire."
+        subtitle="Parlez-nous de votre ouverture, de votre renouvellement d’équipement ou d’un besoin de maintenance prioritaire au Sénégal et en Afrique de l’Ouest."
         showImage={false}
-        chips={['Réponse rapide', 'Conseil personnalisé', 'Suivi par un expert']}
+        chips={['Réponse rapide', 'Conseil personnalisé', 'Sénégal + Afrique de l’Ouest']}
       />
 
       <section className="section-shell">
@@ -89,6 +89,14 @@ export default function ContactPage() {
         </div>
         <div className="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-700">
           <strong>Livraison & installation CEDEAO :</strong> déploiement sur étude technique avec planning, logistique et mise en service coordonnés selon le pays.
+        </div>
+        <div className="mt-4 flex flex-wrap gap-2 text-sm">
+          <a href="/materiel-dentaire-cote-divoire" className="btn-secondary">Côte d’Ivoire</a>
+          <a href="/materiel-dentaire-mali" className="btn-secondary">Mali</a>
+          <a href="/materiel-dentaire-burkina-faso" className="btn-secondary">Burkina Faso</a>
+          <a href="/materiel-dentaire-cameroun" className="btn-secondary">Cameroun</a>
+          <a href="/materiel-dentaire-ghana" className="btn-secondary">Ghana</a>
+          <a href="/materiel-dentaire-nigeria" className="btn-secondary">Nigeria</a>
         </div>
       </section>
 

@@ -8,6 +8,17 @@ const socialProof = [
   'Accompagnement décision achat',
   'Support WhatsApp rapide',
 ]
+const westAfricaLinks = [
+  { href: '/materiel-dentaire-cote-divoire', label: 'Côte d’Ivoire' },
+  { href: '/materiel-dentaire-mali', label: 'Mali' },
+  { href: '/materiel-dentaire-burkina-faso', label: 'Burkina Faso' },
+  { href: '/materiel-dentaire-cameroun', label: 'Cameroun' },
+  { href: '/materiel-dentaire-ghana', label: 'Ghana' },
+  { href: '/materiel-dentaire-nigeria', label: 'Nigeria' },
+  { href: '/materiel-dentaire-mauritanie', label: 'Mauritanie' },
+  { href: '/materiel-dentaire-niger', label: 'Niger' },
+  { href: '/materiel-dentaire-guinee-bissau', label: 'Guinée-Bissau' },
+]
 
 const miniFaqByCategory = {
   fauteuils: [
@@ -62,9 +73,9 @@ export default function ProductsPage() {
       <PageHero
         eyebrow="Catalogue professionnel"
         title="Catalogue de matériel dentaire professionnel au Sénégal"
-        subtitle="Fauteuils, consommables, instruments, stérilisation et radiologie avec accompagnement de configuration, installation et service."
+        subtitle="Fauteuils, autoclaves, imagerie, consommables et instruments avec devis rapides en FCFA, installation et support technique pour le Sénégal et l’Afrique de l’Ouest."
         showImage={false}
-        chips={['Tarifs en FCFA', 'Stock & commande sur devis', 'Fiches techniques disponibles']}
+        chips={['Tarifs en FCFA', 'Stock & commande sur devis', 'Sénégal + Afrique de l’Ouest']}
       >
         <a href="/devis-materiel-dentaire" className="btn-primary">Demander un devis global</a>
       </PageHero>
@@ -99,6 +110,21 @@ export default function ProductsPage() {
           <a href="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Autoclave Classe B</a>
           <a href="/scanner-intra-oral-senegal" className="btn-secondary">Scanner intra-oral</a>
           <a href="/devis-materiel-dentaire" className="btn-primary">Devis gratuit →</a>
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h2 className="section-title">Demandes pays Afrique de l’Ouest</h2>
+            <p className="section-subtitle">Accès rapide aux pages locales qui ciblent les recherches “matériel dentaire + pays / ville” avec angle devis, prix et installation.</p>
+          </div>
+          <a href="/contact" className="btn-secondary">Parler à un conseiller export</a>
+        </div>
+        <div className="mt-5 flex flex-wrap gap-2 text-sm">
+          {westAfricaLinks.map((link) => (
+            <a key={link.href} href={link.href} className="btn-secondary">{link.label}</a>
+          ))}
         </div>
       </section>
 

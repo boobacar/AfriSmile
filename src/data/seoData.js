@@ -4,15 +4,15 @@ export const SITE_ORIGIN = 'https://www.afrismile.net'
 
 export const seoPages = {
   '/': {
-    title: 'Matériel Dentaire Sénégal : Devis, Prix & SAV | AfriSmile',
+    title: 'Matériel dentaire Sénégal & Afrique de l’Ouest : devis, prix FCFA, SAV | AfriSmile',
     description:
-      'AfriSmile fournit du matériel dentaire au Sénégal : devis gratuit 24h, prix clairs, fauteuils, autoclaves, imagerie, installation et SAV local.',
+      'AfriSmile fournit du matériel dentaire au Sénégal et en Afrique de l’Ouest : devis gratuit 24h, prix en FCFA, fauteuils, autoclaves, imagerie, installation et SAV.',
     imagePath: '/assets/page-home.jpg',
   },
   '/produits': {
-    title: 'Matériel Dentaire Sénégal : Prix & Devis Rapide | AfriSmile',
+    title: 'Catalogue matériel dentaire Sénégal & Afrique de l’Ouest | Prix, devis | AfriSmile',
     description:
-      'Catalogue matériel dentaire Sénégal : fauteuils, autoclaves et scanners. Prix clairs, devis en 24h, installation et SAV local AfriSmile.',
+      'Catalogue matériel dentaire Sénégal & Afrique de l’Ouest : fauteuils, autoclaves, scanners, consommables. Prix clairs, devis en 24h, installation et SAV AfriSmile.',
     imagePath: '/assets/page-products.jpg',
   },
   '/solutions-cabinets': {
@@ -52,9 +52,9 @@ export const seoPages = {
     imagePath: '/assets/illustration-clinic.jpg',
   },
   '/materiel-dentaire-senegal': {
-    title: 'Matériel Dentaire Sénégal: Devis, Prix & Installation | AfriSmile',
+    title: 'Fournisseur matériel dentaire Sénégal : devis, prix, installation | AfriSmile',
     description:
-      'Matériel dentaire au Sénégal : devis rapide, prix transparents et installation clé en main. Fauteuils, stérilisation, imagerie et SAV local AfriSmile.',
+      'Fournisseur de matériel dentaire au Sénégal : devis rapide, prix transparents, installation clé en main et SAV local. Fauteuils, stérilisation, imagerie AfriSmile.',
     imagePath: '/assets/illustration-equipment.jpg',
   },
   '/fauteuil-dentaire-senegal': {
@@ -82,15 +82,15 @@ export const seoPages = {
     imagePath: '/assets/page-blog.jpg',
   },
   '/devis-materiel-dentaire': {
-    title: 'Devis Matériel Dentaire Sénégal : Réponse 24h | AfriSmile',
+    title: 'Devis matériel dentaire Sénégal & Afrique de l’Ouest : réponse 24h | AfriSmile',
     description:
-      'Demandez un devis matériel dentaire au Sénégal : fauteuils, autoclaves, imagerie, installation et SAV local. Réponse AfriSmile sous 24h.',
+      'Demandez un devis matériel dentaire au Sénégal et en Afrique de l’Ouest : fauteuils, autoclaves, imagerie, installation et SAV. Réponse AfriSmile sous 24h.',
     imagePath: '/assets/page-contact.jpg',
   },
   '/contact': {
-    title: 'Devis Gratuit Matériel Dentaire Sénégal | Réponse 24h | AfriSmile',
+    title: 'Contact AfriSmile : devis matériel dentaire Sénégal & Afrique de l’Ouest',
     description:
-      'Devis gratuit matériel dentaire Sénégal : réponse en 24h. Comparez prix, installation, SAV local et coût total. AfriSmile accompagne votre cabinet.',
+      'Contactez AfriSmile pour un devis matériel dentaire au Sénégal et en Afrique de l’Ouest : prix, installation, SAV local, WhatsApp et étude rapide.',
     imagePath: '/assets/page-contact.jpg',
   },
   '/conditions-generales': {
@@ -112,13 +112,13 @@ export const seoPages = {
     imagePath: '/assets/page-legal.jpg',
   },
   '/materiel-dentaire-cote-divoire': {
-    title: 'Matériel dentaire Côte d’Ivoire : devis rapide | AfriSmile',
-    description: 'Matériel dentaire en Côte d’Ivoire : devis rapide, installation clé en main et SAV local à Abidjan. Fauteuils, autoclaves, scanners, support AfriSmile.',
+    title: 'Fournisseur matériel dentaire Côte d’Ivoire : devis Abidjan | AfriSmile',
+    description: 'Fournisseur de matériel dentaire en Côte d’Ivoire : devis rapide, installation clé en main et SAV orienté Abidjan. Fauteuils, autoclaves, scanners, support AfriSmile.',
     imagePath: '/assets/illustration-clinic.jpg',
   },
   '/materiel-dentaire-mali': {
-    title: 'Matériel dentaire Mali en Afrique : devis | AfriSmile',
-    description: 'Matériel dentaire au Mali : devis rapide, livraison à Bamako, installation et SAV local. Fauteuils, autoclaves, imagerie et support AfriSmile.',
+    title: 'Fournisseur matériel dentaire Mali : devis Bamako | AfriSmile',
+    description: 'Fournisseur de matériel dentaire au Mali : devis rapide, livraison à Bamako, installation et SAV. Fauteuils, autoclaves, imagerie et support AfriSmile.',
     imagePath: '/assets/illustration-instruments.jpg',
   },
   '/materiel-dentaire-cameroun': {

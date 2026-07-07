@@ -8,13 +8,24 @@ import { blogPosts, brands, categories } from '../data/siteData'
 
 const trustSignals = ['Livraison & installation', 'SAV réactif', 'Formations équipes', 'Conseil achat pro']
 const prioritySeoSlugs = [
+  'fournisseur-materiel-dentaire-senegal-checklist-pro-2026',
   'devis-materiel-dentaire-senegal-comment-comparer-2026',
   'materiel-cabinet-dentaire-complet-prix-senegal-2026',
-  'appareil-dentaire-prix-dakar-senegal-2026',
 ]
 const prioritySeoPosts = prioritySeoSlugs
   .map((slug) => blogPosts.find((post) => post.slug === slug))
   .filter(Boolean)
+const westAfricaMarkets = [
+  { to: '/materiel-dentaire-cote-divoire', label: 'Côte d’Ivoire / Abidjan' },
+  { to: '/materiel-dentaire-mali', label: 'Mali / Bamako' },
+  { to: '/materiel-dentaire-burkina-faso', label: 'Burkina Faso / Ouagadougou' },
+  { to: '/materiel-dentaire-cameroun', label: 'Cameroun / Douala & Yaoundé' },
+  { to: '/materiel-dentaire-ghana', label: 'Ghana / Accra & Kumasi' },
+  { to: '/materiel-dentaire-nigeria', label: 'Nigeria / Lagos & Abuja' },
+  { to: '/materiel-dentaire-mauritanie', label: 'Mauritanie / Nouakchott' },
+  { to: '/materiel-dentaire-niger', label: 'Niger / Niamey' },
+  { to: '/materiel-dentaire-guinee-bissau', label: 'Guinée-Bissau / Bissau' },
+]
 
 export default function HomePage() {
   return (
@@ -22,9 +33,9 @@ export default function HomePage() {
       <PageHero
         eyebrow="Distributeur dentaire professionnel"
         title="Matériel dentaire au Sénégal pour équiper votre cabinet avec confiance"
-        subtitle="AfriSmile accompagne les dentistes avec des équipements performants, une logistique locale et un support technique terrain pour accélérer vos décisions d’investissement."
+        subtitle="AfriSmile accompagne les cabinets dentaires au Sénégal et en Afrique de l’Ouest avec des devis rapides, des prix lisibles en FCFA, l’installation et un SAV terrain orienté continuité clinique."
         image="/assets/page-home.jpg"
-        chips={['Dakar & régions', 'Devis personnalisés', 'Accompagnement de bout en bout']}
+        chips={['Sénégal + Afrique de l’Ouest', 'Devis personnalisés sous 24h', 'Installation & SAV de bout en bout']}
       >
         <Link to="/produits" className="btn-primary">Voir le catalogue</Link>
       </PageHero>
@@ -43,6 +54,9 @@ export default function HomePage() {
           <Link to="/materiel-dentaire-cameroun" className="btn-secondary">Matériel dentaire Cameroun</Link>
           <Link to="/materiel-dentaire-ghana" className="btn-secondary">Matériel dentaire Ghana</Link>
           <Link to="/materiel-dentaire-nigeria" className="btn-secondary">Matériel dentaire Nigeria</Link>
+          <Link to="/materiel-dentaire-cote-divoire" className="btn-secondary">Matériel dentaire Côte d’Ivoire</Link>
+          <Link to="/materiel-dentaire-mali" className="btn-secondary">Matériel dentaire Mali</Link>
+          <Link to="/materiel-dentaire-burkina-faso" className="btn-secondary">Matériel dentaire Burkina Faso</Link>
           <Link to="/materiel-dentaire-mauritanie" className="btn-secondary">Matériel dentaire Mauritanie</Link>
           <Link to="/materiel-dentaire-niger" className="btn-secondary">Matériel dentaire Niger</Link>
           <Link to="/materiel-dentaire-guinee-bissau" className="btn-secondary">Matériel dentaire Guinée-Bissau</Link>
@@ -52,8 +66,28 @@ export default function HomePage() {
       <section className="section-shell">
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
+            <h2 className="section-title">AfriSmile en Afrique de l’Ouest</h2>
+            <p className="section-subtitle">Pages pays dédiées pour capter les recherches locales à forte intention: fournisseur, prix, devis, installation et support technique.</p>
+          </div>
+          <Link to="/contact" className="btn-primary">Recevoir un devis CEDEAO</Link>
+        </div>
+        <div className="mt-6 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+          {westAfricaMarkets.map((market) => (
+            <Link key={market.to} to={market.to} className="card-muted text-sm font-semibold text-brand-dark transition hover:border-brand-cyan hover:text-brand-cyan">
+              {market.label}
+            </Link>
+          ))}
+        </div>
+        <div className="mt-4 rounded-2xl border border-brand-cyan/20 bg-brand-light/60 p-4 text-sm text-slate-700">
+          <strong>Objectif achat B2B :</strong> aider les cliniques et cabinets à comparer rapidement le coût total, la logistique, la disponibilité des pièces et la qualité du SAV avant commande.
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
             <h2 className="section-title">Articles créés depuis les données Search Console</h2>
-            <p className="section-subtitle">Cibles avec impressions Google mais peu de clics : devis, prix cabinet complet et appareil dentaire à Dakar.</p>
+            <p className="section-subtitle">Cibles avec impressions Google mais peu de clics : fournisseur, devis et budget d’ouverture de cabinet au Sénégal.</p>
           </div>
           <Link to="/blog" className="btn-secondary">Tous les guides</Link>
         </div>

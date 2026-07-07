@@ -37,12 +37,14 @@ export default function BlogPage() {
       <section className="section-shell">
         <h2 className="section-title">Cibles Afrique de l’Ouest</h2>
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
-          <Link to="/materiel-dentaire-cote-divoire" className="btn-secondary">Côte d’Ivoire</Link>
-          <Link to="/materiel-dentaire-cameroun" className="btn-secondary">Cameroun</Link>
-          <Link to="/materiel-dentaire-ghana" className="btn-secondary">Ghana</Link>
-          <Link to="/materiel-dentaire-nigeria" className="btn-secondary">Nigeria</Link>
-          <Link to="/materiel-dentaire-mauritanie" className="btn-secondary">Mauritanie</Link>
-          <Link to="/materiel-dentaire-niger" className="btn-secondary">Niger</Link>
+          <Link to="/blog/fournisseur-materiel-dentaire-abidjan-cote-divoire-devis-2026" className="btn-secondary">Abidjan / Côte d’Ivoire</Link>
+          <Link to="/blog/materiel-dentaire-bamako-mali-prix-installation-cabinet-2026" className="btn-secondary">Bamako / Mali</Link>
+          <Link to="/blog/equipement-cabinet-dentaire-lome-togo-devis-prix-2026" className="btn-secondary">Lomé / Togo</Link>
+          <Link to="/blog/materiel-dentaire-cotonou-benin-prix-ouverture-cabinet-2026" className="btn-secondary">Cotonou / Bénin</Link>
+          <Link to="/blog/autoclave-classe-b-ouagadougou-burkina-faso-guide-achat-2026" className="btn-secondary">Ouagadougou / Burkina Faso</Link>
+          <Link to="/blog/fauteuil-dentaire-accra-ghana-devis-installation-2026" className="btn-secondary">Accra / Ghana</Link>
+          <Link to="/blog/materiel-dentaire-nouakchott-mauritanie-cabinet-prix-2026" className="btn-secondary">Nouakchott / Mauritanie</Link>
+          <Link to="/blog/materiel-dentaire-niamey-niger-checklist-devis-2026" className="btn-secondary">Niamey / Niger</Link>
         </div>
       </section>
 

@@ -49,6 +49,318 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 export const blogPosts = [
   {
+    id: 70,
+    slug: 'fournisseur-materiel-dentaire-abidjan-cote-divoire-devis-2026',
+    title: 'Fournisseur de matériel dentaire à Abidjan : comment obtenir un devis fiable en Côte d’Ivoire en 2026',
+    excerpt: 'Guide pratique pour cabinets et cliniques à Abidjan : vérifier le fournisseur, comparer les devis, sécuriser la logistique et éviter les surcoûts cachés.',
+    metaTitle: 'Fournisseur matériel dentaire Abidjan : devis Côte d’Ivoire 2026',
+    metaDescription: 'Matériel dentaire à Abidjan : comment choisir un fournisseur fiable, comparer un devis et sécuriser installation, garantie et SAV en Côte d’Ivoire.',
+    datePublished: '2026-07-07',
+    dateModified: '2026-07-07',
+    content:
+      `À Abidjan, la recherche d’un fournisseur de matériel dentaire ne se résume pas à trouver le prix le plus bas. Les cabinets et cliniques qui achètent bien sont ceux qui comparent la qualité du devis, la disponibilité réelle des références, la logistique d’installation et la capacité du support après livraison.
+
+Le premier point à vérifier est la clarté du devis. Un devis utile doit séparer le matériel principal, les accessoires, les consommables de démarrage, l’installation, la mise en service, la formation et la garantie. Quand tout est mélangé dans une seule ligne, il devient difficile de comparer deux offres sérieusement.
+
+Le deuxième point est la cohérence du délai. Beaucoup d’achats prennent du retard parce que le fournisseur annonce une disponibilité commerciale sans confirmer le stock, la préparation export ou les contraintes douanières. Pour Abidjan, il faut demander un calendrier précis: disponibilité, départ, arrivée estimée et installation.
+
+Le troisième point concerne le coût total. Un fauteuil, un autoclave ou un scanner peuvent sembler compétitifs à l’achat puis devenir coûteux si les pièces, la maintenance et les consommables ne sont pas anticipés. Le bon raisonnement consiste à chiffrer l’investissement complet sur plusieurs années plutôt qu’un simple prix d’entrée.
+
+Le quatrième point est la logique d’usage. Une clinique orientée omnipratique, chirurgie, orthodontie ou esthétique n’a pas les mêmes priorités. Le devis doit refléter votre flux patient, votre niveau d’activité et les actes les plus rentables du cabinet.
+
+Le cinquième point est le SAV. Demandez qui intervient, sous quel délai, comment les pièces sont gérées et quel niveau de support est possible à distance. Sans cette réponse, un équipement même premium peut devenir une source d’arrêt d’activité.
+
+Pour Abidjan, l’approche la plus sûre consiste à préparer un cahier de besoins court, comparer deux ou trois offres sur une même base et valider en amont la logistique, la garantie et le plan de mise en service.
+
+AfriSmile accompagne les projets en Côte d’Ivoire avec une logique simple: devis lisible, matériel cohérent avec l’activité clinique, coordination d’installation et support orienté continuité opérationnelle.`,
+    faq: [
+      {
+        q: 'Que doit contenir un bon devis de matériel dentaire à Abidjan ?',
+        a: 'Il doit distinguer le matériel, les accessoires, l’installation, la formation, la garantie, les consommables de démarrage et les délais réels.',
+      },
+      {
+        q: 'Pourquoi comparer le coût total plutôt que le seul prix d’achat ?',
+        a: 'Parce que la maintenance, les pièces, les consommables et les arrêts d’activité pèsent souvent davantage que la remise initiale.',
+      },
+      {
+        q: 'AfriSmile peut-il préparer un devis pour une clinique à Abidjan ?',
+        a: 'Oui, AfriSmile peut cadrer les besoins, structurer le devis et organiser la logique d’installation selon le projet clinique.',
+      },
+    ],
+  },
+  {
+    id: 69,
+    slug: 'materiel-dentaire-bamako-mali-prix-installation-cabinet-2026',
+    title: 'Matériel dentaire à Bamako : prix, installation et plan d’équipement pour cabinet au Mali en 2026',
+    excerpt: 'Repères concrets pour équiper un cabinet dentaire à Bamako : budget, priorités matériel, logistique d’installation et support technique au Mali.',
+    metaTitle: 'Matériel dentaire Bamako Mali : prix, installation, devis 2026',
+    metaDescription: 'Équiper un cabinet dentaire à Bamako : budget, devis, installation, autoclave, fauteuil, imagerie et SAV pour projets dentaires au Mali.',
+    datePublished: '2026-07-07',
+    dateModified: '2026-07-07',
+    content:
+      `À Bamako, les projets d’équipement dentaire réussissent quand ils sont pensés par ordre de priorité. Beaucoup de cabinets veulent tout acheter en même temps, alors que la meilleure décision est souvent de sécuriser d’abord le socle clinique: fauteuil, stérilisation, compresseur, aspiration, instrumentation et organisation du poste.
+
+Le budget doit être lu en trois blocs. Le premier bloc couvre les équipements indispensables au démarrage. Le deuxième concerne les options qui augmentent la productivité ou le confort opératoire. Le troisième regroupe l’installation, la formation, la maintenance et le stock initial de consommables.
+
+À Bamako, la question logistique ne doit jamais être traitée en dernier. Le transport, le déchargement, l’accès au site, l’alimentation électrique, la préparation de la zone technique et la mise en service influencent directement le délai réel d’ouverture ou de remise en route du cabinet.
+
+Pour comparer les prix intelligemment, il faut vérifier si le devis inclut les éléments techniques annexes: compresseur adapté, système d’aspiration, traitement de l’eau, accessoires utiles, garantie, visite de mise en service et assistance post-installation. Deux devis proches en apparence peuvent cacher des écarts importants de couverture.
+
+Le bon plan d’équipement dépend aussi du type de cabinet. Un projet de démarrage n’a pas la même feuille de route qu’une structure déjà active qui veut moderniser son flux patient. La bonne stratégie consiste à classer les achats selon leur impact clinique et financier.
+
+Pour Bamako, une approche progressive permet souvent d’acheter mieux: sécuriser le cœur du cabinet, stabiliser l’activité, puis ajouter les postes avancés comme l’imagerie ou le numérique au bon moment.
+
+AfriSmile accompagne les cabinets au Mali avec des devis structurés, des recommandations de priorisation, une logique d’installation cadrée et un support orienté continuité clinique.`,
+    faq: [
+      {
+        q: 'Quel est le premier matériel à prioriser pour un cabinet à Bamako ?',
+        a: 'Le socle opérationnel: fauteuil, stérilisation, compresseur, aspiration et instrumentation de base avant les options secondaires.',
+      },
+      {
+        q: 'Pourquoi l’installation influence-t-elle autant le budget réel ?',
+        a: 'Parce que l’accès au site, l’alimentation, la mise en service et la logistique peuvent ajouter des coûts ou retards importants s’ils ne sont pas anticipés.',
+      },
+      {
+        q: 'AfriSmile peut-il aider à structurer un plan d’équipement pour Bamako ?',
+        a: 'Oui, AfriSmile peut proposer un plan progressif, un devis lisible et un cadrage technique adapté au niveau de maturité du cabinet.',
+      },
+    ],
+  },
+  {
+    id: 68,
+    slug: 'equipement-cabinet-dentaire-lome-togo-devis-prix-2026',
+    title: 'Équipement de cabinet dentaire à Lomé : comment demander un devis utile au Togo en 2026',
+    excerpt: 'Cabinets et cliniques à Lomé : comment cadrer un devis de matériel dentaire, éviter les oublis techniques et choisir un équipement cohérent au Togo.',
+    metaTitle: 'Équipement cabinet dentaire Lomé Togo : devis, prix 2026',
+    metaDescription: 'Guide pour équiper un cabinet dentaire à Lomé : devis, prix, fauteuil, autoclave, installation et SAV au Togo avec une approche orientée coût total.',
+    datePublished: '2026-07-07',
+    dateModified: '2026-07-07',
+    content:
+      `À Lomé, beaucoup de demandes de devis restent trop vagues: “je veux équiper un cabinet dentaire” sans préciser l’activité prévue, le nombre de postes, la zone disponible ou les contraintes techniques. Résultat: les offres sont difficiles à comparer et les risques d’oubli augmentent.
+
+Un devis utile commence par un cadrage simple. Il faut définir le type d’activité, le nombre de praticiens, le rythme patient, les actes dominants et la logique de croissance prévue sur 12 à 24 mois. Cette base permet de sélectionner un équipement cohérent au lieu d’additionner des références sans plan global.
+
+À Lomé, les postes qui doivent toujours être clarifiés sont le fauteuil, la stérilisation, le compresseur, l’aspiration, les instruments rotatifs, l’éclairage, le mobilier technique et les consommables de démarrage. Si ces blocs ne sont pas détaillés, le devis manque de valeur décisionnelle.
+
+Le prix doit aussi être interprété correctement. Une offre légère au départ peut omettre des accessoires indispensables ou repousser sur le client des coûts futurs d’installation, de configuration et de maintenance. Le bon réflexe est donc d’évaluer le coût total d’exploitation.
+
+Le cabinet doit également demander comment seront gérés la livraison, la mise en service, les réglages initiaux et la prise en main équipe. Ces éléments conditionnent la vitesse de démarrage et la stabilité des premières semaines d’activité.
+
+Pour Lomé, le meilleur levier est un devis structuré par fonctions cliniques, avec plan d’installation et estimation claire des délais. Cela réduit les erreurs d’achat et permet de lancer un cabinet plus sereinement.
+
+AfriSmile aide les cabinets au Togo à transformer une intention d’achat floue en projet d’équipement clair, priorisé et exploitable.`,
+    faq: [
+      {
+        q: 'Quel est le principal défaut d’un devis matériel dentaire à Lomé ?',
+        a: 'Le manque de détail sur les blocs techniques, l’installation et les accessoires nécessaires au fonctionnement réel du cabinet.',
+      },
+      {
+        q: 'Faut-il détailler les consommables et accessoires dès le premier devis ?',
+        a: 'Oui, car ils influencent le coût de démarrage et évitent de sous-estimer l’investissement nécessaire avant ouverture.',
+      },
+      {
+        q: 'AfriSmile peut-il revoir un devis déjà reçu pour un cabinet à Lomé ?',
+        a: 'Oui, AfriSmile peut aider à relire le devis, relever les angles morts et proposer une structure plus fiable pour comparer les offres.',
+      },
+    ],
+  },
+  {
+    id: 67,
+    slug: 'materiel-dentaire-cotonou-benin-prix-ouverture-cabinet-2026',
+    title: 'Matériel dentaire à Cotonou : budget d’ouverture et erreurs à éviter pour un cabinet au Bénin en 2026',
+    excerpt: 'Comment estimer le vrai budget de matériel dentaire à Cotonou, prioriser les achats et éviter les erreurs fréquentes d’ouverture de cabinet au Bénin.',
+    metaTitle: 'Matériel dentaire Cotonou Bénin : budget cabinet 2026',
+    metaDescription: 'Ouvrir un cabinet dentaire à Cotonou : budget matériel, fauteuil, autoclave, devis, installation et plan d’achat progressif au Bénin.',
+    datePublished: '2026-07-07',
+    dateModified: '2026-07-07',
+    content:
+      `À Cotonou, le budget d’ouverture d’un cabinet dentaire est souvent mal estimé parce que l’on confond prix catalogue et budget de mise en route. En réalité, l’ouverture réussie dépend d’un ensemble complet: équipement clinique, zone de stérilisation, logistique, mobilier technique, accessoires et stock initial.
+
+Le premier piège est de vouloir acheter tous les équipements “premium” dès le départ. Une stratégie plus robuste consiste à sécuriser le matériel qui conditionne l’activité quotidienne, puis à planifier les montées en gamme selon la traction réelle du cabinet.
+
+Le deuxième piège est de sous-estimer les coûts cachés: installation, réglages, visites techniques, accessoires non inclus, consommables de démarrage, protection électrique ou adaptation du local. Ces postes doivent apparaître dans la projection budgétaire.
+
+Le troisième piège est l’absence de priorisation clinique. Un cabinet de démarrage doit d’abord garantir la sécurité, la fluidité du poste et la répétabilité des actes. Les achats doivent suivre cette hiérarchie.
+
+Pour Cotonou, il est utile de classer les postes en trois catégories: indispensable au démarrage, amélioration de productivité, extension future. Cette lecture aide à arbitrer les dépenses sans bloquer la qualité clinique.
+
+Un bon budget doit aussi intégrer le SAV. Un équipement moins cher mais difficile à maintenir peut coûter davantage sur douze mois qu’une solution un peu plus chère mais mieux suivie.
+
+AfriSmile accompagne les projets d’ouverture au Bénin avec une logique de budget réaliste, de choix priorisés et de devis structurés pour sécuriser les décisions d’achat.`,
+    faq: [
+      {
+        q: 'Quel est le principal oubli dans un budget d’ouverture de cabinet à Cotonou ?',
+        a: 'Les coûts annexes d’installation, d’accessoires, de consommables de démarrage et de préparation technique du local.',
+      },
+      {
+        q: 'Faut-il tout acheter dès le lancement du cabinet ?',
+        a: 'Pas forcément. Une stratégie progressive permet souvent de mieux protéger la trésorerie tout en couvrant l’essentiel clinique.',
+      },
+      {
+        q: 'AfriSmile peut-il aider à prioriser les achats pour un cabinet au Bénin ?',
+        a: 'Oui, AfriSmile peut structurer un budget, distinguer l’essentiel du secondaire et proposer un plan d’équipement plus sûr.',
+      },
+    ],
+  },
+  {
+    id: 66,
+    slug: 'autoclave-classe-b-ouagadougou-burkina-faso-guide-achat-2026',
+    title: 'Autoclave Classe B à Ouagadougou : guide d’achat et points de contrôle pour cabinets au Burkina Faso en 2026',
+    excerpt: 'Comment choisir un autoclave Classe B à Ouagadougou : capacité, qualité d’eau, installation, cycles et maintenance pour cabinets au Burkina Faso.',
+    metaTitle: 'Autoclave Classe B Ouagadougou : guide achat 2026',
+    metaDescription: 'Guide d’achat autoclave Classe B à Ouagadougou : capacité, installation, qualité d’eau, maintenance et devis pour cabinets au Burkina Faso.',
+    datePublished: '2026-07-07',
+    dateModified: '2026-07-07',
+    content:
+      `À Ouagadougou, l’autoclave Classe B est un poste critique parce qu’il conditionne la sécurité, la rotation instrumentale et la continuité de l’activité clinique. Pourtant, beaucoup d’achats se font sur la seule capacité nominale ou sur un prix attractif sans vérifier l’environnement réel d’utilisation.
+
+Le premier critère est l’adéquation avec le flux du cabinet. Une petite structure n’a pas les mêmes besoins qu’un cabinet à plusieurs praticiens. La capacité doit être liée au volume de cycles quotidiens, pas seulement au budget disponible.
+
+Le deuxième critère est la qualité de l’eau. C’est un point souvent minimisé alors qu’il influence directement la durée de vie, la stabilité des cycles et la fréquence d’entretien. Un autoclave mal alimenté en eau peut se dégrader rapidement même s’il est bien choisi sur le papier.
+
+Le troisième critère est l’installation. L’alimentation, la ventilation, l’espace de travail, le flux sale-propre-stérile et les conditions de maintenance doivent être pensés avant livraison. Sinon, l’autoclave devient une contrainte au lieu d’un levier de sécurité.
+
+Le quatrième critère est la traçabilité. Un cabinet qui investit dans un autoclave doit aussi organiser les procédures, le chargement, les enregistrements et la routine de contrôle pour tirer un vrai bénéfice clinique de l’équipement.
+
+Le cinquième critère est la maintenance. Demandez clairement le calendrier, les consommables nécessaires, la logique de pièces et les modalités d’assistance en cas d’arrêt.
+
+Pour Ouagadougou, l’autoclave doit être évalué comme une solution complète de stérilisation, pas comme une simple machine isolée.
+
+AfriSmile accompagne les cabinets au Burkina Faso pour comparer les devis d’autoclaves Classe B, sécuriser l’installation et réduire les risques d’arrêt opérationnel.`,
+    faq: [
+      {
+        q: 'Quel est le premier critère pour choisir un autoclave Classe B à Ouagadougou ?',
+        a: 'Le volume réel d’activité du cabinet et l’organisation de la chaîne de stérilisation, avant même le prix catalogue.',
+      },
+      {
+        q: 'Pourquoi la qualité de l’eau est-elle aussi importante ?',
+        a: 'Parce qu’elle conditionne la stabilité des cycles, la durée de vie des composants internes et la fréquence des interventions techniques.',
+      },
+      {
+        q: 'AfriSmile peut-il aider à comparer plusieurs devis d’autoclave au Burkina Faso ?',
+        a: 'Oui, AfriSmile peut vérifier la capacité, l’installation, la maintenance et la cohérence des offres selon le flux du cabinet.',
+      },
+    ],
+  },
+  {
+    id: 65,
+    slug: 'fauteuil-dentaire-accra-ghana-devis-installation-2026',
+    title: 'Fauteuil dentaire à Accra : ce qu’un cabinet doit vérifier avant devis et installation au Ghana en 2026',
+    excerpt: 'Guide pour cliniques à Accra : comparer un fauteuil dentaire sur l’ergonomie, l’installation, les options utiles et le support technique au Ghana.',
+    metaTitle: 'Fauteuil dentaire Accra Ghana : devis, installation 2026',
+    metaDescription: 'Comment choisir un fauteuil dentaire à Accra : ergonomie, options, installation, maintenance et devis fiable pour cabinets au Ghana.',
+    datePublished: '2026-07-07',
+    dateModified: '2026-07-07',
+    content:
+      `À Accra, beaucoup de cabinets comparent les fauteuils dentaires à partir de photos, de fiches techniques ou de remises commerciales. Pourtant, la vraie valeur d’un fauteuil se mesure sur le terrain: ergonomie, stabilité, fluidité des gestes, facilité de maintenance et continuité de l’activité.
+
+Le premier critère est l’usage clinique réel. Un cabinet omnipratique, orienté prothèse ou chirurgie n’a pas les mêmes contraintes. Le fauteuil doit être évalué selon les actes dominants, la posture praticien-assistante et la durée moyenne des séances.
+
+Le deuxième critère est la configuration utile. Certaines options sont réellement stratégiques, d’autres relèvent davantage du confort marketing. Il faut distinguer ce qui améliore la productivité quotidienne de ce qui augmente le prix sans impact mesurable.
+
+Le troisième critère est l’installation. Un fauteuil n’est pas seulement livré puis branché. Il faut prévoir la zone technique, l’accessibilité, les réglages, la prise en main équipe et la vérification initiale des fonctions clés.
+
+Le quatrième critère est la maintenance. Demandez qui intervient, sous quel délai et quelles pièces peuvent devenir critiques. La disponibilité du support influence fortement le risque d’arrêt de production clinique.
+
+Le cinquième critère est le coût complet. Un fauteuil bien dimensionné, bien installé et bien suivi coûte souvent moins cher sur la durée qu’une option initialement moins chère mais instable.
+
+Pour Accra, le bon achat consiste à relier le fauteuil à la réalité du cabinet: flux patient, ergonomie, budget et ambitions de croissance.
+
+AfriSmile aide les cabinets au Ghana à comparer les fauteuils dentaires avec une lecture orientée usage clinique, installation et continuité opérationnelle.`,
+    faq: [
+      {
+        q: 'Que faut-il regarder avant de signer un devis de fauteuil dentaire à Accra ?',
+        a: 'L’ergonomie, les options réellement utiles, l’installation, la garantie, le support technique et le coût complet sur la durée.',
+      },
+      {
+        q: 'Pourquoi l’installation est-elle aussi importante que le fauteuil lui-même ?',
+        a: 'Parce qu’un mauvais réglage ou une mise en service incomplète dégrade immédiatement le confort clinique et la productivité du cabinet.',
+      },
+      {
+        q: 'AfriSmile peut-il aider un cabinet au Ghana à comparer plusieurs fauteuils ?',
+        a: 'Oui, AfriSmile peut analyser les usages du cabinet, relire les devis et recommander la configuration la plus cohérente.',
+      },
+    ],
+  },
+  {
+    id: 64,
+    slug: 'materiel-dentaire-nouakchott-mauritanie-cabinet-prix-2026',
+    title: 'Matériel dentaire à Nouakchott : comment bâtir un devis solide pour cabinet en Mauritanie en 2026',
+    excerpt: 'Cabinets dentaires en Mauritanie : méthode pour structurer un devis matériel fiable à Nouakchott, maîtriser le budget et sécuriser le support.',
+    metaTitle: 'Matériel dentaire Nouakchott Mauritanie : devis 2026',
+    metaDescription: 'Guide devis matériel dentaire à Nouakchott : budget, installation, fauteuil, autoclave, imagerie et SAV pour cabinets en Mauritanie.',
+    datePublished: '2026-07-07',
+    dateModified: '2026-07-07',
+    content:
+      `À Nouakchott, un devis matériel dentaire utile doit répondre à trois questions: que faut-il vraiment acheter, quel budget faut-il prévoir au-delà du prix affiché, et comment sécuriser la continuité technique après livraison.
+
+Le premier travail consiste à définir le niveau de cabinet visé. Un cabinet de démarrage, une structure en montée de gamme ou une clinique déjà active n’ont pas les mêmes besoins ni le même ordre de priorité.
+
+Le deuxième travail est de transformer ce niveau d’ambition en blocs de décision: poste de soins, stérilisation, compression, aspiration, imagerie, instrumentation, mobilier et consommables initiaux. Cette méthode évite les oublis et rend la comparaison de devis beaucoup plus claire.
+
+Le troisième travail est d’identifier les coûts hors matériel: préparation technique, livraison, installation, formation, maintenance préventive et pièces. C’est souvent à ce niveau que se créent les écarts budgétaires les plus sensibles.
+
+Pour Nouakchott, le support technique doit être explicité avant achat. Demandez les modalités d’assistance, les délais, la logique de pièces et la procédure en cas de panne immobilisante. Sans cela, un cabinet peut se retrouver freiné par une faiblesse parfaitement évitable.
+
+Un devis bien structuré améliore aussi la vitesse de décision. L’équipe dirigeante comprend mieux où va l’argent et peut arbitrer entre priorité immédiate et extension future.
+
+AfriSmile accompagne les cabinets en Mauritanie avec des devis plus lisibles, une priorisation clinique claire et une lecture du coût total orientée continuité d’activité.`,
+    faq: [
+      {
+        q: 'Pourquoi un devis structuré est-il si important à Nouakchott ?',
+        a: 'Parce qu’il permet de séparer les postes essentiels, les coûts annexes et les services techniques, donc de mieux sécuriser le budget réel.',
+      },
+      {
+        q: 'Quels blocs doivent apparaître dans un devis matériel dentaire ?',
+        a: 'Le poste de soins, la stérilisation, la compression, l’aspiration, l’imagerie, l’instrumentation, le mobilier, la livraison, l’installation et le SAV.',
+      },
+      {
+        q: 'AfriSmile peut-il aider un projet de cabinet en Mauritanie ?',
+        a: 'Oui, AfriSmile peut cadrer les besoins, restructurer le devis et aider à hiérarchiser les achats selon le budget et l’activité visée.',
+      },
+    ],
+  },
+  {
+    id: 71,
+    slug: 'materiel-dentaire-niamey-niger-checklist-devis-2026',
+    title: 'Matériel dentaire à Niamey : checklist pour demander un devis exploitable au Niger en 2026',
+    excerpt: 'Une checklist simple pour cabinets à Niamey : préparer une demande de devis matériel dentaire claire, comparer les offres et éviter les angles morts.',
+    metaTitle: 'Matériel dentaire Niamey Niger : checklist devis 2026',
+    metaDescription: 'Checklist devis matériel dentaire à Niamey : besoins, budget, fauteuil, autoclave, installation et SAV pour cabinets au Niger.',
+    datePublished: '2026-07-07',
+    dateModified: '2026-07-07',
+    content:
+      `À Niamey, une demande de devis bien préparée permet de gagner du temps, d’obtenir des réponses plus utiles et d’éviter les offres incomplètes. Beaucoup de cabinets reçoivent des propositions difficiles à exploiter parce que leur brief initial ne contient pas les bonnes informations.
+
+La première étape consiste à préciser le contexte: création de cabinet, extension, remplacement d’un équipement ou montée en gamme. Sans cette information, le fournisseur ne peut pas prioriser correctement les postes.
+
+La deuxième étape est de lister les besoins cliniques réels: omnipratique, chirurgie, esthétique, stérilisation, imagerie, ergonomie opératoire, rythme patient. Ce sont ces éléments qui déterminent la bonne architecture du devis.
+
+La troisième étape est d’indiquer les contraintes du local: alimentation, espace, accès, calendrier, nombre de postes et niveau d’urgence. Ce cadre aide à anticiper l’installation et évite les mauvaises surprises.
+
+La quatrième étape est de demander explicitement les services associés: livraison, mise en service, formation, garantie, maintenance, pièces et délai de support. Un devis sans services associés est rarement suffisant pour prendre une bonne décision.
+
+La cinquième étape est de classer les achats en indispensable, utile à court terme, et extension future. Cette hiérarchie rend la comparaison plus stratégique et protège la trésorerie du cabinet.
+
+Pour Niamey, la bonne demande de devis n’est pas longue: elle est claire, structurée et orientée décision.
+
+AfriSmile aide les cabinets au Niger à préparer des demandes de devis plus efficaces, à comparer les offres et à sécuriser les achats critiques.`,
+    faq: [
+      {
+        q: 'Quelle est l’erreur la plus fréquente dans une demande de devis à Niamey ?',
+        a: 'Envoyer une demande trop vague sans préciser le niveau de cabinet, les besoins cliniques et les contraintes techniques du site.',
+      },
+      {
+        q: 'Quels services faut-il demander en plus du matériel ?',
+        a: 'La livraison, l’installation, la mise en service, la formation, la garantie, la maintenance et la logique de pièces.',
+      },
+      {
+        q: 'AfriSmile peut-il aider à structurer une demande de devis pour le Niger ?',
+        a: 'Oui, AfriSmile peut cadrer les priorités, clarifier les besoins et proposer une base de comparaison plus fiable.',
+      },
+    ],
+  },
+  {
     id: 62,
     slug: 'fauteuil-dentaire-senegal-ergonomie-praticien-assistante-productivite-2026',
     title: 'Fauteuil dentaire au Sénégal : ergonomie praticien-assistante et productivité clinique en 2026',

@@ -4,17 +4,31 @@ import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
   {
-    q: 'Quel matériel dentaire proposez-vous au Sénégal ?',
-    a: 'Nous proposons fauteuils dentaires, stérilisation, imagerie, instruments, consommables et solutions de maintenance pour cabinets et cliniques.',
+    q: 'Quel matériel dentaire AfriSmile propose-t-il au Sénégal ?',
+    a: 'Fauteuils, autoclaves Classe B, imagerie, scanners intra-oraux, compresseurs, instruments et consommables pour cabinets et cliniques au Sénégal.',
   },
   {
-    q: 'Proposez-vous l’installation et la mise en service ?',
-    a: 'Oui, AfriSmile assure la livraison, l’installation, les tests et la prise en main de vos équipes.',
+    q: 'Comment obtenir un devis matériel dentaire au Sénégal ?',
+    a: 'Nous préparons un devis structuré selon votre spécialité, votre budget, votre ville, votre calendrier d’ouverture et le niveau de service attendu.',
   },
   {
-    q: 'Comment obtenir un devis ?',
-    a: 'Via la page contact ou WhatsApp, avec une réponse rapide selon votre spécialité, budget et planning.',
+    q: 'AfriSmile intervient-il seulement à Dakar ?',
+    a: 'Non. Nous accompagnons les projets à Dakar et dans d’autres zones du Sénégal, avec une logique de livraison, installation et support technique.',
   },
+]
+
+const purchaseBlocks = [
+  'Fauteuils dentaires et units adaptés à l’omnipratique, chirurgie ou esthétique',
+  'Autoclaves Classe B, stérilisation et organisation du flux instruments',
+  'Imagerie numérique, RVG et scanners intra-oraux pour moderniser le flux clinique',
+  'Compresseurs, aspiration, instrumentation et consommables de démarrage',
+]
+
+const decisionPoints = [
+  'Clarifier le niveau de cabinet visé : ouverture, modernisation ou montée en gamme',
+  'Comparer les devis avec installation, accessoires, garantie et consommables inclus',
+  'Prioriser les achats selon l’impact clinique et la trésorerie disponible',
+  'Sécuriser le SAV et la disponibilité des pièces avant la signature',
 ]
 
 export default function MaterielDentaireSenegalPage() {
@@ -31,25 +45,10 @@ export default function MaterielDentaireSenegalPage() {
   const productJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: 'Matériel dentaire professionnel AfriSmile',
+    name: 'Matériel dentaire professionnel Sénégal',
     category: 'Équipements médicaux dentaires',
     brand: { '@type': 'Brand', name: 'AfriSmile' },
-    areaServed: [
-      'SN',
-      'MR',
-      'CI',
-      'BJ',
-      'BF',
-      'CM',
-      'CV',
-      'GM',
-      'GH',
-      'GN',
-      'GW',
-      'NE',
-      'NG',
-      'TG',
-    ],
+    areaServed: ['SN'],
     offers: {
       '@type': 'Offer',
       availability: 'https://schema.org/InStock',
@@ -57,7 +56,7 @@ export default function MaterielDentaireSenegalPage() {
       price: '0',
       priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'XOF', price: '0' },
       url: 'https://afrismile.net/contact',
-      description: 'Tarification sur devis selon configuration cabinet.',
+      description: 'Tarification sur devis pour matériel dentaire au Sénégal avec installation et support AfriSmile.',
     },
   }
 
@@ -68,50 +67,50 @@ export default function MaterielDentaireSenegalPage() {
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Sénégal' }]} />
 
       <PageHero
-        eyebrow="Fournisseur B2B"
-        title="Matériel dentaire au Sénégal pour cabinets, cliniques et centres médicaux"
+        eyebrow="Fournisseur B2B Sénégal"
+        title="Matériel dentaire au Sénégal pour cabinets et cliniques"
         subtitle="AfriSmile vous aide à choisir, chiffrer et déployer votre équipement dentaire avec une approche orientée performance clinique, prix lisibles et fiabilité opérationnelle au Sénégal et en Afrique de l’Ouest."
         image="/assets/illustration-equipment.jpg"
         chips={['Conseil achat', 'Installation', 'SAV local', 'Afrique de l’Ouest']}
       >
         <Link to="/contact" className="btn-primary">Demander un devis</Link>
-        <Link to="/produits" className="btn-secondary">Voir les produits</Link>
+        <Link to="/produits" className="btn-secondary">Voir le catalogue</Link>
       </PageHero>
 
       <section className="section-shell">
-        <h2 className="section-title">Ce que nous fournissons</h2>
-        <p className="section-subtitle">Une offre complète en matériel médical dentaire pour création, modernisation ou extension de cabinet.</p>
+        <h2 className="section-title">Ce que nous fournissons aux cabinets au Sénégal</h2>
+        <p className="section-subtitle">
+          Nous accompagnons aussi bien les ouvertures que les remplacements stratégiques ou les modernisations de plateau technique.
+        </p>
         <ul className="mt-4 grid gap-3 text-sm text-slate-700 md:grid-cols-2">
-          <li className="card-muted">Fauteuils dentaires complets et ergonomiques</li>
-          <li className="card-muted">Systèmes de stérilisation et autoclaves Classe B</li>
-          <li className="card-muted">Imagerie et scanner intra-oral</li>
-          <li className="card-muted">Consommables, pièces et accessoires</li>
+          {purchaseBlocks.map((item) => (
+            <li key={item} className="card-muted">{item}</li>
+          ))}
         </ul>
       </section>
 
       <section className="section-shell">
-        <h2 className="section-title">Liens utiles pour décider vite</h2>
+        <h2 className="section-title">Comment mieux décider avant de signer</h2>
+        <div className="mt-4 grid gap-3 md:grid-cols-2">
+          {decisionPoints.map((item) => (
+            <article key={item} className="card-muted text-sm text-slate-700">{item}</article>
+          ))}
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Liens clés pour préparer votre projet</h2>
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
-          <Link to="/produits" className="btn-secondary">Voir le catalogue</Link>
+          <Link to="/devis-materiel-dentaire" className="btn-secondary">Comprendre le devis</Link>
           <Link to="/fauteuil-dentaire-senegal" className="btn-secondary">Comparer les fauteuils</Link>
-          <Link to="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Autoclaves Classe B</Link>
-          <Link to="/devis-materiel-dentaire" className="btn-secondary">Comparer un devis</Link>
-          <Link to="/contact" className="btn-primary">Demander un devis</Link>
+          <Link to="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Stérilisation & autoclaves</Link>
+          <Link to="/scanner-intra-oral-senegal" className="btn-secondary">Scanner intra-oral</Link>
+          <Link to="/contact" className="btn-primary">Parler à AfriSmile</Link>
         </div>
       </section>
 
       <section className="section-shell">
-        <h2 className="section-title">Pourquoi les cabinets choisissent AfriSmile</h2>
-        <p className="section-subtitle">Les recherches “fournisseur matériel dentaire Sénégal” et “devis matériel dentaire” attendent des réponses concrètes sur la disponibilité, le coût total et le SAV.</p>
-        <div className="mt-4 grid gap-3 md:grid-cols-3">
-          <div className="card-muted text-sm text-slate-700"><strong>Devis structurés</strong><br/>Références, options, installation, garantie et maintenance séparées pour comparer utilement.</div>
-          <div className="card-muted text-sm text-slate-700"><strong>Approche coût total</strong><br/>Achat, pièces, immobilisation et support post-installation pris en compte avant décision.</div>
-          <div className="card-muted text-sm text-slate-700"><strong>Couverture régionale</strong><br/>Base à Dakar avec accompagnement de projets au Sénégal et dans plusieurs pays d’Afrique de l’Ouest.</div>
-        </div>
-      </section>
-
-      <section className="section-shell">
-        <h2 className="section-title">FAQ matériel dentaire Sénégal</h2>
+        <h2 className="section-title">FAQ Matériel Dentaire Sénégal</h2>
         <div className="mt-4 grid gap-3">
           {faqs.map((item) => (
             <article key={item.q} className="card-muted">

@@ -19,7 +19,7 @@ export default function MaterielDentaireMauritaniePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Mauritanie' }]} />
-      <PageHero eyebrow="Fournisseur B2B Mauritanie" title="Matériel dentaire en Mauritanie (Nouakchott)" subtitle="AfriSmile accompagne les cliniques mauritaniennes avec des équipements dentaires fiables et un cadre de déploiement clair." image="/assets/illustration-clinic.jpg" chips={['Nouakchott', 'Devis sur mesure', 'Support technique']}>
+      <PageHero eyebrow="Fournisseur B2B Mauritanie" title="Matériel dentaire en Mauritanie (Nouakchott)" subtitle="AfriSmile accompagne les cliniques mauritaniennes avec des équipements dentaires fiables et un cadre de déploiement clair." image="/assets/flag-mauritanie.svg" chips={['Nouakchott', 'Devis sur mesure', 'Support technique']}>
         <Link to="/contact" className="btn-primary">Demander un devis</Link>
         <Link to="/produits" className="btn-secondary">Voir le catalogue</Link>
       </PageHero>

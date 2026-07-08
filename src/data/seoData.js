@@ -114,47 +114,47 @@ export const seoPages = {
   '/materiel-dentaire-cote-divoire': {
     title: 'Fournisseur matériel dentaire Côte d’Ivoire : devis Abidjan | AfriSmile',
     description: 'Fournisseur de matériel dentaire en Côte d’Ivoire : devis rapide, installation clé en main et SAV orienté Abidjan. Fauteuils, autoclaves, scanners, support AfriSmile.',
-    imagePath: '/assets/illustration-clinic.jpg',
+    imagePath: '/assets/flag-cote-divoire.svg',
   },
   '/materiel-dentaire-mali': {
     title: 'Fournisseur matériel dentaire Mali : devis Bamako | AfriSmile',
     description: 'Fournisseur de matériel dentaire au Mali : devis rapide, livraison à Bamako, installation et SAV. Fauteuils, autoclaves, imagerie et support AfriSmile.',
-    imagePath: '/assets/illustration-instruments.jpg',
+    imagePath: '/assets/flag-mali.svg',
   },
   '/materiel-dentaire-cameroun': {
     title: 'Matériel Dentaire Cameroun (Douala, Yaoundé) | AfriSmile',
     description: 'Fournisseur de matériel dentaire au Cameroun: fauteuils, autoclaves Classe B, imagerie, installation et support technique pour cliniques à Douala et Yaoundé.',
-    imagePath: '/assets/illustration-equipment.jpg',
+    imagePath: '/assets/flag-cameroun.svg',
   },
   '/materiel-dentaire-ghana': {
     title: 'Matériel Dentaire Ghana (Accra, Kumasi) | AfriSmile',
     description: 'Équipement dentaire professionnel au Ghana: conseil achat, livraison, installation et maintenance pour cabinets à Accra, Kumasi et au-delà.',
-    imagePath: '/assets/illustration-clinic.jpg',
+    imagePath: '/assets/flag-ghana.svg',
   },
   '/materiel-dentaire-nigeria': {
     title: 'Matériel Dentaire Nigeria (Lagos, Abuja) | AfriSmile',
     description: 'AfriSmile accompagne les cabinets au Nigeria avec du matériel dentaire fiable, de la stérilisation à l’imagerie, et un support orienté continuité clinique.',
-    imagePath: '/assets/illustration-instruments.jpg',
+    imagePath: '/assets/flag-nigeria.svg',
   },
   '/materiel-dentaire-mauritanie': {
     title: 'Matériel Dentaire Mauritanie (Nouakchott) | AfriSmile',
     description: 'Équipez votre cabinet en Mauritanie avec AfriSmile: fauteuils, autoclaves Classe B, imagerie, installation et accompagnement technique.',
-    imagePath: '/assets/illustration-clinic.jpg',
+    imagePath: '/assets/flag-mauritanie.svg',
   },
   '/materiel-dentaire-niger': {
     title: 'Matériel dentaire Niger: fournisseur à Niamey | AfriSmile',
     description: 'Solutions de matériel dentaire au Niger: conseil achat, installation, maintenance et suivi pour cliniques et cabinets à Niamey.',
-    imagePath: '/assets/illustration-equipment.jpg',
+    imagePath: '/assets/flag-niger.svg',
   },
   '/materiel-dentaire-guinee-bissau': {
     title: 'Matériel dentaire Guinée-Bissau en Afrique : devis | AfriSmile',
     description: 'Matériel dentaire en Guinée-Bissau : devis rapide, installation et SAV local. Équipements pour cabinet, stérilisation et support AfriSmile.',
-    imagePath: '/assets/illustration-instruments.jpg',
+    imagePath: '/assets/flag-guinee-bissau.svg',
   },
   '/materiel-dentaire-burkina-faso': {
     title: 'Matériel Dentaire Burkina Faso : Devis, Prix et SAV | AfriSmile',
     description: 'Matériel dentaire au Burkina Faso : fauteuils, autoclaves Classe B, imagerie. Devis gratuit, installation et SAV local à Ouagadougou et Bobo-Dioulasso.',
-    imagePath: '/assets/illustration-equipment.jpg',
+    imagePath: '/assets/flag-burkina-faso.svg',
   },
   '/404': {
     title: 'Page introuvable AfriSmile Sénégal | AfriSmile',

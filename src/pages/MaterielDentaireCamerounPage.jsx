@@ -56,7 +56,7 @@ export default function MaterielDentaireCamerounPage() {
         eyebrow="Fournisseur B2B Cameroun"
         title="Matériel dentaire au Cameroun (Douala, Yaoundé)"
         subtitle="AfriSmile aide les cabinets et cliniques au Cameroun à sécuriser leurs achats de matériel dentaire avec un accompagnement de bout en bout."
-        image="/assets/illustration-equipment.jpg"
+        image="/assets/flag-cameroun.svg"
         chips={['Douala & Yaoundé', 'Installation sur site', 'SAV professionnel']}
       >
         <Link to="/contact" className="btn-primary">Demander un devis</Link>

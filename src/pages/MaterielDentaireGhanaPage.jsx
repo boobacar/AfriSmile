@@ -56,7 +56,7 @@ export default function MaterielDentaireGhanaPage() {
         eyebrow="Fournisseur B2B Ghana"
         title="Matériel dentaire au Ghana (Accra, Kumasi)"
         subtitle="AfriSmile accompagne les dentistes au Ghana avec des solutions d’équipement adaptées au flux clinique, au budget et aux exigences d’hygiène."
-        image="/assets/illustration-clinic.jpg"
+        image="/assets/flag-ghana.svg"
         chips={['Accra & Kumasi', 'Plan d’équipement', 'Support technique']}
       >
         <Link to="/contact" className="btn-primary">Obtenir un devis</Link>

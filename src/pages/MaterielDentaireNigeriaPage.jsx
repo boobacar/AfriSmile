@@ -56,7 +56,7 @@ export default function MaterielDentaireNigeriaPage() {
         eyebrow="Fournisseur B2B Nigeria"
         title="Matériel dentaire au Nigeria (Lagos, Abuja)"
         subtitle="AfriSmile aide les cabinets nigérians à moderniser leur plateau technique avec des équipements fiables et un accompagnement opérationnel."
-        image="/assets/illustration-instruments.jpg"
+        image="/assets/flag-nigeria.svg"
         chips={['Lagos & Abuja', 'ROI équipement', 'Accompagnement complet']}
       >
         <Link to="/contact" className="btn-primary">Demander un devis</Link>

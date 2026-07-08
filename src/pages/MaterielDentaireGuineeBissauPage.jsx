@@ -19,7 +19,7 @@ export default function MaterielDentaireGuineeBissauPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Guinée-Bissau' }]} />
-      <PageHero eyebrow="Fournisseur B2B Guinée-Bissau" title="Matériel dentaire en Guinée-Bissau" subtitle="AfriSmile soutient les cliniques en Guinée-Bissau avec des équipements dentaires professionnels et un accompagnement opérationnel." image="/assets/illustration-instruments.jpg" chips={['Devis rapide', 'Équipement fiable', 'Accompagnement technique']}>
+      <PageHero eyebrow="Fournisseur B2B Guinée-Bissau" title="Matériel dentaire en Guinée-Bissau" subtitle="AfriSmile soutient les cliniques en Guinée-Bissau avec des équipements dentaires professionnels et un accompagnement opérationnel." image="/assets/flag-guinee-bissau.svg" chips={['Devis rapide', 'Équipement fiable', 'Accompagnement technique']}>
         <Link to="/contact" className="btn-primary">Demander un devis</Link>
         <Link to="/produits" className="btn-secondary">Explorer les produits</Link>
       </PageHero>

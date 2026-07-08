@@ -19,7 +19,7 @@ export default function MaterielDentaireNigerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Niger' }]} />
-      <PageHero eyebrow="Fournisseur B2B Niger" title="Matériel dentaire au Niger (Niamey)" subtitle="AfriSmile aide les dentistes au Niger à choisir des équipements durables, adaptés au flux patient et au budget." image="/assets/illustration-equipment.jpg" chips={['Niamey', 'Installation cadrée', 'Maintenance préventive']}>
+      <PageHero eyebrow="Fournisseur B2B Niger" title="Matériel dentaire au Niger (Niamey)" subtitle="AfriSmile aide les dentistes au Niger à choisir des équipements durables, adaptés au flux patient et au budget." image="/assets/flag-niger.svg" chips={['Niamey', 'Installation cadrée', 'Maintenance préventive']}>
         <Link to="/contact" className="btn-primary">Obtenir un devis</Link>
         <Link to="/solutions-cabinets" className="btn-secondary">Voir les solutions</Link>
       </PageHero>

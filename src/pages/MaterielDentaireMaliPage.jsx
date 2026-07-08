@@ -56,7 +56,7 @@ export default function MaterielDentaireMaliPage() {
         eyebrow="Fournisseur B2B Mali"
         title="Matériel dentaire au Mali (Bamako) pour votre cabinet"
         subtitle="Trouvez des équipements dentaires fiables et performants au Mali avec AfriSmile. Du fauteuil à la radiologie, bénéficiez de notre expertise technique."
-        image="/assets/illustration-instruments.jpg"
+        image="/assets/flag-mali.svg"
         chips={['Livraison Mali', 'Équipements tropicaux', 'Conseil expert']}
       >
         <Link to="/contact" className="btn-primary">Obtenir un devis</Link>

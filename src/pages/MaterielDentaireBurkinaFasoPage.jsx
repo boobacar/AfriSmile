@@ -19,7 +19,7 @@ export default function MaterielDentaireBurkinaFasoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Burkina Faso' }]} />
-      <PageHero eyebrow="Fournisseur B2B Burkina Faso" title="Matériel dentaire au Burkina Faso (Ouagadougou)" subtitle="AfriSmile aide les dentistes au Burkina Faso à choisir des équipements durables, adaptés au flux patient et au budget." image="/assets/illustration-equipment.jpg" chips={['Ouagadougou', 'Installation cadrée', 'Maintenance préventive']}>
+      <PageHero eyebrow="Fournisseur B2B Burkina Faso" title="Matériel dentaire au Burkina Faso (Ouagadougou)" subtitle="AfriSmile aide les dentistes au Burkina Faso à choisir des équipements durables, adaptés au flux patient et au budget." image="/assets/flag-burkina-faso.svg" chips={['Ouagadougou', 'Installation cadrée', 'Maintenance préventive']}>
         <Link to="/contact" className="btn-primary">Obtenir un devis</Link>
         <Link to="/solutions-cabinets" className="btn-secondary">Voir les solutions</Link>
       </PageHero>

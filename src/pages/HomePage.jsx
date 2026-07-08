@@ -86,8 +86,8 @@ export default function HomePage() {
       <section className="section-shell">
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
-            <h2 className="section-title">Articles créés depuis les données Search Console</h2>
-            <p className="section-subtitle">Cibles avec impressions Google mais peu de clics : fournisseur, devis et budget d’ouverture de cabinet au Sénégal.</p>
+            <h2 className="section-title">Guides utiles pour choisir votre matériel dentaire</h2>
+            <p className="section-subtitle">Des contenus pratiques pour comparer un devis, estimer le budget d’un cabinet et préparer un achat plus sereinement.</p>
           </div>
           <Link to="/blog" className="btn-secondary">Tous les guides</Link>
         </div>

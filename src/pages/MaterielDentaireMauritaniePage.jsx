@@ -67,7 +67,7 @@ export default function MaterielDentaireMauritaniePage() {
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Mauritanie' }]} />
 
       <PageHero
-        eyebrow="Fournisseur B2B Mauritanie"
+        eyebrow="Accompagnement cabinets Mauritanie"
         title="Matériel dentaire en Mauritanie (Nouakchott)"
         subtitle="AfriSmile accompagne les cliniques mauritaniennes avec des équipements dentaires fiables, des devis plus lisibles et un cadre de déploiement clair."
         image="/assets/flag-mauritanie.svg"
@@ -80,7 +80,7 @@ export default function MaterielDentaireMauritaniePage() {
       <section className="section-shell">
         <h2 className="section-title">Les priorités d’un projet d’équipement en Mauritanie</h2>
         <p className="section-subtitle">
-          Le bon achat ne consiste pas à accumuler des références, mais à construire un plateau technique cohérent avec l’activité, le budget et la maintenance future.
+          Le bon achat ne consiste pas à accumuler des équipements, mais à choisir un ensemble cohérent avec votre activité, votre budget et l’entretien à prévoir.
         </p>
         <ul className="mt-4 grid gap-3 text-sm text-slate-700 md:grid-cols-2">
           {keyPoints.map((item) => (
@@ -101,7 +101,7 @@ export default function MaterielDentaireMauritaniePage() {
       <section className="section-shell">
         <h2 className="section-title">Liens rapides pour préparer votre projet</h2>
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
-          <Link to="/materiel-dentaire-senegal" className="btn-secondary">Hub Afrique de l’Ouest</Link>
+          <Link to="/materiel-dentaire-senegal" className="btn-secondary">Voir aussi la page Sénégal</Link>
           <Link to="/modeles-achat" className="btn-secondary">Structurer le budget</Link>
           <Link to="/service-technique" className="btn-secondary">Support & maintenance</Link>
           <Link to="/contact" className="btn-primary">Recevoir un devis Mauritanie</Link>

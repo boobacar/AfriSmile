@@ -18,7 +18,7 @@ export default function ModelesAchatPage() {
         <section className="card">
           <p className="chip inline-block">Modèle recommandé</p>
           <h2 className="mt-2 font-heading text-2xl font-bold text-brand-dark">Catalogue + devis personnalisé</h2>
-          <p className="mt-2 text-slate-600">Vous consultez les gammes, nous structurons une proposition adaptée incluant installation, SAV et planning.</p>
+          <p className="mt-2 text-slate-600">Vous consultez les gammes, nous préparons une proposition adaptée incluant installation, assistance et planning.</p>
           <ul className="mt-4 space-y-2 text-sm text-slate-700">
             <li>• Comparatif clair des options techniques</li>
             <li>• Ajustement en fonction de votre budget FCFA</li>

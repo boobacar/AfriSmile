@@ -60,9 +60,9 @@ export default function MaterielDentaireGuineeBissauPage() {
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Guinée-Bissau' }]} />
 
       <PageHero
-        eyebrow="Fournisseur B2B Guinée-Bissau"
+        eyebrow="Accompagnement cabinets Guinée-Bissau"
         title="Matériel dentaire en Guinée-Bissau"
-        subtitle="AfriSmile soutient les cliniques en Guinée-Bissau avec des équipements dentaires professionnels, des devis plus exploitables et un accompagnement opérationnel."
+        subtitle="AfriSmile soutient les cliniques en Guinée-Bissau avec des équipements dentaires fiables, des devis plus clairs et un accompagnement concret."
         image="/assets/flag-guinee-bissau.svg"
         chips={['Devis rapide', 'Équipement fiable', 'Accompagnement technique']}
       >
@@ -73,7 +73,7 @@ export default function MaterielDentaireGuineeBissauPage() {
       <section className="section-shell">
         <h2 className="section-title">Ce qu’AfriSmile aide à cadrer</h2>
         <p className="section-subtitle">
-          Pour un cabinet à Bissau ou dans une autre zone du pays, l’enjeu n’est pas seulement le prix d’achat, mais la stabilité du plateau technique après ouverture.
+          Pour un cabinet à Bissau ou dans une autre zone du pays, l’enjeu n’est pas seulement le prix d’achat, mais la fiabilité de l’équipement après l’ouverture.
         </p>
         <ul className="mt-4 grid gap-3 text-sm text-slate-700 md:grid-cols-2">
           {focusAreas.map((item) => (

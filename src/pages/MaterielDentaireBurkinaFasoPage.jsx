@@ -12,8 +12,8 @@ const faqs = [
     a: 'Le budget dépend du nombre de postes, du niveau d’imagerie, de la stérilisation et des besoins d’installation. AfriSmile prépare un devis sur mesure selon votre projet clinique.',
   },
   {
-    q: 'Le SAV est-il disponible au Burkina Faso ?',
-    a: 'Oui, nous orientons les choix vers des équipements maintenables, avec un cadre de support, de pièces critiques et de suivi technique après déploiement.',
+    q: 'Une assistance après installation est-elle disponible au Burkina Faso ?',
+    a: 'Oui, nous orientons les choix vers des équipements faciles à entretenir, avec pièces à prévoir et suivi après installation.',
   },
 ]
 
@@ -67,9 +67,9 @@ export default function MaterielDentaireBurkinaFasoPage() {
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Burkina Faso' }]} />
 
       <PageHero
-        eyebrow="Fournisseur B2B Burkina Faso"
+        eyebrow="Accompagnement cabinets Burkina Faso"
         title="Matériel dentaire au Burkina Faso (Ouagadougou)"
-        subtitle="AfriSmile aide les dentistes au Burkina Faso à choisir des équipements durables, à structurer leurs devis et à sécuriser installation, stérilisation et support technique."
+        subtitle="AfriSmile aide les dentistes au Burkina Faso à choisir des équipements durables, à mieux lire leurs devis et à sécuriser l’installation, la stérilisation et l’accompagnement après achat."
         image="/assets/flag-burkina-faso.svg"
         chips={['Ouagadougou', 'Installation cadrée', 'Maintenance préventive']}
       >

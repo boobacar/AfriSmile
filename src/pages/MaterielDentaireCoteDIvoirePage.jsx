@@ -53,9 +53,9 @@ export default function MaterielDentaireCoteDIvoirePage() {
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Côte d\'Ivoire' }]} />
 
       <PageHero
-        eyebrow="Fournisseur B2B Côte d'Ivoire"
+        eyebrow="Accompagnement cabinets Côte d'Ivoire"
         title="Matériel dentaire en Côte d'Ivoire (Abidjan) pour cliniques et cabinets"
-        subtitle="AfriSmile vous accompagne pour équiper votre cabinet dentaire en Côte d'Ivoire. Fauteuils, stérilisation, imagerie : du conseil à l'installation avec SAV."
+        subtitle="AfriSmile vous accompagne pour équiper votre cabinet dentaire en Côte d'Ivoire. Fauteuils, stérilisation, imagerie : du conseil à l'installation avec assistance après mise en service."
         image="/assets/flag-cote-divoire.svg"
         chips={['Livraison Abidjan', 'Installation sur site', 'Garantie locale']}
       >

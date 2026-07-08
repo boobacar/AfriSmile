@@ -4,7 +4,7 @@ import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
   { q: 'Un scanner intra-oral est-il rentable ?', a: 'Oui, il peut réduire les reprises, accélérer la prise d’empreinte et améliorer l’expérience patient.' },
-  { q: 'Proposez-vous la formation des équipes ?', a: 'Oui, AfriSmile accompagne la prise en main et l’intégration au workflow clinique.' },
+  { q: 'Proposez-vous la formation des équipes ?', a: 'Oui, AfriSmile accompagne la prise en main et l’organisation du travail au cabinet.' },
 ]
 
 export default function ScannerIntraOralSenegalPage() {
@@ -22,9 +22,9 @@ export default function ScannerIntraOralSenegalPage() {
       <PageHero
         eyebrow="Dentisterie numérique"
         title="Scanner intra-oral au Sénégal : gagnez en précision et en productivité"
-        subtitle="Digitalisez vos empreintes, accélérez votre flux clinique et améliorez l’expérience patient avec un scanner intra-oral adapté."
+        subtitle="Digitalisez vos empreintes, gagnez du temps au fauteuil et améliorez l’expérience patient avec un scanner intra-oral adapté."
         image="/assets/page-solutions.jpg"
-        chips={['Workflow numérique', 'Formation', 'Support local']}
+        chips={['Cabinet numérique', 'Formation', 'Assistance locale']}
       >
         <Link to="/contact" className="btn-primary">Recevoir une proposition</Link>
       </PageHero>
@@ -49,7 +49,7 @@ export default function ScannerIntraOralSenegalPage() {
         <div className="mt-4 grid gap-3 md:grid-cols-3">
           <div className="card-muted text-sm text-slate-700"><strong>Cas fréquents</strong><br/>Prothèse, esthétique, orthodontie, implantologie et communication patient.</div>
           <div className="card-muted text-sm text-slate-700"><strong>Critères techniques</strong><br/>Précision, rapidité, ergonomie, format d’export et stabilité du logiciel.</div>
-          <div className="card-muted text-sm text-slate-700"><strong>Accompagnement</strong><br/>Démonstration, formation, intégration workflow et support après installation.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>Accompagnement</strong><br/>Démonstration, formation, mise en place au cabinet et aide après installation.</div>
         </div>
       </section>
 

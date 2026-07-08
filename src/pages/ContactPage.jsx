@@ -54,7 +54,7 @@ export default function ContactPage() {
         <div className="mt-4 grid gap-3 md:grid-cols-3">
           <div className="card-muted text-sm font-semibold text-slate-700">✓ Devis structuré selon votre budget</div>
           <div className="card-muted text-sm font-semibold text-slate-700">✓ Installation et mise en service</div>
-          <div className="card-muted text-sm font-semibold text-slate-700">✓ SAV local et support WhatsApp</div>
+          <div className="card-muted text-sm font-semibold text-slate-700">✓ Assistance locale et réponse WhatsApp</div>
         </div>
       </section>
 
@@ -88,7 +88,7 @@ export default function ContactPage() {
           <div className="card-muted text-sm text-slate-700"><strong>Autres pays couverts</strong><br/>Guinée, Guinée-Bissau, Niger, Nigeria, Togo.</div>
         </div>
         <div className="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-700">
-          <strong>Livraison & installation CEDEAO :</strong> déploiement sur étude technique avec planning, logistique et mise en service coordonnés selon le pays.
+          <strong>Livraison & installation dans votre pays :</strong> organisation de la livraison, du planning et de la mise en service selon votre projet.
         </div>
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
           <a href="/materiel-dentaire-cote-divoire" className="btn-secondary">Côte d’Ivoire</a>

@@ -7,13 +7,13 @@ const avantages = [
   { title: 'Réponse en 24h', desc: 'Un conseiller technique analyse votre projet et vous envoie un devis détaillé sous 24h ouvrées.' },
   { title: 'Pas d\'engagement', desc: 'Le devis est gratuit et sans obligation. Comparez, posez vos questions, ajustez votre budget.' },
   { title: 'Installation incluse', desc: 'Chaque devis intègre l\'installation, la mise en service et la formation de votre équipe.' },
-  { title: 'SAV local', desc: 'Maintenance préventive, diagnostic et pièces disponibles au Sénégal et en Afrique de l\'Ouest.' },
+  { title: 'Assistance locale', desc: 'Entretien, diagnostic et pièces disponibles au Sénégal et en Afrique de l\'Ouest.' },
 ]
 
 const faqs = [
   {
     q: 'Que contient un devis AfriSmile ?',
-    a: 'Un devis détaillé avec le prix unitaire de chaque équipement, le coût d\'installation, les délais de livraison et les conditions de SAV. Tout est transparent, sans frais cachés.',
+    a: 'Un devis détaillé avec le prix unitaire de chaque équipement, le coût d\'installation, les délais de livraison et les conditions d\'assistance après achat. Tout est transparent, sans frais cachés.',
   },
   {
     q: 'Combien de temps pour recevoir un devis ?',
@@ -39,7 +39,7 @@ export default function DevisMaterielDentairePage() {
         title="Devis matériel dentaire au Sénégal et en Afrique de l'Ouest"
         subtitle="Remplissez le formulaire ci-dessous et recevez en 24h un devis détaillé adapté à votre projet : ouverture, modernisation ou extension de cabinet."
         showImage={false}
-        chips={['Réponse 24h', 'Installation incluse', 'SAV local']}
+        chips={['Réponse 24h', 'Installation incluse', 'Assistance locale']}
       />
 
       <section className="grid gap-6 lg:grid-cols-2">

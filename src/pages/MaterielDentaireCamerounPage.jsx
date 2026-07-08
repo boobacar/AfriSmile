@@ -53,11 +53,11 @@ export default function MaterielDentaireCamerounPage() {
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Cameroun' }]} />
 
       <PageHero
-        eyebrow="Fournisseur B2B Cameroun"
+        eyebrow="Accompagnement cabinets Cameroun"
         title="Matériel dentaire au Cameroun (Douala, Yaoundé)"
         subtitle="AfriSmile aide les cabinets et cliniques au Cameroun à sécuriser leurs achats de matériel dentaire avec un accompagnement de bout en bout."
         image="/assets/flag-cameroun.svg"
-        chips={['Douala & Yaoundé', 'Installation sur site', 'SAV professionnel']}
+        chips={['Douala & Yaoundé', 'Installation sur site', 'Assistance après installation']}
       >
         <Link to="/contact" className="btn-primary">Demander un devis</Link>
         <Link to="/produits" className="btn-secondary">Voir le catalogue</Link>
@@ -76,7 +76,7 @@ export default function MaterielDentaireCamerounPage() {
       <section className="section-shell">
         <h2 className="section-title">Liens rapides</h2>
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
-          <Link to="/materiel-dentaire-senegal" className="btn-secondary">Base logistique Sénégal</Link>
+          <Link to="/materiel-dentaire-senegal" className="btn-secondary">Voir aussi la page Sénégal</Link>
           <Link to="/blog/comparatif-meilleurs-compresseurs-dentaires-afrique" className="btn-secondary">Guide compresseur Afrique</Link>
           <Link to="/contact" className="btn-primary">Parler à un expert</Link>
         </div>

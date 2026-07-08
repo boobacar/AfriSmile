@@ -13,22 +13,22 @@ const faqs = [
   },
   {
     q: 'AfriSmile intervient-il seulement à Dakar ?',
-    a: 'Non. Nous accompagnons les projets à Dakar et dans d’autres zones du Sénégal, avec une logique de livraison, installation et support technique.',
+    a: 'Non. Nous accompagnons les projets à Dakar et dans d’autres zones du Sénégal, avec livraison, installation et aide après mise en service.',
   },
 ]
 
 const purchaseBlocks = [
   'Fauteuils dentaires et units adaptés à l’omnipratique, chirurgie ou esthétique',
-  'Autoclaves Classe B, stérilisation et organisation du flux instruments',
-  'Imagerie numérique, RVG et scanners intra-oraux pour moderniser le flux clinique',
+  'Autoclaves Classe B, stérilisation et meilleure organisation des instruments',
+  'Imagerie numérique, RVG et scanners intra-oraux pour gagner du temps au cabinet',
   'Compresseurs, aspiration, instrumentation et consommables de démarrage',
 ]
 
 const decisionPoints = [
   'Clarifier le niveau de cabinet visé : ouverture, modernisation ou montée en gamme',
   'Comparer les devis avec installation, accessoires, garantie et consommables inclus',
-  'Prioriser les achats selon l’impact clinique et la trésorerie disponible',
-  'Sécuriser le SAV et la disponibilité des pièces avant la signature',
+  'Prioriser les achats selon les soins réalisés et la trésorerie disponible',
+  'Vérifier l’assistance prévue et la disponibilité des pièces avant la signature',
 ]
 
 export default function MaterielDentaireSenegalPage() {
@@ -67,11 +67,11 @@ export default function MaterielDentaireSenegalPage() {
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Sénégal' }]} />
 
       <PageHero
-        eyebrow="Fournisseur B2B Sénégal"
+        eyebrow="Accompagnement cabinets Sénégal"
         title="Matériel dentaire au Sénégal pour cabinets et cliniques"
-        subtitle="AfriSmile vous aide à choisir, chiffrer et déployer votre équipement dentaire avec une approche orientée performance clinique, prix lisibles et fiabilité opérationnelle au Sénégal et en Afrique de l’Ouest."
+        subtitle="AfriSmile vous aide à choisir, chiffrer et installer votre équipement dentaire avec des prix plus clairs et un accompagnement fiable au Sénégal et en Afrique de l’Ouest."
         image="/assets/illustration-equipment.jpg"
-        chips={['Conseil achat', 'Installation', 'SAV local', 'Afrique de l’Ouest']}
+        chips={['Conseil achat', 'Installation', 'Assistance locale', 'Afrique de l’Ouest']}
       >
         <Link to="/contact" className="btn-primary">Demander un devis</Link>
         <Link to="/produits" className="btn-secondary">Voir le catalogue</Link>
@@ -80,7 +80,7 @@ export default function MaterielDentaireSenegalPage() {
       <section className="section-shell">
         <h2 className="section-title">Ce que nous fournissons aux cabinets au Sénégal</h2>
         <p className="section-subtitle">
-          Nous accompagnons aussi bien les ouvertures que les remplacements stratégiques ou les modernisations de plateau technique.
+          Nous accompagnons aussi bien les ouvertures de cabinet que les remplacements importants ou les projets de modernisation.
         </p>
         <ul className="mt-4 grid gap-3 text-sm text-slate-700 md:grid-cols-2">
           {purchaseBlocks.map((item) => (

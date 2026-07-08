@@ -53,7 +53,7 @@ export default function MaterielDentaireMaliPage() {
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Mali' }]} />
 
       <PageHero
-        eyebrow="Fournisseur B2B Mali"
+        eyebrow="Accompagnement cabinets Mali"
         title="Matériel dentaire au Mali (Bamako) pour votre cabinet"
         subtitle="Trouvez des équipements dentaires fiables et performants au Mali avec AfriSmile. Du fauteuil à la radiologie, bénéficiez de notre expertise technique."
         image="/assets/flag-mali.svg"

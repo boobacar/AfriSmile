@@ -6,7 +6,7 @@ import ChairComparator from '../components/ChairComparator'
 import PageHero from '../components/PageHero'
 import { blogPosts, brands, categories } from '../data/siteData'
 
-const trustSignals = ['Livraison & installation', 'SAV réactif', 'Formations équipes', 'Conseil achat pro']
+const trustSignals = ['Livraison & installation', 'Assistance rapide', 'Formation de votre équipe', 'Conseils avant achat']
 const prioritySeoSlugs = [
   'fournisseur-materiel-dentaire-senegal-checklist-pro-2026',
   'devis-materiel-dentaire-senegal-comment-comparer-2026',
@@ -33,9 +33,9 @@ export default function HomePage() {
       <PageHero
         eyebrow="Distributeur dentaire professionnel"
         title="Matériel dentaire au Sénégal pour équiper votre cabinet avec confiance"
-        subtitle="AfriSmile accompagne les cabinets dentaires au Sénégal et en Afrique de l’Ouest avec des devis rapides, des prix lisibles en FCFA, l’installation et un SAV terrain orienté continuité clinique."
+        subtitle="AfriSmile accompagne les cabinets dentaires au Sénégal et en Afrique de l’Ouest avec des devis rapides, des prix clairs, l’installation et une assistance fiable après la mise en service."
         image="/assets/page-home.jpg"
-        chips={['Sénégal + Afrique de l’Ouest', 'Devis personnalisés sous 24h', 'Installation & SAV de bout en bout']}
+        chips={['Sénégal + Afrique de l’Ouest', 'Devis personnalisés sous 24h', 'Installation et suivi complet']}
       >
         <Link to="/produits" className="btn-primary">Voir le catalogue</Link>
       </PageHero>
@@ -67,9 +67,9 @@ export default function HomePage() {
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
             <h2 className="section-title">AfriSmile en Afrique de l’Ouest</h2>
-            <p className="section-subtitle">Pages pays dédiées pour capter les recherches locales à forte intention: fournisseur, prix, devis, installation et support technique.</p>
+            <p className="section-subtitle">Retrouvez nos pages dédiées par pays pour comparer plus facilement les prix, les équipements et les solutions d’installation.</p>
           </div>
-          <Link to="/contact" className="btn-primary">Recevoir un devis CEDEAO</Link>
+          <Link to="/contact" className="btn-primary">Recevoir un devis pour votre pays</Link>
         </div>
         <div className="mt-6 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
           {westAfricaMarkets.map((market) => (
@@ -79,7 +79,7 @@ export default function HomePage() {
           ))}
         </div>
         <div className="mt-4 rounded-2xl border border-brand-cyan/20 bg-brand-light/60 p-4 text-sm text-slate-700">
-          <strong>Objectif achat B2B :</strong> aider les cliniques et cabinets à comparer rapidement le coût total, la logistique, la disponibilité des pièces et la qualité du SAV avant commande.
+          <strong>Avant de commander :</strong> comparez le prix global, la livraison, la disponibilité des pièces et l’aide prévue après l’installation.
         </div>
       </section>
 
@@ -107,12 +107,12 @@ export default function HomePage() {
       <section className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
         <div className="section-shell">
           <h2 className="section-title">Pourquoi les cabinets choisissent AfriSmile</h2>
-          <p className="section-subtitle">Une approche orientée résultats cliniques, performance opérationnelle et sérénité après installation.</p>
+          <p className="section-subtitle">Une approche simple et fiable pour acheter le bon matériel, l’installer correctement et démarrer sereinement.</p>
           <div className="mt-5 grid gap-4 md:grid-cols-2">
             {trustSignals.map((signal) => (
               <article key={signal} className="card-muted">
                 <p className="inline-flex items-center gap-2 text-sm font-semibold text-brand-dark"><CheckCircle2 size={16} className="text-brand-cyan" /> {signal}</p>
-                <p className="mt-1 text-sm text-slate-600">Processus clair, interlocuteur unique et suivi structuré de vos priorités.</p>
+                <p className="mt-1 text-sm text-slate-600">Un interlocuteur unique, des réponses claires et un accompagnement concret à chaque étape.</p>
               </article>
             ))}
           </div>

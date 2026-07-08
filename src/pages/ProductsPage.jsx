@@ -3,10 +3,10 @@ import Breadcrumbs from '../components/Breadcrumbs'
 import { categories } from '../data/siteData'
 
 const socialProof = [
-  'SAV local réactif',
+  'Assistance locale rapide',
   'Installation et mise en service',
-  'Accompagnement décision achat',
-  'Support WhatsApp rapide',
+  'Aide au choix du matériel',
+  'Réponse rapide sur WhatsApp',
 ]
 const westAfricaLinks = [
   { href: '/materiel-dentaire-cote-divoire', label: 'Côte d’Ivoire' },
@@ -27,8 +27,8 @@ const miniFaqByCategory = {
       a: 'Nous recommandons un modèle ergonomique, évolutif et compatible avec votre volume d’actes.',
     },
     {
-      q: 'Le SAV est-il disponible au Sénégal ?',
-      a: 'Oui, AfriSmile assure la maintenance préventive et corrective avec support local.',
+      q: 'Avez-vous une assistance après installation au Sénégal ?',
+      a: 'Oui, AfriSmile assure l’entretien, le dépannage et le suivi avec une équipe locale.',
     },
   ],
   sterilisation: [
@@ -73,9 +73,9 @@ export default function ProductsPage() {
       <PageHero
         eyebrow="Catalogue professionnel"
         title="Catalogue de matériel dentaire professionnel au Sénégal"
-        subtitle="Fauteuils, autoclaves, imagerie, consommables et instruments avec devis rapides en FCFA, installation et support technique pour le Sénégal et l’Afrique de l’Ouest."
+        subtitle="Fauteuils, autoclaves, imagerie, consommables et instruments avec devis rapides, installation et accompagnement pour le Sénégal et l’Afrique de l’Ouest."
         showImage={false}
-        chips={['Tarifs en FCFA', 'Stock & commande sur devis', 'Sénégal + Afrique de l’Ouest']}
+        chips={['Prix sur devis', 'Commande simple', 'Sénégal + Afrique de l’Ouest']}
       >
         <a href="/devis-materiel-dentaire" className="btn-primary">Demander un devis global</a>
       </PageHero>
@@ -116,10 +116,10 @@ export default function ProductsPage() {
       <section className="section-shell">
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
-            <h2 className="section-title">Demandes pays Afrique de l’Ouest</h2>
-            <p className="section-subtitle">Accès rapide aux pages locales qui ciblent les recherches “matériel dentaire + pays / ville” avec angle devis, prix et installation.</p>
+            <h2 className="section-title">Nos pages par pays en Afrique de l’Ouest</h2>
+            <p className="section-subtitle">Accédez rapidement aux pages utiles pour votre pays, avec des conseils sur les équipements, les prix et l’installation.</p>
           </div>
-          <a href="/contact" className="btn-secondary">Parler à un conseiller export</a>
+          <a href="/contact" className="btn-secondary">Parler à un conseiller</a>
         </div>
         <div className="mt-5 flex flex-wrap gap-2 text-sm">
           {westAfricaLinks.map((link) => (
@@ -131,14 +131,14 @@ export default function ProductsPage() {
       <section className="section-shell">
         <h2 className="section-title">Comment obtenir un prix fiable</h2>
         <p className="section-subtitle">
-          Le prix d’un équipement dentaire dépend de la configuration du cabinet, des options cliniques,
-          de l’installation et du niveau de maintenance attendu. AfriSmile prépare des devis en FCFA avec
-          les postes essentiels séparés pour comparer le coût réel avant achat.
+          Le prix d’un équipement dentaire dépend de votre cabinet, des options choisies,
+          de l’installation et de l’aide souhaitée après l’achat. AfriSmile prépare des devis détaillés pour
+          vous aider à comparer clairement chaque poste avant de vous décider.
         </p>
         <div className="mt-4 grid gap-3 md:grid-cols-3">
-          <div className="card-muted text-sm text-slate-700"><strong>1. Besoin clinique</strong><br/>Fauteuil, stérilisation, imagerie, instrumentation ou consommables prioritaires.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>1. Votre besoin principal</strong><br/>Fauteuil, stérilisation, imagerie, instruments ou consommables à acheter en priorité.</div>
           <div className="card-muted text-sm text-slate-700"><strong>2. Contraintes du local</strong><br/>Électricité, eau, aspiration, accès technique et planning de mise en service.</div>
-          <div className="card-muted text-sm text-slate-700"><strong>3. Support après achat</strong><br/>Formation, pièces, maintenance préventive et délais d’intervention SAV.</div>
+          <div className="card-muted text-sm text-slate-700"><strong>3. Aide après achat</strong><br/>Formation, pièces disponibles, entretien et délai d’intervention en cas de besoin.</div>
         </div>
       </section>
 
@@ -147,7 +147,7 @@ export default function ProductsPage() {
           <section key={cat.key} id={cat.key} className="section-shell scroll-mt-40">
             <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
               <h2 className="font-heading text-2xl font-bold text-brand-dark">{cat.name}</h2>
-              <span className="chip">Stock & commande sur devis</span>
+              <span className="chip">Disponible sur devis</span>
             </div>
 
             <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -161,14 +161,14 @@ export default function ProductsPage() {
                   />
                   <div className="mb-3 flex items-start justify-between gap-2">
                     <h3 className="font-semibold text-slate-800">{p.name}</h3>
-                    <span className="rounded-full bg-brand-light px-2 py-1 text-[10px] font-semibold uppercase tracking-wide text-brand-cyan">Pro</span>
+                    <span className="rounded-full bg-brand-light px-2 py-1 text-[10px] font-semibold uppercase tracking-wide text-brand-cyan">Cabinet</span>
                   </div>
 
                   <p className="text-sm font-semibold text-brand-blue">{p.price}</p>
                   <ul className="mt-3 space-y-1 text-sm text-slate-600">
                     <li>• Photos HD disponibles</li>
                     <li>• Fiche technique détaillée</li>
-                    <li>• Recommandations d’intégration clinique</li>
+                    <li>• Conseils d’installation et d’usage</li>
                     <li>• Brochure PDF sur demande</li>
                   </ul>
 

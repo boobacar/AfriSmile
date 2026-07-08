@@ -27,7 +27,7 @@ export default function SolutionsPage() {
       <PageHero
         eyebrow="Solutions clés en main"
         title="Des solutions sur mesure pour ouvrir, structurer ou moderniser votre cabinet"
-        subtitle="Nous combinons conseil, fourniture, installation et accompagnement terrain afin de sécuriser chaque étape de votre projet clinique."
+        subtitle="Nous combinons conseil, fourniture, installation et accompagnement sur place pour vous aider à avancer sereinement à chaque étape de votre projet."
         showImage={false}
         chips={['Étude de besoin', 'Déploiement progressif', 'Suivi opérationnel']}
       >
@@ -55,23 +55,23 @@ export default function SolutionsPage() {
         <article className="card-muted">
           <div className="flex items-center gap-2">
             <ClipboardCheck size={18} className="text-brand-cyan" />
-            <h3 className="font-semibold text-brand-dark">Phase 1 : cadrage</h3>
+            <h3 className="font-semibold text-brand-dark">Phase 1 : préparation</h3>
           </div>
-          <p className="mt-2 text-sm text-slate-600">Audit des besoins, priorisation des équipements et budget cible en FCFA.</p>
+          <p className="mt-2 text-sm text-slate-600">Nous clarifions vos besoins, les équipements prioritaires et le budget à prévoir.</p>
         </article>
         <article className="card-muted">
           <div className="flex items-center gap-2">
             <PackageCheck size={18} className="text-brand-cyan" />
             <h3 className="font-semibold text-brand-dark">Phase 2 : déploiement</h3>
           </div>
-          <p className="mt-2 text-sm text-slate-600">Commande, installation, tests de conformité et formation rapide des équipes.</p>
+          <p className="mt-2 text-sm text-slate-600">Nous organisons la commande, l’installation, les vérifications de base et la prise en main de l’équipe.</p>
         </article>
         <article className="card-muted">
           <div className="flex items-center gap-2">
             <Stethoscope size={18} className="text-brand-cyan" />
-            <h3 className="font-semibold text-brand-dark">Phase 3 : optimisation</h3>
+            <h3 className="font-semibold text-brand-dark">Phase 3 : suivi</h3>
           </div>
-          <p className="mt-2 text-sm text-slate-600">SAV, maintenance préventive, ajustements et extension progressive du plateau technique.</p>
+          <p className="mt-2 text-sm text-slate-600">Nous restons disponibles pour l’entretien, les ajustements et les futurs besoins de votre cabinet.</p>
         </article>
       </section>
     </main>

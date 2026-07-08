@@ -12,8 +12,8 @@ const faqs = [
     a: 'Les cliniques demandent surtout des fauteuils dentaires, autoclaves Classe B, compresseurs sans huile, RVG et scanners intra-oraux.',
   },
   {
-    q: 'Comment fiabiliser le SAV pour un cabinet à Accra ?',
-    a: 'Nous structurons un plan de maintenance préventive, les pièces critiques et un canal de support rapide pour réduire les temps d’arrêt.',
+    q: 'Comment assurer un bon suivi après installation pour un cabinet à Accra ?',
+    a: 'Nous préparons un plan d’entretien, les pièces à prévoir et un canal d’assistance rapide pour limiter les interruptions.',
   },
 ]
 
@@ -53,9 +53,9 @@ export default function MaterielDentaireGhanaPage() {
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Ghana' }]} />
 
       <PageHero
-        eyebrow="Fournisseur B2B Ghana"
+        eyebrow="Accompagnement cabinets Ghana"
         title="Matériel dentaire au Ghana (Accra, Kumasi)"
-        subtitle="AfriSmile accompagne les dentistes au Ghana avec des solutions d’équipement adaptées au flux clinique, au budget et aux exigences d’hygiène."
+        subtitle="AfriSmile accompagne les dentistes au Ghana avec des équipements adaptés à leur activité, à leur budget et aux règles d’hygiène du cabinet."
         image="/assets/flag-ghana.svg"
         chips={['Accra & Kumasi', 'Plan d’équipement', 'Support technique']}
       >
@@ -76,7 +76,7 @@ export default function MaterielDentaireGhanaPage() {
       <section className="section-shell">
         <h2 className="section-title">Liens utiles</h2>
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
-          <Link to="/materiel-dentaire-senegal" className="btn-secondary">Hub Afrique de l’Ouest</Link>
+          <Link to="/materiel-dentaire-senegal" className="btn-secondary">Voir aussi la page Sénégal</Link>
           <Link to="/service-technique" className="btn-secondary">Service technique</Link>
           <Link to="/contact" className="btn-primary">Demande de chiffrage</Link>
         </div>

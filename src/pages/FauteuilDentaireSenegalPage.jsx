@@ -24,7 +24,7 @@ export default function FauteuilDentaireSenegalPage() {
         title="Fauteuil dentaire au Sénégal : choisir le bon modèle selon votre pratique"
         subtitle="AfriSmile vous aide à comparer ergonomie, options cliniques, fiabilité et budget pour un investissement durable."
         image="/assets/page-products.jpg"
-        chips={['Installation pro', 'Formation équipe', 'SAV & pièces']}
+        chips={['Installation', 'Formation équipe', 'Assistance & pièces']}
       >
         <Link to="/contact" className="btn-primary">Demander prix & options</Link>
       </PageHero>
@@ -44,7 +44,7 @@ export default function FauteuilDentaireSenegalPage() {
         <p className="section-subtitle">
           Le prix d’un fauteuil dentaire au Sénégal varie selon la marque, les options, l’unité d’instruments,
           la lampe, l’aspiration, les raccordements et le niveau de maintenance. Un devis fiable doit intégrer
-          l’installation, la formation de l’équipe, les pièces d’usure et le support technique après mise en service.
+          l’installation, la formation de l’équipe, les pièces d’usure et l’aide prévue après mise en service.
         </p>
         <div className="mt-4 grid gap-3 md:grid-cols-3">
           <div className="card-muted text-sm text-slate-700"><strong>Cabinet en ouverture</strong><br/>Priorité à la fiabilité, au confort patient et à une configuration simple à maintenir.</div>

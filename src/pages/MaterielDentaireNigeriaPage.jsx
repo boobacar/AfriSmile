@@ -9,11 +9,11 @@ const faqs = [
   },
   {
     q: 'Quels sont les critères clés pour choisir un fournisseur au Nigeria ?',
-    a: 'Priorisez la fiabilité produit, la disponibilité des pièces, la capacité d’installation et la réactivité du support technique.',
+    a: 'Priorisez la fiabilité du matériel, la disponibilité des pièces, la capacité d’installation et la rapidité d’assistance après achat.',
   },
   {
     q: 'AfriSmile peut-il structurer un projet d’ouverture de cabinet ?',
-    a: 'Oui. Nous aidons à prioriser les achats, établir le budget, planifier l’installation et sécuriser le SAV post-déploiement.',
+    a: 'Oui. Nous aidons à prioriser les achats, établir le budget, planifier l’installation et prévoir l’assistance après déploiement.',
   },
 ]
 
@@ -53,9 +53,9 @@ export default function MaterielDentaireNigeriaPage() {
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Nigeria' }]} />
 
       <PageHero
-        eyebrow="Fournisseur B2B Nigeria"
+        eyebrow="Accompagnement cabinets Nigeria"
         title="Matériel dentaire au Nigeria (Lagos, Abuja)"
-        subtitle="AfriSmile aide les cabinets nigérians à moderniser leur plateau technique avec des équipements fiables et un accompagnement opérationnel."
+        subtitle="AfriSmile aide les cabinets nigérians à mieux s’équiper avec du matériel fiable et un accompagnement concret avant, pendant et après l’installation."
         image="/assets/flag-nigeria.svg"
         chips={['Lagos & Abuja', 'ROI équipement', 'Accompagnement complet']}
       >
@@ -77,7 +77,7 @@ export default function MaterielDentaireNigeriaPage() {
         <h2 className="section-title">Liens rapides</h2>
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
           <Link to="/modeles-achat" className="btn-secondary">Modèles d’achat</Link>
-          <Link to="/service-technique" className="btn-secondary">Maintenance & SAV</Link>
+          <Link to="/service-technique" className="btn-secondary">Entretien et assistance</Link>
           <Link to="/contact" className="btn-primary">Parler à AfriSmile</Link>
         </div>
       </section>

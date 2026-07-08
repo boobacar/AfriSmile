@@ -12,8 +12,8 @@ const faqs = [
     a: 'Commencez par le socle clinique : fauteuil, stérilisation, compresseur, aspiration et consommables critiques, puis ajoutez les options selon le niveau d’activité.',
   },
   {
-    q: 'Le SAV est-il prévu dans le projet ?',
-    a: 'Oui, nous orientons la sélection selon la maintenabilité, la disponibilité des pièces et la stabilité d’exploitation après mise en service.',
+    q: 'L’assistance après installation est-elle prévue dans le projet ?',
+    a: 'Oui, nous orientons la sélection selon la facilité d’entretien, la disponibilité des pièces et la stabilité du cabinet après mise en service.',
   },
 ]
 
@@ -67,9 +67,9 @@ export default function MaterielDentaireNigerPage() {
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Matériel dentaire Niger' }]} />
 
       <PageHero
-        eyebrow="Fournisseur B2B Niger"
+        eyebrow="Accompagnement cabinets Niger"
         title="Matériel dentaire au Niger (Niamey)"
-        subtitle="AfriSmile aide les dentistes au Niger à choisir des équipements durables, à cadrer leur devis et à lancer leur cabinet sur une base technique solide."
+        subtitle="AfriSmile aide les dentistes au Niger à choisir des équipements durables, à comprendre leur devis et à démarrer leur cabinet sur des bases solides."
         image="/assets/flag-niger.svg"
         chips={['Niamey', 'Installation cadrée', 'Maintenance préventive']}
       >

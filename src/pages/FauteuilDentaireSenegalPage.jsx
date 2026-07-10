@@ -5,6 +5,13 @@ import Breadcrumbs from '../components/Breadcrumbs'
 const faqs = [
   { q: 'Quel budget prévoir pour un fauteuil dentaire au Sénégal ?', a: 'Le budget dépend des options cliniques, de l’ergonomie et de la marque. Nous proposons plusieurs gammes et un devis personnalisé.' },
   { q: 'Assurez-vous la maintenance ?', a: 'Oui, AfriSmile accompagne la maintenance préventive et corrective avec disponibilité pièces selon modèle.' },
+  { q: 'Qu’est-ce qui change vraiment le prix d’un fauteuil ?', a: 'Le prix varie selon l’ergonomie, l’unité praticien, l’éclairage, l’aspiration, les accessoires, l’installation et le niveau d’accompagnement inclus.' },
+]
+
+const relatedLinks = [
+  { label: 'Demander un devis fauteuil', to: '/devis-materiel-dentaire' },
+  { label: 'Voir les équipements à Dakar', to: '/equipement-dentaire-dakar' },
+  { label: 'Préparer un projet cabinet', to: '/solutions-cabinets' },
 ]
 
 export default function FauteuilDentaireSenegalPage() {
@@ -50,6 +57,15 @@ export default function FauteuilDentaireSenegalPage() {
           <div className="card-muted text-sm text-slate-700"><strong>Cabinet en ouverture</strong><br/>Priorité à la fiabilité, au confort patient et à une configuration simple à maintenir.</div>
           <div className="card-muted text-sm text-slate-700"><strong>Cabinet en croissance</strong><br/>Options évolutives, ergonomie renforcée et anticipation d’un deuxième poste de soin.</div>
           <div className="card-muted text-sm text-slate-700"><strong>Clinique multi-praticiens</strong><br/>Standardisation des modèles, planning de maintenance et disponibilité des pièces.</div>
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Par où continuer ?</h2>
+        <div className="mt-4 flex flex-wrap gap-2 text-sm">
+          {relatedLinks.map((item) => (
+            <Link key={item.to} to={item.to} className="btn-secondary">{item.label}</Link>
+          ))}
         </div>
       </section>
 

@@ -5,6 +5,13 @@ import Breadcrumbs from '../components/Breadcrumbs'
 const faqs = [
   { q: 'Pourquoi choisir un autoclave Classe B ?', a: 'La Classe B est recommandée pour des cycles complets et une stérilisation fiable des instruments emballés et complexes.' },
   { q: 'Faites-vous la mise en service ?', a: 'Oui, nous assurons installation, paramétrage initial et conseils d’usage pour votre équipe.' },
+  { q: 'Que doit contenir un devis autoclave ?', a: 'Le devis doit préciser la capacité, les cycles, les accessoires, la mise en service, la garantie et l’accompagnement prévu après installation.' },
+]
+
+const relatedLinks = [
+  { label: 'Demander un devis autoclave', to: '/devis-materiel-dentaire' },
+  { label: 'Voir le matériel dentaire au Sénégal', to: '/materiel-dentaire-senegal' },
+  { label: 'Préparer un projet cabinet complet', to: '/solutions-cabinets' },
 ]
 
 export default function AutoclaveDentaireClasseBSenegalPage() {
@@ -47,6 +54,15 @@ export default function AutoclaveDentaireClasseBSenegalPage() {
           En cas d’ouverture de cabinet, de hausse du volume patient ou de spécialités chirurgicales, AfriSmile
           aide à choisir une Classe B adaptée au rythme réel du cabinet.
         </p>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Liens utiles autour de la stérilisation</h2>
+        <div className="mt-4 flex flex-wrap gap-2 text-sm">
+          {relatedLinks.map((item) => (
+            <Link key={item.to} to={item.to} className="btn-secondary">{item.label}</Link>
+          ))}
+        </div>
       </section>
 
       <section className="section-shell">

@@ -5,6 +5,13 @@ import Breadcrumbs from '../components/Breadcrumbs'
 const faqs = [
   { q: 'Intervenez-vous uniquement à Dakar ?', a: 'Nous intervenons à Dakar et dans les régions selon le projet, avec organisation logistique adaptée.' },
   { q: 'Quels services sont inclus ?', a: 'Conseil, livraison, installation, paramétrage, formation initiale et support après-vente.' },
+  { q: 'Quelle page consulter si mon projet est plus large que Dakar ?', a: 'La page matériel dentaire Sénégal et la page devis sont les meilleures portes d’entrée pour un projet multi-sites ou une ouverture plus globale.' },
+]
+
+const routeCards = [
+  { title: 'Projet global Sénégal', desc: 'Pour cadrer un achat plus large qu’un simple besoin local à Dakar.', to: '/materiel-dentaire-senegal' },
+  { title: 'Demande de devis', desc: 'Pour recevoir un chiffrage détaillé et prioriser les achats.', to: '/devis-materiel-dentaire' },
+  { title: 'Solutions cabinets', desc: 'Pour ouvrir, structurer ou moderniser un cabinet étape par étape.', to: '/solutions-cabinets' },
 ]
 
 export default function EquipementDentaireDakarPage() {
@@ -52,6 +59,19 @@ export default function EquipementDentaireDakarPage() {
           <Link to="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Autoclave Classe B</Link>
           <Link to="/scanner-intra-oral-senegal" className="btn-secondary">Scanner intra-oral</Link>
           <Link to="/contact" className="btn-primary">Recevoir un devis Dakar</Link>
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Si votre besoin dépasse Dakar</h2>
+        <div className="mt-4 grid gap-3 md:grid-cols-3">
+          {routeCards.map((item) => (
+            <Link key={item.to} to={item.to} className="card p-5 transition hover:border-brand-cyan">
+              <h3 className="font-semibold text-brand-dark">{item.title}</h3>
+              <p className="mt-2 text-sm text-slate-600">{item.desc}</p>
+              <span className="mt-3 block text-sm text-brand-blue">Ouvrir →</span>
+            </Link>
+          ))}
         </div>
       </section>
 

@@ -22,6 +22,12 @@ export default function SolutionsPage() {
     },
   ]
 
+  const routes = [
+    { title: 'Matériel dentaire Sénégal', desc: 'Pour cadrer un projet global et comparer les grandes familles d’équipement.', to: '/materiel-dentaire-senegal' },
+    { title: 'Devis matériel dentaire', desc: 'Pour recevoir un chiffrage structuré avec installation et accompagnement.', to: '/devis-materiel-dentaire' },
+    { title: 'Équipement dentaire Dakar', desc: 'Pour les cabinets qui veulent avancer vite sur Dakar et ses environs.', to: '/equipement-dentaire-dakar' },
+  ]
+
   return (
     <main className="container-page page-wrap space-y-8">
       <PageHero
@@ -73,6 +79,19 @@ export default function SolutionsPage() {
           </div>
           <p className="mt-2 text-sm text-slate-600">Nous restons disponibles pour l’entretien, les ajustements et les futurs besoins de votre cabinet.</p>
         </article>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Pages à consulter selon votre situation</h2>
+        <div className="mt-4 grid gap-3 md:grid-cols-3">
+          {routes.map((item) => (
+            <Link key={item.to} to={item.to} className="card p-5 transition hover:border-brand-cyan">
+              <h3 className="font-semibold text-brand-dark">{item.title}</h3>
+              <p className="mt-2 text-sm text-slate-600">{item.desc}</p>
+              <span className="mt-3 block text-sm text-brand-blue">Voir la page →</span>
+            </Link>
+          ))}
+        </div>
       </section>
     </main>
   )

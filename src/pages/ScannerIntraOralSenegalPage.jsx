@@ -5,6 +5,13 @@ import Breadcrumbs from '../components/Breadcrumbs'
 const faqs = [
   { q: 'Un scanner intra-oral est-il rentable ?', a: 'Oui, il peut réduire les reprises, accélérer la prise d’empreinte et améliorer l’expérience patient.' },
   { q: 'Proposez-vous la formation des équipes ?', a: 'Oui, AfriSmile accompagne la prise en main et l’organisation du travail au cabinet.' },
+  { q: 'Que comparer avant d’acheter un scanner intra-oral ?', a: 'Il faut comparer la précision, la rapidité, l’ergonomie, les abonnements logiciels, la compatibilité laboratoire et l’accompagnement après installation.' },
+]
+
+const relatedLinks = [
+  { label: 'Recevoir un devis scanner', to: '/devis-materiel-dentaire' },
+  { label: 'Voir les solutions cabinets', to: '/solutions-cabinets' },
+  { label: 'Comparer le matériel dentaire au Sénégal', to: '/materiel-dentaire-senegal' },
 ]
 
 export default function ScannerIntraOralSenegalPage() {
@@ -50,6 +57,15 @@ export default function ScannerIntraOralSenegalPage() {
           <div className="card-muted text-sm text-slate-700"><strong>Cas fréquents</strong><br/>Prothèse, esthétique, orthodontie, implantologie et communication patient.</div>
           <div className="card-muted text-sm text-slate-700"><strong>Critères techniques</strong><br/>Précision, rapidité, ergonomie, format d’export et stabilité du logiciel.</div>
           <div className="card-muted text-sm text-slate-700"><strong>Accompagnement</strong><br/>Démonstration, formation, mise en place au cabinet et aide après installation.</div>
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="section-title">Pages complémentaires pour avancer</h2>
+        <div className="mt-4 flex flex-wrap gap-2 text-sm">
+          {relatedLinks.map((item) => (
+            <Link key={item.to} to={item.to} className="btn-secondary">{item.label}</Link>
+          ))}
         </div>
       </section>
 

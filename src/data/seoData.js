@@ -52,9 +52,9 @@ export const seoPages = {
     imagePath: '/assets/illustration-clinic.jpg',
   },
   '/materiel-dentaire-senegal': {
-    title: 'Fournisseur matériel dentaire Sénégal : devis, prix, installation | AfriSmile',
+    title: 'Matériel dentaire Sénégal : devis, prix et SAV | AfriSmile',
     description:
-      'Fournisseur de matériel dentaire au Sénégal : devis rapide, prix transparents, installation clé en main et SAV local. Fauteuils, stérilisation, imagerie AfriSmile.',
+      'Comparez votre matériel dentaire au Sénégal : devis rapide, prix clairs, installation, maintenance et SAV local pour cabinets et cliniques.',
     imagePath: '/assets/illustration-equipment.jpg',
   },
   '/fauteuil-dentaire-senegal': {
@@ -82,15 +82,15 @@ export const seoPages = {
     imagePath: '/assets/page-blog.jpg',
   },
   '/devis-materiel-dentaire': {
-    title: 'Devis matériel dentaire Sénégal & Afrique de l’Ouest : réponse 24h | AfriSmile',
+    title: 'Devis matériel dentaire Sénégal : réponse 24h | AfriSmile',
     description:
-      'Demandez un devis matériel dentaire au Sénégal et en Afrique de l’Ouest : fauteuils, autoclaves, imagerie, installation et SAV. Réponse AfriSmile sous 24h.',
+      'Recevez un devis matériel dentaire au Sénégal en 24h : fauteuils, autoclaves, imagerie, installation, SAV local et chiffrage adapté à votre cabinet.',
     imagePath: '/assets/page-contact.jpg',
   },
   '/contact': {
-    title: 'Contact AfriSmile : devis matériel dentaire Sénégal & Afrique de l’Ouest',
+    title: 'Contact devis matériel dentaire Sénégal | AfriSmile',
     description:
-      'Contactez AfriSmile pour un devis matériel dentaire au Sénégal et en Afrique de l’Ouest : prix, installation, SAV local, WhatsApp et étude rapide.',
+      'Demandez votre devis matériel dentaire au Sénégal : réponse rapide, WhatsApp, installation, SAV local et accompagnement AfriSmile pour cabinets et cliniques.',
     imagePath: '/assets/page-contact.jpg',
   },
   '/conditions-generales': {

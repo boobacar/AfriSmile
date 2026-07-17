@@ -39,9 +39,7 @@ export default function MaterielDentaireMaliPage() {
       '@type': 'Offer',
       availability: 'https://schema.org/InStock',
       priceCurrency: 'XOF',
-      price: '0',
-      priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'XOF', price: '0' },
-      url: 'https://afrismile.net/contact',
+      url: 'https://www.afrismile.net/contact',
       description: 'Tarification sur devis pour fourniture et installation à Bamako et au Mali.',
     },
   }

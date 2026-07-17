@@ -39,9 +39,7 @@ export default function MaterielDentaireNigeriaPage() {
       '@type': 'Offer',
       availability: 'https://schema.org/InStock',
       priceCurrency: 'NGN',
-      price: '0',
-      priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'NGN', price: '0' },
-      url: 'https://afrismile.net/contact',
+      url: 'https://www.afrismile.net/contact',
       description: 'Tarification sur devis pour cabinets et centres dentaires à Lagos, Abuja et au Nigeria.',
     },
   }

@@ -39,9 +39,7 @@ export default function MaterielDentaireGhanaPage() {
       '@type': 'Offer',
       availability: 'https://schema.org/InStock',
       priceCurrency: 'GHS',
-      price: '0',
-      priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'GHS', price: '0' },
-      url: 'https://afrismile.net/contact',
+      url: 'https://www.afrismile.net/contact',
       description: 'Tarification sur devis pour cliniques dentaires à Accra, Kumasi et dans tout le Ghana.',
     },
   }

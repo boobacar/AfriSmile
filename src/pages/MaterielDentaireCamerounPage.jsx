@@ -39,9 +39,7 @@ export default function MaterielDentaireCamerounPage() {
       '@type': 'Offer',
       availability: 'https://schema.org/InStock',
       priceCurrency: 'XAF',
-      price: '0',
-      priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'XAF', price: '0' },
-      url: 'https://afrismile.net/contact',
+      url: 'https://www.afrismile.net/contact',
       description: 'Tarification sur devis pour cabinets dentaires à Douala, Yaoundé et dans tout le Cameroun.',
     },
   }

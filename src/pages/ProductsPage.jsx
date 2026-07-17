@@ -9,15 +9,15 @@ const socialProof = [
   'Réponse rapide sur WhatsApp',
 ]
 const westAfricaLinks = [
-  { href: '/materiel-dentaire-cote-divoire', label: 'Côte d’Ivoire' },
-  { href: '/materiel-dentaire-mali', label: 'Mali' },
-  { href: '/materiel-dentaire-burkina-faso', label: 'Burkina Faso' },
-  { href: '/materiel-dentaire-cameroun', label: 'Cameroun' },
-  { href: '/materiel-dentaire-ghana', label: 'Ghana' },
-  { href: '/materiel-dentaire-nigeria', label: 'Nigeria' },
-  { href: '/materiel-dentaire-mauritanie', label: 'Mauritanie' },
-  { href: '/materiel-dentaire-niger', label: 'Niger' },
-  { href: '/materiel-dentaire-guinee-bissau', label: 'Guinée-Bissau' },
+  { href: '/materiel-dentaire-cote-divoire', label: 'Côte d’Ivoire', flag: '/assets/flag-cote-divoire.svg' },
+  { href: '/materiel-dentaire-mali', label: 'Mali', flag: '/assets/flag-mali.svg' },
+  { href: '/materiel-dentaire-burkina-faso', label: 'Burkina Faso', flag: '/assets/flag-burkina-faso.svg' },
+  { href: '/materiel-dentaire-cameroun', label: 'Cameroun', flag: '/assets/flag-cameroun.svg' },
+  { href: '/materiel-dentaire-ghana', label: 'Ghana', flag: '/assets/flag-ghana.svg' },
+  { href: '/materiel-dentaire-nigeria', label: 'Nigeria', flag: '/assets/flag-nigeria.svg' },
+  { href: '/materiel-dentaire-mauritanie', label: 'Mauritanie', flag: '/assets/flag-mauritanie.svg' },
+  { href: '/materiel-dentaire-niger', label: 'Niger', flag: '/assets/flag-niger.svg' },
+  { href: '/materiel-dentaire-guinee-bissau', label: 'Guinée-Bissau', flag: '/assets/flag-guinee-bissau.svg' },
 ]
 
 const miniFaqByCategory = {
@@ -109,6 +109,8 @@ export default function ProductsPage() {
           <a href="/fauteuil-dentaire-senegal" className="btn-secondary">Fauteuil dentaire Sénégal</a>
           <a href="/autoclave-dentaire-classe-b-senegal" className="btn-secondary">Autoclave Classe B</a>
           <a href="/scanner-intra-oral-senegal" className="btn-secondary">Scanner intra-oral</a>
+          <a href="/blog/materiel-cabinet-dentaire-complet-prix-senegal-2026" className="btn-secondary">Prix d’un cabinet complet</a>
+          <a href="/blog/appareil-dentaire-prix-dakar-senegal-2026" className="btn-secondary">Prix d’un appareil dentaire</a>
           <a href="/devis-materiel-dentaire" className="btn-primary">Devis gratuit →</a>
         </div>
       </section>
@@ -121,9 +123,12 @@ export default function ProductsPage() {
           </div>
           <a href="/contact" className="btn-secondary">Parler à un conseiller</a>
         </div>
-        <div className="mt-5 flex flex-wrap gap-2 text-sm">
+        <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {westAfricaLinks.map((link) => (
-            <a key={link.href} href={link.href} className="btn-secondary">{link.label}</a>
+            <a key={link.href} href={link.href} className="card flex items-center gap-3 p-3 transition hover:border-brand-cyan">
+              <img src={link.flag} alt="" width="40" height="28" loading="lazy" className="h-7 w-10 rounded object-cover" />
+              <span className="font-semibold text-brand-dark">Matériel dentaire {link.label}</span>
+            </a>
           ))}
         </div>
       </section>

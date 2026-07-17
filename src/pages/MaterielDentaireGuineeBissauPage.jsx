@@ -46,9 +46,7 @@ export default function MaterielDentaireGuineeBissauPage() {
       '@type': 'Offer',
       availability: 'https://schema.org/InStock',
       priceCurrency: 'XOF',
-      price: '0',
-      priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'XOF', price: '0' },
-      url: 'https://afrismile.net/contact',
+      url: 'https://www.afrismile.net/contact',
       description: 'Tarification sur devis pour cabinets dentaires en Guinée-Bissau.',
     },
   }

@@ -47,7 +47,7 @@ export const categories = [
 
 export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
-export const blogPosts = [
+const allBlogPosts = [
   {
     id: 70,
     slug: 'fournisseur-materiel-dentaire-abidjan-cote-divoire-devis-2026',
@@ -616,13 +616,13 @@ AfriSmile aide les cabinets dentaires à Dakar et en Afrique de l’Ouest à str
   {
     id: 61,
     slug: 'appareil-dentaire-prix-dakar-senegal-2026',
-    title: 'Appareil dentaire prix Dakar et Sénégal : ce qui fait varier le devis en 2026',
-    excerpt: 'Repères clairs pour comprendre le prix d’un appareil dentaire à Dakar et au Sénégal : indication clinique, laboratoire, matériaux, délais et devis.',
-    metaTitle: 'Appareil dentaire prix Dakar Sénégal : guide devis en FCFA 2026',
-    metaDescription: 'Prix appareil dentaire à Dakar et au Sénégal : critères de devis, repères en FCFA, matériaux, laboratoire, délais et questions à poser avant achat.',
+    title: 'Prix d’un appareil dentaire au Sénégal en 2026 : devis et repères en FCFA',
+    excerpt: 'Quel prix prévoir pour un appareil dentaire au Sénégal ? Comprenez les écarts de devis à Dakar, les éléments inclus et les points à vérifier avant de choisir.',
+    metaTitle: 'Prix appareil dentaire Sénégal : devis en FCFA 2026',
+    metaDescription: 'Quel prix pour un appareil dentaire au Sénégal en 2026 ? Comparez les devis en FCFA, les prestations incluses, les matériaux et le suivi à Dakar.',
     datePublished: '2026-07-01',
-    dateModified: '2026-07-01',
-    content: `La requête “appareil dentaire prix Dakar” mélange souvent plusieurs besoins : orthodontie, prothèse, gouttière, aligneur ou équipement de cabinet. Pour éviter les comparaisons trompeuses, le premier réflexe est de préciser l’indication clinique et le résultat attendu.
+    dateModified: '2026-07-17',
+    content: `Les recherches “prix appareil dentaire au Sénégal”, “appareil dentaire prix en FCFA” et “appareil dentaire prix Dakar” mélange souvent plusieurs besoins : orthodontie, prothèse, gouttière, aligneur ou équipement de cabinet. Pour éviter les comparaisons trompeuses, le premier réflexe est de préciser l’indication clinique et le résultat attendu.
 
 Le prix dépend ensuite du matériau, du niveau de personnalisation, du laboratoire impliqué, des essayages, du délai de fabrication et du suivi après pose. Un devis sérieux doit donc détailler ce qui est inclus : empreinte ou scan, fabrication, ajustements, contrôles et éventuelles reprises.
 
@@ -1367,14 +1367,14 @@ Avec AfriSmile, vous bénéficiez de conseils pour optimiser vos approvisionneme
   {
     id: 36,
     slug: 'radiologie-panoramique-vs-cone-beam-cbct-lequel-choisir',
-    title: 'Radiologie panoramique vs Cone Beam (CBCT) : Lequel choisir ?',
-    excerpt: 'Comprendre les différences cliniques et financières entre une panoramique 2D et un scanner CBCT 3D pour faire le bon investissement.',
-    metaTitle: 'Panoramique 2D vs Cone Beam CBCT | Lequel Choisir ?',
-    metaDescription: 'Comparatif entre la radiographie panoramique dentaire (2D) et le Cone Beam CBCT (3D). Indications cliniques, prix, et retour sur investissement pour votre cabinet.',
+    title: 'Imagerie dentaire 2D ou Cone Beam 3D : quel système choisir ?',
+    excerpt: 'Comparez les systèmes de radiologie dentaire 2D, la panoramique et le Cone Beam 3D selon les usages cliniques, le budget et l’évolution du cabinet.',
+    metaTitle: 'Imagerie dentaire 2D vs Cone Beam 3D : comparatif',
+    metaDescription: 'Système de radiologie dentaire 2D ou Cone Beam 3D ? Comparez panoramique, indications cliniques, budget et potentiel d’évolution du cabinet.',
     datePublished: '2026-05-14',
-    dateModified: '2026-05-14',
+    dateModified: '2026-07-17',
     content:
-      `La mise à niveau de la salle d'imagerie est une étape cruciale pour un cabinet dentaire. Le choix entre une panoramique 2D classique et un Cone Beam Computed Tomography (CBCT / Imagerie 3D) dépend de votre spécialité, de votre volume de patients et de votre business model.
+      `Un système de radiologie dentaire 2D constitue souvent le premier niveau d’équipement d’un cabinet. La mise à niveau de la salle d'imagerie est une étape cruciale pour un cabinet dentaire. Le choix entre une panoramique 2D classique et un Cone Beam Computed Tomography (CBCT / Imagerie 3D) dépend de votre spécialité, de votre volume de patients et de votre business model.
 
 La radiographie panoramique (OPG - 2D) reste l'outil de débrouillage par excellence. Elle permet un diagnostic global rapide des arcades, la détection des lésions carieuses importantes, l'évaluation de l'os alvéolaire et la position des dents de sagesse. C'est l'outil de base indispensable pour l'omnipratique et les bilans initiaux. Son coût d'acquisition est maîtrisé et l'interprétation est rapide.
 
@@ -2957,3 +2957,8 @@ Contactez-nous pour en savoir plus.
 
 *Dernière mise à jour : 2026-07-04*`,
   },]
+
+// Ne jamais publier les brouillons techniques générés automatiquement.
+export const blogPosts = allBlogPosts.filter(
+  (post) => post.slug !== 'afrismile-net-le-guide-expert-afrismile',
+)

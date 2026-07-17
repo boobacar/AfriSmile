@@ -4,15 +4,15 @@ export const SITE_ORIGIN = 'https://www.afrismile.net'
 
 export const seoPages = {
   '/': {
-    title: 'Matériel dentaire Sénégal & Afrique de l’Ouest : devis, prix FCFA, SAV | AfriSmile',
+    title: 'Matériel dentaire Sénégal : prix, devis & SAV | AfriSmile',
     description:
-      'AfriSmile fournit du matériel dentaire au Sénégal et en Afrique de l’Ouest : devis gratuit 24h, prix en FCFA, fauteuils, autoclaves, imagerie, installation et SAV.',
+      'Matériel dentaire au Sénégal et en Afrique de l’Ouest : prix en FCFA, devis sous 24h, fauteuils, autoclaves, imagerie, installation et SAV AfriSmile.',
     imagePath: '/assets/page-home.jpg',
   },
   '/produits': {
-    title: 'Catalogue matériel dentaire Sénégal & Afrique de l’Ouest | Prix, devis | AfriSmile',
+    title: 'Catalogue matériel dentaire Sénégal : prix & devis | AfriSmile',
     description:
-      'Catalogue matériel dentaire Sénégal & Afrique de l’Ouest : fauteuils, autoclaves, scanners, consommables. Prix clairs, devis en 24h, installation et SAV AfriSmile.',
+      'Catalogue de matériel dentaire au Sénégal : fauteuils, autoclaves, scanners et consommables. Prix en FCFA, devis sous 24h, installation et SAV.',
     imagePath: '/assets/page-products.jpg',
   },
   '/solutions-cabinets': {
@@ -112,8 +112,8 @@ export const seoPages = {
     imagePath: '/assets/page-legal.jpg',
   },
   '/materiel-dentaire-cote-divoire': {
-    title: 'Fournisseur matériel dentaire Côte d’Ivoire : devis Abidjan | AfriSmile',
-    description: 'Fournisseur de matériel dentaire en Côte d’Ivoire : devis rapide, installation clé en main et SAV orienté Abidjan. Fauteuils, autoclaves, scanners, support AfriSmile.',
+    title: 'Matériel dentaire Côte d’Ivoire : devis Abidjan | AfriSmile',
+    description: 'Matériel dentaire en Côte d’Ivoire : devis rapide, fauteuils, autoclaves et scanners avec installation clé en main et SAV AfriSmile à Abidjan.',
     imagePath: '/assets/flag-cote-divoire.svg',
   },
   '/materiel-dentaire-mali': {

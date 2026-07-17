@@ -237,7 +237,6 @@ function SeoHandler() {
         '@type': 'Offer',
         url: `${origin}/contact`,
         priceCurrency: 'XOF',
-        price: '0',
         description: 'Tarification et déploiement sur devis selon configuration du cabinet et pays d’intervention.',
       },
     }

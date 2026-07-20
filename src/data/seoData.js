@@ -117,8 +117,8 @@ export const seoPages = {
     imagePath: '/assets/flag-cote-divoire.svg',
   },
   '/materiel-dentaire-mali': {
-    title: 'Fournisseur matériel dentaire Mali : devis Bamako | AfriSmile',
-    description: 'Fournisseur de matériel dentaire au Mali : devis rapide, livraison à Bamako, installation et SAV. Fauteuils, autoclaves, imagerie et support AfriSmile.',
+    title: 'Matériel dentaire Mali en Afrique : devis Bamako | AfriSmile',
+    description: 'Matériel dentaire au Mali : comparez les prix et recevez un devis pour votre cabinet à Bamako, avec livraison, installation et SAV AfriSmile.',
     imagePath: '/assets/flag-mali.svg',
   },
   '/materiel-dentaire-cameroun': {
@@ -127,13 +127,13 @@ export const seoPages = {
     imagePath: '/assets/flag-cameroun.svg',
   },
   '/materiel-dentaire-ghana': {
-    title: 'Matériel Dentaire Ghana (Accra, Kumasi) | AfriSmile',
-    description: 'Équipement dentaire professionnel au Ghana: conseil achat, livraison, installation et maintenance pour cabinets à Accra, Kumasi et au-delà.',
+    title: 'Matériel dentaire Ghana : prix, devis Accra & SAV | AfriSmile',
+    description: 'Matériel dentaire au Ghana : comparez les prix et demandez un devis pour votre cabinet à Accra, avec livraison, installation et maintenance AfriSmile.',
     imagePath: '/assets/flag-ghana.svg',
   },
   '/materiel-dentaire-nigeria': {
-    title: 'Matériel Dentaire Nigeria (Lagos, Abuja) | AfriSmile',
-    description: 'AfriSmile accompagne les cabinets au Nigeria avec du matériel dentaire fiable, de la stérilisation à l’imagerie, et un support orienté continuité clinique.',
+    title: 'Matériel dentaire Nigeria : prix, devis Lagos & SAV | AfriSmile',
+    description: 'Matériel dentaire au Nigeria : comparez les prix et demandez un devis pour votre clinique à Lagos ou Abuja, avec installation et support AfriSmile.',
     imagePath: '/assets/flag-nigeria.svg',
   },
   '/materiel-dentaire-mauritanie': {

@@ -2435,10 +2435,10 @@ Une gestion stock structurée améliore la continuité de soins, la qualité d�
   {
     id: 15,
     slug: 'fournisseur-materiel-dentaire-senegal-checklist-pro-2026',
-    title: 'Comment choisir un fournisseur de matériel dentaire au Sénégal : checklist pro 2026',
+    title: 'Fournisseur matériel dentaire Sénégal : Checklist pro 2026 – 10 critères pour bien choisir',
     excerpt: 'Fournisseur matériel dentaire Sénégal : méthode d’évaluation, SLA, stock local, conformité et modèle de devis pour sécuriser vos achats B2B.',
-    metaTitle: 'Fournisseur matériel dentaire Sénégal : critères, devis, SAV 2026 | AfriSmile',
-    metaDescription: 'Checklist experte pour choisir un fournisseur de matériel dentaire au Sénégal : qualité, SAV, délais, devis, financement et continuité opérationnelle.',
+    metaTitle: 'Fournisseur matériel dentaire Sénégal – Checklist pro 2026',
+    metaDescription: 'Évitez les erreurs : utilisez notre checklist pro 2026 pour choisir un fournisseur de matériel dentaire fiable au Sénégal. Critères qualité, SAV, devis, délais.',
     datePublished: '2026-04-13',
     dateModified: '2026-04-13',
     content:

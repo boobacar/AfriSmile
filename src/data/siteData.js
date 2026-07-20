@@ -129,10 +129,10 @@ AfriSmile accompagne les cabinets au Mali avec des devis structurés, des recomm
   {
     id: 68,
     slug: 'equipement-cabinet-dentaire-lome-togo-devis-prix-2026',
-    title: 'Équipement de cabinet dentaire à Lomé : comment demander un devis utile au Togo en 2026',
+    title: 'Devis équipement cabinet dentaire Lomé Togo : guide complet et prix 2026',
     excerpt: 'Cabinets et cliniques à Lomé : comment cadrer un devis de matériel dentaire, éviter les oublis techniques et choisir un équipement cohérent au Togo.',
-    metaTitle: 'Équipement cabinet dentaire Lomé Togo : devis, prix 2026',
-    metaDescription: 'Guide pour équiper un cabinet dentaire à Lomé : devis, prix, fauteuil, autoclave, installation et SAV au Togo avec une approche orientée coût total.',
+    metaTitle: 'Devis équipement cabinet dentaire Lomé Togo – Prix 2026',
+    metaDescription: 'Obtenez votre devis gratuit pour l\'équipement de cabinet dentaire à Lomé : fauteuils, autoclaves, SAV. Comparez les prix 2026 et faites votre demande.',
     datePublished: '2026-07-07',
     dateModified: '2026-07-07',
     content:

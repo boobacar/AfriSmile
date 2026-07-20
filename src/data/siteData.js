@@ -1367,10 +1367,10 @@ Avec AfriSmile, vous bénéficiez de conseils pour optimiser vos approvisionneme
   {
     id: 36,
     slug: 'radiologie-panoramique-vs-cone-beam-cbct-lequel-choisir',
-    title: 'Imagerie dentaire 2D ou Cone Beam 3D : quel système choisir ?',
+    title: 'Appareil panoramique dentaire Cone Beam 3D : guide et comparatif',
     excerpt: 'Comparez les systèmes de radiologie dentaire 2D, la panoramique et le Cone Beam 3D selon les usages cliniques, le budget et l’évolution du cabinet.',
-    metaTitle: 'Imagerie dentaire 2D vs Cone Beam 3D : comparatif',
-    metaDescription: 'Système de radiologie dentaire 2D ou Cone Beam 3D ? Comparez panoramique, indications cliniques, budget et potentiel d’évolution du cabinet.',
+    metaTitle: 'Appareil panoramique dentaire Cone Beam 3D : lequel choisir ?',
+    metaDescription: 'Découvrez les atouts de l’appareil panoramique dentaire Cone Beam 3D : précision d’image, indications cliniques et retour sur investissement. Comparez avec la 2D.',
     datePublished: '2026-05-14',
     dateModified: '2026-07-17',
     content:

@@ -1,9 +1,25 @@
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import PageHero from '../components/PageHero'
 import Breadcrumbs from '../components/Breadcrumbs'
 import { blogPosts } from '../data/siteData'
+import { getPaginationState } from '../utils/pagination'
+
+const POSTS_PER_PAGE = 10
 
 export default function BlogPage() {
+  const [searchParams] = useSearchParams()
+  const pagination = getPaginationState(
+    blogPosts,
+    searchParams.get('page'),
+    POSTS_PER_PAGE,
+  )
+
+  const pageHref = (page) => {
+    const nextSearchParams = new URLSearchParams(searchParams)
+    nextSearchParams.set('page', page.toString())
+    return `/blog?${nextSearchParams.toString()}`
+  }
+
   return (
     <main className="container-page page-wrap space-y-8">
       <Breadcrumbs items={[{ label: 'Accueil', to: '/' }, { label: 'Blog' }]} />
@@ -51,7 +67,7 @@ export default function BlogPage() {
       <section className="section-shell">
         <h2 className="section-title">Articles récents</h2>
         <div className="mt-6 grid gap-4">
-          {blogPosts.map((post) => (
+          {pagination.items.map((post) => (
             <article key={post.id} className="card">
               <Link to={`/blog/${post.slug}`} className="block">
                 <h2 className="font-heading text-2xl font-bold text-brand-dark transition hover:text-brand-blue">{post.title}</h2>
@@ -64,6 +80,50 @@ export default function BlogPage() {
             </article>
           ))}
         </div>
+
+        <nav className="mt-8 flex flex-wrap items-center justify-center gap-2" aria-label="Pagination des articles">
+          {pagination.hasPreviousPage ? (
+            <Link
+              to={pageHref(pagination.currentPage - 1)}
+              className="btn-secondary"
+              rel="prev"
+            >
+              Précédent
+            </Link>
+          ) : (
+            <span className="btn-secondary cursor-not-allowed opacity-50" aria-disabled="true">
+              Précédent
+            </span>
+          )}
+
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            {Array.from({ length: pagination.totalPages }, (_, index) => index + 1).map((page) => (
+              <Link
+                key={page}
+                to={pageHref(page)}
+                className={page === pagination.currentPage ? 'btn-primary' : 'btn-secondary'}
+                aria-label={`Page ${page}`}
+                aria-current={page === pagination.currentPage ? 'page' : undefined}
+              >
+                {page}
+              </Link>
+            ))}
+          </div>
+
+          {pagination.hasNextPage ? (
+            <Link
+              to={pageHref(pagination.currentPage + 1)}
+              className="btn-secondary"
+              rel="next"
+            >
+              Suivant
+            </Link>
+          ) : (
+            <span className="btn-secondary cursor-not-allowed opacity-50" aria-disabled="true">
+              Suivant
+            </span>
+          )}
+        </nav>
       </section>
     </main>
   )

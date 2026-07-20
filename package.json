@@ -9,6 +9,7 @@
     "prerender:seo": "node scripts/prerender-seo.mjs",
     "prebuild": "npm run sitemap",
     "build": "vite build && npm run prerender:seo",
+    "test": "node --test",
     "lint": "eslint .",
     "preview": "vite preview"
   },

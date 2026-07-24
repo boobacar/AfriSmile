@@ -616,10 +616,10 @@ AfriSmile aide les cabinets dentaires à Dakar et en Afrique de l’Ouest à str
   {
     id: 61,
     slug: 'appareil-dentaire-prix-dakar-senegal-2026',
-    title: 'Appareil dentaire prix Dakar 2026 : devis gratuit et conseils en FCFA',
+    title: 'Prix Appareil Dentaire Dakar 2026 : Devis Gratuit et Conseils en FCFA',
     excerpt: 'Quel prix prévoir pour un appareil dentaire au Sénégal ? Comprenez les écarts de devis à Dakar, les éléments inclus et les points à vérifier avant de choisir.',
-    metaTitle: 'Appareil dentaire prix Dakar 2026 – Devis gratuit et conseils',
-    metaDescription: 'Cherchez un appareil dentaire à Dakar ? Découvrez nos prix 2026 en FCFA, comparez les devis et obtenez un devis gratuit. Suivi inclus.',
+    metaTitle: 'Prix Appareil Dentaire Dakar 2026 – Devis Gratuit & Conseils',
+    metaDescription: 'Comparez les prix d\'appareils dentaires à Dakar en 2026. Obtenez un devis gratuit, personnalisé, et bénéficiez d\'un suivi inclus. Découvrez nos offres en FCFA !',
     datePublished: '2026-07-01',
     dateModified: '2026-07-17',
     content: `Les recherches “prix appareil dentaire au Sénégal”, “appareil dentaire prix en FCFA” et “appareil dentaire prix Dakar” mélange souvent plusieurs besoins : orthodontie, prothèse, gouttière, aligneur ou équipement de cabinet. Pour éviter les comparaisons trompeuses, le premier réflexe est de préciser l’indication clinique et le résultat attendu.

@@ -640,10 +640,10 @@ Avant de valider un devis, demandez toujours la durée du traitement ou de fabri
     slug: 'materiel-cabinet-dentaire-complet-prix-senegal-2026',
     title: 'Matériel cabinet dentaire complet : prix et liste prioritaire au Sénégal en 2026',
     excerpt: 'La liste complète du matériel pour cabinet dentaire au Sénégal : fauteuil, autoclave, compresseur, imagerie, instruments, consommables et coût total.',
-    metaTitle: 'Matériel cabinet dentaire complet prix Sénégal : budget, devis 2026',
+    metaTitle: 'Matériel cabinet dentaire Sénégal : prix & devis 2026',
     metaDescription: 'Liste matériel cabinet dentaire complet et budget au Sénégal : fauteuil, autoclave, compresseur, imagerie, installation, SAV et devis AfriSmile 24h.',
     datePublished: '2026-07-01',
-    dateModified: '2026-07-01',
+    dateModified: '2026-07-27',
     content: `Pour estimer le prix d’un cabinet dentaire complet au Sénégal, il faut raisonner par blocs fonctionnels plutôt que par produit isolé. Le socle de démarrage comprend le fauteuil, l’autoclave Classe B, le compresseur sans huile, l’aspiration, l’instrumentation rotative, les instruments de base et les consommables.
 
 Le deuxième niveau concerne la productivité : capteur RVG, générateur RX, scanner intra-oral, éclairage, mobilier clinique et organisation de la stérilisation. Ces équipements ne sont pas toujours indispensables au jour 1, mais ils changent fortement la qualité et la vitesse du cabinet.

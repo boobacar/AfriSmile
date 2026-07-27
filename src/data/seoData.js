@@ -46,9 +46,9 @@ export const seoPages = {
     imagePath: '/assets/page-about.jpg',
   },
   '/equipement-dentaire-dakar': {
-    title: 'Équipement dentaire Dakar: devis, installation, SAV | AfriSmile',
+    title: 'Équipement dentaire Dakar : prix, devis & SAV | AfriSmile',
     description:
-      'Équipement dentaire à Dakar pour cabinets et cliniques: conseil achat, livraison, installation et maintenance technique locale AfriSmile.',
+      'Équipement dentaire à Dakar : comparez les prix et recevez un devis sous 24h avec livraison, installation et SAV local pour votre cabinet.',
     imagePath: '/assets/illustration-clinic.jpg',
   },
   '/materiel-dentaire-senegal': {
@@ -122,8 +122,8 @@ export const seoPages = {
     imagePath: '/assets/flag-mali.svg',
   },
   '/materiel-dentaire-cameroun': {
-    title: 'Matériel Dentaire Cameroun (Douala, Yaoundé) | AfriSmile',
-    description: 'Fournisseur de matériel dentaire au Cameroun: fauteuils, autoclaves Classe B, imagerie, installation et support technique pour cliniques à Douala et Yaoundé.',
+    title: 'Matériel dentaire Cameroun : prix & devis Douala | AfriSmile',
+    description: 'Matériel dentaire au Cameroun : comparez les prix et recevez un devis sous 24h pour fauteuils, autoclaves et imagerie, avec installation et SAV à Douala.',
     imagePath: '/assets/flag-cameroun.svg',
   },
   '/materiel-dentaire-ghana': {

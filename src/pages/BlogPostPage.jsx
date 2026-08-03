@@ -12,6 +12,16 @@ const defaultRelatedMoneyPages = [
 ]
 
 const relatedBySlug = {
+  'imagerie-dentaire-2d-panoramique-senegal-prix-guide-2026': [
+    { to: '/contact', label: 'Demander un devis imagerie 2D' },
+    { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral Sénégal' },
+    { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
+  ],
+  'appareil-panoramique-dentaire-cone-beam-3d-prix-senegal-2026': [
+    { to: '/contact', label: 'Demander un devis Cone Beam 3D' },
+    { to: '/blog/imagerie-dentaire-2d-panoramique-senegal-prix-guide-2026', label: 'Imagerie dentaire 2D : guide et prix' },
+    { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
+  ],
   'fauteuil-dentaire-senegal-ergonomie-praticien-assistante-productivite-2026': [
     { to: '/fauteuil-dentaire-senegal', label: 'Choisir un fauteuil dentaire ergonomique' },
     { to: '/service-technique', label: 'Sécuriser réglages et maintenance terrain' },
@@ -411,9 +421,15 @@ export default function BlogPostPage() {
           Publié le {post.datePublished} • Mis à jour le {post.dateModified || post.datePublished}
         </p>
         <article className="space-y-4 text-sm leading-7 text-slate-700">
-          {contentParagraphs.map((paragraph, index) => (
-            <p key={`${post.id}-p-${index}`}>{paragraph}</p>
-          ))}
+          {contentParagraphs.map((paragraph, index) =>
+            paragraph.startsWith('## ') ? (
+              <h2 key={`${post.id}-h2-${index}`} className="section-title !text-xl pt-2">
+                {paragraph.replace(/^##\s+/, '')}
+              </h2>
+            ) : (
+              <p key={`${post.id}-p-${index}`}>{paragraph}</p>
+            ),
+          )}
         </article>
 
         <div className="mt-6 flex flex-wrap gap-3">

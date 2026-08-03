@@ -49,6 +49,84 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 const allBlogPosts = [
   {
+    id: 72,
+    slug: 'imagerie-dentaire-2d-panoramique-senegal-prix-guide-2026',
+    title: 'Imagerie dentaire 2D au Sénégal : panoramique, RVG et radiologie — prix et guide 2026',
+    excerpt: 'Comprendre l’imagerie dentaire 2D au Sénégal : panoramique, capteur RVG, radiographie rétro-alvéolaire, budget, installation et choix pour votre cabinet.',
+    metaTitle: 'Imagerie dentaire 2D Sénégal : panoramique, RVG, prix 2026',
+    metaDescription: 'Guide imagerie dentaire 2D au Sénégal : appareil panoramique, capteur RVG, radiographie rétro-alvéolaire, budget, installation et SAV pour cabinets dentaires.',
+    datePublished: '2026-08-03',
+    dateModified: '2026-08-03',
+    content: `L’imagerie dentaire 2D regroupe les équipements qui produisent des images radiologiques planes : le panoramique (orthopantomogramme), la radiographie rétro-alvéolaire et le capteur RVG numérique. C’est le socle diagnostique d’un cabinet dentaire moderne, avant même de parler de 3D.
+
+## Qu’est-ce que l’imagerie dentaire 2D ?
+
+L’imagerie 2D couvre trois familles d’équipements : le panoramique, qui donne une vue complète des deux arcades en un seul examen ; la radiographie rétro-alvéolaire, qui cible une zone précise ; et le capteur RVG, qui remplace les films argentiques par une image numérique immédiate.
+
+## Quel équipement 2D choisir pour un cabinet au Sénégal ?
+
+Pour un cabinet au Sénégal, le premier choix est souvent le panoramique numérique : une image complète des deux arcades, utile en omnipratique, en chirurgie, en implantologie de première intention et en orthodontie. Le RVG (radiovisiographe) complète le panoramique pour les radiographies ciblées : détection de caries, contrôles endodontiques et évaluations de proximité.
+
+## Combien coûte un système d’imagerie dentaire 2D ?
+
+Le budget d’un système d’imagerie 2D dépend du type d’équipement, de la marque, du capteur et des services inclus. Un devis sérieux doit détailler : l’appareil, le capteur, le logiciel d’acquisition, l’installation, la formation, la garantie et le SAV. C’est ce coût total, et pas seulement le prix d’achat, qui détermine la rentabilité de l’investissement.
+
+## Quels points vérifier avant l’achat ?
+
+Avant d’acheter, vérifiez la compatibilité avec votre flux patient : débit attendu, types d’actes, espace disponible pour l’appareil et contraintes électriques du local. Un équipement bien dimensionné s’amortit plus vite qu’un appareil surdimensionné ou mal installé.
+
+## Faut-il passer directement à l’imagerie 3D ?
+
+Pas toujours. La 2D couvre la majorité des besoins quotidiens d’un cabinet. La 3D (cone beam) se justifie pour l’implantologie avancée, la chirurgie et certains cas complexes. Beaucoup de cabinets démarrent en 2D puis ajoutent le 3D quand le flux patient et les actes le justifient.
+
+AfriSmile accompagne les cabinets sénégalais dans le choix, la livraison, l’installation et le suivi technique de leurs solutions d’imagerie 2D, avec un devis clair et un support local.`,
+    faq: [
+      { q: 'Qu’est-ce que l’imagerie dentaire 2D ?', a: 'C’est la radiologie plane : panoramique (vue complète des arcades), radiographie rétro-alvéolaire et capteur RVG numérique. Elle couvre le socle diagnostique du cabinet.' },
+      { q: 'Combien coûte un équipement d’imagerie 2D au Sénégal ?', a: 'Le prix varie selon le type (panoramique, RVG), la marque, le capteur et les services inclus. Demandez un devis détaillé : appareil, capteur, logiciel, installation, formation, garantie et SAV.' },
+      { q: 'Faut-il passer directement à la 3D ?', a: 'Pas toujours. La 2D couvre la majorité des besoins quotidiens. La 3D (cone beam) se justifie pour l’implantologie avancée, la chirurgie et certains cas complexes.' },
+      { q: 'AfriSmile installe-t-il l’imagerie 2D dans mon cabinet ?', a: 'Oui : livraison, installation, mise en service, formation des équipes et suivi technique sont inclus dans l’accompagnement AfriSmile.' },
+    ],
+  },
+  {
+    id: 71,
+    slug: 'appareil-panoramique-dentaire-cone-beam-3d-prix-senegal-2026',
+    title: 'Appareil panoramique dentaire Cone Beam 3D : prix et guide d’achat au Sénégal 2026',
+    excerpt: 'Cone Beam 3D au Sénégal : à quoi sert l’imagerie 3D dentaire, quelles indications, quel budget prévoir et comment choisir son appareil panoramique 3D.',
+    metaTitle: 'Cone Beam 3D Sénégal : prix appareil panoramique dentaire 2026',
+    metaDescription: 'Guide Cone Beam 3D au Sénégal : indications, budget, comparatif panoramique 2D vs 3D, installation et SAV pour cabinets dentaires et cliniques.',
+    datePublished: '2026-08-03',
+    dateModified: '2026-08-03',
+    content: `L’appareil panoramique dentaire Cone Beam 3D combine une radiographie panoramique 2D et une imagerie tridimensionnelle (CBCT) en un seul équipement. Il produit des coupes fines de l’os, des dents et des structures maxillo-faciales, avec une dose de radiation nettement plus faible qu’un scanner médical classique.
+
+## À quoi sert un Cone Beam 3D en dentisterie ?
+
+L’implantologie est l’indication principale : le Cone Beam permet de mesurer précisément la hauteur et la largeur osseuse, de visualiser le nerf alvéolaire inférieur et de planifier la position de l’implant. Il est aussi utile en chirurgie orale, en endodontie (canaux complexes), en orthodontie (analyses céphalométriques 3D) et en ORL de proximité.
+
+## Quelle différence entre un panoramique 2D et un Cone Beam 3D ?
+
+Le panoramique 2D donne une image plane des arcades. Le Cone Beam 3D ajoute des coupes tridimensionnelles de l’os et des dents, indispensables en implantologie et en chirurgie. Les deux technologies sont souvent réunies dans un même appareil panoramique 3D.
+
+## Combien coûte un appareil Cone Beam 3D ?
+
+Le budget dépend de la marque, du champ de vue, du capteur et des services inclus. Un devis doit préciser : l’appareil, le logiciel, la licence, l’installation, la formation, la garantie et le SAV. Le coût total sur plusieurs années (maintenance, pièces, mises à jour) compte plus que le prix d’entrée.
+
+## Comment choisir le bon champ de vue ?
+
+Le choix du volume de scan dépend de vos indications : un petit volume suffit pour la majorité des cas implantaires, un grand volume couvre les cas complets, l’orthodontie et certaines chirurgies. Tous les cabinets n’ont pas besoin d’un grand volume : un petit volume bien choisi couvre la majorité des indications.
+
+## Quels points vérifier avant l’installation ?
+
+Vérifiez la qualité d’image, le logiciel de planification, la formation du praticien, l’espace d’installation et les contraintes électriques du local. Un appareil 3D mal installé ou mal dimensionné peut générer des coûts cachés et des arrêts d’activité.
+
+AfriSmile accompagne le choix, l’installation et le suivi des appareils panoramiques Cone Beam 3D au Sénégal, avec une évaluation préalable de vos besoins cliniques et de votre local.`,
+    faq: [
+      { q: 'Quelle est la différence entre un panoramique 2D et un Cone Beam 3D ?', a: 'Le panoramique 2D donne une image plane des arcades. Le Cone Beam 3D ajoute des coupes tridimensionnelles de l’os et des dents, indispensables en implantologie et en chirurgie.' },
+      { q: 'Combien coûte un Cone Beam dentaire au Sénégal ?', a: 'Le prix varie selon la marque, le champ de vue, le capteur et les services inclus. Demandez un devis détaillé incluant logiciel, installation, formation, garantie et SAV.' },
+      { q: 'Faut-il un Cone Beam pour faire de l’implantologie ?', a: 'Le Cone Beam est fortement recommandé en implantologie : il permet de mesurer l’os, d’éviter le nerf et de planifier la pose avec précision.' },
+      { q: 'AfriSmile vend-il et installe-t-il le Cone Beam au Sénégal ?', a: 'Oui, AfriSmile accompagne le choix, la livraison, l’installation, la formation et le suivi technique de l’imagerie 3D dans les cabinets sénégalais.' },
+    ],
+  },
+  {
     id: 70,
     slug: 'fournisseur-materiel-dentaire-abidjan-cote-divoire-devis-2026',
     title: 'Fournisseur de matériel dentaire à Abidjan : comment obtenir un devis fiable en Côte d’Ivoire en 2026',
@@ -616,10 +694,10 @@ AfriSmile aide les cabinets dentaires à Dakar et en Afrique de l’Ouest à str
   {
     id: 61,
     slug: 'appareil-dentaire-prix-dakar-senegal-2026',
-    title: 'Prix Appareil Dentaire Dakar 2026 : Devis Gratuit et Conseils en FCFA',
+    title: 'Combien coûte un appareil dentaire au Sénégal ? Prix 2026 en FCFA',
     excerpt: 'Quel prix prévoir pour un appareil dentaire au Sénégal ? Comprenez les écarts de devis à Dakar, les éléments inclus et les points à vérifier avant de choisir.',
-    metaTitle: 'Prix Appareil Dentaire Dakar 2026 – Devis Gratuit & Conseils',
-    metaDescription: 'Comparez les prix d\'appareils dentaires à Dakar en 2026. Obtenez un devis gratuit, personnalisé, et bénéficiez d\'un suivi inclus. Découvrez nos offres en FCFA !',
+    metaTitle: 'Combien coûte un appareil dentaire au Sénégal ? Prix 2026 en FCFA',
+    metaDescription: 'Quel est le prix d’un appareil dentaire au Sénégal en 2026 ? Comparez les devis à Dakar, les éléments inclus et obtenez un accompagnement AfriSmile pour votre cabinet.',
     datePublished: '2026-07-01',
     dateModified: '2026-07-17',
     content: `Les recherches “prix appareil dentaire au Sénégal”, “appareil dentaire prix en FCFA” et “appareil dentaire prix Dakar” mélange souvent plusieurs besoins : orthodontie, prothèse, gouttière, aligneur ou équipement de cabinet. Pour éviter les comparaisons trompeuses, le premier réflexe est de préciser l’indication clinique et le résultat attendu.

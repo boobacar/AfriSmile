@@ -137,18 +137,18 @@ export const seoPages = {
     imagePath: '/assets/flag-nigeria.svg',
   },
   '/materiel-dentaire-mauritanie': {
-    title: 'Matériel Dentaire Mauritanie (Nouakchott) | AfriSmile',
-    description: 'Équipez votre cabinet en Mauritanie avec AfriSmile: fauteuils, autoclaves Classe B, imagerie, installation et accompagnement technique.',
+    title: 'Matériel dentaire Mauritanie : prix, devis Nouakchott | AfriSmile',
+    description: 'Matériel dentaire en Mauritanie : prix, devis sous 24h et installation à Nouakchott. Fauteuils, autoclaves Classe B, imagerie et SAV local AfriSmile.',
     imagePath: '/assets/flag-mauritanie.svg',
   },
   '/materiel-dentaire-niger': {
-    title: 'Matériel dentaire Niger: fournisseur à Niamey | AfriSmile',
-    description: 'Solutions de matériel dentaire au Niger: conseil achat, installation, maintenance et suivi pour cliniques et cabinets à Niamey.',
+    title: 'Matériel dentaire Niger : prix, devis Niamey | AfriSmile',
+    description: 'Matériel dentaire au Niger : prix, devis sous 24h et installation à Niamey. Fauteuils, autoclaves, imagerie, maintenance et SAV AfriSmile.',
     imagePath: '/assets/flag-niger.svg',
   },
   '/materiel-dentaire-guinee-bissau': {
-    title: 'Matériel dentaire Guinée-Bissau en Afrique : devis | AfriSmile',
-    description: 'Matériel dentaire en Guinée-Bissau : devis rapide, installation et SAV local. Équipements pour cabinet, stérilisation et support AfriSmile.',
+    title: 'Matériel dentaire Guinée-Bissau : prix & devis | AfriSmile',
+    description: 'Matériel dentaire en Guinée-Bissau : prix, devis rapide, installation et SAV local. Équipements pour cabinet, stérilisation et support AfriSmile.',
     imagePath: '/assets/flag-guinee-bissau.svg',
   },
   '/materiel-dentaire-burkina-faso': {

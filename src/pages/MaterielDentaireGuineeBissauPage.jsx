@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -67,6 +68,8 @@ export default function MaterielDentaireGuineeBissauPage() {
         <Link to="/contact" className="btn-primary">Demander un devis</Link>
         <Link to="/produits" className="btn-secondary">Explorer les produits</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile soutient les cliniques en Guinée-Bissau avec des équipements dentaires fiables, des devis clairs et un accompagnement concret : fauteuils, autoclaves, imagerie, instruments, installation et suivi." />
 
       <section className="section-shell">
         <h2 className="section-title">Ce qu’AfriSmile aide à cadrer</h2>

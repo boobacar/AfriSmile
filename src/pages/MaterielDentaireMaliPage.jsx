@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -60,6 +61,8 @@ export default function MaterielDentaireMaliPage() {
         <Link to="/contact" className="btn-primary">Obtenir un devis</Link>
         <Link to="/produits" className="btn-secondary">Parcourir le catalogue</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile accompagne les dentistes au Mali : fauteuils, stérilisation, imagerie et instruments fiables, avec un devis clair et un accompagnement technique du choix jusqu'à la mise en service à Bamako." />
 
       <section className="section-shell">
         <h2 className="section-title">L'équipement essentiel pour votre clinique malienne</h2>

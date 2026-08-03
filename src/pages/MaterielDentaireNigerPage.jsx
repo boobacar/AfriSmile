@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -74,6 +75,8 @@ export default function MaterielDentaireNigerPage() {
         <Link to="/contact" className="btn-primary">Obtenir un devis</Link>
         <Link to="/solutions-cabinets" className="btn-secondary">Voir les solutions</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile aide les dentistes au Niger à choisir des équipements durables : fauteuils, stérilisation, imagerie et instruments. Un devis compréhensible, l'installation à Niamey et un accompagnement après achat pour démarrer sur des bases solides." />
 
       <section className="section-shell">
         <h2 className="section-title">Le pack de départ à sécuriser en priorité</h2>

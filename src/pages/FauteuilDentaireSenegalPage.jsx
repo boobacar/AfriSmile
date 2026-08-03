@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -35,6 +36,8 @@ export default function FauteuilDentaireSenegalPage() {
       >
         <Link to="/contact" className="btn-primary">Demander prix & options</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile aide à choisir le bon fauteuil dentaire au Sénégal : ergonomie, options cliniques, fiabilité et budget comparés pour un investissement durable, avec installation et suivi technique inclus." />
 
       <section className="section-shell">
         <h2 className="section-title">Critères de choix</h2>

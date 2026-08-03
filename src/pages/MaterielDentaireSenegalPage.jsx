@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -98,6 +99,8 @@ export default function MaterielDentaireSenegalPage() {
         <Link to="/contact" className="btn-primary">Demander un devis</Link>
         <Link to="/produits" className="btn-secondary">Voir le catalogue</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile équipe les cabinets dentaires au Sénégal : fauteuils, autoclaves Classe B, imagerie, compresseurs et consommables, avec des prix clairs et un devis gratuit sous 24 h. Livraison, installation et maintenance sont assurées à Dakar et dans tout le pays." />
 
       <section className="section-shell">
         <h2 className="section-title">Ce que nous fournissons aux cabinets au Sénégal</h2>

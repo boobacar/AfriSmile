@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -60,6 +61,8 @@ export default function MaterielDentaireNigeriaPage() {
         <Link to="/contact" className="btn-primary">Demander un devis</Link>
         <Link to="/produits" className="btn-secondary">Consulter le catalogue</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile aide les cabinets nigérians à s'équiper avec du matériel fiable : fauteuils, stérilisation, imagerie et instruments. Un accompagnement concret avant, pendant et après l'installation, à Lagos, Abuja et dans tout le pays." />
 
       <section className="section-shell">
         <h2 className="section-title">Solutions d’équipement dentaire pour le Nigeria</h2>

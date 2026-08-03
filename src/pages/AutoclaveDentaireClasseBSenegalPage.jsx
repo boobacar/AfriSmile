@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -35,6 +36,8 @@ export default function AutoclaveDentaireClasseBSenegalPage() {
       >
         <Link to="/contact" className="btn-primary">Demander un devis autoclave</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile accompagne la sélection et la mise en service d'autoclaves dentaires Classe B au Sénégal : conformité, sécurité et fiabilité de la chaîne de stérilisation, avec suivi technique du cabinet." />
 
       <section className="section-shell">
         <h2 className="section-title">Points de contrôle avant achat</h2>

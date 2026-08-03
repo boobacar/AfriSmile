@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -36,6 +37,8 @@ export default function EquipementDentaireDakarPage() {
         <Link to="/contact" className="btn-primary">Obtenir un devis rapide</Link>
         <Link to="/service-technique" className="btn-secondary">Service technique</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile accompagne les cabinets de Dakar pour l'équipement dentaire : sélection du matériel adapté, devis clair, livraison, mise en service et maintenance après installation, pour une activité qui démarre sans accroc." />
 
       <section className="section-shell">
         <h2 className="section-title">Pourquoi AfriSmile à Dakar</h2>

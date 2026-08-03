@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -74,6 +75,8 @@ export default function MaterielDentaireBurkinaFasoPage() {
         <Link to="/contact" className="btn-primary">Obtenir un devis</Link>
         <Link to="/solutions-cabinets" className="btn-secondary">Voir les solutions</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile aide les dentistes au Burkina Faso à s'équiper durablement : fauteuils, stérilisation, imagerie et instruments. Choix, devis, installation à Ouagadougou et accompagnement après achat sécurisés." />
 
       <section className="section-shell">
         <h2 className="section-title">Ce qu’un cabinet doit prioriser au Burkina Faso</h2>

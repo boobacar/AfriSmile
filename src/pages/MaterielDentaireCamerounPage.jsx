@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -60,6 +61,8 @@ export default function MaterielDentaireCamerounPage() {
         <Link to="/contact" className="btn-primary">Demander un devis</Link>
         <Link to="/produits" className="btn-secondary">Voir le catalogue</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile sécurise les achats de matériel dentaire des cabinets camerounais : fauteuils, autoclaves, imagerie et instruments. Conseils, livraison, installation à Douala ou Yaoundé et suivi technique après mise en service." />
 
       <section className="section-shell">
         <h2 className="section-title">Équipements clés pour les cabinets dentaires au Cameroun</h2>

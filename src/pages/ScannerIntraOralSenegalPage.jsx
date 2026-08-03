@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -35,6 +36,8 @@ export default function ScannerIntraOralSenegalPage() {
       >
         <Link to="/contact" className="btn-primary">Recevoir une proposition</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile aide les cabinets sénégalais à adopter le scanner intra-oral : empreintes numériques, gain de temps au fauteuil et meilleure expérience patient, avec accompagnement au choix et à l'installation." />
 
       <section className="section-shell">
         <h2 className="section-title">Bénéfices pour votre cabinet</h2>

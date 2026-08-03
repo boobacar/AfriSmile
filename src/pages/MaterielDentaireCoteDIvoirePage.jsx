@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -60,6 +61,8 @@ export default function MaterielDentaireCoteDIvoirePage() {
         <Link to="/contact" className="btn-primary">Demander un devis</Link>
         <Link to="/produits" className="btn-secondary">Voir le catalogue</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile fournit le matériel dentaire des cabinets ivoiriens : fauteuils, autoclaves Classe B, imagerie 3D, compresseurs et instruments. Devis adapté à votre budget, livraison, installation et formation de vos équipes à Abidjan et dans tout le pays." />
 
       <section className="section-shell">
         <h2 className="section-title">Équiper votre clinique en Côte d'Ivoire</h2>

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -74,6 +75,8 @@ export default function MaterielDentaireMauritaniePage() {
         <Link to="/contact" className="btn-primary">Demander un devis</Link>
         <Link to="/produits" className="btn-secondary">Voir le catalogue</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile accompagne les cliniques mauritaniennes avec des équipements dentaires fiables, des devis lisibles et un déploiement clair : fauteuils, autoclaves, imagerie et consommables, avec installation à Nouakchott." />
 
       <section className="section-shell">
         <h2 className="section-title">Les priorités d’un projet d’équipement en Mauritanie</h2>

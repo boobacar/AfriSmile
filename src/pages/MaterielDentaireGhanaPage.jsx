@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero'
+import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const faqs = [
@@ -60,6 +61,8 @@ export default function MaterielDentaireGhanaPage() {
         <Link to="/contact" className="btn-primary">Obtenir un devis</Link>
         <Link to="/solutions-cabinets" className="btn-secondary">Voir les solutions</Link>
       </PageHero>
+
+      <QuickAnswer text="AfriSmile accompagne les dentistes au Ghana avec des équipements adaptés : fauteuils, autoclaves Classe B, compresseurs, RVG et scanners intra-oraux. Plan d'équipement, installation et suivi à Accra, Kumasi et dans le pays." />
 
       <section className="section-shell">
         <h2 className="section-title">Ce que nous proposons aux cabinets au Ghana</h2>

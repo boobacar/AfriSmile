@@ -129,10 +129,10 @@ AfriSmile accompagne les cabinets au Mali avec des devis structurés, des recomm
   {
     id: 68,
     slug: 'equipement-cabinet-dentaire-lome-togo-devis-prix-2026',
-    title: 'Équipement de cabinet dentaire à Lomé : comment demander un devis utile au Togo en 2026',
+    title: 'Devis équipement cabinet dentaire Lomé Togo : guide complet et prix 2026',
     excerpt: 'Cabinets et cliniques à Lomé : comment cadrer un devis de matériel dentaire, éviter les oublis techniques et choisir un équipement cohérent au Togo.',
-    metaTitle: 'Équipement cabinet dentaire Lomé Togo : devis, prix 2026',
-    metaDescription: 'Guide pour équiper un cabinet dentaire à Lomé : devis, prix, fauteuil, autoclave, installation et SAV au Togo avec une approche orientée coût total.',
+    metaTitle: 'Devis équipement cabinet dentaire Lomé Togo – Prix 2026',
+    metaDescription: 'Obtenez votre devis gratuit pour l\'équipement de cabinet dentaire à Lomé : fauteuils, autoclaves, SAV. Comparez les prix 2026 et faites votre demande.',
     datePublished: '2026-07-07',
     dateModified: '2026-07-07',
     content:
@@ -616,10 +616,10 @@ AfriSmile aide les cabinets dentaires à Dakar et en Afrique de l’Ouest à str
   {
     id: 61,
     slug: 'appareil-dentaire-prix-dakar-senegal-2026',
-    title: 'Prix d’un appareil dentaire au Sénégal en 2026 : devis et repères en FCFA',
+    title: 'Prix Appareil Dentaire Dakar 2026 : Devis Gratuit et Conseils en FCFA',
     excerpt: 'Quel prix prévoir pour un appareil dentaire au Sénégal ? Comprenez les écarts de devis à Dakar, les éléments inclus et les points à vérifier avant de choisir.',
-    metaTitle: 'Prix appareil dentaire Sénégal : devis en FCFA 2026',
-    metaDescription: 'Quel prix pour un appareil dentaire au Sénégal en 2026 ? Comparez les devis en FCFA, les prestations incluses, les matériaux et le suivi à Dakar.',
+    metaTitle: 'Prix Appareil Dentaire Dakar 2026 – Devis Gratuit & Conseils',
+    metaDescription: 'Comparez les prix d\'appareils dentaires à Dakar en 2026. Obtenez un devis gratuit, personnalisé, et bénéficiez d\'un suivi inclus. Découvrez nos offres en FCFA !',
     datePublished: '2026-07-01',
     dateModified: '2026-07-17',
     content: `Les recherches “prix appareil dentaire au Sénégal”, “appareil dentaire prix en FCFA” et “appareil dentaire prix Dakar” mélange souvent plusieurs besoins : orthodontie, prothèse, gouttière, aligneur ou équipement de cabinet. Pour éviter les comparaisons trompeuses, le premier réflexe est de préciser l’indication clinique et le résultat attendu.
@@ -1367,10 +1367,10 @@ Avec AfriSmile, vous bénéficiez de conseils pour optimiser vos approvisionneme
   {
     id: 36,
     slug: 'radiologie-panoramique-vs-cone-beam-cbct-lequel-choisir',
-    title: 'Imagerie dentaire 2D ou Cone Beam 3D : quel système choisir ?',
+    title: 'Imagerie dentaire 2D vs Cone Beam 3D : prix, avantages et guide',
     excerpt: 'Comparez les systèmes de radiologie dentaire 2D, la panoramique et le Cone Beam 3D selon les usages cliniques, le budget et l’évolution du cabinet.',
-    metaTitle: 'Imagerie dentaire 2D vs Cone Beam 3D : comparatif',
-    metaDescription: 'Système de radiologie dentaire 2D ou Cone Beam 3D ? Comparez panoramique, indications cliniques, budget et potentiel d’évolution du cabinet.',
+    metaTitle: 'Imagerie dentaire 2D : panoramique, rétro-alvéolaire et comparatif prix',
+    metaDescription: 'Découvrez les appareils d’imagerie dentaire 2D (panoramique, rétro-alvéolaire) : prix, indications et rentabilité. Comparez avec le Cone Beam 3D pour choisir l’équipement adapté à votre cabinet.',
     datePublished: '2026-05-14',
     dateModified: '2026-07-17',
     content:
@@ -2435,10 +2435,10 @@ Une gestion stock structurée améliore la continuité de soins, la qualité d�
   {
     id: 15,
     slug: 'fournisseur-materiel-dentaire-senegal-checklist-pro-2026',
-    title: 'Comment choisir un fournisseur de matériel dentaire au Sénégal : checklist pro 2026',
+    title: 'Fournisseur matériel dentaire Sénégal : Checklist pro 2026 – 10 critères pour bien choisir',
     excerpt: 'Fournisseur matériel dentaire Sénégal : méthode d’évaluation, SLA, stock local, conformité et modèle de devis pour sécuriser vos achats B2B.',
-    metaTitle: 'Fournisseur matériel dentaire Sénégal : critères, devis, SAV 2026 | AfriSmile',
-    metaDescription: 'Checklist experte pour choisir un fournisseur de matériel dentaire au Sénégal : qualité, SAV, délais, devis, financement et continuité opérationnelle.',
+    metaTitle: 'Fournisseur matériel dentaire Sénégal – Checklist pro 2026',
+    metaDescription: 'Évitez les erreurs : utilisez notre checklist pro 2026 pour choisir un fournisseur de matériel dentaire fiable au Sénégal. Critères qualité, SAV, devis, délais.',
     datePublished: '2026-04-13',
     dateModified: '2026-04-13',
     content:

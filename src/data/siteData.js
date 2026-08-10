@@ -697,9 +697,9 @@ AfriSmile aide les cabinets dentaires à Dakar et en Afrique de l’Ouest à str
     title: 'Combien coûte un appareil dentaire au Sénégal ? Prix 2026 en FCFA',
     excerpt: 'Quel prix prévoir pour un appareil dentaire au Sénégal ? Comprenez les écarts de devis à Dakar, les éléments inclus et les points à vérifier avant de choisir.',
     metaTitle: 'Combien coûte un appareil dentaire au Sénégal ? Prix 2026 en FCFA',
-    metaDescription: 'Quel est le prix d’un appareil dentaire au Sénégal en 2026 ? Comparez les devis à Dakar, les éléments inclus et obtenez un accompagnement AfriSmile pour votre cabinet.',
+    metaDescription: 'Prix d’un appareil dentaire au Sénégal en 2026 : comprenez les écarts de devis à Dakar, ce qui est inclus et les points à vérifier avant de signer.',
     datePublished: '2026-07-01',
-    dateModified: '2026-07-17',
+    dateModified: '2026-08-10',
     content: `Les recherches “prix appareil dentaire au Sénégal”, “appareil dentaire prix en FCFA” et “appareil dentaire prix Dakar” mélange souvent plusieurs besoins : orthodontie, prothèse, gouttière, aligneur ou équipement de cabinet. Pour éviter les comparaisons trompeuses, le premier réflexe est de préciser l’indication clinique et le résultat attendu.
 
 Le prix dépend ensuite du matériau, du niveau de personnalisation, du laboratoire impliqué, des essayages, du délai de fabrication et du suivi après pose. Un devis sérieux doit donc détailler ce qui est inclus : empreinte ou scan, fabrication, ajustements, contrôles et éventuelles reprises.
@@ -909,9 +909,9 @@ Avant d’investir, vérifiez l’ouverture des formats, la formation équipe et
     title: 'Matériel dentaire à Lagos : comment choisir un fournisseur fiable en 2026',
     excerpt: 'Checklist rapide pour sélectionner un fournisseur dentaire solide à Lagos.',
     metaTitle: 'Matériel dentaire Lagos : choisir un fournisseur fiable 2026',
-    metaDescription: 'Checklist fournisseur matériel dentaire à Lagos: fiabilité produit, installation, maintenance, pièces et délais SAV.',
+    metaDescription: 'Checklist fournisseur matériel dentaire fiable à Lagos : garantie, installation, maintenance, pièces et délais SAV Nigeria. Devis AfriSmile.',
     datePublished: '2026-05-22',
-    dateModified: '2026-05-22',
+    dateModified: '2026-08-10',
     content: `À Lagos, le choix du fournisseur impacte directement la continuité clinique. Analysez la fiabilité produit, la qualité d’installation, les délais SAV et la disponibilité des pièces.
 
 Évitez les offres trop peu détaillées: exigez une configuration claire et un plan de maintenance.
@@ -1447,10 +1447,10 @@ Avec AfriSmile, vous bénéficiez de conseils pour optimiser vos approvisionneme
     slug: 'radiologie-panoramique-vs-cone-beam-cbct-lequel-choisir',
     title: 'Imagerie dentaire 2D vs Cone Beam 3D : prix, avantages et guide',
     excerpt: 'Comparez les systèmes de radiologie dentaire 2D, la panoramique et le Cone Beam 3D selon les usages cliniques, le budget et l’évolution du cabinet.',
-    metaTitle: 'Imagerie dentaire 2D : panoramique, rétro-alvéolaire et comparatif prix',
-    metaDescription: 'Découvrez les appareils d’imagerie dentaire 2D (panoramique, rétro-alvéolaire) : prix, indications et rentabilité. Comparez avec le Cone Beam 3D pour choisir l’équipement adapté à votre cabinet.',
+    metaTitle: 'Imagerie dentaire Sénégal : panoramique 2D vs Cone Beam 3D, prix',
+    metaDescription: 'Panoramique 2D ou Cone Beam 3D pour votre cabinet au Sénégal : prix, usages cliniques et rentabilité. Devis imagerie et installation AfriSmile.',
     datePublished: '2026-05-14',
-    dateModified: '2026-07-17',
+    dateModified: '2026-08-10',
     content:
       `Un système de radiologie dentaire 2D constitue souvent le premier niveau d’équipement d’un cabinet. La mise à niveau de la salle d'imagerie est une étape cruciale pour un cabinet dentaire. Le choix entre une panoramique 2D classique et un Cone Beam Computed Tomography (CBCT / Imagerie 3D) dépend de votre spécialité, de votre volume de patients et de votre business model.
 

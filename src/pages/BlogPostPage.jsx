@@ -344,6 +344,31 @@ const relatedBySlug = {
     { to: '/materiel-dentaire-senegal', label: 'Construire votre panier matériel' },
     { to: '/contact', label: 'Chiffrer votre projet' },
   ],
+  'prothese-dentaire-prix-dakar-senegal-2026': [
+    { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral et flux numérique' },
+    { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
+    { to: '/contact', label: 'Demander un conseil équipement' },
+  ],
+  'implant-dentaire-prix-dakar-senegal-2026': [
+    { to: '/blog/appareil-panoramique-dentaire-cone-beam-3d-prix-senegal-2026', label: 'Cone Beam 3D : guide et prix' },
+    { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral Sénégal' },
+    { to: '/contact', label: 'Demander un devis imagerie' },
+  ],
+  'aligneurs-dentaires-invisalign-prix-dakar-senegal-2026': [
+    { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral Sénégal' },
+    { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
+    { to: '/contact', label: 'Planifier une démo scanner' },
+  ],
+  'appareil-dentaire-prix-togo-lome-fcfa-2026': [
+    { to: '/materiel-dentaire-senegal', label: 'Hub matériel dentaire Afrique de l’Ouest' },
+    { to: '/devis-materiel-dentaire', label: 'Demander un devis' },
+    { to: '/contact', label: 'Parler à un conseiller AfriSmile' },
+  ],
+  'appareil-dentaire-prix-cote-ivoire-abidjan-fcfa-2026': [
+    { to: '/materiel-dentaire-cote-divoire', label: 'Matériel dentaire Côte d’Ivoire' },
+    { to: '/devis-materiel-dentaire', label: 'Demander un devis' },
+    { to: '/contact', label: 'Parler à un conseiller AfriSmile' },
+  ],
 }
 
 export default function BlogPostPage() {

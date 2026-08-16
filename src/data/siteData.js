@@ -49,6 +49,181 @@ export const brands = ['KaVo Dental', 'Stern Weber', 'NSK', 'Dentsply', 'Mani']
 
 const allBlogPosts = [
   {
+    id: 77,
+    slug: 'prothese-dentaire-prix-dakar-senegal-2026',
+    title: 'Prothèse dentaire au Sénégal : prix, types et conseils pour choisir (2026)',
+    excerpt: 'Combien coûte une prothèse dentaire au Sénégal ? Types (fixe, amovible, sur implants), éléments qui font varier le prix à Dakar et points à vérifier avant de signer.',
+    metaTitle: 'Prix prothèse dentaire Sénégal : tarifs à Dakar 2026',
+    metaDescription: 'Combien coûte une prothèse dentaire au Sénégal ? Types, prix à Dakar, éléments inclus dans un devis et points à vérifier avant de signer.',
+    datePublished: '2026-08-16',
+    dateModified: '2026-08-16',
+    content: `Les recherches « prothèse dentaire prix Sénégal », « prothèse dentaire fixe prix » ou « prothèse dentaire prix Dakar » regroupent en réalité plusieurs dispositifs très différents : couronne, bridge, prothèse amovible partielle ou complète, voire prothèse sur implants. Le premier réflexe est donc de préciser le type de prothèse et le nombre de dents concernées, car le prix n’a aucun sens sans cette distinction.
+
+## Quels sont les types de prothèses dentaires ?
+
+On distingue la prothèse fixe — couronne et bridge, scellés en bouche — et la prothèse amovible — partielle ou complète, que le patient peut retirer. La prothèse sur implants représente une troisième famille, plus stable et plus durable, qui repose sur des implants posés dans l’os. Chaque type répond à un besoin et à un budget différents.
+
+## Combien coûte une prothèse dentaire au Sénégal ?
+
+Le prix dépend du matériau (résine, céramique, zircone, métal-céramique), du nombre d’éléments, du laboratoire impliqué, du type d’empreinte (classique ou scan numérique) et du suivi. Un devis sérieux détaille : les empreintes ou le scan, la fabrication, les essayages, la pose et les éventuelles retouches. Méfiez-vous des tarifs « tout compris » qui ne précisent ni le matériau ni la garantie.
+
+## Pourquoi les devis varient-ils autant d’un cabinet à l’autre ?
+
+Parce que les prestations incluses ne sont pas les mêmes : certains devis n’incluent ni les essayages ni les retouches, d’autres intègrent une garantie et un suivi. Le matériau utilisé change fortement le résultat esthétique et la durée de vie. Un prix bas peut cacher un matériau de qualité inférieure ou une fabrication accélérée.
+
+## Quels points vérifier avant de signer ?
+
+Demandez le type exact de prothèse, le matériau, le nombre d’essayages, les délais, la garantie et les conditions de retouche. Vérifiez aussi la relation laboratoire du cabinet : un flux numérique (empreinte par scanner intra-oral) réduit les erreurs et les reprises.
+
+AfriSmile ne fabrique pas de prothèses pour les patients, mais équipe les cabinets et les laboratoires dentaires avec le matériel qui améliore la précision et la rapidité de ces traitements : scanners intra-oraux, instruments rotatifs fiables et consommables adaptés.`,
+    faq: [
+      { q: 'Quel est le prix d’une prothèse dentaire à Dakar ?', a: 'Le prix dépend du type (fixe, amovible, sur implants), du matériau, du laboratoire et du suivi. Demandez un devis détaillé avec matériau, nombre d’essayages, garantie et retouches.' },
+      { q: 'Quels sont les types de prothèses dentaires ?', a: 'Prothèse fixe (couronne, bridge), prothèse amovible (partielle ou complète) et prothèse sur implants, plus stable et durable.' },
+      { q: 'Pourquoi les prix varient-ils autant d’un cabinet à l’autre ?', a: 'Les prestations incluses diffèrent (essayages, retouches, garantie), ainsi que le matériau et la précision du flux de fabrication.' },
+      { q: 'AfriSmile fabrique-t-il des prothèses pour les patients ?', a: 'Non. AfriSmile équipe les cabinets et laboratoires dentaires avec les équipements qui sécurisent la précision et la rapidité de fabrication des prothèses.' },
+    ],
+  },
+  {
+    id: 76,
+    slug: 'implant-dentaire-prix-dakar-senegal-2026',
+    title: 'Implant dentaire à Dakar : tarifs, étapes et conseils pour choisir (2026)',
+    excerpt: 'Combien coûte un implant dentaire à Dakar ? Étapes de pose, rôle de l’imagerie 3D, éléments qui font varier le tarif au Sénégal et points à vérifier.',
+    metaTitle: 'Tarif implant dentaire Dakar : prix Sénégal 2026',
+    metaDescription: 'Quel prix pour un implant dentaire à Dakar ? Tarifs au Sénégal, étapes de pose, rôle de l’imagerie 3D et points à vérifier avant de choisir un praticien.',
+    datePublished: '2026-08-16',
+    dateModified: '2026-08-16',
+    content: `Les recherches « tarif implant dentaire Dakar », « implant dentaire prix Sénégal » ou « pose dentaire prix » traduisent une même question : combien prévoir pour remplacer une dent manquante par un implant ? La réponse dépend du nombre d’implants, du type de prothèse posée dessus et de l’imagerie nécessaire avant l’intervention.
+
+## Qu’est-ce qu’un implant dentaire ?
+
+Un implant est une racine artificielle en titane posée dans l’os de la mâchoire, sur laquelle on fixe ensuite une couronne ou une prothèse. Il remplace la racine naturelle et permet une fixation stable, contrairement à une prothèse amovible classique.
+
+## Combien coûte un implant dentaire à Dakar ?
+
+Le budget se compose de plusieurs éléments : l’imagerie pré-implantaire (panoramique ou cone beam 3D), la pose chirurgicale de l’implant, la pièce prothétique (pilier et couronne) et le suivi. Un devis sérieux détaille chacune de ces étapes, car certaines offres n’incluent que la pose de l’implant, sans la couronne finale.
+
+## Pourquoi l’imagerie 3D change-t-elle le résultat ?
+
+Le cone beam 3D permet de mesurer précisément la hauteur et la largeur osseuse et de visualiser le nerf avant la pose. C’est la garantie d’un placement sûr et d’une meilleure planification. Un cabinet équipé en imagerie 3D réduit les risques et les surprises en cours d’intervention.
+
+## Quels points vérifier avant de vous lancer ?
+
+Vérifiez l’expérience du praticien en implantologie, la présence d’une imagerie 3D, la qualité du matériel (implants et pièces prothétiques), les garanties et les conditions de suivi. Comparez le coût total, pas seulement le prix de l’implant seul.
+
+AfriSmile n’assure pas la pose d’implants pour les patients, mais accompagne les cabinets et cliniques qui la pratiquent : imagerie cone beam 3D, moteurs et instrumentation implantaire, et support technique local.`,
+    faq: [
+      { q: 'Quel est le tarif d’un implant dentaire à Dakar ?', a: 'Le tarif dépend du nombre d’implants, de l’imagerie pré-implantaire et de la prothèse posée dessus. Demandez un devis détaillant l’imagerie, la pose, la pièce prothétique et le suivi.' },
+      { q: 'Un implant nécessite-t-il une imagerie 3D ?', a: 'Fortement recommandé : le cone beam 3D mesure l’os et visualise le nerf, pour une pose planifiée et sécurisée.' },
+      { q: 'Combien d’étapes pour un implant dentaire ?', a: 'L’imagerie, la pose chirurgicale, puis la fixation de la couronne ou prothèse après une période d’ostéointégration.' },
+      { q: 'AfriSmile pose-t-il des implants ?', a: 'Non. AfriSmile équipe les cabinets et cliniques : imagerie cone beam 3D, moteurs et instrumentation implantaire, installation et SAV.' },
+    ],
+  },
+  {
+    id: 75,
+    slug: 'aligneurs-dentaires-invisalign-prix-dakar-senegal-2026',
+    title: 'Invisalign et aligneurs dentaires à Dakar : prix et guide 2026',
+    excerpt: 'Combien coûte Invisalign ou un aligneur dentaire à Dakar ? Prix au Sénégal, déroulement du traitement, rôle du scanner intra-oral et conseils avant de vous lancer.',
+    metaTitle: 'Invisalign Dakar : prix aligneurs dentaires Sénégal 2026',
+    metaDescription: 'Combien coûte Invisalign ou un aligneur dentaire à Dakar ? Prix au Sénégal, déroulement du traitement, rôle du scanner intra-oral et conseils.',
+    datePublished: '2026-08-16',
+    dateModified: '2026-08-16',
+    content: `Les recherches « Invisalign Dakar », « aligneurs dentaires prix Sénégal » ou « orthodontie invisible » montrent un intérêt croissant pour le traitement par gouttières transparentes. Ce type de traitement redresse les dents par une série d’aligneurs successifs, sans bagues métalliques.
+
+## Qu’est-ce qu’Invisalign et les aligneurs transparents ?
+
+Invisalign est une marque d’aligneurs transparents ; d’autres systèmes existent sous le terme générique d’« aligneurs dentaires ». Le principe est le même : des gouttières amovibles, presque invisibles, portées en continu et changées régulièrement pour déplacer progressivement les dents.
+
+## Combien coûte un traitement par aligneurs à Dakar ?
+
+Le prix dépend de la complexité du cas, de la durée du traitement, du nombre d’aligneurs et du système utilisé. Il s’ajoute au coût des examens préalables (radiographie, empreinte ou scan). Un devis doit préciser le nombre d’aligneurs inclus, les visites de contrôle et les éventuelles retouches de fin de traitement.
+
+## Quel est le rôle du scanner intra-oral ?
+
+Les traitements modernes commencent par une empreinte numérique au scanner intra-oral, plus précise et plus rapide que les empreintes traditionnelles. Cette précision améliore l’ajustement des aligneurs et réduit les allers-retours de correction.
+
+## Quels points vérifier avant de commencer ?
+
+Vérifiez que le praticien réalise un vrai diagnostic orthodontique, qu’il utilise un scanner pour l’empreinte, et que le devis inclut les contrôles et les retouches. Les aligneurs ne conviennent pas à tous les cas : un avis d’orthodontiste est indispensable.
+
+AfriSmile ne fournit pas d’aligneurs aux patients, mais équipe les cabinets et cliniques qui proposent ces traitements : scanners intra-oraux, imagerie et solutions numériques pour un flux d’empreinte fiable.`,
+    faq: [
+      { q: 'Combien coûte Invisalign à Dakar ?', a: 'Le prix dépend de la complexité du cas, de la durée et du nombre d’aligneurs. Demandez un devis incluant les examens, les aligneurs, les contrôles et les retouches.' },
+      { q: 'Les aligneurs transparents conviennent-ils à tout le monde ?', a: 'Non. Ils traitent de nombreux cas mais pas tous : un diagnostic orthodontique préalable est indispensable.' },
+      { q: 'Quel est le rôle du scanner intra-oral ?', a: 'Il réalise l’empreinte numérique de départ, plus précise que l’empreinte classique, pour un meilleur ajustement des aligneurs.' },
+      { q: 'AfriSmile vend-il des aligneurs aux patients ?', a: 'Non. AfriSmile équipe les cabinets et cliniques avec les scanners et solutions numériques nécessaires à ces traitements.' },
+    ],
+  },
+  {
+    id: 74,
+    slug: 'appareil-dentaire-prix-togo-lome-fcfa-2026',
+    title: 'Appareil dentaire au Togo : prix en FCFA à Lomé (guide 2026)',
+    excerpt: 'Combien coûte un appareil dentaire au Togo ? Comprenez les prix en FCFA à Lomé, ce qui est inclus dans un devis et les points à vérifier avant de choisir.',
+    metaTitle: 'Prix appareil dentaire au Togo : tarifs FCFA à Lomé 2026',
+    metaDescription: 'Combien coûte un appareil dentaire au Togo ? Comprenez les prix en FCFA à Lomé, ce qui est inclus dans un devis et les points à vérifier.',
+    datePublished: '2026-08-16',
+    dateModified: '2026-08-16',
+    content: `Les recherches « appareil dentaire prix en FCFA au Togo » ou « appareil dentaire prix Lomé » mélangent souvent plusieurs besoins : appareil orthodontique, prothèse, gouttière ou équipement de cabinet. Pour éviter les comparaisons trompeuses, commencez par préciser le type d’appareil et le résultat attendu.
+
+## Qu’entend-on par « appareil dentaire » ?
+
+Le terme recouvre des réalités différentes : l’appareil orthodontique (bagues ou aligneurs) qui redresse les dents, la prothèse qui remplace des dents manquantes, la gouttière occlusale ou encore l’équipement utilisé par le cabinet. Chacun a un tarif et un parcours différents.
+
+## Combien coûte un appareil dentaire au Togo ?
+
+Le prix dépend du type d’appareil, du matériau, du laboratoire, des essayages, du délai et du suivi. Un devis sérieux détaille ce qui est inclus : empreinte ou scan, fabrication, ajustements, contrôles et reprises. Un prix affiché sans ces précisions ne permet pas de comparer.
+
+## Pourquoi les tarifs varient-ils autant ?
+
+Parce que les devis n’incluent pas les mêmes prestations. Certains couvrent l’ensemble du parcours, d’autres facturent séparément les essayages ou les retouches. Le niveau d’équipement du cabinet influence aussi la précision et la vitesse du traitement.
+
+## Quels points vérifier avant de choisir ?
+
+Demandez le type d’appareil, le matériau, les essayages, le délai, la garantie et les conditions de suivi. Vérifiez aussi que le cabinet utilise un matériel à jour, notamment pour la prise d’empreinte.
+
+AfriSmile accompagne les cabinets dentaires du Togo dans le choix de leurs équipements — fauteuil, autoclave, scanner intra-oral, imagerie — afin de sécuriser la qualité des soins et des appareils qu’ils réalisent.`,
+    faq: [
+      { q: 'Quel est le prix d’un appareil dentaire au Togo ?', a: 'Le prix dépend du type d’appareil (orthodontique, prothèse, gouttière), du matériau, du laboratoire et du suivi. Demandez un devis détaillé.' },
+      { q: 'Pourquoi les devis varient-ils autant à Lomé ?', a: 'Les prestations incluses diffèrent (essayages, retouches, garantie) ainsi que le matériau et l’équipement du cabinet.' },
+      { q: 'AfriSmile vend-il des appareils aux patients au Togo ?', a: 'AfriSmile équipe les cabinets dentaires togolais avec le matériel, l’imagerie et les consommables qui améliorent la qualité de leurs traitements.' },
+      { q: 'AfriSmile livre-t-il et installe-t-il le matériel au Togo ?', a: 'Oui : livraison, installation, mise en service et suivi technique sont inclus dans l’accompagnement AfriSmile.' },
+    ],
+  },
+  {
+    id: 73,
+    slug: 'appareil-dentaire-prix-cote-ivoire-abidjan-fcfa-2026',
+    title: 'Prix d’un appareil dentaire en Côte d’Ivoire : tarifs FCFA à Abidjan 2026',
+    excerpt: 'Quel prix pour un appareil dentaire en Côte d’Ivoire ? Comprenez les tarifs en FCFA à Abidjan, les écarts de devis et les points à vérifier avant de signer.',
+    metaTitle: 'Prix appareil dentaire Côte d’Ivoire : tarifs FCFA Abidjan 2026',
+    metaDescription: 'Quel prix pour un appareil dentaire en Côte d’Ivoire ? Comprenez les tarifs en FCFA à Abidjan, les écarts de devis et les points à vérifier.',
+    datePublished: '2026-08-16',
+    dateModified: '2026-08-16',
+    content: `Les recherches « le prix d’un appareil dentaire en Côte d’Ivoire » ou « appareil dentaire prix Abidjan » mélangent souvent plusieurs besoins : orthodontie, prothèse, gouttière ou équipement de cabinet. La première étape est donc de préciser le type d’appareil et le résultat recherché.
+
+## Qu’entend-on par « appareil dentaire » en Côte d’Ivoire ?
+
+Le terme désigne aussi bien l’appareil orthodontique (bagues ou aligneurs), la prothèse (fixe ou amovible), la gouttière que l’équipement du cabinet. Chaque dispositif a son propre parcours et son propre budget.
+
+## Combien coûte un appareil dentaire en Côte d’Ivoire ?
+
+Le prix dépend du type d’appareil, du matériau, du laboratoire, des essayages, du délai et du suivi. Un devis fiable détaille : empreinte ou scan, fabrication, ajustements, contrôles et reprises. Sans ces éléments, les écarts de prix restent trompeurs.
+
+## Pourquoi les prix diffèrent-ils d’un cabinet à l’autre ?
+
+Parce que les prestations incluses ne sont pas identiques : certains devis incluent la totalité du parcours, d’autres facturent chaque étape séparément. Le niveau d’équipement du cabinet (scanner, imagerie, laboratoire partenaire) joue aussi sur la précision et la rapidité.
+
+## Quels points vérifier avant de signer ?
+
+Demandez le type d’appareil, le matériau, les essayages, le délai, la garantie et les conditions de suivi. Vérifiez la relation laboratoire et l’équipement de prise d’empreinte du cabinet.
+
+AfriSmile accompagne les cabinets dentaires ivoiriens dans le choix de leurs équipements — fauteuil, autoclave, scanner intra-oral, imagerie — afin de sécuriser la qualité des soins et des appareils qu’ils réalisent.`,
+    faq: [
+      { q: 'Quel est le prix d’un appareil dentaire en Côte d’Ivoire ?', a: 'Le prix dépend du type d’appareil, du matériau, du laboratoire et du suivi. Demandez un devis détaillé incluant essayages, retouches et garantie.' },
+      { q: 'Pourquoi les prix varient-ils autant à Abidjan ?', a: 'Les prestations incluses diffèrent (essayages, retouches, garantie), ainsi que le matériau et l’équipement du cabinet.' },
+      { q: 'AfriSmile vend-il des appareils aux patients en Côte d’Ivoire ?', a: 'AfriSmile équipe les cabinets dentaires ivoiriens avec le matériel, l’imagerie et les consommables qui améliorent la qualité de leurs traitements.' },
+      { q: 'AfriSmile livre-t-il et installe-t-il le matériel en Côte d’Ivoire ?', a: 'Oui : livraison, installation, mise en service et suivi technique sont inclus dans l’accompagnement AfriSmile.' },
+    ],
+  },
+  {
     id: 72,
     slug: 'imagerie-dentaire-2d-panoramique-senegal-prix-guide-2026',
     title: 'Imagerie dentaire 2D au Sénégal : panoramique, RVG et radiologie — prix et guide 2026',

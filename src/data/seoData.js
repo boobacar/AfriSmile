@@ -34,7 +34,7 @@ export const seoPages = {
     imagePath: '/assets/page-products.jpg',
   },
   '/marques': {
-    title: 'Marques dentaires au Sénégal : KaVo, Stern Weber, NSK | AfriSmile',
+    title: 'Marques dentaires Sénégal : KaVo, NSK, Stern Weber | AfriSmile',
     description:
       'Découvrez les marques dentaires distribuées par AfriSmile au Sénégal: fauteuils, instruments, stérilisation, imagerie et pièces disponibles.',
     imagePath: '/assets/page-brands.jpg',
@@ -70,9 +70,9 @@ export const seoPages = {
     imagePath: '/assets/illustration-instruments.jpg',
   },
   '/scanner-intra-oral-senegal': {
-    title: 'Scanner Intra-Oral Sénégal : Prix, Devis et Démo | AfriSmile',
+    title: 'Scanner intra-oral Sénégal : prix, devis & démo | AfriSmile',
     description:
-      'Scanner intra-oral au Sénégal : devis, installation et retour sur investissement. Optimisez votre flux numérique et la satisfaction patient. Devis 24h.',
+      'Scanner intra-oral au Sénégal : devis en 24h, installation et ROI. Passez au flux numérique, gagnez du temps et améliorez la satisfaction patient.',
     imagePath: '/assets/page-solutions.jpg',
   },
   '/blog': {
@@ -88,9 +88,9 @@ export const seoPages = {
     imagePath: '/assets/page-contact.jpg',
   },
   '/contact': {
-    title: 'Contact devis matériel dentaire Sénégal | AfriSmile',
+    title: 'Devis matériel dentaire Sénégal : réponse en 24h | AfriSmile',
     description:
-      'Demandez votre devis matériel dentaire au Sénégal : réponse rapide, WhatsApp, installation, SAV local et accompagnement AfriSmile pour cabinets et cliniques.',
+      'Recevez un devis matériel dentaire au Sénégal en 24h : prix en FCFA, installation et SAV local. Réponse rapide par WhatsApp pour votre cabinet.',
     imagePath: '/assets/page-contact.jpg',
   },
   '/conditions-generales': {

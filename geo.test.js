@@ -125,3 +125,13 @@ test('geo factory: SEO canonique et priorité', async () => {
   assert.equal(seoService.title.includes('Mali'), true)
   assert.equal(geoSeoForPath('/pays/inconnu'), null)
 })
+
+test('geo factory: GEO_TITLE_OVERRIDES résolvent vers des pages réelles et restent dans les limites', async () => {
+  const { GEO_TITLE_OVERRIDES } = await import('./src/data/geoData.js')
+  const paths = new Set(pages.map((p) => p.path))
+  for (const [path, override] of Object.entries(GEO_TITLE_OVERRIDES)) {
+    assert.ok(paths.has(path), `override vers une page inexistante: ${path}`)
+    if (override.title) assert.ok(override.title.length <= 85, `title override trop long sur ${path}`)
+    if (override.description) assert.ok(override.description.length <= 165, `description override trop longue sur ${path}`)
+  }
+})

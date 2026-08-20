@@ -1169,6 +1169,11 @@ GEO_COUNTRIES.forEach((c) => {
 
 // --- Export API ---
 
+// Overrides title/description/H1 par chemin exact (boucle GSC hebdo : pages à impressions sans clics).
+// Format : { '/equipements/fauteuil-dentaire-mali': { title: '...', description: '...', h1: '...' } }
+// Les valeurs manquantes gardent le contenu généré par le template.
+export const GEO_TITLE_OVERRIDES = {}
+
 let _allPages = null
 let _pageByPath = null
 
@@ -1188,6 +1193,14 @@ export function getAllGeoPages() {
   })
   GEO_COUNTRIES.forEach((country) => pages.push(buildCountryHub(country)))
   pages.push(buildPaysIndex())
+  pages.forEach((page) => {
+    const override = GEO_TITLE_OVERRIDES[page.path]
+    if (override) {
+      if (override.title) page.title = override.title
+      if (override.description) page.description = override.description
+      if (override.h1) page.h1 = override.h1
+    }
+  })
   _allPages = pages
   return pages
 }

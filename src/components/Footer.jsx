@@ -4,7 +4,7 @@ import { MessageCircle } from 'lucide-react'
 export default function Footer() {
   return (
     <footer className="mt-16 border-t border-slate-200 bg-brand-dark text-slate-200">
-      <div className="container-page grid gap-10 py-12 md:grid-cols-2 lg:grid-cols-4">
+      <div className="container-page grid gap-10 py-12 md:grid-cols-2 lg:grid-cols-5">
         <div>
           <h3 className="font-heading text-xl font-bold text-white">AfriSmile</h3>
           <p className="mt-3 text-sm leading-relaxed text-slate-300">
@@ -20,19 +20,24 @@ export default function Footer() {
           <h3 className="font-semibold text-white">Pages utiles</h3>
           <ul className="mt-3 space-y-2 text-sm text-slate-300">
             <li><Link to="/produits" className="transition hover:text-white">Produits</Link></li>
+            <li><Link to="/solutions-cabinets" className="transition hover:text-white">Solutions cabinets</Link></li>
             <li><Link to="/materiel-dentaire-senegal" className="transition hover:text-white">Matériel dentaire Sénégal</Link></li>
-            <li><Link to="/materiel-dentaire-cote-divoire" className="transition hover:text-white">Matériel dentaire Côte d'Ivoire</Link></li>
-            <li><Link to="/materiel-dentaire-mali" className="transition hover:text-white">Matériel dentaire Mali</Link></li>
-            <li><Link to="/materiel-dentaire-cameroun" className="transition hover:text-white">Matériel dentaire Cameroun</Link></li>
-            <li><Link to="/materiel-dentaire-ghana" className="transition hover:text-white">Matériel dentaire Ghana</Link></li>
-            <li><Link to="/materiel-dentaire-nigeria" className="transition hover:text-white">Matériel dentaire Nigeria</Link></li>
-            <li><Link to="/materiel-dentaire-mauritanie" className="transition hover:text-white">Matériel dentaire Mauritanie</Link></li>
-            <li><Link to="/materiel-dentaire-niger" className="transition hover:text-white">Matériel dentaire Niger</Link></li>
-            <li><Link to="/materiel-dentaire-guinee-bissau" className="transition hover:text-white">Matériel dentaire Guinée-Bissau</Link></li>
-            <li><Link to="/equipement-dentaire-dakar" className="transition hover:text-white">Équipement dentaire Dakar</Link></li>
             <li><Link to="/service-technique" className="transition hover:text-white">SAV matériel dentaire</Link></li>
             <li><Link to="/contact" className="transition hover:text-white">Contact / devis</Link></li>
             <li><Link to="/devis-materiel-dentaire" className="transition hover:text-white font-semibold text-brand-cyan">Devis gratuit en 24h</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-semibold text-white">Pays desservis</h3>
+          <ul className="mt-3 space-y-2 text-sm text-slate-300">
+            <li><Link to="/pays" className="transition hover:text-white">Tous les pays</Link></li>
+            <li><Link to="/pays/cote-divoire" className="transition hover:text-white">Côte d'Ivoire</Link></li>
+            <li><Link to="/pays/mali" className="transition hover:text-white">Mali</Link></li>
+            <li><Link to="/pays/burkina-faso" className="transition hover:text-white">Burkina Faso</Link></li>
+            <li><Link to="/pays/ghana" className="transition hover:text-white">Ghana</Link></li>
+            <li><Link to="/pays/nigeria" className="transition hover:text-white">Nigeria</Link></li>
+            <li><Link to="/pays/cameroun" className="transition hover:text-white">Cameroun</Link></li>
           </ul>
         </div>
 

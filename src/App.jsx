@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
+import { lazy, Suspense, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
@@ -32,6 +32,8 @@ import MaterielDentaireGuineeBissauPage from './pages/MaterielDentaireGuineeBiss
 import MaterielDentaireBurkinaFasoPage from './pages/MaterielDentaireBurkinaFasoPage'
 import NotFoundPage from './pages/NotFoundPage'
 import DevisMaterielDentairePage from './pages/DevisMaterielDentairePage'
+
+const GeoLandingPage = lazy(() => import('./pages/GeoLandingPage'))
 import { blogPosts } from './data/siteData'
 import { SITE_ORIGIN, getSeoForPath } from './data/seoData'
 
@@ -60,6 +62,9 @@ const pathLabels = {
   'materiel-dentaire-guinee-bissau': 'Matériel dentaire Guinée-Bissau',
   'materiel-dentaire-burkina-faso': 'Matériel dentaire Burkina Faso',
   'devis-materiel-dentaire': 'Devis matériel dentaire',
+  equipements: 'Équipements dentaires',
+  secteurs: 'Secteurs',
+  pays: 'Pays desservis',
   '404': 'Page introuvable',
 }
 
@@ -74,7 +79,7 @@ function ensureMeta(propertyOrName, attr = 'name') {
   return tag
 }
 
-function makeBreadcrumbJsonLd(origin, pathname) {
+function makeBreadcrumbJsonLd(origin, pathname, extraNames = {}) {
   const segments = pathname.split('/').filter(Boolean)
   const items = [{ name: 'Accueil', item: `${origin}/` }]
 
@@ -82,7 +87,7 @@ function makeBreadcrumbJsonLd(origin, pathname) {
   segments.forEach((segment) => {
     currentPath += `/${segment}`
 
-    let name = pathLabels[segment]
+    let name = pathLabels[segment] || extraNames[segment]
     if (!name && segments[0] === 'blog' && segment !== 'blog') {
       const post = blogPosts.find((item) => item.slug === segment)
       name = post?.title || 'Article'
@@ -112,147 +117,182 @@ function SeoHandler() {
   const location = useLocation()
 
   useEffect(() => {
-    const current = getSeoForPath(location.pathname)
     const origin = SITE_ORIGIN
-    const canonicalPath = current.canonicalPath
-    const canonicalUrl = current.canonicalUrl
-    const socialImageUrl = current.socialImageUrl
-    const robotsContent = current.robots
 
-    document.title = current.title
+    const applyHead = (current, breadcrumbNames) => {
+      const canonicalPath = current.canonicalPath
+      const canonicalUrl = current.canonicalUrl
+      const socialImageUrl = current.socialImageUrl
+      const robotsContent = current.robots
 
-    ensureMeta('description').setAttribute('content', current.description)
-    ensureMeta('robots').setAttribute('content', robotsContent)
-    ensureMeta('og:title', 'property').setAttribute('content', current.title)
-    ensureMeta('og:description', 'property').setAttribute('content', current.description)
-    ensureMeta('og:type', 'property').setAttribute('content', current.type || 'website')
-    ensureMeta('og:site_name', 'property').setAttribute('content', 'AfriSmile')
-    ensureMeta('og:locale', 'property').setAttribute('content', 'fr_SN')
-    ensureMeta('og:url', 'property').setAttribute('content', canonicalUrl)
-    ensureMeta('og:image', 'property').setAttribute('content', socialImageUrl)
-    ensureMeta('twitter:card').setAttribute('content', 'summary_large_image')
-    ensureMeta('twitter:title').setAttribute('content', current.title)
-    ensureMeta('twitter:description').setAttribute('content', current.description)
-    ensureMeta('twitter:image').setAttribute('content', socialImageUrl)
+      document.title = current.title
 
-    let canonical = document.querySelector('link[rel="canonical"]')
-    if (!canonical) {
-      canonical = document.createElement('link')
-      canonical.setAttribute('rel', 'canonical')
-      document.head.appendChild(canonical)
-    }
-    canonical.setAttribute('href', canonicalUrl)
+      ensureMeta('description').setAttribute('content', current.description)
+      ensureMeta('robots').setAttribute('content', robotsContent)
+      ensureMeta('og:title', 'property').setAttribute('content', current.title)
+      ensureMeta('og:description', 'property').setAttribute('content', current.description)
+      ensureMeta('og:type', 'property').setAttribute('content', current.type || 'website')
+      ensureMeta('og:site_name', 'property').setAttribute('content', 'AfriSmile')
+      ensureMeta('og:locale', 'property').setAttribute('content', 'fr_SN')
+      ensureMeta('og:url', 'property').setAttribute('content', canonicalUrl)
+      ensureMeta('og:image', 'property').setAttribute('content', socialImageUrl)
+      ensureMeta('twitter:card').setAttribute('content', 'summary_large_image')
+      ensureMeta('twitter:title').setAttribute('content', current.title)
+      ensureMeta('twitter:description').setAttribute('content', current.description)
+      ensureMeta('twitter:image').setAttribute('content', socialImageUrl)
 
-    const oldOrg = document.getElementById('jsonld-organization')
-    if (oldOrg) oldOrg.remove()
-    const oldService = document.getElementById('jsonld-service')
-    if (oldService) oldService.remove()
-    const oldBreadcrumb = document.getElementById('jsonld-breadcrumb')
-    if (oldBreadcrumb) oldBreadcrumb.remove()
+      let canonical = document.querySelector('link[rel="canonical"]')
+      if (!canonical) {
+        canonical = document.createElement('link')
+        canonical.setAttribute('rel', 'canonical')
+        document.head.appendChild(canonical)
+      }
+      canonical.setAttribute('href', canonicalUrl)
 
-    const organizationJsonLd = {
-      '@context': 'https://schema.org',
-      '@type': 'LocalBusiness',
-      '@id': `${origin}#organization`,
-      name: 'AfriSmile',
-      url: origin,
-      logo: `${origin}/assets/logo-afrismile.png`,
-      image: `${origin}/assets/page-home.jpg`,
-      email: 'contact@afrismile.net',
-      telephone: '+221784389393',
-      priceRange: '$$',
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: 'Liberté 06 Cité CSE Villa 72',
-        addressLocality: 'Dakar',
-        addressRegion: 'Dakar',
-        addressCountry: 'SN',
-      },
-      areaServed: [
-        'Sénégal',
-        'Mauritanie',
-        'Côte d’Ivoire',
-        'Bénin',
-        'Burkina Faso',
-        'Cameroun',
-        'Cap-Vert',
-        'Gambie',
-        'Ghana',
-        'Guinée',
-        'Guinée-Bissau',
-        'Niger',
-        'Nigeria',
-        'Togo',
-      ],
-      openingHoursSpecification: [
-        {
-          '@type': 'OpeningHoursSpecification',
-          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-          opens: '09:00',
-          closes: '18:00',
-        },
-      ],
-      contactPoint: {
-        '@type': 'ContactPoint',
-        telephone: '+221784389393',
-        contactType: 'customer service',
-        areaServed: ['SN', 'MR', 'CI', 'BJ', 'BF', 'CM', 'CV', 'GM', 'GH', 'GN', 'GW', 'NE', 'NG', 'TG'],
-        availableLanguage: ['fr'],
-      },
-      hasOfferCatalog: {
-        '@type': 'OfferCatalog',
-        name: 'Catalogue AfriSmile',
-        itemListElement: [
-          { '@type': 'OfferCatalog', name: 'Fauteuils dentaires' },
-          { '@type': 'OfferCatalog', name: 'Stérilisation & autoclaves Classe B' },
-          { '@type': 'OfferCatalog', name: 'Scanner intra-oral & imagerie' },
-          { '@type': 'OfferCatalog', name: 'Consommables & instruments' },
-          { '@type': 'OfferCatalog', name: 'Installation & service technique' },
-        ],
-      },
-    }
+      const oldOrg = document.getElementById('jsonld-organization')
+      if (oldOrg) oldOrg.remove()
+      const oldService = document.getElementById('jsonld-service')
+      if (oldService) oldService.remove()
+      const oldBreadcrumb = document.getElementById('jsonld-breadcrumb')
+      if (oldBreadcrumb) oldBreadcrumb.remove()
 
-    const orgScript = document.createElement('script')
-    orgScript.id = 'jsonld-organization'
-    orgScript.type = 'application/ld+json'
-    orgScript.textContent = JSON.stringify(organizationJsonLd)
-    document.head.appendChild(orgScript)
-
-    const serviceJsonLd = {
-      '@context': 'https://schema.org',
-      '@type': 'Service',
-      '@id': `${origin}#service`,
-      serviceType: 'Fourniture, installation et maintenance de matériel dentaire',
-      provider: {
+      const organizationJsonLd = {
+        '@context': 'https://schema.org',
         '@type': 'LocalBusiness',
         '@id': `${origin}#organization`,
-      },
-      areaServed: ['SN', 'MR', 'CI', 'BJ', 'BF', 'CM', 'CV', 'GM', 'GH', 'GN', 'GW', 'NE', 'NG', 'TG'],
-      availableChannel: {
-        '@type': 'ServiceChannel',
-        serviceUrl: `${origin}/contact`,
-        availableLanguage: ['fr'],
-      },
-      offers: {
-        '@type': 'Offer',
-        url: `${origin}/contact`,
-        priceCurrency: 'XOF',
-        description: 'Tarification et déploiement sur devis selon configuration du cabinet et pays d’intervention.',
-      },
+        name: 'AfriSmile',
+        url: origin,
+        logo: `${origin}/assets/logo-afrismile.png`,
+        image: `${origin}/assets/page-home.jpg`,
+        email: 'contact@afrismile.net',
+        telephone: '+221784389393',
+        priceRange: '$$',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: 'Liberté 06 Cité CSE Villa 72',
+          addressLocality: 'Dakar',
+          addressRegion: 'Dakar',
+          addressCountry: 'SN',
+        },
+        areaServed: [
+          'Sénégal',
+          'Mauritanie',
+          'Côte d’Ivoire',
+          'Bénin',
+          'Burkina Faso',
+          'Cameroun',
+          'Cap-Vert',
+          'Gambie',
+          'Ghana',
+          'Guinée',
+          'Guinée-Bissau',
+          'Niger',
+          'Nigeria',
+          'Togo',
+        ],
+        openingHoursSpecification: [
+          {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+            opens: '09:00',
+            closes: '18:00',
+          },
+        ],
+        contactPoint: {
+          '@type': 'ContactPoint',
+          telephone: '+221784389393',
+          contactType: 'customer service',
+          areaServed: ['SN', 'MR', 'CI', 'BJ', 'BF', 'CM', 'CV', 'GM', 'GH', 'GN', 'GW', 'NE', 'NG', 'TG'],
+          availableLanguage: ['fr'],
+        },
+        hasOfferCatalog: {
+          '@type': 'OfferCatalog',
+          name: 'Catalogue AfriSmile',
+          itemListElement: [
+            { '@type': 'OfferCatalog', name: 'Fauteuils dentaires' },
+            { '@type': 'OfferCatalog', name: 'Stérilisation & autoclaves Classe B' },
+            { '@type': 'OfferCatalog', name: 'Scanner intra-oral & imagerie' },
+            { '@type': 'OfferCatalog', name: 'Consommables & instruments' },
+            { '@type': 'OfferCatalog', name: 'Installation & service technique' },
+          ],
+        },
+      }
+
+      const orgScript = document.createElement('script')
+      orgScript.id = 'jsonld-organization'
+      orgScript.type = 'application/ld+json'
+      orgScript.textContent = JSON.stringify(organizationJsonLd)
+      document.head.appendChild(orgScript)
+
+      const serviceJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Service',
+        '@id': `${origin}#service`,
+        serviceType: 'Fourniture, installation et maintenance de matériel dentaire',
+        provider: {
+          '@type': 'LocalBusiness',
+          '@id': `${origin}#organization`,
+        },
+        areaServed: ['SN', 'MR', 'CI', 'BJ', 'BF', 'CM', 'CV', 'GM', 'GH', 'GN', 'GW', 'NE', 'NG', 'TG'],
+        availableChannel: {
+          '@type': 'ServiceChannel',
+          serviceUrl: `${origin}/contact`,
+          availableLanguage: ['fr'],
+        },
+        offers: {
+          '@type': 'Offer',
+          url: `${origin}/contact`,
+          priceCurrency: 'XOF',
+          description: 'Tarification et déploiement sur devis selon configuration du cabinet et pays d’intervention.',
+        },
+      }
+
+      const serviceScript = document.createElement('script')
+      serviceScript.id = 'jsonld-service'
+      serviceScript.type = 'application/ld+json'
+      serviceScript.textContent = JSON.stringify(serviceJsonLd)
+      document.head.appendChild(serviceScript)
+
+      const breadcrumbJsonLd = makeBreadcrumbJsonLd(origin, canonicalPath, breadcrumbNames)
+      const breadcrumbScript = document.createElement('script')
+      breadcrumbScript.id = 'jsonld-breadcrumb'
+      breadcrumbScript.type = 'application/ld+json'
+      breadcrumbScript.textContent = JSON.stringify(breadcrumbJsonLd)
+      document.head.appendChild(breadcrumbScript)
     }
 
-    const serviceScript = document.createElement('script')
-    serviceScript.id = 'jsonld-service'
-    serviceScript.type = 'application/ld+json'
-    serviceScript.textContent = JSON.stringify(serviceJsonLd)
-    document.head.appendChild(serviceScript)
+    const pathname = location.pathname
+    const isGeoPath =
+      pathname === '/pays' ||
+      pathname.startsWith('/pays/') ||
+      pathname.startsWith('/equipements/') ||
+      pathname.startsWith('/secteurs/')
 
-    const breadcrumbJsonLd = makeBreadcrumbJsonLd(origin, canonicalPath)
-    const breadcrumbScript = document.createElement('script')
-    breadcrumbScript.id = 'jsonld-breadcrumb'
-    breadcrumbScript.type = 'application/ld+json'
-    breadcrumbScript.textContent = JSON.stringify(breadcrumbJsonLd)
-    document.head.appendChild(breadcrumbScript)
+    if (!isGeoPath) {
+      applyHead(getSeoForPath(pathname))
+      return
+    }
+
+    let cancelled = false
+    import('./data/geoData.js')
+      .then(({ geoSeoForPath, getGeoPageByPath }) => {
+        if (cancelled) return
+        const geoSeo = geoSeoForPath(pathname)
+        if (geoSeo) {
+          const geoPage = getGeoPageByPath(pathname)
+          const lastSegment = pathname.split('/').filter(Boolean).pop()
+          const names = geoPage ? { [lastSegment]: geoPage.breadcrumbName } : undefined
+          applyHead(geoSeo, names)
+        } else {
+          applyHead(getSeoForPath(pathname))
+        }
+      })
+      .catch(() => {
+        if (!cancelled) applyHead(getSeoForPath(pathname))
+      })
+    return () => {
+      cancelled = true
+    }
   }, [location.pathname])
 
   return null
@@ -274,8 +314,9 @@ export default function App() {
       <SeoHandler />
       <ScrollToTop />
       <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
+      <Suspense fallback={null}>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
         <Route path="/produits" element={<ProductsPage />} />
         <Route path="/solutions-cabinets" element={<SolutionsPage />} />
         <Route path="/service-technique" element={<ServiceTechniquePage />} />
@@ -303,9 +344,14 @@ export default function App() {
         <Route path="/materiel-dentaire-guinee-bissau" element={<MaterielDentaireGuineeBissauPage />} />
         <Route path="/materiel-dentaire-burkina-faso" element={<MaterielDentaireBurkinaFasoPage />} />
         <Route path="/devis-materiel-dentaire" element={<DevisMaterielDentairePage />} />
+        <Route path="/pays" element={<GeoLandingPage />} />
+        <Route path="/pays/:countrySlug" element={<GeoLandingPage />} />
+        <Route path="/equipements/:geoSlug" element={<GeoLandingPage />} />
+        <Route path="/secteurs/:secteurSlug" element={<GeoLandingPage />} />
         <Route path="/404" element={<NotFoundPage />} />
-        <Route path="*" element={<Navigate to="/404" replace />} />
-      </Routes>
+          <Route path="*" element={<Navigate to="/404" replace />} />
+        </Routes>
+      </Suspense>
       <Footer />
       <WhatsAppButton />
     </>

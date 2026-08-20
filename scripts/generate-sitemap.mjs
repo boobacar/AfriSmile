@@ -2,6 +2,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { blogPosts } from '../src/data/siteData.js'
+import { getAllGeoPages, geoSeoForPath } from '../src/data/geoData.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -46,7 +47,16 @@ const blogRoutes = blogPosts.map((post) => ({
   lastmod: post.dateModified || post.datePublished,
 }))
 
-const routes = [...staticRoutes, ...blogRoutes]
+const geoRoutes = getAllGeoPages().map((page) => {
+  const seo = geoSeoForPath(page.path)
+  return {
+    path: page.path,
+    changefreq: seo.changefreq,
+    priority: seo.priority,
+  }
+})
+
+const routes = [...staticRoutes, ...blogRoutes, ...geoRoutes]
 
 const escapeXml = (value) =>
   String(value)

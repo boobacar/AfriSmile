@@ -387,17 +387,27 @@ AfriSmile accompagne les cabinets au Mali avec des devis structurés, des recomm
     metaTitle: 'Équipement cabinet dentaire Lomé Togo : devis & prix en FCFA 2026',
     metaDescription: 'Obtenez votre devis gratuit pour l\'équipement de cabinet dentaire à Lomé : fauteuils, autoclaves, SAV. Comparez les prix 2026 et faites votre demande.',
     datePublished: '2026-07-07',
-    dateModified: '2026-07-07',
+    dateModified: '2026-08-28',
     content:
       `À Lomé, beaucoup de demandes de devis restent trop vagues: “je veux équiper un cabinet dentaire” sans préciser l’activité prévue, le nombre de postes, la zone disponible ou les contraintes techniques. Résultat: les offres sont difficiles à comparer et les risques d’oubli augmentent.
 
+## Pourquoi les devis d’équipement dentaire à Lomé sont-ils difficiles à comparer ?
+
 Un devis utile commence par un cadrage simple. Il faut définir le type d’activité, le nombre de praticiens, le rythme patient, les actes dominants et la logique de croissance prévue sur 12 à 24 mois. Cette base permet de sélectionner un équipement cohérent au lieu d’additionner des références sans plan global.
+
+## Quels postes doivent être détaillés dans un devis à Lomé ?
 
 À Lomé, les postes qui doivent toujours être clarifiés sont le fauteuil, la stérilisation, le compresseur, l’aspiration, les instruments rotatifs, l’éclairage, le mobilier technique et les consommables de démarrage. Si ces blocs ne sont pas détaillés, le devis manque de valeur décisionnelle.
 
+## Comment interpréter le prix d’un devis d’équipement dentaire ?
+
 Le prix doit aussi être interprété correctement. Une offre légère au départ peut omettre des accessoires indispensables ou repousser sur le client des coûts futurs d’installation, de configuration et de maintenance. Le bon réflexe est donc d’évaluer le coût total d’exploitation.
 
+## Que vérifier sur la livraison et la mise en service à Lomé ?
+
 Le cabinet doit également demander comment seront gérés la livraison, la mise en service, les réglages initiaux et la prise en main équipe. Ces éléments conditionnent la vitesse de démarrage et la stabilité des premières semaines d’activité.
+
+## Quel est le meilleur levier pour équiper un cabinet à Lomé ?
 
 Pour Lomé, le meilleur levier est un devis structuré par fonctions cliniques, avec plan d’installation et estimation claire des délais. Cela réduit les erreurs d’achat et permet de lancer un cabinet plus sereinement.
 
@@ -1625,7 +1635,7 @@ Avec AfriSmile, vous bénéficiez de conseils pour optimiser vos approvisionneme
     metaTitle: 'Imagerie dentaire Sénégal : panoramique 2D vs Cone Beam 3D, prix',
     metaDescription: 'Panoramique 2D ou Cone Beam 3D pour votre cabinet au Sénégal : prix, usages cliniques et rentabilité. Devis imagerie et installation AfriSmile.',
     datePublished: '2026-05-14',
-    dateModified: '2026-08-10',
+    dateModified: '2026-08-28',
     content:
       `Un système de radiologie dentaire 2D constitue souvent le premier niveau d’équipement d’un cabinet. La mise à niveau de la salle d'imagerie est une étape cruciale pour un cabinet dentaire. Le choix entre une panoramique 2D classique et un Cone Beam Computed Tomography (CBCT / Imagerie 3D) dépend de votre spécialité, de votre volume de patients et de votre business model.
 
@@ -1638,6 +1648,8 @@ Le CBCT est également d'une aide inestimable en endodontie complexe (recherche 
 La question financière : Un équipement CBCT coûte souvent le double ou le triple d'une simple panoramique. Cependant, le retour sur investissement (ROI) peut être très rapide si vous posez des implants. Effectuer les examens 3D "in house" génère un acte facturable supplémentaire et, surtout, augmente l'acceptation des plans de traitement par le patient (l'effet visuel de la 3D est puissant), tout en vous faisant gagner le temps d'un second rendez-vous.
 
 Notre recommandation : Si vous avez un budget limité et faites peu de chirurgie, commencez par une panoramique 2D de qualité, de préférence "évolutive 3D" (upgradable). Si l'implantologie ou la chirurgie avancée fait partie intégrante de votre pratique hebdomadaire, le CBCT est un investissement obligatoire.
+
+Pour chiffrer votre projet, consultez le [guide prix de l'imagerie dentaire 2D au Sénégal](/blog/imagerie-dentaire-2d-panoramique-senegal-prix-guide-2026) (panoramique et capteur RVG) et le [guide prix de l'appareil panoramique Cone Beam 3D](/blog/appareil-panoramique-dentaire-cone-beam-3d-prix-senegal-2026) : budgets, options et points à vérifier avant l'achat.
 
 Consultez les experts en imagerie d'AfriSmile pour évaluer la solution la plus adaptée à vos besoins cliniques.`,
     faq: [
@@ -2690,10 +2702,10 @@ Une gestion stock structurée améliore la continuité de soins, la qualité d�
     slug: 'fournisseur-materiel-dentaire-senegal-checklist-pro-2026',
     title: 'Fournisseur matériel dentaire Sénégal : Checklist pro 2026 – 10 critères pour bien choisir',
     excerpt: 'Fournisseur matériel dentaire Sénégal : méthode d’évaluation, SLA, stock local, conformité et modèle de devis pour sécuriser vos achats B2B.',
-    metaTitle: 'Fournisseur matériel dentaire Sénégal – Checklist pro 2026',
+    metaTitle: 'Fournisseur matériel dentaire Sénégal : devis, prix et fiabilité 2026',
     metaDescription: 'Évitez les erreurs : utilisez notre checklist pro 2026 pour choisir un fournisseur de matériel dentaire fiable au Sénégal. Critères qualité, SAV, devis, délais.',
     datePublished: '2026-04-13',
-    dateModified: '2026-04-13',
+    dateModified: '2026-08-28',
     content:
       `Choisir un fournisseur de matériel dentaire au Sénégal ne consiste pas à comparer uniquement des prix. En B2B dentaire, le vrai enjeu est la continuité clinique: disponibilité des équipements, réactivité SAV, qualité des consommables et capacité d'accompagnement dans la durée. Un mauvais partenaire crée des arrêts de production, des retards de soins et une pression inutile sur la trésorerie.
 

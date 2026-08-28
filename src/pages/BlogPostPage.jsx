@@ -14,12 +14,14 @@ const defaultRelatedMoneyPages = [
 const relatedBySlug = {
   'imagerie-dentaire-2d-panoramique-senegal-prix-guide-2026': [
     { to: '/contact', label: 'Demander un devis imagerie 2D' },
-    { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral Sénégal' },
+    { to: '/blog/appareil-panoramique-dentaire-cone-beam-3d-prix-senegal-2026', label: 'Cone Beam 3D : guide et prix' },
+    { to: '/blog/radiologie-panoramique-vs-cone-beam-cbct-lequel-choisir', label: 'Panoramique 2D ou Cone Beam 3D ?' },
     { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
   ],
   'appareil-panoramique-dentaire-cone-beam-3d-prix-senegal-2026': [
     { to: '/contact', label: 'Demander un devis Cone Beam 3D' },
     { to: '/blog/imagerie-dentaire-2d-panoramique-senegal-prix-guide-2026', label: 'Imagerie dentaire 2D : guide et prix' },
+    { to: '/blog/radiologie-panoramique-vs-cone-beam-cbct-lequel-choisir', label: 'Comparatif panoramique 2D vs 3D' },
     { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
   ],
   'fauteuil-dentaire-senegal-ergonomie-praticien-assistante-productivite-2026': [
@@ -103,8 +105,9 @@ const relatedBySlug = {
     { to: '/contact', label: 'Commander vos consommables' },
   ],
   'radiologie-panoramique-vs-cone-beam-cbct-lequel-choisir': [
+    { to: '/blog/imagerie-dentaire-2d-panoramique-senegal-prix-guide-2026', label: 'Guide prix imagerie dentaire 2D' },
+    { to: '/blog/appareil-panoramique-dentaire-cone-beam-3d-prix-senegal-2026', label: 'Guide prix Cone Beam 3D' },
     { to: '/produits', label: 'Imagerie 2D et 3D' },
-    { to: '/scanner-intra-oral-senegal', label: 'Scanner Intra-Oral' },
     { to: '/contact', label: 'Devis Cone Beam / Pano' },
   ],
   'devis-materiel-dentaire-senegal-7-questions-avant-acheter-2026': [
@@ -426,6 +429,24 @@ export default function BlogPostPage() {
 
   const contentParagraphs = post.content.split('\n\n').filter(Boolean)
 
+  const renderInline = (text) => {
+    const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g)
+    if (parts.length === 1) return text
+    return parts.map((part, index) => {
+      const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
+      if (!match) return part
+      return (
+        <a
+          key={`${post.id}-link-${index}`}
+          href={match[2]}
+          className="font-medium text-brand-blue underline underline-offset-2 transition hover:text-brand-cyan"
+        >
+          {match[1]}
+        </a>
+      )
+    })
+  }
+
   return (
     <main className="container-page page-wrap space-y-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
@@ -449,10 +470,10 @@ export default function BlogPostPage() {
           {contentParagraphs.map((paragraph, index) =>
             paragraph.startsWith('## ') ? (
               <h2 key={`${post.id}-h2-${index}`} className="section-title !text-xl pt-2">
-                {paragraph.replace(/^##\s+/, '')}
+                {renderInline(paragraph.replace(/^##\s+/, ''))}
               </h2>
             ) : (
-              <p key={`${post.id}-p-${index}`}>{paragraph}</p>
+              <p key={`${post.id}-p-${index}`}>{renderInline(paragraph)}</p>
             ),
           )}
         </article>

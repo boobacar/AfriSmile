@@ -1,5 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
+import { execFileSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 import { blogPosts } from '../src/data/siteData.js'
 import { getAllGeoPages, geoSeoForPath } from '../src/data/geoData.js'
@@ -9,6 +10,37 @@ const __dirname = path.dirname(__filename)
 const projectRoot = path.resolve(__dirname, '..')
 
 const baseUrl = (process.env.SITE_URL || 'https://www.afrismile.net').replace(/\/+$/, '')
+
+/**
+ * Date de dernière modification RÉELLE d'une famille de pages : date du dernier
+ * commit Git du module source qui porte les titres/descriptions de la famille,
+ * avec repli sur le mtime du fichier (clone sans historique Git).
+ *
+ * Pourquoi : un `<lastmod>` unique égal à la date du build (ou absent) est un
+ * signal mort — Google cesse de s'en servir pour prioriser le recrawl et la
+ * grappe géo (661 pages) moisit en « découverte ». Ancrer la date sur le
+ * contenu donne des valeurs distinctes par famille, qui ne bougent que
+ * lorsque la famille est réellement éditée.
+ */
+const contentDate = (relativePath) => {
+  try {
+    const committed = execFileSync('git', ['log', '-1', '--format=%cs', '--', relativePath], {
+      cwd: projectRoot,
+      encoding: 'utf8',
+    }).trim()
+    if (committed) return committed
+  } catch {
+    // git absent ou dépôt sans historique : repli ci-dessous
+  }
+  try {
+    return fs.statSync(path.join(projectRoot, relativePath)).mtime.toISOString().slice(0, 10)
+  } catch {
+    return undefined
+  }
+}
+
+const staticLastmod = contentDate('src/data/seoData.js')
+const geoLastmod = contentDate('src/data/geoData.js')
 
 const staticRoutes = [
   { path: '/', changefreq: 'weekly', priority: '1.0' },
@@ -56,7 +88,12 @@ const geoRoutes = getAllGeoPages().map((page) => {
   }
 })
 
-const routes = [...staticRoutes, ...blogRoutes, ...geoRoutes]
+const routes = [
+  // Familles ancrées sur la date de leur module source (jamais sur la date du build)
+  ...staticRoutes.map((route) => ({ ...route, lastmod: staticLastmod })),
+  ...blogRoutes.map((route) => ({ ...route, lastmod: route.lastmod || staticLastmod })),
+  ...geoRoutes.map((route) => ({ ...route, lastmod: geoLastmod })),
+]
 
 const escapeXml = (value) =>
   String(value)

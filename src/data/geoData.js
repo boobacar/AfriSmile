@@ -1173,6 +1173,10 @@ GEO_COUNTRIES.forEach((c) => {
 // Format : { '/equipements/fauteuil-dentaire-mali': { title: '...', description: '...', h1: '...' } }
 // Les valeurs manquantes gardent le contenu généré par le template.
 export const GEO_TITLE_OVERRIDES = {
+  // Boucle GSC 21/09/2026 : intention prix + capitale sur la page orthodontie Guinée
+  '/secteurs/cabinet-orthodontie-guinee': {
+    title: 'Matériel cabinet d’orthodontie en Guinée : prix et devis Conakry | AfriSmile',
+  },
   // Boucle GSC 07/09/2026 : pages géo à impressions sans clics (intention fournisseur + capitale)
   '/equipements/materiel-orthodontie-benin': {
     title: 'Matériel d’orthodontie au Bénin : prix FCFA à Cotonou, devis & SAV | AfriSmile',

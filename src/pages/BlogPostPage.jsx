@@ -56,6 +56,8 @@ const relatedBySlug = {
   ],
   'appareil-dentaire-prix-dakar-senegal-2026': [
     { to: '/equipement-dentaire-dakar', label: 'Équipement dentaire Dakar' },
+    { to: '/blog/appareil-dentaire-prix-cote-ivoire-abidjan-fcfa-2026', label: 'Prix des appareils dentaires en Côte d’Ivoire' },
+    { to: '/blog/appareil-dentaire-prix-togo-lome-fcfa-2026', label: 'Prix des appareils dentaires au Togo' },
     { to: '/scanner-intra-oral-senegal', label: 'Scanner intra-oral et flux numérique' },
     { to: '/contact', label: 'Demander un conseil équipement' },
   ],
@@ -323,14 +325,9 @@ const relatedBySlug = {
     { to: '/contact', label: 'Planifier une démonstration' },
   ],
   'materiel-dentaire-burkina-faso-ougadougou-prix-devis-2026': [
-    { to: '/modeles-achat', label: 'Analyser votre devis d’équipement' },
-    { to: '/materiel-dentaire-senegal', label: 'Comparer les catégories matériel' },
-    { to: '/contact', label: 'Demander une revue de devis' },
-  ],
-  'materiel-dentaire-ouagadougou-prix-devis-2026': [
     { to: '/materiel-dentaire-burkina-faso', label: 'Matériel dentaire Burkina Faso' },
-    { to: '/modeles-achat', label: 'Structurer votre budget d’achat' },
-    { to: '/contact', label: 'Demander un devis Burkina Faso' },
+    { to: '/modeles-achat', label: 'Analyser votre devis d’équipement' },
+    { to: '/contact', label: 'Demander une revue de devis' },
   ],
   'ouvrir-cabinet-dentaire-senegal-budget-complet-2026': [
     { to: '/materiel-dentaire-senegal', label: 'Matériel dentaire Sénégal' },
@@ -363,12 +360,16 @@ const relatedBySlug = {
     { to: '/contact', label: 'Planifier une démo scanner' },
   ],
   'appareil-dentaire-prix-togo-lome-fcfa-2026': [
-    { to: '/materiel-dentaire-senegal', label: 'Hub matériel dentaire Afrique de l’Ouest' },
+    { to: '/pays/togo', label: 'Matériel dentaire au Togo' },
+    { to: '/blog/appareil-dentaire-prix-cote-ivoire-abidjan-fcfa-2026', label: 'Prix des appareils dentaires en Côte d’Ivoire' },
+    { to: '/blog/appareil-dentaire-prix-dakar-senegal-2026', label: 'Prix des appareils dentaires au Sénégal' },
     { to: '/devis-materiel-dentaire', label: 'Demander un devis' },
     { to: '/contact', label: 'Parler à un conseiller AfriSmile' },
   ],
   'appareil-dentaire-prix-cote-ivoire-abidjan-fcfa-2026': [
     { to: '/materiel-dentaire-cote-divoire', label: 'Matériel dentaire Côte d’Ivoire' },
+    { to: '/blog/appareil-dentaire-prix-dakar-senegal-2026', label: 'Prix des appareils dentaires au Sénégal' },
+    { to: '/blog/appareil-dentaire-prix-togo-lome-fcfa-2026', label: 'Prix des appareils dentaires au Togo' },
     { to: '/devis-materiel-dentaire', label: 'Demander un devis' },
     { to: '/contact', label: 'Parler à un conseiller AfriSmile' },
   ],

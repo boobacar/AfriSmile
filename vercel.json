@@ -19,7 +19,9 @@
     { "source": "/blog/ouvrir-cabinet-dentaire-dakar-checklist-materiel-demarrage", "destination": "/blog/ouvrir-cabinet-dentaire-materiel-indispensable", "permanent": true },
     { "source": "/blog/sterilisation-cabinet-dentaire-senegal-audit-protocole-2026", "destination": "/blog/sterilisation-cabinet-dentaire-protocole-autoclave-classe-b", "permanent": true },
     { "source": "/blog/maintenance-fauteuil-dentaire-10-pannes-frequentes-eviter-2026", "destination": "/blog/maintenance-fauteuil-dentaire-10-pannes-frequentes-et-prevention", "permanent": true },
-    { "source": "/blog/appareil-dentaire-prix-dakar-senegal-2006", "destination": "/blog/appareil-dentaire-prix-dakar-senegal-2026", "permanent": true }
+    { "source": "/blog/appareil-dentaire-prix-dakar-senegal-2006", "destination": "/blog/appareil-dentaire-prix-dakar-senegal-2026", "permanent": true },
+    { "source": "/blog/materiel-dentaire-ouagadougou-prix-devis-2026", "destination": "/blog/materiel-dentaire-burkina-faso-ougadougou-prix-devis-2026", "permanent": true },
+    { "source": "/blog/appareil-dentaire-prix-cote-ivoire-abidjan-fcFA-2026", "destination": "/blog/appareil-dentaire-prix-cote-ivoire-abidjan-fcfa-2026", "permanent": true }
   ],
   "rewrites": [
     {

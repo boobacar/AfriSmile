@@ -38,6 +38,10 @@ export default function Footer() {
             <li><Link to="/pays/ghana" className="transition hover:text-white">Ghana</Link></li>
             <li><Link to="/pays/nigeria" className="transition hover:text-white">Nigeria</Link></li>
             <li><Link to="/pays/cameroun" className="transition hover:text-white">Cameroun</Link></li>
+            <li><Link to="/pays/senegal" className="transition hover:text-white">Sénégal</Link></li>
+            <li><Link to="/pays/guinee" className="transition hover:text-white">Guinée</Link></li>
+            <li><Link to="/pays/benin" className="transition hover:text-white">Bénin</Link></li>
+            <li><Link to="/pays/togo" className="transition hover:text-white">Togo</Link></li>
           </ul>
         </div>
 

@@ -1184,6 +1184,12 @@ export const GEO_TITLE_OVERRIDES = {
   '/secteurs/clinique-dentaire-burkina-faso': {
     title: 'Équipement de clinique dentaire au Burkina Faso : prix & devis | AfriSmile',
   },
+  // Boucle GSC 05/10/2026 : page équipement cabinet Cameroun — impressions « fauteuil compresseur » sans clic
+  '/secteurs/cabinet-dentaire-cameroun': {
+    title: 'Cabinet dentaire au Cameroun : fauteuil, compresseur & devis | AfriSmile',
+    description:
+      'Équipez un cabinet dentaire au Cameroun : fauteuil, compresseur, stérilisation et imagerie. Devis sous 24 h à Douala, installation et SAV AfriSmile.',
+  },
 }
 
 let _allPages = null

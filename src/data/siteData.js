@@ -123,10 +123,10 @@ AfriSmile n’assure pas la pose d’implants pour les patients, mais accompagne
     slug: 'aligneurs-dentaires-invisalign-prix-dakar-senegal-2026',
     title: 'Invisalign et aligneurs dentaires à Dakar : prix et guide 2026',
     excerpt: 'Combien coûte Invisalign ou un aligneur dentaire à Dakar ? Prix au Sénégal, déroulement du traitement, rôle du scanner intra-oral et conseils avant de vous lancer.',
-    metaTitle: 'Aligneurs dentaires prix Dakar : Invisalign, tarifs Sénégal 2026',
+    metaTitle: 'Invisalign Dakar : prix des aligneurs dentaires au Sénégal en 2026',
     metaDescription: 'Combien coûte Invisalign ou un aligneur dentaire à Dakar ? Prix au Sénégal, déroulement du traitement, rôle du scanner intra-oral et conseils.',
     datePublished: '2026-08-16',
-    dateModified: '2026-08-16',
+    dateModified: '2026-10-05',
     content: `Les recherches « Invisalign Dakar », « aligneurs dentaires prix Sénégal » ou « orthodontie invisible » montrent un intérêt croissant pour le traitement par gouttières transparentes. Ce type de traitement redresse les dents par une série d’aligneurs successifs, sans bagues métalliques.
 
 ## Qu’est-ce qu’Invisalign et les aligneurs transparents ?
@@ -1277,10 +1277,10 @@ AfriSmile aide les praticiens du Bénin et du Togo à structurer des décisions 
     slug: 'materiel-dentaire-burkina-faso-ougadougou-prix-devis-2026',
     title: 'Matériel dentaire au Burkina Faso (Ouagadougou) : prix, devis et points de vigilance 2026',
     excerpt: 'Comment lire un devis de matériel dentaire au Burkina Faso et éviter les erreurs qui coûtent cher après installation.',
-    metaTitle: 'Matériel dentaire au Burkina Faso : prix FCFA et devis à Ouagadougou',
+    metaTitle: 'Matériel dentaire au Burkina Faso : fournisseur, prix FCFA et devis Ouagadougou',
     metaDescription: 'Fournisseur de matériel dentaire au Burkina Faso : fauteuil, autoclave, imagerie. Prix en FCFA, devis pour Ouagadougou, installation et assistance locale.',
     datePublished: '2026-05-22',
-    dateModified: '2026-05-22',
+    dateModified: '2026-10-05',
     content:
       `À Ouagadougou comme ailleurs, un devis de matériel dentaire doit être interprété comme un plan de production, pas comme une simple liste de prix. Ce sont les lignes invisibles qui créent souvent les plus grands écarts de coût.
 
@@ -1516,10 +1516,10 @@ Faites confiance à l'équipe technique d'AfriSmile pour planifier et réaliser 
     slug: 'comment-choisir-instruments-rotatifs-dentaires',
     title: 'Comment choisir ses instruments rotatifs dentaires ?',
     excerpt: 'Turbines, contre-angles, micromoteurs : critères de choix pour allier performance clinique, ergonomie et durabilité.',
-    metaTitle: 'Instruments rotatifs dentaires : comment choisir turbine et contre-angle',
+    metaTitle: 'Instrumentation rotative dentaire : choisir turbine, contre-angle et micromoteur',
     metaDescription: 'Guide pour bien choisir vos instruments rotatifs dentaires : turbines, contre-angles bagues rouges/bleues, micromoteurs électriques. Fiabilité et ergonomie.',
     datePublished: '2026-05-17',
-    dateModified: '2026-05-17',
+    dateModified: '2026-10-05',
     content:
       `Les instruments rotatifs sont le prolongement direct de la main du chirurgien-dentiste. Un mauvais choix entraîne fatigue, perte de précision et coûts de réparation faramineux. Voici comment choisir vos turbines et contre-angles.
 
@@ -1632,10 +1632,10 @@ Avec AfriSmile, vous bénéficiez de conseils pour optimiser vos approvisionneme
     slug: 'radiologie-panoramique-vs-cone-beam-cbct-lequel-choisir',
     title: 'Imagerie dentaire 2D vs Cone Beam 3D : prix, avantages et guide',
     excerpt: 'Comparez les systèmes de radiologie dentaire 2D, la panoramique et le Cone Beam 3D selon les usages cliniques, le budget et l’évolution du cabinet.',
-    metaTitle: 'Imagerie dentaire Sénégal : panoramique 2D vs Cone Beam 3D, prix',
+    metaTitle: 'Imagerie dentaire 2D : panoramique, RVG et Cone Beam — prix 2026',
     metaDescription: 'Panoramique 2D ou Cone Beam 3D pour votre cabinet au Sénégal : prix, usages cliniques et rentabilité. Devis imagerie et installation AfriSmile.',
     datePublished: '2026-05-14',
-    dateModified: '2026-08-28',
+    dateModified: '2026-10-05',
     content:
       `Un système de radiologie dentaire 2D constitue souvent le premier niveau d’équipement d’un cabinet. La mise à niveau de la salle d'imagerie est une étape cruciale pour un cabinet dentaire. Le choix entre une panoramique 2D classique et un Cone Beam Computed Tomography (CBCT / Imagerie 3D) dépend de votre spécialité, de votre volume de patients et de votre business model.
 

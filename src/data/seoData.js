@@ -152,8 +152,8 @@ export const seoPages = {
     imagePath: '/assets/flag-guinee-bissau.svg',
   },
   '/materiel-dentaire-burkina-faso': {
-    title: 'Matériel Dentaire Burkina Faso : Devis, Prix et SAV | AfriSmile',
-    description: 'Matériel dentaire au Burkina Faso : fauteuils, autoclaves Classe B, imagerie. Devis gratuit, installation et SAV local à Ouagadougou et Bobo-Dioulasso.',
+    title: 'Matériel dentaire Burkina Faso : devis et prix à Ouagadougou | AfriSmile',
+    description: 'Matériel dentaire au Burkina Faso : fauteuils, autoclaves Classe B, imagerie, prix en FCFA. Devis sous 24 h, installation et SAV à Ouagadougou et Bobo-Dioulasso.',
     imagePath: '/assets/flag-burkina-faso.svg',
   },
   '/404': {

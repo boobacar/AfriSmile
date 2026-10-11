@@ -34,6 +34,7 @@ import NotFoundPage from './pages/NotFoundPage'
 import DevisMaterielDentairePage from './pages/DevisMaterielDentairePage'
 
 const GeoLandingPage = lazy(() => import('./pages/GeoLandingPage'))
+const PrixLandingPage = lazy(() => import('./pages/PrixLandingPage'))
 import { blogPosts } from './data/siteData'
 import { SITE_ORIGIN, getSeoForPath } from './data/seoData'
 
@@ -65,6 +66,8 @@ const pathLabels = {
   equipements: 'Équipements dentaires',
   secteurs: 'Secteurs',
   pays: 'Pays desservis',
+  prix: 'Prix des soins',
+  villes: 'Villes desservies',
   '404': 'Page introuvable',
 }
 
@@ -262,6 +265,30 @@ function SeoHandler() {
     }
 
     const pathname = location.pathname
+
+    if (pathname === '/prix' || pathname === '/villes' || pathname.startsWith('/prix/') || pathname.startsWith('/villes/')) {
+      let cancelledPrix = false
+      import('./data/geoPrix.js')
+        .then(({ prixSeoForPath, getPrixPageByPath }) => {
+          if (cancelledPrix) return
+          const seo = prixSeoForPath(pathname)
+          if (seo) {
+            const prixPage = getPrixPageByPath(pathname)
+            const lastSegment = pathname.split('/').filter(Boolean).pop()
+            const names = prixPage ? { [lastSegment]: prixPage.breadcrumbName } : undefined
+            applyHead(seo, names)
+          } else {
+            applyHead(getSeoForPath(pathname))
+          }
+        })
+        .catch(() => {
+          if (!cancelledPrix) applyHead(getSeoForPath(pathname))
+        })
+      return () => {
+        cancelledPrix = true
+      }
+    }
+
     const isGeoPath =
       pathname === '/pays' ||
       pathname.startsWith('/pays/') ||
@@ -348,6 +375,10 @@ export default function App() {
         <Route path="/pays/:countrySlug" element={<GeoLandingPage />} />
         <Route path="/equipements/:geoSlug" element={<GeoLandingPage />} />
         <Route path="/secteurs/:secteurSlug" element={<GeoLandingPage />} />
+        <Route path="/prix" element={<PrixLandingPage />} />
+        <Route path="/prix/:prixSlug" element={<PrixLandingPage />} />
+        <Route path="/villes" element={<PrixLandingPage />} />
+        <Route path="/villes/:villeSlug" element={<PrixLandingPage />} />
         <Route path="/404" element={<NotFoundPage />} />
           <Route path="*" element={<Navigate to="/404" replace />} />
         </Routes>

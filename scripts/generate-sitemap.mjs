@@ -4,6 +4,7 @@ import { execFileSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 import { blogPosts } from '../src/data/siteData.js'
 import { getAllGeoPages, geoSeoForPath } from '../src/data/geoData.js'
+import { getAllPrixPages, prixSeoForPath } from '../src/data/geoPrix.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -41,6 +42,7 @@ const contentDate = (relativePath) => {
 
 const staticLastmod = contentDate('src/data/seoData.js')
 const geoLastmod = contentDate('src/data/geoData.js')
+const prixLastmod = contentDate('src/data/geoPrix.js')
 
 const staticRoutes = [
   { path: '/', changefreq: 'weekly', priority: '1.0' },
@@ -88,11 +90,21 @@ const geoRoutes = getAllGeoPages().map((page) => {
   }
 })
 
+const prixRoutes = getAllPrixPages().map((page) => {
+  const seo = prixSeoForPath(page.path)
+  return {
+    path: page.path,
+    changefreq: seo.changefreq,
+    priority: seo.priority,
+  }
+})
+
 const routes = [
   // Familles ancrées sur la date de leur module source (jamais sur la date du build)
   ...staticRoutes.map((route) => ({ ...route, lastmod: staticLastmod })),
   ...blogRoutes.map((route) => ({ ...route, lastmod: route.lastmod || staticLastmod })),
   ...geoRoutes.map((route) => ({ ...route, lastmod: geoLastmod })),
+  ...prixRoutes.map((route) => ({ ...route, lastmod: prixLastmod })),
 ]
 
 const escapeXml = (value) =>

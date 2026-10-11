@@ -53,8 +53,8 @@ const allBlogPosts = [
     slug: 'prothese-dentaire-prix-dakar-senegal-2026',
     title: 'Prothèse dentaire au Sénégal : prix, types et conseils pour choisir (2026)',
     excerpt: 'Combien coûte une prothèse dentaire au Sénégal ? Types (fixe, amovible, sur implants), éléments qui font varier le prix à Dakar et points à vérifier avant de signer.',
-    metaTitle: 'Prothèse dentaire prix Sénégal : fixe, amovible ou sur implant à Dakar (2026)',
-    metaDescription: 'Combien coûte une prothèse dentaire au Sénégal ? Prix des prothèses fixes, amovibles et sur implants à Dakar, devis détaillé et points à vérifier.',
+    metaTitle: 'Prothèse dentaire prix Dakar : fixe, amovible, sur implant (2026)',
+    metaDescription: 'Combien coûte une prothèse dentaire à Dakar ? Prix des prothèses fixes, amovibles et sur implants au Sénégal, et ce qu’un devis doit détailler.',
     datePublished: '2026-08-16',
     dateModified: '2026-08-16',
     content: `Les recherches « prothèse dentaire prix Sénégal », « prothèse dentaire fixe prix » ou « prothèse dentaire prix Dakar » regroupent en réalité plusieurs dispositifs très différents : couronne, bridge, prothèse amovible partielle ou complète, voire prothèse sur implants. Le premier réflexe est donc de préciser le type de prothèse et le nombre de dents concernées, car le prix n’a aucun sens sans cette distinction.
@@ -228,8 +228,8 @@ AfriSmile accompagne les cabinets dentaires ivoiriens dans le choix de leurs éq
     slug: 'imagerie-dentaire-2d-panoramique-senegal-prix-guide-2026',
     title: 'Imagerie dentaire 2D au Sénégal : panoramique, RVG et radiologie — prix et guide 2026',
     excerpt: 'Comprendre l’imagerie dentaire 2D au Sénégal : panoramique, capteur RVG, radiographie rétro-alvéolaire, budget, installation et choix pour votre cabinet.',
-    metaTitle: 'Système de radiologie dentaire 2D : panoramique, RVG et prix Sénégal 2026',
-    metaDescription: 'Système de radiologie dentaire 2D et imagerie dentaire 2D : appareil panoramique, capteur RVG, rétro-alvéolaire. Prix, budget et installation au Sénégal.',
+    metaTitle: 'Appareil panoramique dentaire : prix au Sénégal et choix du modèle',
+    metaDescription: 'Appareil panoramique dentaire au Sénégal : prix, capteur RVG, rétro-alvéolaire, installation et budget pour un cabinet à Dakar. Devis sous 24 h.',
     datePublished: '2026-08-03',
     dateModified: '2026-08-03',
     content: `L’imagerie dentaire 2D regroupe les équipements qui produisent des images radiologiques planes : le panoramique (orthopantomogramme), la radiographie rétro-alvéolaire et le capteur RVG numérique. C’est le socle diagnostique d’un cabinet dentaire moderne, avant même de parler de 3D.
@@ -346,7 +346,7 @@ AfriSmile accompagne les projets en Côte d’Ivoire avec une logique simple: de
     slug: 'materiel-dentaire-bamako-mali-prix-installation-cabinet-2026',
     title: 'Matériel dentaire à Bamako : prix, installation et plan d’équipement pour cabinet au Mali en 2026',
     excerpt: 'Repères concrets pour équiper un cabinet dentaire à Bamako : budget, priorités matériel, logistique d’installation et support technique au Mali.',
-    metaTitle: 'Fournisseur matériel dentaire à Bamako : équipement cabinet, prix FCFA Mali',
+    metaTitle: 'Matériel dentaire à Bamako : fournisseur, devis et prix FCFA (Mali)',
     metaDescription: 'Équiper un cabinet dentaire à Bamako : fauteuil, autoclave Classe B, compresseur et imagerie. Prix en FCFA, devis sous 24 h, installation et SAV au Mali.',
     datePublished: '2026-07-07',
     dateModified: '2026-07-07',
@@ -384,8 +384,8 @@ AfriSmile accompagne les cabinets au Mali avec des devis structurés, des recomm
     slug: 'equipement-cabinet-dentaire-lome-togo-devis-prix-2026',
     title: 'Devis équipement cabinet dentaire Lomé Togo : guide complet et prix 2026',
     excerpt: 'Cabinets et cliniques à Lomé : comment cadrer un devis de matériel dentaire, éviter les oublis techniques et choisir un équipement cohérent au Togo.',
-    metaTitle: 'Fournisseur matériel dentaire à Lomé : équipement cabinet, prix FCFA Togo',
-    metaDescription: 'Équiper un cabinet dentaire à Lomé : fauteuil, autoclave Classe B, compresseur et imagerie. Prix en FCFA, devis sous 24 h, installation et SAV au Togo.',
+    metaTitle: 'Équiper un cabinet dentaire à Lomé : matériel, devis, prix FCFA',
+    metaDescription: 'Équiper un cabinet dentaire à Lomé : fauteuil, autoclave Classe B, compresseur et imagerie. Devis sous 24 h, installation et SAV au Togo.',
     datePublished: '2026-07-07',
     dateModified: '2026-08-28',
     content:
@@ -881,8 +881,8 @@ AfriSmile aide les cabinets dentaires à Dakar et en Afrique de l’Ouest à str
     slug: 'appareil-dentaire-prix-dakar-senegal-2026',
     title: 'Combien coûte un appareil dentaire au Sénégal ? Prix 2026 en FCFA',
     excerpt: 'Quel prix prévoir pour un appareil dentaire au Sénégal ? Comprenez les écarts de devis à Dakar, les éléments inclus et les points à vérifier avant de choisir.',
-    metaTitle: 'Appareil dentaire prix en FCFA au Sénégal : combien ça coûte à Dakar 2026',
-    metaDescription: 'Prix d’un appareil dentaire au Sénégal en 2026 : tarifs en FCFA à Dakar, devis détaillé, éléments inclus et points à vérifier avant de choisir votre praticien.',
+    metaTitle: 'Appareil dentaire prix au Sénégal : tarifs FCFA à Dakar (2026)',
+    metaDescription: 'Combien coûte un appareil dentaire au Sénégal ? Tarifs en FCFA à Dakar, ce qui est inclus dans un devis et les points à vérifier avant de choisir votre praticien.',
     datePublished: '2026-07-01',
     dateModified: '2026-08-10',
     content: `Les recherches “prix appareil dentaire au Sénégal”, “appareil dentaire prix en FCFA” et “appareil dentaire prix Dakar” mélange souvent plusieurs besoins : orthodontie, prothèse, gouttière, aligneur ou équipement de cabinet. Pour éviter les comparaisons trompeuses, le premier réflexe est de préciser l’indication clinique et le résultat attendu.
@@ -1516,8 +1516,8 @@ Faites confiance à l'équipe technique d'AfriSmile pour planifier et réaliser 
     slug: 'comment-choisir-instruments-rotatifs-dentaires',
     title: 'Comment choisir ses instruments rotatifs dentaires ?',
     excerpt: 'Turbines, contre-angles, micromoteurs : critères de choix pour allier performance clinique, ergonomie et durabilité.',
-    metaTitle: 'Instrumentation rotative dentaire : choisir turbine, contre-angle et micromoteur',
-    metaDescription: 'Guide pour bien choisir vos instruments rotatifs dentaires : turbines, contre-angles bagues rouges/bleues, micromoteurs électriques. Fiabilité et ergonomie.',
+    metaTitle: 'Instrumentation rotative dentaire : choisir turbine et contre-angle',
+    metaDescription: 'Comment choisir ses instruments rotatifs dentaires : turbines, contre-angles bagues rouges et bleues, micromoteurs. Fiabilité, pièces et entretien.',
     datePublished: '2026-05-17',
     dateModified: '2026-10-05',
     content:
@@ -1632,8 +1632,8 @@ Avec AfriSmile, vous bénéficiez de conseils pour optimiser vos approvisionneme
     slug: 'radiologie-panoramique-vs-cone-beam-cbct-lequel-choisir',
     title: 'Imagerie dentaire 2D vs Cone Beam 3D : prix, avantages et guide',
     excerpt: 'Comparez les systèmes de radiologie dentaire 2D, la panoramique et le Cone Beam 3D selon les usages cliniques, le budget et l’évolution du cabinet.',
-    metaTitle: 'Imagerie dentaire 2D : panoramique, RVG et Cone Beam — prix 2026',
-    metaDescription: 'Panoramique 2D ou Cone Beam 3D pour votre cabinet au Sénégal : prix, usages cliniques et rentabilité. Devis imagerie et installation AfriSmile.',
+    metaTitle: 'Imagerie dentaire 2D et 3D : panoramique, RVG, cone beam | AfriSmile',
+    metaDescription: 'Imagerie dentaire 2D (panoramique, RVG, rétro-alvéolaire) ou cone beam 3D : usages cliniques, budget et choix pour votre cabinet. Devis et installation.',
     datePublished: '2026-05-14',
     dateModified: '2026-10-05',
     content:
@@ -2702,8 +2702,8 @@ Une gestion stock structurée améliore la continuité de soins, la qualité d�
     slug: 'fournisseur-materiel-dentaire-senegal-checklist-pro-2026',
     title: 'Fournisseur matériel dentaire Sénégal : Checklist pro 2026 – 10 critères pour bien choisir',
     excerpt: 'Fournisseur matériel dentaire Sénégal : méthode d’évaluation, SLA, stock local, conformité et modèle de devis pour sécuriser vos achats B2B.',
-    metaTitle: 'Fournisseur matériel dentaire Sénégal : devis, prix et fiabilité 2026',
-    metaDescription: 'Évitez les erreurs : utilisez notre checklist pro 2026 pour choisir un fournisseur de matériel dentaire fiable au Sénégal. Critères qualité, SAV, devis, délais.',
+    metaTitle: 'Fournisseur matériel dentaire Sénégal : 10 critères pour choisir',
+    metaDescription: 'Comment choisir un fournisseur de matériel dentaire au Sénégal : 10 critères de fiabilité (SAV, pièces, garanties, délais) et une checklist avant de signer.',
     datePublished: '2026-04-13',
     dateModified: '2026-08-28',
     content:
@@ -3221,7 +3221,240 @@ Contactez-nous pour en savoir plus.
 *Article généré automatiquement depuis le brief SEO Hub. À enrichir avec des données spécifiques, des témoignages et des visuels avant publication.*
 
 *Dernière mise à jour : 2026-07-04*`,
-  },]
+  },
+  {
+    id: 86,
+    slug: 'empreinte-numerique-cabinet-dentaire-afrique-ouest-2026',
+    title: 'Empreinte numérique au cabinet dentaire : faut-il abandonner l’alginate en 2026 ?',
+    excerpt: 'Scan intra-oral, envoi au laboratoire, délais, prérequis et budget : ce qu’il faut vérifier avant de passer à l’empreinte numérique au cabinet.',
+    metaTitle: 'Empreinte numérique au cabinet : scanner intra-oral 2026',
+    metaDescription: 'Empreinte numérique au cabinet : scan intra-oral, flux laboratoire, délais et budget. Ce qu’il faut vérifier avant d’abandonner l’alginate.',
+    datePublished: '2026-10-11',
+    dateModified: '2026-10-11',
+    content: `L’empreinte numérique n’est plus un sujet de salon : en 2026, plusieurs laboratoires de prothèse déploient des flux numériques en Afrique de l’Ouest et du Centre et poussent les cabinets à envoyer un fichier plutôt qu’un porte-empreinte. La question pratique n’est donc plus « faut-il y passer ? » mais « à quelles conditions, et pour quels actes ? ».
+
+## Ce que change réellement le scan intra-oral
+
+Le scanner remplace l’empreinte physique par une acquisition optique. Trois conséquences concrètes :
+- le confort patient : plus de réflexe nauséeux, plus de rinçage, moins de reprises d’empreinte ;
+- la traçabilité : le fichier est daté, archivé et renvoyé au laboratoire sans déformation du transport ;
+- la communication : le patient voit sa bouche à l’écran et comprend mieux le traitement proposé.
+
+## Ce que l’empreinte classique garde comme avantage
+
+L’alginate et le silicone restent pertinents : matériel peu coûteux, aucun fichier à gérer, aucune dépendance à l’informatique du cabinet, et dépannage immédiat en cas de panne électrique. Un cabinet qui réalise peu de prothèses fixes ou qui travaille avec un laboratoire non équipé n’a pas d’urgence à basculer.
+
+## Les prérequis à vérifier avant d’acheter
+
+Le scanner seul ne suffit pas. Il faut vérifier, dans cet ordre :
+- le laboratoire partenaire : accepte-t-il un fichier numérique, dans quel format, et avec quel délai annoncé ?
+- le poste de travail : capacité de la machine, écran, logiciel de scan, sauvegarde des fichiers ;
+- la connexion : un envoi de fichier lourd suppose une liaison fiable ; prévoyez une solution de repli ;
+- la formation : la courbe d’apprentissage est réelle, surtout sur les secteurs difficiles et les limites cervicales ;
+- le service après-vente : embouts disponibles, calibration, mises à jour logicielles.
+
+## Combien coûte l’entrée dans le flux numérique
+
+Le budget dépend de la combinaison retenue : scanner intra-oral seul, scanner plus caméra intra-orale, ou flux complet avec laboratoire partenaire. Ce qui fait varier la facture, c’est surtout le périmètre : embouts et consommables, logiciel et licences, poste de travail, formation, et contrat de maintenance. Un devis sérieux détaille ces lignes — un prix global sans périmètre n’est pas comparable.
+
+## Les erreurs les plus fréquentes
+
+La première erreur est d’acheter le scanner avant d’avoir validé le laboratoire : le cabinet se retrouve avec un fichier que personne ne sait exploiter. La deuxième est de sous-estimer la formation et d’enchaîner les reprises d’empreinte pendant les premières semaines. La troisième est de négliger la sauvegarde : un fichier perdu, c’est un traitement à recommencer.
+
+## Faut-il basculer tout de suite ?
+
+Si votre volume de prothèse fixe, d’orthodontie par gouttières ou de projets implantaires est régulier, le numérique se rentabilise par le temps gagné et les reprises évitées. Si votre activité est surtout conservatrice ou si votre laboratoire travaille encore en flux classique, commencez par la caméra intra-orale : elle apporte la valeur pédagogique immédiate sans changer tout le flux de travail.
+
+## FAQ
+
+**Faut-il un scanner intra-oral pour travailler avec un laboratoire numérique ?**
+Non, mais dans la pratique le scan est ce qui rend le flux numérique exploitable côté cabinet. Certains laboratoires acceptent aussi des empreintes classiques scannées à distance, avec un délai supplémentaire.
+
+**Le scan intra-oral remplace-t-il la radiographie ?**
+Non. Le scanner enregistre la surface des dents et des tissus mous ; la radiographie montre ce qui se passe dans l’os et à l’intérieur de la dent. Les deux examens sont complémentaires.
+
+**Peut-on envoyer un fichier de scan depuis un cabinet en Afrique de l’Ouest ?**
+Oui, à condition d’avoir une connexion stable et un format accepté par le laboratoire. Prévoyez une procédure de repli : export sur support, ou envoi différé, en cas de coupure.
+
+**Quel impact sur les délais de prothèse ?**
+Le gain vient surtout des reprises évitées : une empreinte juste du premier coup retire un aller-retour, donc souvent une séance et une semaine de délai.
+
+AfriSmile accompagne les cabinets d’Afrique de l’Ouest et du Centre sur ce type de transition : choix du scanner et de la caméra intra-orale, compatibilité avec votre laboratoire, formation de l’équipe et service après-vente.`,
+    faq: [
+      { q: 'Faut-il un scanner intra-oral pour travailler avec un laboratoire numérique ?', a: 'Non, mais dans la pratique le scan est ce qui rend le flux numérique exploitable côté cabinet. Certains laboratoires acceptent aussi des empreintes classiques scannées à distance, avec un délai supplémentaire.' },
+      { q: 'Le scan intra-oral remplace-t-il la radiographie ?', a: 'Non. Le scanner enregistre la surface des dents et des tissus mous ; la radiographie montre ce qui se passe dans l’os et à l’intérieur de la dent. Les deux examens sont complémentaires.' },
+      { q: 'Peut-on envoyer un fichier de scan depuis un cabinet en Afrique de l’Ouest ?', a: 'Oui, à condition d’avoir une connexion stable et un format accepté par le laboratoire. Prévoyez une procédure de repli en cas de coupure : export sur support ou envoi différé.' },
+      { q: 'Quel impact sur les délais de prothèse ?', a: 'Le gain vient surtout des reprises évitées : une empreinte juste du premier coup retire un aller-retour, donc souvent une séance et une semaine de délai.' },
+    ],
+  },
+  {
+    id: 87,
+    slug: 'chirurgie-guidee-implantologie-materiel-cabinet-2026',
+    title: 'Chirurgie guidée en implantologie : ce qu’il faut prévoir au cabinet',
+    excerpt: 'Imagerie 3D, planification, guides chirurgicaux, formation : les prérequis réels pour pratiquer la chirurgie guidée et éviter les mauvaises surprises.',
+    metaTitle: 'Chirurgie guidée : CBCT, guides, matériel nécessaire | AfriSmile',
+    metaDescription: 'Chirurgie guidée en implantologie : imagerie 3D, planification, guides, matériel et formation. Ce qu’il faut prévoir avant de la proposer au cabinet.',
+    datePublished: '2026-10-11',
+    dateModified: '2026-10-11',
+    content: `La chirurgie guidée consiste à planifier la position de l’implant sur une imagerie 3D, puis à la reproduire en bouche à l’aide d’un guide issu de cette planification. Elle s’est développée en parallèle de la baisse du coût de l’imagerie volumique — au point de devenir un argument commercial face aux patients qui comparent les cabinets.
+
+## Pourquoi la planification change la pratique
+
+Poser un implant « à main levée » reste possible, mais la planification apporte trois choses : une vérification du volume osseux et des structures anatomiques avant d’ouvrir, une position prothétiquement cohérente avec le futur résultat, et un protocole reproductible que l’équipe peut suivre. Dans les cas unitaires simples, le bénéfice est modéré ; dans les cas multiples, dans les zones à risque et pour les mise en charge rapides, il devient décisif.
+
+## Les prérequis matériels
+
+Trois briques, dans cet ordre :
+- une imagerie volumique (cone beam) capable de produire un volume exploitable, avec un protocole de recueil constant ;
+- un logiciel de planification, et si nécessaire un flux d’empreinte optique pour fusionner les données cliniques et radiologiques ;
+- une chaîne de fabrication du guide : impression 3D au cabinet ou guide commandé à un laboratoire partenaire.
+
+S’y ajoutent les éléments d’un plateau chirurgical implantologique classique : moteur avec contrôle du couple, kit de forage adapté au système d’implants, aspiration chirurgicale dimensionnée, instrumentation stérile et consommables.
+
+## Faut-il imprimer les guides au cabinet ?
+
+L’impression au cabinet donne de l’autonomie et réduit les délais, mais elle suppose une imprimante adaptée aux résines biocompatibles, un protocole de post-traitement rigoureux et une organisation du temps machine. Le guide commandé à un laboratoire coûte plus cher en délai, mais évite l’investissement et la maintenance. Le bon choix dépend du volume prévu : un guide par mois ne justifie pas une imprimante dédiée.
+
+## Ce que beaucoup sous-estiment
+
+La formation et la courbe d’apprentissage arrivent en tête : savoir lire un volume, choisir la position prothétique et convertir la planification en geste chirurgical demande un entraînement encadré. Viennent ensuite la gestion des fichiers (nommage, archivage, sauvegarde) et la traçabilité des guides utilisés, souvent exigée en cas de contrôle.
+
+## Le volet économique
+
+La chirurgie guidée ne se vend pas comme un acte isolé : elle se justifie par la réduction des reprises, la diminution du temps opératoire et la confiance du patient. Avant d’investir, chiffrez trois scénarios — cas unitaire simple, cas multiples, mise en charge rapide — et regardez ce que chaque scénario demande en imagerie, en planification et en guides.
+
+## FAQ
+
+**La chirurgie guidée est-elle obligatoire pour poser un implant ?**
+Non. Elle est indiquée en priorité dans les zones anatomiques à risque, les cas multiples, les zones esthétiques et les protocoles de mise en charge rapide.
+
+**Peut-on faire de la chirurgie guidée sans cone beam ?**
+Difficilement, car la planification repose sur un volume 3D fiable. Le panoramique reste utile au diagnostic mais ne permet pas de planifier une position implantaire en trois dimensions.
+
+**Combien de temps prend la planification ?**
+Elle demande du temps au fauteuil pour le recueil des données et du temps de travail sur logiciel. Le guide, lui, dépend de son mode de fabrication, au cabinet ou en laboratoire.
+
+AfriSmile équipe les cabinets et cliniques d’Afrique de l’Ouest en imagerie, matériel implantologique, aspiration chirurgicale et consommables, avec installation, formation et service après-vente.`,
+    faq: [
+      { q: 'La chirurgie guidée est-elle obligatoire pour poser un implant ?', a: 'Non. Elle est indiquée en priorité dans les zones anatomiques à risque, les cas multiples, les zones esthétiques et les protocoles de mise en charge rapide.' },
+      { q: 'Peut-on faire de la chirurgie guidée sans cone beam ?', a: 'Difficilement : la planification repose sur un volume 3D fiable. Le panoramique reste utile au diagnostic mais ne permet pas de planifier une position implantaire en trois dimensions.' },
+      { q: 'Combien de temps prend la planification ?', a: 'Elle demande du temps au fauteuil pour le recueil des données et du temps de travail sur logiciel. Le guide dépend ensuite de son mode de fabrication, au cabinet ou en laboratoire.' },
+      { q: 'Quel matériel complète l’imagerie 3D ?', a: 'Un moteur à contrôle de couple, un kit de forage adapté au système d’implants, une aspiration chirurgicale dimensionnée, de l’instrumentation stérile et les consommables associés.' },
+    ],
+  },
+  {
+    id: 88,
+    slug: 'teledentisterie-cabinet-dentaire-afrique-ouest-2026',
+    title: 'Télédentisterie : ce qu’un cabinet peut réellement mettre en place',
+    excerpt: 'Téléconsultation, partage d’images, avis de confrère : usages réalistes, prérequis techniques et limites de la télédentisterie en Afrique de l’Ouest.',
+    metaTitle: 'Télédentisterie au cabinet : usages concrets 2026 | AfriSmile',
+    metaDescription: 'Télédentisterie et téléconsultation au cabinet : usages réalistes, outils (imagerie, photos, messagerie), prérequis techniques et limites à connaître.',
+    datePublished: '2026-10-11',
+    dateModified: '2026-10-11',
+    content: `La télédentisterie est souvent présentée comme une rupture. En pratique, dans les cabinets d’Afrique de l’Ouest, elle progresse par petites touches : un avis de confrère sur une radiographie, une photo envoyée au laboratoire, un suivi post-opératoire par messagerie. Les enquêtes menées dans la sous-région montrent d’ailleurs une perception globale positive des praticiens, avec une réserve majeure : l’équipement et l’organisation, plus que la technologie elle-même.
+
+## Quels usages tiennent réellement la route
+
+- L’avis spécialisé : envoyer une imagerie et deux ou trois photos pour un avis en implantologie, orthodontie ou parodontologie.
+- Le lien avec le laboratoire : valider une teinte, une forme, un châssis à partir d’images plutôt que par échange de pièces.
+- Le suivi post-opératoire : vérifier la cicatrisation, décider ou non d’une séance de contrôle.
+- La préparation à distance : recueillir l’anamnèse, expliquer un protocole et préparer la première séance.
+
+## Les prérequis techniques
+
+La qualité du diagnostic à distance dépend de la qualité du recueil : une photo nette, cadrée et éclairée ; une imagerie exportable et lisible ; une méthode de nommage des fichiers qui identifie le patient sans ambiguïté. Côté cabinet, cela suppose :
+- une acquisition d’images exploitable (caméra intra-orale, éclairage, fond contrasté) ;
+- une connexion fiable et une solution de repli ;
+- des règles internes de confidentialité : qui envoie quoi, avec quel consentement, et où les fichiers sont conservés.
+
+## Les limites à ne pas ignorer
+
+L’examen à distance ne remplace pas l’examen clinique : mobilité dentaire, consistance des tissus, contrôle d’occlusion et sensibilité se vérifient au fauteuil. Le cadre réglementaire et ordinal varie d’un pays à l’autre, et la responsabilité reste celle du praticien qui délivre le soin. Enfin, la conservation des données patients impose une règle claire : support de stockage dédié, sauvegarde, durée de conservation.
+
+## Par où commencer sans gros investissement
+
+La brique la plus rentable est l’acquisition d’image : caméra intra-orale ou appareil photo correctement réglé, avec un protocole de prise de vue simple. Viennent ensuite l’organisation des dossiers et les habitudes d’échange avec les confrères et le laboratoire. Le reste — plateformes, dossiers partagés, logiciels métier — se choisit une fois ces fondamentaux en place.
+
+## FAQ
+
+**La télédentisterie remplace-t-elle une consultation ?**
+Non. Elle complète le parcours : préparation, avis spécialisé, suivi. L’examen clinique et les actes restent au fauteuil.
+
+**Quel matériel pour envoyer des images exploitables ?**
+Une caméra intra-orale ou un appareil photo avec un bon éclairage, un protocole de prise de vue constant et une méthode de nommage claire des fichiers.
+
+**Faut-il un logiciel spécifique ?**
+Pas forcément au départ. Une organisation rigoureuse des dossiers et des règles de confidentialité suffisent souvent ; un logiciel devient utile quand le volume augmente.
+
+**Quelles précautions pour les données patients ?**
+Consentement explicite, support de stockage dédié, sauvegarde, limitation des personnes ayant accès et durée de conservation définie.
+
+AfriSmile équipe les cabinets d’Afrique de l’Ouest et du Centre en caméras intra-orales, imagerie numérique, instruments et consommables, avec installation, formation de l’équipe et service après-vente.`,
+    faq: [
+      { q: 'La télédentisterie remplace-t-elle une consultation ?', a: 'Non. Elle complète le parcours : préparation, avis spécialisé, suivi. L’examen clinique et les actes restent au fauteuil.' },
+      { q: 'Quel matériel pour envoyer des images exploitables ?', a: 'Une caméra intra-orale ou un appareil photo avec un bon éclairage, un protocole de prise de vue constant et une méthode de nommage claire des fichiers.' },
+      { q: 'Faut-il un logiciel spécifique ?', a: 'Pas forcément au départ. Une organisation rigoureuse des dossiers et des règles de confidentialité suffisent souvent ; un logiciel devient utile quand le volume augmente.' },
+      { q: 'Quelles précautions pour les données patients ?', a: 'Consentement explicite, support de stockage dédié, sauvegarde, limitation des personnes ayant accès et durée de conservation définie.' },
+    ],
+  },
+  {
+    id: 89,
+    slug: 'tendances-equipement-dentaire-afrique-ouest-2026',
+    title: 'Tendances 2026 de l’équipement dentaire en Afrique de l’Ouest',
+    excerpt: 'Digitalisation, imagerie 3D, exigences de stérilisation, fournisseurs compétitifs, financement : les tendances qui structurent l’équipement dentaire en 2026.',
+    metaTitle: 'Tendances 2026 équipement dentaire Afrique de l’Ouest | AfriSmile',
+    metaDescription: 'Digitalisation, imagerie 3D, stérilisation, fournisseurs compétitifs et financement : les tendances 2026 de l’équipement dentaire en Afrique de l’Ouest.',
+    datePublished: '2026-10-11',
+    dateModified: '2026-10-11',
+    content: `Le marché dentaire du Moyen-Orient et de l’Afrique est évalué à environ 1,19 milliard de dollars en 2025 et projeté à 2,67 milliards en 2034, soit une croissance annuelle moyenne de l’ordre de 9,4 % (Fortune Business Insights). L’Atlas Dentale Afrika 2026 (GFD) souligne de son côté deux dynamiques qui concernent directement l’équipement : la croissance du secteur privé en Afrique de l’Ouest, notamment au Ghana et au Nigeria, et une numérisation qui progresse surtout dans les centres urbains.
+
+## 1. La digitalisation gagne les cabinets urbains
+
+Scanner intra-oral, caméra intra-orale, empreinte numérique : la bascule se fait d’abord là où se trouvent les laboratoires capables de traiter un fichier. En Afrique centrale, des laboratoires de prothèse annoncent des délais de dépôt de l’ordre de neuf à dix jours avec un flux numérique. Conséquence pour les cabinets : la question du fournisseur ne porte plus seulement sur la machine, mais sur l’écosystème — laboratoire, logiciel, formation, maintenance.
+
+## 2. L’imagerie 3D devient un argument de différenciation
+
+Le cone beam change la pratique implantaire et l’anatomie endodontique. Il change aussi la relation patient : montrer un volume osseux en 3D aide à accepter un plan de traitement. La contrainte reste la même partout : l’imagerie volumique demande un protocole de recueil, un poste de travail et une formation, sinon elle produit des images inutilisables.
+
+## 3. La stérilisation ne se négocie plus
+
+Autoclave Classe B, traçabilité des cycles, séparation des circuits propre/sale, thermo-soudeuse : la stérilisation est devenue un critère de conformité et un argument de confiance vis-à-vis des patients. Les audits avant ouverture de cabinet la placent systématiquement dans les premières priorités.
+
+## 4. La pression sur les coûts favorise de nouveaux fournisseurs
+
+Le marché reste sensible au prix, et les fournisseurs chinois, indiens et turcs gagnent du terrain sur le segment intermédiaire. Pour un cabinet, l’arbitrage se joue donc moins sur la marque que sur quatre points : disponibilité des pièces, délai d’intervention technique, garantie écrite et capacité à accompagner la montée en gamme.
+
+## 5. Le financement devient un sujet de conception
+
+Leasing, paiement échelonné, paliers d’équipement : l’équipement d’un cabinet se pense de plus en plus en deux ou trois vagues plutôt qu’en un achat unique. Cela change la manière de chiffrer un projet : un plateau complet livré en une fois immobilise du cash qui pourrait financer la patientèle.
+
+## Ce que cela implique concrètement
+
+Trois réflexes pour un projet d’équipement en 2026 : vérifier la disponibilité des consommables et des pièces avant de choisir un modèle ; exiger un devis détaillé qui distingue matériel, transport, installation, formation et garantie ; et prévoir dès le départ l’emplacement, l’alimentation électrique et l’arrivée d’eau des équipements que vous ajouterez plus tard.
+
+## FAQ
+
+**Quelle est la tendance la plus rentable pour un cabinet en 2026 ?**
+La digitalisation maîtrisée : un flux numérique correctement organisé réduit les reprises et les délais. Elle suppose toutefois un laboratoire partenaire capable de traiter les fichiers.
+
+**Les équipements chinois sont-ils fiables ?**
+Sur le segment intermédiaire, la qualité a progressé. Le facteur décisif reste le fournisseur : pièces disponibles, délai d’intervention et engagement écrit.
+
+**Faut-il tout acheter en une fois ?**
+Rarement. Équiper en deux vagues — l’essentiel pour ouvrir, puis l’imagerie et le numérique — préserve la trésorerie et laisse le temps de former l’équipe.
+
+**Comment comparer deux devis d’équipement ?**
+Ligne par ligne : matériel, options, transport, installation, formation, garantie, maintenance et consommables de démarrage. Un montant global ne permet aucune comparaison sérieuse.
+
+Sources : Fortune Business Insights (Middle East & Africa Dental Market), GFD — Atlas Dentale Afrika 2026. AfriSmile équipe les cabinets et cliniques d’Afrique de l’Ouest et du Centre : fauteuils, stérilisation, imagerie, instruments et consommables.`,
+    faq: [
+      { q: 'Quelle est la tendance la plus rentable pour un cabinet en 2026 ?', a: 'La digitalisation maîtrisée : un flux numérique correctement organisé réduit les reprises et les délais. Elle suppose toutefois un laboratoire partenaire capable de traiter les fichiers.' },
+      { q: 'Les équipements chinois sont-ils fiables ?', a: 'Sur le segment intermédiaire, la qualité a progressé. Le facteur décisif reste le fournisseur : pièces disponibles, délai d’intervention et engagement écrit.' },
+      { q: 'Faut-il tout acheter en une fois ?', a: 'Rarement. Équiper en deux vagues — l’essentiel pour ouvrir, puis l’imagerie et le numérique — préserve la trésorerie et laisse le temps de former l’équipe.' },
+      { q: 'Comment comparer deux devis d’équipement ?', a: 'Ligne par ligne : matériel, options, transport, installation, formation, garantie, maintenance et consommables de démarrage. Un montant global ne permet aucune comparaison sérieuse.' },
+    ],
+  },
+]
 
 // Ne jamais publier les brouillons techniques générés automatiquement.
 export const blogPosts = allBlogPosts.filter(

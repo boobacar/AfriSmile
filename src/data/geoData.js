@@ -1184,6 +1184,20 @@ export const GEO_TITLE_OVERRIDES = {
   '/secteurs/clinique-dentaire-burkina-faso': {
     title: 'Équipement de clinique dentaire au Burkina Faso : prix & devis | AfriSmile',
   },
+  // Boucle GSC 11/10/2026 : pages géo à impressions sans clic (Niger, orthodontie Burkina)
+  '/secteurs/cabinet-dentaire-niger': {
+    title: 'Cabinet dentaire au Niger : fauteuil, compresseur & devis | AfriSmile',
+    description:
+      'Équipez un cabinet dentaire au Niger : fauteuil, compresseur, stérilisation et imagerie. Devis sous 24 h à Niamey, installation et SAV AfriSmile.',
+  },
+  '/secteurs/clinique-dentaire-niger': {
+    title: 'Équipement de clinique dentaire au Niger : Niamey, devis & SAV | AfriSmile',
+  },
+  '/equipements/materiel-orthodontie-burkina-faso': {
+    title: 'Matériel d’orthodontie au Burkina Faso : prix et devis Ouagadougou | AfriSmile',
+    description:
+      'Équipez votre cabinet d’orthodontie au Burkina Faso : matériel, empreinte numérique, consommables. Devis sous 24 h à Ouagadougou, installation et SAV.',
+  },
   // Boucle GSC 05/10/2026 : page équipement cabinet Cameroun — impressions « fauteuil compresseur » sans clic
   '/secteurs/cabinet-dentaire-cameroun': {
     title: 'Cabinet dentaire au Cameroun : fauteuil, compresseur & devis | AfriSmile',

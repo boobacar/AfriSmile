@@ -3,6 +3,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { getSeoForPath, SITE_ORIGIN } from '../src/data/seoData.js'
 import { geoSeoForPath } from '../src/data/geoData.js'
+import { prixSeoForPath } from '../src/data/geoPrix.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -36,7 +37,7 @@ const routeOutputPaths = (routePath) => {
 }
 
 const applySeoHead = (html, routePath) => {
-  const seo = geoSeoForPath(routePath) || getSeoForPath(routePath)
+  const seo = prixSeoForPath(routePath) || geoSeoForPath(routePath) || getSeoForPath(routePath)
   const title = escapeHtml(seo.title)
   const description = escapeHtml(seo.description)
   const canonicalUrl = escapeHtml(seo.canonicalUrl)

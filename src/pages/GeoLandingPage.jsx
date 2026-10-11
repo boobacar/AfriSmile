@@ -3,6 +3,7 @@ import PageHero from '../components/PageHero'
 import QuickAnswer from '../components/QuickAnswer'
 import Breadcrumbs from '../components/Breadcrumbs'
 import { getGeoPageByPath } from '../data/geoData'
+import { PRIX_SOINS, PRIX_SOIN_ARTICLES, prixPathFor, villesForCountry } from '../data/geoPrix'
 
 function FlagGrid({ items }) {
   return (
@@ -55,6 +56,8 @@ export default function GeoLandingPage() {
         : page.family === 'pays'
           ? 'Présence locale et livraison'
           : 'Présence sous-régionale'
+
+  const countrySlug = page.family === 'pays' ? page.path.replace('/pays/', '') : null
 
   const faqJsonLd = {
     '@context': 'https://schema.org',
@@ -139,6 +142,30 @@ export default function GeoLandingPage() {
               </div>
             </section>
           )}
+          <section className="section-shell">
+            <h2 className="section-title">Villes desservies dans ce pays</h2>
+            <p className="section-subtitle">Livraison, installation et service après-vente, ville par ville.</p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {villesForCountry(countrySlug).map((ville) => (
+                <Link key={ville.slug} to={`/villes/${ville.slug}`} className="btn-secondary">
+                  Matériel dentaire à {ville.name}
+                </Link>
+              ))}
+              <Link to="/villes" className="btn-secondary">Toutes les villes</Link>
+            </div>
+          </section>
+          <section className="section-shell">
+            <h2 className="section-title">Repères de prix par soin</h2>
+            <p className="section-subtitle">Ce qui fait varier le tarif et ce qu’un devis doit détailler.</p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {PRIX_SOINS.filter((soin) => !(PRIX_SOIN_ARTICLES[countrySlug] || {})[soin.slug]).map((soin) => (
+                <Link key={soin.slug} to={prixPathFor(soin.slug, countrySlug)} className="btn-secondary">
+                  Prix {soin.titleName}
+                </Link>
+              ))}
+              <Link to="/prix" className="btn-secondary">Tous les repères de prix</Link>
+            </div>
+          </section>
           <section className="section-shell">
             <h2 className="section-title">Les autres pays desservis</h2>
             <div className="mt-4">

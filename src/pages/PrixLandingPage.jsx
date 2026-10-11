@@ -140,6 +140,27 @@ export default function PrixLandingPage() {
         </section>
       )}
 
+      {isPrixIndex && (page.cityGroups?.length ?? 0) > 0 && (
+        <section className="section-shell space-y-6">
+          <div>
+            <h2 className="section-title">Ou par ville</h2>
+            <p className="section-subtitle">Les mêmes repères de prix, dans les villes où la demande est la plus forte.</p>
+          </div>
+          {page.cityGroups.map((group) => (
+            <div key={group.name} className="card-muted">
+              <h3 className="font-semibold text-brand-dark">Prix {group.name}</h3>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {group.links.map((link) => (
+                  <Link key={link.path} to={link.path} className="btn-secondary">
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ))}
+        </section>
+      )}
+
       {isVilleIndex && (
         <section className="section-shell space-y-6">
           <div>
@@ -229,6 +250,15 @@ export default function PrixLandingPage() {
           <LinkChips items={page.relatedPages} />
         </div>
       </section>
+
+      {(page.relatedPrix || []).length > 0 && (
+        <section className="section-shell">
+          <h2 className="section-title">Repères de prix à {page.breadcrumbName.replace('Matériel dentaire à ', '')}</h2>
+          <div className="mt-4">
+            <LinkChips items={page.relatedPrix} />
+          </div>
+        </section>
+      )}
 
       {(page.relatedVilles || []).length > 0 && (
         <section className="section-shell">

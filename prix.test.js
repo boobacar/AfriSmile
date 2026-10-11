@@ -5,6 +5,8 @@ import {
   getPrixPageByPath,
   prixSeoForPath,
   prixPathFor,
+  prixCityPathFor,
+  prixCityPairs,
   PRIX_SOINS,
   PRIX_SOIN_ARTICLES,
   VILLES,
@@ -15,6 +17,7 @@ import { GEO_COUNTRIES, getAllGeoPages } from './src/data/geoData.js'
 const pages = getAllPrixPages()
 const prixPages = pages.filter((p) => p.family === 'prix')
 const villePages = pages.filter((p) => p.family === 'ville')
+const cityPrixPages = pages.filter((p) => p.family === 'prix-ville')
 const indexPages = pages.filter((p) => p.family.endsWith('-index'))
 const geoPaths = new Set(getAllGeoPages().map((p) => p.path))
 
@@ -28,13 +31,15 @@ const staticPaths = [
   '/materiel-dentaire-niger', '/materiel-dentaire-guinee-bissau', '/materiel-dentaire-burkina-faso',
 ]
 
-test('usine prix : comptes attendus (soins × pays - articles existants + villes + 2 index)', () => {
+test('usine prix : comptes attendus (soins × pays/ville - articles existants + villes + 2 index)', () => {
   const excluded = Object.values(PRIX_SOIN_ARTICLES).reduce((total, bySlug) => total + Object.keys(bySlug).length, 0)
   assert.equal(prixPages.length, PRIX_SOINS.length * GEO_COUNTRIES.length - excluded)
-  assert.equal(villePages.length, VILLES.length)
+  assert.equal(cityPrixPages.length, prixCityPairs().length)
+  assert.equal(villePages.length, VILLES.filter((v) => !v.skipVillePage).length)
   assert.equal(indexPages.length, 2)
-  assert.equal(pages.length, prixPages.length + villePages.length + 2)
-  assert.ok(pages.length >= 190, `volume attendu ≥ 190, obtenu ${pages.length}`)
+  assert.equal(pages.length, prixPages.length + cityPrixPages.length + villePages.length + 2)
+  assert.ok(pages.length >= 240, `volume attendu ≥ 240, obtenu ${pages.length}`)
+  assert.ok(cityPrixPages.length >= 40, `pages prix par ville attendues ≥ 40, obtenu ${cityPrixPages.length}`)
 })
 
 test('usine prix : aucune page générée pour un soin déjà couvert par un article', () => {
@@ -45,6 +50,14 @@ test('usine prix : aucune page générée pour un soin déjà couvert par un art
         null,
         `doublon avec un article: ${soinSlug} ${countrySlug}`,
       )
+      // et aucune page ville pour ce même couple pays/soin
+      for (const ville of villesForCountry(countrySlug)) {
+        assert.equal(
+          getPrixPageByPath(prixCityPathFor(soinSlug, ville.slug)),
+          null,
+          `doublon ville avec un article: ${soinSlug} ${ville.slug}`,
+        )
+      }
     }
   }
 })
@@ -53,12 +66,16 @@ test('usine prix : chemins uniques et bien formés', () => {
   const paths = pages.map((p) => p.path)
   assert.equal(new Set(paths).size, paths.length)
   for (const p of prixPages) assert.match(p.path, /^\/prix\/[a-z0-9-]+-[a-z-]+$/)
+  for (const p of cityPrixPages) assert.match(p.path, /^\/prix\/[a-z0-9-]+-[a-z0-9-]+$/)
   for (const p of villePages) assert.match(p.path, /^\/villes\/[a-z0-9-]+$/)
   const villeSlugs = VILLES.map((v) => v.slug)
   assert.equal(new Set(villeSlugs).size, villeSlugs.length)
   for (const v of VILLES) {
     assert.ok(GEO_COUNTRIES.some((c) => c.slug === v.country), `pays inconnu pour la ville ${v.slug}`)
   }
+  // aucune page /villes/<slug> ne doit doubler une page prix
+  const villePaths = new Set(villePages.map((p) => p.path))
+  for (const p of cityPrixPages) assert.ok(!villePaths.has(p.path))
 })
 
 test('usine prix : aucun placeholder restant', () => {
@@ -113,6 +130,13 @@ test('usine prix : contenu complet (H1, lead, quickAnswer, listes, FAQ)', () => 
     assert.ok(page.verify.length >= 4, `verify < 4 sur ${page.path}`)
     assert.ok(page.faq.length >= 4, `faq < 4 sur ${page.path}`)
   }
+  for (const page of cityPrixPages) {
+    assert.ok(page.h1 && page.lead && page.quickAnswer, `contenu manquant sur ${page.path}`)
+    assert.ok(page.priceFactors.length >= 4 && page.verify.length >= 4, `listes incomplètes sur ${page.path}`)
+    assert.ok(page.faq.length >= 4, `faq < 4 sur ${page.path}`)
+    assert.ok(page.h1.includes(' à '), `H1 sans mention de ville sur ${page.path}`)
+    assert.ok(page.quickAnswer.includes('AfriSmile'), `quickAnswer incomplète sur ${page.path}`)
+  }
   for (const page of villePages) {
     assert.ok(page.h1 && page.lead && page.quickAnswer, `contenu manquant sur ${page.path}`)
     assert.ok(page.features.length >= 4, `features < 4 sur ${page.path}`)
@@ -129,10 +153,12 @@ test('usine prix : tous les liens internes résolvent vers une vraie page', () =
     const targets = [
       ...(page.relatedPages || []),
       ...(page.relatedVilles || []),
+      ...(page.relatedPrix || []),
       ...(page.articles || []),
       ...(page.relatedCountries || []).map((c) => ({ path: c.path })),
       ...(page.soinGroups || []).flatMap((g) => g.links),
       ...(page.villeGroups || []).flatMap((g) => g.links),
+      ...(page.cityGroups || []).flatMap((g) => g.links),
     ].map((l) => l.path)
     for (const target of targets) {
       assert.ok(

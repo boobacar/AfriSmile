@@ -210,6 +210,44 @@ export const PRIX_SOINS = [
     blogSlugs: ['prothese-dentaire-prix-dakar-senegal-2026'],
   },
   {
+    slug: 'couronne-dentaire',
+    name: 'couronne dentaire',
+    titleName: 'couronne dentaire',
+    article: 'une',
+    h1Tpl: 'Prix d’une couronne dentaire {prep} {pays} : céramique, zircone et tarifs à {capital}',
+    titleTpl: 'Prix couronne dentaire {prep} {pays} : tarifs {currency} | AfriSmile',
+    descTpl: 'Combien coûte une couronne dentaire {prep} {pays} ? Comprenez les tarifs {currency}, le contenu d’un devis et les points à vérifier.',
+    leadTpl: 'La couronne est la prothèse fixe la plus posée au fauteuil : elle recouvre une dent trop abîmée pour être simplement obturée. {note} Le prix {prep} {pays} dépend du matériau, du laboratoire et du nombre d’essayages — bien plus que du nombre de séances.',
+    qaTpl: 'Le prix d’une couronne dentaire {prep} {pays} dépend du matériau (céramo-métallique, céramique ou zircone), du laboratoire, du nombre d’éléments et des essayages. Le devis doit préciser le matériau exact et la garantie. AfriSmile n’est pas un laboratoire de prothèse : nous équipons les cabinets {prep} {pays}.',
+    priceFactors: [
+      'Le matériau : céramo-métallique, céramique frittée, zircone ou composite',
+      'Le laboratoire retenu et sa méthode de fabrication, classique ou numérique',
+      'Le nombre d’éléments : une couronne seule ou un bridge de plusieurs éléments',
+      'La préparation de la dent et la reconstitution du noyau',
+      'Le nombre d’essayages et les retouches après la pose',
+    ],
+    includes: [
+      'La préparation de la dent et la prise d’empreinte, ou le scan intra-oral',
+      'La prothèse provisoire, lorsqu’elle est prévue au protocole',
+      'La fabrication au laboratoire et l’essayage',
+      'La pose définitive et le réglage de l’occlusion',
+      'Les retouches et le contrôle après la pose',
+    ],
+    verify: [
+      'Le matériau exact, écrit sur le devis',
+      'Le nombre d’essayages inclus et le prix d’un essayage supplémentaire',
+      'La durée de garantie et ce qu’elle couvre réellement',
+      'Le prix d’une reprise en cas de fracture ou de descellement',
+    ],
+    faq: [
+      { q: 'Combien coûte une couronne dentaire {prep} {pays} ?', a: 'Le prix dépend du matériau, du laboratoire et du nombre d’éléments. Une couronne en zircone, plus esthétique et plus résistante, se situe au-dessus d’une céramo-métallique : demandez le matériau écrit sur le devis.' },
+      { q: 'Quelle différence entre une couronne et un bridge ?', a: 'La couronne recouvre une seule dent préparée ; le bridge remplace une dent absente en prenant appui sur les dents voisines. Le nombre d’éléments fabriqués — et donc le prix — change complètement.' },
+      { q: 'Combien de séances faut-il à {capital} ?', a: 'Le plus souvent deux à trois séances : préparation et empreinte, essayage, puis pose définitive. Le délai entre l’empreinte et la pose dépend du laboratoire.' },
+      { q: 'AfriSmile fabrique-t-il des couronnes {prep} {pays} ?', a: 'Non. AfriSmile équipe les cabinets {prep} {pays} : empreinte numérique, matériel de laboratoire, consommables et service technique, avec installation et service après-vente.' },
+    ],
+    blogSlugs: ['prothese-dentaire-prix-dakar-senegal-2026'],
+  },
+  {
     slug: 'blanchiment-dentaire',
     name: 'blanchiment dentaire',
     titleName: 'blanchiment dentaire',
@@ -333,6 +371,7 @@ const SOIN_ARTICLES = {
     'appareil-dentaire': 'appareil-dentaire-prix-dakar-senegal-2026',
     'implant-dentaire': 'implant-dentaire-prix-dakar-senegal-2026',
     'prothese-dentaire': 'prothese-dentaire-prix-dakar-senegal-2026',
+    'couronne-dentaire': 'prothese-dentaire-prix-dakar-senegal-2026',
     'aligneurs-dentaires': 'aligneurs-dentaires-invisalign-prix-dakar-senegal-2026',
   },
   'cote-divoire': {
@@ -343,9 +382,28 @@ const SOIN_ARTICLES = {
   },
 }
 
+// Villes ciblées pour les pages « prix {soin} à {ville} » (autocomplétion Google sn/ci/ml/bf/tg/cm/gn/ne :
+// « appareil dentaire prix en fcfa abidjan », « prothèse dentaire prix yaoundé », « couronne dentaire prix dakar »,
+// « blanchiment dentaire douala prix », « détartrage prix abidjan »…).
+// Une paire (ville, soin) n'est générée que si le pays n'a pas déjà un article éditorial sur ce soin.
+export const PRIX_CITIES = [
+  { ville: 'abidjan', soins: ['couronne-dentaire', 'prothese-dentaire', 'implant-dentaire', 'blanchiment-dentaire', 'soins-dentaires-courants'] },
+  { ville: 'bamako', soins: ['appareil-dentaire', 'prothese-dentaire', 'couronne-dentaire', 'implant-dentaire', 'blanchiment-dentaire'] },
+  { ville: 'ouagadougou', soins: ['appareil-dentaire', 'prothese-dentaire', 'couronne-dentaire', 'implant-dentaire', 'blanchiment-dentaire', 'soins-dentaires-courants'] },
+  { ville: 'yaounde', soins: ['appareil-dentaire', 'prothese-dentaire', 'couronne-dentaire', 'implant-dentaire', 'blanchiment-dentaire'] },
+  { ville: 'douala', soins: ['appareil-dentaire', 'prothese-dentaire', 'couronne-dentaire', 'blanchiment-dentaire', 'soins-dentaires-courants'] },
+  { ville: 'cotonou', soins: ['appareil-dentaire', 'prothese-dentaire', 'couronne-dentaire', 'implant-dentaire'] },
+  { ville: 'lome', soins: ['prothese-dentaire', 'couronne-dentaire', 'implant-dentaire', 'blanchiment-dentaire', 'soins-dentaires-courants'] },
+  { ville: 'niamey', soins: ['appareil-dentaire', 'prothese-dentaire', 'implant-dentaire'] },
+  { ville: 'conakry', soins: ['appareil-dentaire', 'prothese-dentaire', 'couronne-dentaire'] },
+  { ville: 'nouakchott', soins: ['appareil-dentaire', 'prothese-dentaire'] },
+  { ville: 'dakar', soins: ['couronne-dentaire', 'blanchiment-dentaire', 'soins-dentaires-courants'] },
+]
+
 // --- Villes (intention B2B « matériel dentaire à <ville> ») ---
 
 export const VILLES = [
+  { slug: 'dakar', name: 'Dakar', country: 'senegal', skipVillePage: true, note: 'Dakar concentre la majorité des cabinets, cliniques et facultés d’odontologie du pays ; la capitale dispose par ailleurs de sa page dédiée « équipement dentaire Dakar ».' },
   { slug: 'thies', name: 'Thiès', country: 'senegal', note: 'Thiès est reliée à Dakar par l’autoroute et le TER : les livraisons et les interventions techniques s’y organisent rapidement.' },
   { slug: 'touba', name: 'Touba', country: 'senegal', note: 'Touba, grande ville de l’intérieur, est desservie par la route depuis Dakar : la livraison et la mise en service s’y planifient à la journée.' },
   { slug: 'saint-louis', name: 'Saint-Louis', country: 'senegal', note: 'Saint-Louis se trouve à l’embouchure du fleuve Sénégal, à quelques heures de route de Dakar : la logistique se cale dès le devis.' },
@@ -442,7 +500,45 @@ export function prixPathFor(soinSlug, countrySlug) {
 }
 
 export function villesForCountry(countrySlug) {
-  return VILLES.filter((v) => v.country === countrySlug)
+  return VILLES.filter((v) => v.country === countrySlug && !v.skipVillePage)
+}
+
+const villeBySlug = (slug) => VILLES.find((v) => v.slug === slug)
+
+export function prixCityPathFor(soinSlug, villeSlug) {
+  return `/prix/${soinSlug}-${villeSlug}`
+}
+
+/** Paires (soin, ville) effectivement générées : une paire est écartée quand le pays
+ *  possède déjà un article éditorial sur ce soin (anti-cannibalisation). */
+export function prixCityPairs() {
+  const pairs = []
+  PRIX_CITIES.forEach((entry) => {
+    const ville = villeBySlug(entry.ville)
+    if (!ville) return
+    const country = countryBySlug(ville.country)
+    if (!country) return
+    entry.soins.forEach((soinSlug) => {
+      if ((SOIN_ARTICLES[country.slug] || {})[soinSlug]) return
+      const soin = PRIX_SOINS.find((s) => s.slug === soinSlug)
+      if (!soin) return
+      pairs.push({ soin, ville, country })
+    })
+  })
+  return pairs
+}
+
+export function prixCityPagesForVille(villeSlug) {
+  return prixCityPairs()
+    .filter((p) => p.ville.slug === villeSlug)
+    .map((p) => ({ label: `Prix ${p.soin.titleName}`, path: prixCityPathFor(p.soin.slug, p.ville.slug) }))
+}
+
+/** Villes réellement couvertes par les pages prix, par soin (pour l'index /prix). */
+export function prixCitiesBySoin(soinSlug) {
+  return prixCityPairs()
+    .filter((p) => p.soin.slug === soinSlug)
+    .map((p) => ({ label: p.ville.name, path: prixCityPathFor(p.soin.slug, p.ville.slug) }))
 }
 
 function villePathFor(villeSlug) {
@@ -496,6 +592,63 @@ function buildPrixPage(soin, country) {
   }
 }
 
+const ARTICLE_CONTRACTE = { un: 'd’un', une: 'd’une', des: 'des' }
+
+function buildPrixCityPage(soin, ville, country) {
+  // Les gabarits du soin sont réutilisés en substituant la capitale par la ville :
+  // toutes les mentions « à {capital} » deviennent « à Abidjan / Yaoundé… ».
+  const vars = varsFor(country, {
+    name: soin.name,
+    article: soin.article,
+    titleName: soin.titleName,
+    capital: ville.name,
+    aVille: `à ${ville.name}`,
+  })
+  const faq = soin.faq.map((item) => ({ q: tpl(item.q, vars), a: tpl(item.a, vars) }))
+
+  const relatedPages = [
+    { label: `Fournisseur matériel dentaire ${country.prep} ${country.name}`, path: `/pays/${country.slug}` },
+  ]
+  if (!(SOIN_ARTICLES[country.slug] || {})[soin.slug]) {
+    relatedPages.push({
+      label: `Prix ${soin.titleName} ${country.prep} ${country.name}`,
+      path: prixPathFor(soin.slug, country.slug),
+    })
+  }
+  relatedPages.push({ label: 'Devis matériel dentaire', path: '/devis-materiel-dentaire' })
+
+  return {
+    path: prixCityPathFor(soin.slug, ville.slug),
+    family: 'prix-ville',
+    breadcrumbName: `Prix ${soin.titleName} à ${ville.name}`,
+    flag: country.flag,
+    h1: `Prix ${ARTICLE_CONTRACTE[soin.article] || soin.article} ${soin.name} à ${ville.name} : ce qui fait varier le tarif`,
+    title: `Prix ${soin.titleName} à ${ville.name} : tarifs ${country.currency} et devis | AfriSmile`,
+    description: `Combien coûte ${soin.article} ${soin.name} à ${ville.name} (${country.name}) ? Comprenez les tarifs ${country.currency}, le contenu d’un devis et les points à vérifier.`,
+    lead: `${ville.note} ${tpl(soin.leadTpl, vars)}`,
+    quickAnswer: tpl(soin.qaTpl, vars),
+    chips: [`Tarifs ${country.currency} à ${ville.name}`, 'Devis écrit détaillé', 'Cabinets équipés par AfriSmile'],
+    priceFactors: soin.priceFactors.map((f) => tpl(f, vars)),
+    features: soin.includes.map((f) => tpl(f, vars)),
+    verify: soin.verify.map((f) => tpl(f, vars)),
+    faq,
+    relatedCountries: GEO_COUNTRIES.filter((c) => c.slug !== country.slug && !(SOIN_ARTICLES[c.slug] || {})[soin.slug]).map((c) => ({
+      name: c.name,
+      flag: c.flag,
+      path: prixPathFor(soin.slug, c.slug),
+    })),
+    relatedPages,
+    relatedVilles: [
+      { label: `Toutes les villes ${country.prep} ${country.name}`, path: '/villes' },
+      ...(ville.skipVillePage
+        ? []
+        : [{ label: `Matériel dentaire à ${ville.name}`, path: villePathFor(ville.slug) }]),
+    ],
+    articles: (soin.blogSlugs || []).length > 0 ? [articleLinkFor(soin.blogSlugs[0])] : [],
+    iso: country.iso,
+  }
+}
+
 function buildVillePage(ville, country) {
   const vars = varsFor(country, { ville: ville.name, aVille: `à ${ville.name}`, deVille: elide('de', ville.name), cityNote: ville.note })
   const articleSlug = (SOIN_ARTICLES[country.slug] || {})['appareil-dentaire']
@@ -535,6 +688,7 @@ function buildVillePage(ville, country) {
     relatedVilles: villesForCountry(country.slug)
       .filter((v) => v.slug !== ville.slug)
       .map((v) => ({ label: `Matériel dentaire à ${v.name}`, path: villePathFor(v.slug) })),
+    relatedPrix: prixCityPagesForVille(ville.slug),
     relatedCountries: GEO_COUNTRIES.filter((c) => c.slug !== country.slug).map((c) => ({
       name: c.name,
       flag: c.flag,
@@ -558,7 +712,7 @@ function buildPrixIndex() {
     description: 'Appareil dentaire, implant, prothèse, blanchiment, facettes : comprenez ce qui fait varier les prix en Afrique de l’Ouest et ce qu’un devis doit détailler.',
     lead: 'Les montants varient d’un pays et d’un cabinet à l’autre, mais la structure d’un devis reste la même : bilan, matériaux, laboratoire, séances et suivi. Cette page rassemble nos repères pour chaque soin, pays par pays.',
     quickAnswer: 'Le prix d’un soin dentaire dépend du type de traitement, du bilan et de l’imagerie, des matériaux, du laboratoire, du nombre de séances et du suivi. Choisissez votre pays et le soin concerné pour voir ce qui fait varier le tarif et ce qu’un devis doit détailler. AfriSmile n’est pas un cabinet dentaire : nous équipons les cabinets de la sous-région.',
-    chips: ['17 pays couverts', '8 familles de soins', 'Cabinets équipés par AfriSmile'],
+    chips: ['17 pays couverts', '9 familles de soins', 'Cabinets équipés par AfriSmile'],
     soinGroups: PRIX_SOINS.map((soin) => ({
       name: soin.titleName,
       links: GEO_COUNTRIES.map((country) => {
@@ -569,6 +723,10 @@ function buildPrixIndex() {
         }
       }),
     })),
+    cityGroups: PRIX_SOINS.map((soin) => ({
+      name: soin.titleName,
+      links: prixCitiesBySoin(soin.slug),
+    })).filter((group) => group.links.length > 0),
     relatedCountries: GEO_COUNTRIES.map((c) => ({ name: c.name, flag: c.flag, path: `/pays/${c.slug}` })),
     relatedPages: [
       { label: 'Villes desservies', path: '/villes' },
@@ -623,8 +781,12 @@ export function getAllPrixPages() {
     })
   })
   VILLES.forEach((ville) => {
+    if (ville.skipVillePage) return
     const country = countryBySlug(ville.country)
     if (country) pages.push(buildVillePage(ville, country))
+  })
+  prixCityPairs().forEach(({ soin, ville, country }) => {
+    pages.push(buildPrixCityPage(soin, ville, country))
   })
   _allPages = pages
   return pages

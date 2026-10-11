@@ -26,7 +26,18 @@
 - [Devis matériel dentaire](https://www.afrismile.net/devis-materiel-dentaire) : devis gratuit sous 24h
 
 ## Ressources (blog)
-- [Blog AfriSmile](https://www.afrismile.net/blog) : guides d'équipement, coûts, installation et gestion de cabinet dentaire en Afrique de l'Ouest (78 articles)
+- [Blog AfriSmile](https://www.afrismile.net/blog) : guides d'équipement, coûts, installation et gestion de cabinet dentaire en Afrique de l'Ouest (88 articles)
+
+## Repères de prix des soins (par pays)
+- [Prix des soins dentaires en Afrique de l'Ouest](https://www.afrismile.net/prix) : repères pays par pays, ce qui fait varier un devis
+- [Prix d'un appareil dentaire au Mali](https://www.afrismile.net/prix/appareil-dentaire-mali) : orthodontie, facteurs de prix et contenu d'un devis à Bamako
+- [Prix d'un implant dentaire en Côte d'Ivoire](https://www.afrismile.net/prix/implant-dentaire-cote-divoire) : implant, pilier et couronne à Abidjan
+- [Prix d'un blanchiment dentaire au Cameroun](https://www.afrismile.net/prix/blanchiment-dentaire-cameroun) : séances, contrôle préalable et suivi
+- [Prix d'un dentier au Burkina Faso](https://www.afrismile.net/prix/prothese-amovible-dentier-burkina-faso) : prothèse amovible, essayages et retouches
+
+## Villes desservies (matériel dentaire)
+- [Villes desservies par AfriSmile](https://www.afrismile.net/villes) : livraison, installation et SAV ville par ville
+- [Matériel dentaire à Abidjan](https://www.afrismile.net/villes/abidjan), [Bamako](https://www.afrismile.net/villes/bamako), [Lomé](https://www.afrismile.net/villes/lome), [Ouagadougou](https://www.afrismile.net/villes/ouagadougou), [Conakry](https://www.afrismile.net/villes/conakry), [Niamey](https://www.afrismile.net/villes/niamey), [Douala](https://www.afrismile.net/villes/douala), [Cotonou](https://www.afrismile.net/villes/cotonou)
 
 ## Contact
 - [Contact](https://www.afrismile.net/contact) : demande de devis et accompagnement

@@ -866,6 +866,16 @@ function competenceLabelFor(countrySlug, competenceSlug) {
   return null
 }
 
+// Liens transverses ajoutés aux pages compétence (page pilier hors famille géo)
+const EXTRA_COMPETENCE_LINKS = {
+  'radiologie-dentaire': [
+    { label: 'Radiologie dentaire 2D : panoramique, RVG et rétro-alvéolaire', path: '/radiologie-dentaire-2d' },
+  ],
+  'cone-beam': [
+    { label: 'Comparer radiologie 2D et cone beam 3D', path: '/radiologie-dentaire-2d' },
+  ],
+}
+
 function varsFor(country) {
   return {
     pays: country.name,
@@ -978,6 +988,7 @@ function buildCompetencePage(competence, country) {
 
   const relatedPages = [
     { label: `Fournisseur matériel dentaire ${country.prep} ${country.name}`, path: `/pays/${country.slug}` },
+    ...(EXTRA_COMPETENCE_LINKS[competence.slug] || []),
     ...siblings,
     { label: 'Devis matériel dentaire', path: '/devis-materiel-dentaire' },
   ]

@@ -25,6 +25,7 @@ export default function Footer() {
             <li><Link to="/service-technique" className="transition hover:text-white">SAV matériel dentaire</Link></li>
             <li><Link to="/prix" className="transition hover:text-white">Prix des soins dentaires</Link></li>
             <li><Link to="/villes" className="transition hover:text-white">Villes desservies</Link></li>
+            <li><Link to="/radiologie-dentaire-2d" className="transition hover:text-white">Radiologie dentaire 2D</Link></li>
             <li><Link to="/contact" className="transition hover:text-white">Contact / devis</Link></li>
             <li><Link to="/devis-materiel-dentaire" className="transition hover:text-white font-semibold text-brand-cyan">Devis gratuit en 24h</Link></li>
           </ul>

@@ -32,6 +32,7 @@ import MaterielDentaireGuineeBissauPage from './pages/MaterielDentaireGuineeBiss
 import MaterielDentaireBurkinaFasoPage from './pages/MaterielDentaireBurkinaFasoPage'
 import NotFoundPage from './pages/NotFoundPage'
 import DevisMaterielDentairePage from './pages/DevisMaterielDentairePage'
+import RadiologieDentaire2DPage from './pages/RadiologieDentaire2DPage'
 
 const GeoLandingPage = lazy(() => import('./pages/GeoLandingPage'))
 const PrixLandingPage = lazy(() => import('./pages/PrixLandingPage'))
@@ -68,6 +69,7 @@ const pathLabels = {
   pays: 'Pays desservis',
   prix: 'Prix des soins',
   villes: 'Villes desservies',
+  'radiologie-dentaire-2d': 'Radiologie dentaire 2D',
   '404': 'Page introuvable',
 }
 
@@ -361,6 +363,7 @@ export default function App() {
         <Route path="/fauteuil-dentaire-senegal" element={<FauteuilDentaireSenegalPage />} />
         <Route path="/autoclave-dentaire-classe-b-senegal" element={<AutoclaveDentaireClasseBSenegalPage />} />
         <Route path="/scanner-intra-oral-senegal" element={<ScannerIntraOralSenegalPage />} />
+        <Route path="/radiologie-dentaire-2d" element={<RadiologieDentaire2DPage />} />
         <Route path="/materiel-dentaire-cote-divoire" element={<MaterielDentaireCoteDIvoirePage />} />
         <Route path="/materiel-dentaire-mali" element={<MaterielDentaireMaliPage />} />
         <Route path="/materiel-dentaire-cameroun" element={<MaterielDentaireCamerounPage />} />

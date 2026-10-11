@@ -62,6 +62,7 @@ const staticRoutes = [
   { path: '/fauteuil-dentaire-senegal', changefreq: 'weekly', priority: '0.85' },
   { path: '/autoclave-dentaire-classe-b-senegal', changefreq: 'weekly', priority: '0.85' },
   { path: '/scanner-intra-oral-senegal', changefreq: 'weekly', priority: '0.85' },
+  { path: '/radiologie-dentaire-2d', changefreq: 'weekly', priority: '0.85' },
   { path: '/materiel-dentaire-cote-divoire', changefreq: 'weekly', priority: '0.9' },
   { path: '/materiel-dentaire-mali', changefreq: 'weekly', priority: '0.9' },
   { path: '/materiel-dentaire-cameroun', changefreq: 'weekly', priority: '0.9' },

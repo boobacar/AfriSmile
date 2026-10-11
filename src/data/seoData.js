@@ -69,6 +69,12 @@ export const seoPages = {
       'Autoclave Classe B au Sénégal : prix, conformité, installation et SAV local. Stérilisation fiable pour cabinets et cliniques. Devis gratuit en 24h.',
     imagePath: '/assets/illustration-instruments.jpg',
   },
+  '/radiologie-dentaire-2d': {
+    title: 'Radiologie dentaire 2D : panoramique, RVG, rétro-alvéolaire | AfriSmile',
+    description:
+      'Système de radiologie dentaire 2D et imagerie dentaire 2D : capteur RVG, générateur RX, appareil panoramique. Choix, installation, formation et SAV en Afrique de l’Ouest.',
+    imagePath: '/assets/illustration-equipment.jpg',
+  },
   '/scanner-intra-oral-senegal': {
     title: 'Scanner intra-oral Sénégal : prix, devis & démo | AfriSmile',
     description:

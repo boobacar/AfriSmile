@@ -13,6 +13,7 @@ const defaultRelatedMoneyPages = [
 
 const relatedBySlug = {
   'imagerie-dentaire-2d-panoramique-senegal-prix-guide-2026': [
+    { to: '/radiologie-dentaire-2d', label: 'Système de radiologie dentaire 2D : panoramique et RVG' },
     { to: '/contact', label: 'Demander un devis imagerie 2D' },
     { to: '/blog/appareil-panoramique-dentaire-cone-beam-3d-prix-senegal-2026', label: 'Cone Beam 3D : guide et prix' },
     { to: '/blog/radiologie-panoramique-vs-cone-beam-cbct-lequel-choisir', label: 'Panoramique 2D ou Cone Beam 3D ?' },
@@ -107,6 +108,7 @@ const relatedBySlug = {
     { to: '/contact', label: 'Commander vos consommables' },
   ],
   'radiologie-panoramique-vs-cone-beam-cbct-lequel-choisir': [
+    { to: '/radiologie-dentaire-2d', label: 'Système de radiologie dentaire 2D : panoramique et RVG' },
     { to: '/blog/imagerie-dentaire-2d-panoramique-senegal-prix-guide-2026', label: 'Guide prix imagerie dentaire 2D' },
     { to: '/blog/appareil-panoramique-dentaire-cone-beam-3d-prix-senegal-2026', label: 'Guide prix Cone Beam 3D' },
     { to: '/produits', label: 'Imagerie 2D et 3D' },

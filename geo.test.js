@@ -93,7 +93,7 @@ test('geo factory: tous les liens internes résolvent vers une vraie page', () =
     '/', '/produits', '/solutions-cabinets', '/service-technique', '/modeles-achat', '/marques',
     '/blog', '/a-propos', '/contact', '/devis-materiel-dentaire',
     '/materiel-dentaire-senegal', '/equipement-dentaire-dakar', '/fauteuil-dentaire-senegal',
-    '/autoclave-dentaire-classe-b-senegal', '/scanner-intra-oral-senegal',
+    '/autoclave-dentaire-classe-b-senegal', '/scanner-intra-oral-senegal', '/radiologie-dentaire-2d',
     '/materiel-dentaire-cote-divoire', '/materiel-dentaire-mali', '/materiel-dentaire-cameroun',
     '/materiel-dentaire-ghana', '/materiel-dentaire-nigeria', '/materiel-dentaire-mauritanie',
     '/materiel-dentaire-niger', '/materiel-dentaire-guinee-bissau', '/materiel-dentaire-burkina-faso',

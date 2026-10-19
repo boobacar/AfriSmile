@@ -193,8 +193,8 @@ AfriSmile accompagne les cabinets dentaires du Togo dans le choix de leurs équi
     slug: 'appareil-dentaire-prix-cote-ivoire-abidjan-fcfa-2026',
     title: 'Prix d’un appareil dentaire en Côte d’Ivoire : tarifs FCFA à Abidjan 2026',
     excerpt: 'Quel prix pour un appareil dentaire en Côte d’Ivoire ? Comprenez les tarifs en FCFA à Abidjan, les écarts de devis et les points à vérifier avant de signer.',
-    metaTitle: 'Appareil dentaire prix en FCFA Abidjan : bagues, gouttières et prothèse',
-    metaDescription: 'Bagues, gouttières ou prothèse : à Abidjan, le prix d’un appareil dentaire dépend du type choisi et de ce que couvre le devis. Les points à vérifier avant de signer.',
+    metaTitle: 'Prix appareil dentaire Côte d’Ivoire : tarifs FCFA Abidjan 2026',
+    metaDescription: 'Quel prix pour un appareil dentaire en Côte d’Ivoire ? Comprenez les tarifs en FCFA à Abidjan, les écarts de devis et les points à vérifier.',
     datePublished: '2026-08-16',
     dateModified: '2026-08-16',
     content: `Les recherches « le prix d’un appareil dentaire en Côte d’Ivoire » ou « appareil dentaire prix Abidjan » mélangent souvent plusieurs besoins : orthodontie, prothèse, gouttière ou équipement de cabinet. La première étape est donc de préciser le type d’appareil et le résultat recherché.

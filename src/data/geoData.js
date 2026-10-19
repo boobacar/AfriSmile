@@ -1215,6 +1215,12 @@ export const GEO_TITLE_OVERRIDES = {
     description:
       'Équipez un cabinet dentaire au Cameroun : fauteuil, compresseur, stérilisation et imagerie. Devis sous 24 h à Douala, installation et SAV AfriSmile.',
   },
+  // Boucle GSC 19/10/2026 : page cabinet Côte d’Ivoire — 40 imp / 0 clic, intention « fauteuil compresseur » pos 9
+  '/secteurs/cabinet-dentaire-cote-divoire': {
+    title: 'Cabinet dentaire en Côte d’Ivoire : fauteuil, compresseur & devis à Abidjan',
+    description:
+      'Équipez un cabinet dentaire en Côte d’Ivoire : fauteuil, compresseur, stérilisation et imagerie. Devis sous 24 h à Abidjan, installation et SAV AfriSmile.',
+  },
 }
 
 let _allPages = null

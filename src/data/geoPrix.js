@@ -769,6 +769,21 @@ function buildVillesIndex() {
 let _allPages = null
 let _pageByPath = null
 
+// Boucle GSC hebdomadaire : overrides de title/description par chemin exact (/prix/<soin>-<pays>)
+// Les champs absents conservent le template PRIX_SOINS.
+export const PRIX_TITLE_OVERRIDES = {
+  '/prix/soins-dentaires-courants-cote-divoire': {
+    title: 'Prix soins dentaires à Abidjan : détartrage, plombage, extraction — Côte d’Ivoire',
+    description:
+      'Détartrage, traitement de carie, extraction : à Abidjan, le prix d’un soin dépend de l’acte, des radiographies et du nombre de séances. Ce qu’un devis doit inclure.',
+  },
+  '/prix/implant-dentaire-cote-divoire': {
+    title: 'Prix implant dentaire à Abidjan : ce qui fait varier le devis en Côte d’Ivoire',
+    description:
+      'Implant, pilier, couronne, imagerie : le prix d’un implant dentaire à Abidjan dépend de plusieurs postes. Ce qu’un devis doit détailler en Côte d’Ivoire.',
+  },
+}
+
 export function getAllPrixPages() {
   if (_allPages) return _allPages
   const pages = []
@@ -787,6 +802,13 @@ export function getAllPrixPages() {
   })
   prixCityPairs().forEach(({ soin, ville, country }) => {
     pages.push(buildPrixCityPage(soin, ville, country))
+  })
+  pages.forEach((page) => {
+    const override = PRIX_TITLE_OVERRIDES[page.path]
+    if (!override) return
+    if (override.title) page.title = override.title
+    if (override.description) page.description = override.description
+    if (override.h1) page.h1 = override.h1
   })
   _allPages = pages
   return pages

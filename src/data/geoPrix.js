@@ -782,6 +782,22 @@ export const PRIX_TITLE_OVERRIDES = {
     description:
       'Implant, pilier, couronne, imagerie : le prix d’un implant dentaire à Abidjan dépend de plusieurs postes. Ce qu’un devis doit détailler en Côte d’Ivoire.',
   },
+  // Boucle GSC 26/10/2026 : pages /prix/ à fortes impressions et CTR quasi nul (Sénégal, Cameroun)
+  '/prix/soins-dentaires-courants-senegal': {
+    title: 'Prix soins dentaires à Dakar : détartrage, plombage, extraction — Sénégal',
+    description:
+      'Détartrage, traitement de carie, extraction : à Dakar, le prix d’un soin dépend de l’acte, des radiographies et du nombre de séances. Ce qu’un devis doit inclure.',
+  },
+  '/prix/appareil-dentaire-cameroun': {
+    title: 'Prix appareil dentaire au Cameroun : bagues et gouttières, tarifs FCFA à Douala',
+    description:
+      'Appareil dentaire au Cameroun : tarifs FCFA à Douala selon le type (bagues, gouttières, prothèse), ce qu’un devis inclut et comment le comparer.',
+  },
+  '/prix/prothese-dentaire-yaounde': {
+    title: 'Prix prothèse dentaire à Yaoundé : couronne, bridge et dentier en FCFA',
+    description:
+      'Prothèse dentaire à Yaoundé : couronne, bridge, dentier ou prothèse sur implant, et les postes qui font varier le devis en FCFA au Cameroun.',
+  },
 }
 
 export function getAllPrixPages() {

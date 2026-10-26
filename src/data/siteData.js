@@ -88,10 +88,10 @@ AfriSmile ne fabrique pas de prothèses pour les patients, mais équipe les cabi
     slug: 'implant-dentaire-prix-dakar-senegal-2026',
     title: 'Implant dentaire à Dakar : tarifs, étapes et conseils pour choisir (2026)',
     excerpt: 'Combien coûte un implant dentaire à Dakar ? Étapes de pose, rôle de l’imagerie 3D, éléments qui font varier le tarif au Sénégal et points à vérifier.',
-    metaTitle: 'Prix implant dentaire au Sénégal : tarifs FCFA à Dakar et ce que couvre le devis',
+    metaTitle: 'Prix implant dentaire à Dakar : tarifs FCFA, pose et couronne au Sénégal',
     metaDescription: 'Prix d’un implant dentaire à Dakar : implant, pilier, couronne et imagerie sont souvent facturés séparément. Ce qu’un devis au Sénégal doit détailler.',
     datePublished: '2026-08-16',
-    dateModified: '2026-08-16',
+    dateModified: '2026-10-26',
     content: `Les recherches « tarif implant dentaire Dakar », « implant dentaire prix Sénégal » ou « pose dentaire prix » traduisent une même question : combien prévoir pour remplacer une dent manquante par un implant ? La réponse dépend du nombre d’implants, du type de prothèse posée dessus et de l’imagerie nécessaire avant l’intervention.
 
 ## Qu’est-ce qu’un implant dentaire ?
@@ -881,10 +881,10 @@ AfriSmile aide les cabinets dentaires à Dakar et en Afrique de l’Ouest à str
     slug: 'appareil-dentaire-prix-dakar-senegal-2026',
     title: 'Combien coûte un appareil dentaire au Sénégal ? Prix 2026 en FCFA',
     excerpt: 'Quel prix prévoir pour un appareil dentaire au Sénégal ? Comprenez les écarts de devis à Dakar, les éléments inclus et les points à vérifier avant de choisir.',
-    metaTitle: 'Appareil dentaire prix au Sénégal : combien coûte à Dakar en FCFA ?',
-    metaDescription: 'Combien coûte un appareil dentaire au Sénégal ? Prix en FCFA à Dakar selon le type (bagues, gouttières, aligneurs), ce qu’un devis doit inclure et comment comparer.',
+    metaTitle: 'Appareil dentaire prix au Sénégal : tarifs FCFA à Dakar, bagues et aligneurs',
+    metaDescription: 'Appareil dentaire au Sénégal : ce qui fait varier le prix en FCFA à Dakar selon le type (bagues, gouttières, aligneurs) et ce qu’un devis doit inclure.',
     datePublished: '2026-07-01',
-    dateModified: '2026-08-10',
+    dateModified: '2026-10-26',
     content: `Les recherches “prix appareil dentaire au Sénégal”, “appareil dentaire prix en FCFA” et “appareil dentaire prix Dakar” mélange souvent plusieurs besoins : orthodontie, prothèse, gouttière, aligneur ou équipement de cabinet. Pour éviter les comparaisons trompeuses, le premier réflexe est de préciser l’indication clinique et le résultat attendu.
 
 Le prix dépend ensuite du matériau, du niveau de personnalisation, du laboratoire impliqué, des essayages, du délai de fabrication et du suivi après pose. Un devis sérieux doit donc détailler ce qui est inclus : empreinte ou scan, fabrication, ajustements, contrôles et éventuelles reprises.

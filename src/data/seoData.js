@@ -72,7 +72,7 @@ export const seoPages = {
   '/radiologie-dentaire-2d': {
     title: 'Radiologie dentaire 2D : panoramique, RVG, rétro-alvéolaire | AfriSmile',
     description:
-      'Système de radiologie dentaire 2D et imagerie dentaire 2D : capteur RVG, générateur RX, appareil panoramique. Choix, installation, formation et SAV en Afrique de l’Ouest.',
+      'Système de radiologie dentaire 2D et imagerie dentaire 2D : capteur RVG, générateur RX, panoramique. Installation, formation et SAV en Afrique de l’Ouest.',
     imagePath: '/assets/illustration-equipment.jpg',
   },
   '/scanner-intra-oral-senegal': {

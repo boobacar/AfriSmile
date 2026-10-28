@@ -44,6 +44,21 @@ const staticLastmod = contentDate('src/data/seoData.js')
 const geoLastmod = contentDate('src/data/geoData.js')
 const prixLastmod = contentDate('src/data/geoPrix.js')
 
+/**
+ * Chemins consolidés (présents en `source` des redirects de vercel.json).
+ * Sert à exclure du sitemap les URLs qui répondent 301/308 : Google doit voir
+ * une seule URL par contenu, et une redirection listée dans le sitemap est
+ * signalée comme une anomalie de couverture.
+ */
+const redirectedPaths = (() => {
+  try {
+    const config = JSON.parse(fs.readFileSync(path.join(projectRoot, 'vercel.json'), 'utf8'))
+    return new Set((config.redirects || []).map((rule) => rule.source.replace(/\/+$/, '')))
+  } catch {
+    return new Set()
+  }
+})()
+
 const staticRoutes = [
   { path: '/', changefreq: 'weekly', priority: '1.0' },
   { path: '/produits', changefreq: 'weekly', priority: '0.9' },
@@ -107,6 +122,11 @@ const routes = [
   ...geoRoutes.map((route) => ({ ...route, lastmod: geoLastmod })),
   ...prixRoutes.map((route) => ({ ...route, lastmod: prixLastmod })),
 ]
+  // Une URL consolidée (301/308 dans vercel.json) ne doit jamais figurer dans le
+  // sitemap : Google la compte comme « page avec redirection » et consomme du
+  // budget d'exploration pour rien. La liste est lue dans vercel.json, donc une
+  // nouvelle redirection est prise en compte sans rien changer ici.
+  .filter((route) => !redirectedPaths.has(route.path.replace(/\/+$/, '')))
 
 const escapeXml = (value) =>
   String(value)

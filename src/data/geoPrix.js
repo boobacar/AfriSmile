@@ -326,7 +326,7 @@ export const PRIX_SOINS = [
   {
     slug: 'soins-dentaires-courants',
     name: 'soins dentaires courants',
-    titleName: 'soins courants',
+    titleName: 'soins dentaires courants',
     article: 'des',
     h1Tpl: 'Prix des soins dentaires courants {prep} {pays} : détartrage, carie, extraction',
     titleTpl: 'Prix soins dentaires {prep} {pays} : détartrage & carie | AfriSmile',
@@ -624,7 +624,7 @@ function buildPrixCityPage(soin, ville, country) {
     flag: country.flag,
     h1: `Prix ${ARTICLE_CONTRACTE[soin.article] || soin.article} ${soin.name} à ${ville.name} : ce qui fait varier le tarif`,
     title: `Prix ${soin.titleName} à ${ville.name} : tarifs ${country.currency} et devis | AfriSmile`,
-    description: `Combien coûte ${soin.article} ${soin.name} à ${ville.name} (${country.name}) ? Comprenez les tarifs ${country.currency}, le contenu d’un devis et les points à vérifier.`,
+    description: `Combien ${soin.article === 'des' ? 'coûtent' : 'coûte'} ${soin.article} ${soin.name} à ${ville.name} (${country.name}) ? Comprenez les tarifs ${country.currency}, le contenu d’un devis et les points à vérifier.`,
     lead: `${ville.note} ${tpl(soin.leadTpl, vars)}`,
     quickAnswer: tpl(soin.qaTpl, vars),
     chips: [`Tarifs ${country.currency} à ${ville.name}`, 'Devis écrit détaillé', 'Cabinets équipés par AfriSmile'],
@@ -797,6 +797,22 @@ export const PRIX_TITLE_OVERRIDES = {
     title: 'Prix prothèse dentaire à Yaoundé : couronne, bridge et dentier en FCFA',
     description:
       'Prothèse dentaire à Yaoundé : couronne, bridge, dentier ou prothèse sur implant, et les postes qui font varier le devis en FCFA au Cameroun.',
+  },
+  // Boucle GSC 02/11/2026 : pages /prix/ jamais retitrées, position 5-8 et 0-3 clics
+  '/prix/prothese-dentaire-abidjan': {
+    title: 'Prix prothèse dentaire à Abidjan : couronne, bridge, dentier en FCFA',
+    description:
+      'Couronne, bridge, prothèse amovible ou sur implant : à Abidjan, le tarif dépend des dents concernées, du laboratoire et des essayages. Ce qu’un devis doit détailler.',
+  },
+  '/prix/soins-dentaires-courants-cameroun': {
+    title: 'Prix des soins dentaires au Cameroun : détartrage, carie, extraction',
+    description:
+      'Détartrage, traitement de carie, extraction : au Cameroun, le tarif dépend de l’acte, des radiographies et du nombre de séances. Ce qu’un devis doit inclure.',
+  },
+  '/prix/blanchiment-dentaire-cote-divoire': {
+    title: 'Combien coûte un blanchiment dentaire en Côte d’Ivoire ? Tarifs FCFA',
+    description:
+      'Blanchiment au fauteuil ou gouttières à domicile : en Côte d’Ivoire, le prix varie selon la technique, le nombre de séances et le contrôle préalable.',
   },
 }
 

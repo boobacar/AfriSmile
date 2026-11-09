@@ -53,8 +53,8 @@ const allBlogPosts = [
     slug: 'prothese-dentaire-prix-dakar-senegal-2026',
     title: 'Prothèse dentaire au Sénégal : prix, types et conseils pour choisir (2026)',
     excerpt: 'Combien coûte une prothèse dentaire au Sénégal ? Types (fixe, amovible, sur implants), éléments qui font varier le prix à Dakar et points à vérifier avant de signer.',
-    metaTitle: 'Prothèse dentaire prix à Dakar : fixe ou amovible, tarifs au Sénégal (2026)',
-    metaDescription: 'Combien coûte une prothèse dentaire à Dakar ? Prix des prothèses fixes, amovibles et sur implants au Sénégal, et ce qu’un devis doit détailler.',
+    metaTitle: 'Prothèse dentaire fixe prix au Sénégal : couronne, bridge, tarifs FCFA',
+    metaDescription: 'Combien coûte une prothèse dentaire fixe au Sénégal ? Couronne, bridge ou prothèse sur implant à Dakar, et ce qu’un devis doit détailler en FCFA.',
     datePublished: '2026-08-16',
     dateModified: '2026-08-16',
     content: `Les recherches « prothèse dentaire prix Sénégal », « prothèse dentaire fixe prix » ou « prothèse dentaire prix Dakar » regroupent en réalité plusieurs dispositifs très différents : couronne, bridge, prothèse amovible partielle ou complète, voire prothèse sur implants. Le premier réflexe est donc de préciser le type de prothèse et le nombre de dents concernées, car le prix n’a aucun sens sans cette distinction.

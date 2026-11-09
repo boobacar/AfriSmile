@@ -773,9 +773,16 @@ let _pageByPath = null
 // Les champs absents conservent le template PRIX_SOINS.
 export const PRIX_TITLE_OVERRIDES = {
   '/prix/soins-dentaires-courants-cote-divoire': {
-    title: 'Prix soins dentaires à Abidjan : détartrage, plombage, extraction — Côte d’Ivoire',
+    title: 'Détartrage dentaire prix Abidjan : plombage, carie et tarifs FCFA',
     description:
-      'Détartrage, traitement de carie, extraction : à Abidjan, le prix d’un soin dépend de l’acte, des radiographies et du nombre de séances. Ce qu’un devis doit inclure.',
+      'Détartrage, plombage, traitement de carie, extraction : à Abidjan, le prix d’un soin dépend de l’acte, des radiographies et des séances. Ce qu’un devis doit inclure.',
+  },
+  // Boucle GSC 09/11/2026 : « blanchiment dentaire dakar prix » (12 imp) se partageait entre cette
+  // page pays et /prix/blanchiment-dentaire-dakar — la page pays garde la technique, la ville garde Dakar.
+  '/prix/blanchiment-dentaire-senegal': {
+    title: 'Prix blanchiment dentaire au Sénégal : fauteuil ou gouttières, FCFA',
+    description:
+      'Blanchiment au fauteuil ou en gouttières à domicile : au Sénégal, le prix dépend de la technique, du nombre de séances et du contrôle préalable.',
   },
   '/prix/implant-dentaire-cote-divoire': {
     title: 'Prix implant dentaire à Abidjan : ce qui fait varier le devis en Côte d’Ivoire',
@@ -783,10 +790,20 @@ export const PRIX_TITLE_OVERRIDES = {
       'Implant, pilier, couronne, imagerie : le prix d’un implant dentaire à Abidjan dépend de plusieurs postes. Ce qu’un devis doit détailler en Côte d’Ivoire.',
   },
   // Boucle GSC 26/10/2026 : pages /prix/ à fortes impressions et CTR quasi nul (Sénégal, Cameroun)
+  // Boucle GSC 09/11/2026 : le title du 26/10 promettait « à Dakar », ce qui doublonnait
+  // /prix/soins-dentaires-courants-dakar (180 imp, 1 clic) — les deux URL se disputaient le même
+  // snippet. La page pays reprend une intention nationale, la page ville garde Dakar.
   '/prix/soins-dentaires-courants-senegal': {
-    title: 'Prix soins dentaires à Dakar : détartrage, plombage, extraction — Sénégal',
+    title: 'Prix des soins dentaires au Sénégal : détartrage, carie, extraction',
     description:
-      'Détartrage, traitement de carie, extraction : à Dakar, le prix d’un soin dépend de l’acte, des radiographies et du nombre de séances. Ce qu’un devis doit inclure.',
+      'Détartrage, traitement de carie, extraction : au Sénégal, le prix d’un soin dépend de l’acte, des radiographies et des séances. Tarifs FCFA à Dakar.',
+  },
+  // Boucle GSC 09/11/2026 : page ville jamais retitrée — « soins dentaires courants » n’est pas une
+  // requête, alors qu’elle capte « tarif dentiste dakar » (31 imp, pos 9,1, 0 clic).
+  '/prix/soins-dentaires-courants-dakar': {
+    title: 'Tarif dentiste à Dakar : détartrage, plombage, extraction en FCFA',
+    description:
+      'Combien facture un dentiste à Dakar ? Détartrage, plombage, extraction : le tarif dépend de l’acte, des radiographies et du nombre de séances.',
   },
   '/prix/appareil-dentaire-cameroun': {
     title: 'Prix appareil dentaire au Cameroun : bagues et gouttières, tarifs FCFA à Douala',

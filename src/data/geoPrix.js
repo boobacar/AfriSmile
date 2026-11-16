@@ -831,6 +831,30 @@ export const PRIX_TITLE_OVERRIDES = {
     description:
       'Blanchiment au fauteuil ou gouttières à domicile : en Côte d’Ivoire, le prix varie selon la technique, le nombre de séances et le contrôle préalable.',
   },
+  // Boucle GSC 16/11/2026 : trois pages jamais retitrées (title de gabarit, indexé et mesuré) où la
+  // requête réelle n’apparaît pas en tête. La page pays Côte d’Ivoire garde « détartrage dentaire
+  // prix Abidjan » : la page ville prend l’intention « cabinet dentaire / dentiste à Abidjan » (20 imp,
+  // pos 8,6, 0 clic) pour ne pas se battre sur le même snippet.
+  '/prix/soins-dentaires-courants-abidjan': {
+    title: 'Cabinet dentaire à Abidjan : prix des soins et tarifs dentiste en FCFA',
+    description:
+      'Combien facture un cabinet dentaire à Abidjan ? Détartrage, plombage, extraction : le tarif dépend de l’acte, des radiographies et du nombre de séances.',
+  },
+  // « blanchiment dentaire dakar prix » (11 imp, pos 4,7, 0 clic) : le gabarit disait « Prix
+  // blanchiment dentaire à Dakar », la requête est dans l’ordre inverse. La page pays garde la
+  // technique (décision du 09/11), la page ville garde Dakar et le mot « prix » en tête.
+  '/prix/blanchiment-dentaire-dakar': {
+    title: 'Blanchiment dentaire Dakar prix : tarifs FCFA au cabinet',
+    description:
+      'Blanchiment au fauteuil ou en gouttières à Dakar : le tarif dépend de la technique, du nombre de séances et du contrôle préalable. Tarifs FCFA et devis.',
+  },
+  // Les requêtes qui font vivre cette page nomment le matériau (« composite dentaire prix »,
+  // « céramique dentaire prix », « facette composite prix »), absent du gabarit.
+  '/prix/facettes-dentaires-senegal': {
+    title: 'Facette dentaire prix au Sénégal : composite, céramique et tarifs FCFA',
+    description:
+      'Facettes en composite ou en céramique au Sénégal : le prix dépend du matériau, du nombre de dents et du travail de laboratoire. Ce qu’un devis doit inclure.',
+  },
 }
 
 export function getAllPrixPages() {

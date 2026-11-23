@@ -840,6 +840,41 @@ export const PRIX_TITLE_OVERRIDES = {
     description:
       'Combien facture un cabinet dentaire à Abidjan ? Détartrage, plombage, extraction : le tarif dépend de l’acte, des radiographies et du nombre de séances.',
   },
+  // Boucle GSC 23/11/2026 : gabarit jamais retitré, crawl du 14/10 donc mesuré (81 imp, 0 clic,
+  // pos 6,2). « soins dentaires courants » n'est pas une requête ET le title dupliquait celui de
+  // /prix/soins-dentaires-courants-cameroun (« prix des soins dentaires au cameroun », 6 imp ici en
+  // pos 4,0 et 5 imp sur la page pays en pos 6,4) : Douala prend l'acte nommé, la page pays garde le
+  // cadrage national.
+  '/prix/soins-dentaires-courants-douala': {
+    title: 'Prix des soins dentaires à Douala : détartrage, plombage, extraction',
+    description:
+      'Détartrage, plombage, traitement de carie, extraction : à Douala, le tarif dépend de l’acte, des radiographies et des séances. Ce qu’un devis doit inclure.',
+  },
+  // Boucle GSC 23/11/2026 : jamais retitrée, crawl du 16/10 donc mesuré (78 imp, 0 clic, pos 6,0),
+  // requête « implant dentaire abidjan prix » en pos 2,0. La page pays garde « ce qui fait varier le
+  // devis » ; la page ville prend la question « combien coûte », qui est la formulation observée.
+  '/prix/implant-dentaire-abidjan': {
+    title: 'Combien coûte un implant dentaire à Abidjan ? Prix FCFA et devis',
+    description:
+      'À Abidjan, un implant dentaire se facture en trois postes : l’implant, le pilier et la couronne. Voici ce qui fait varier le devis et ce qu’il faut vérifier.',
+  },
+  // Boucle GSC 23/11/2026 : gabarit jamais retitré, crawl du 09/11 donc mesuré (66 imp, 0 clic,
+  // pos 6,9). Le title ne nommait que Douala alors que la page couvre le pays : les requêtes
+  // observées sont nationales (« prix d'un implant dentaire », « reconstruction dentaire prix »).
+  '/prix/implant-dentaire-cameroun': {
+    title: 'Prix d’un implant dentaire au Cameroun : Douala, Yaoundé, FCFA',
+    description:
+      'Implant, pilier, couronne, imagerie : au Cameroun, le prix d’un implant dentaire dépend de plusieurs postes. Ce qu’un devis doit détailler à Douala ou à Yaoundé.',
+  },
+  // Boucle GSC 23/11/2026 : gabarit jamais retitré, crawl du 21/11 donc mesuré (163 imp, 2 clics,
+  // pos 6,5). « prothèse dentaire prix abidjan » se partage avec /prix/prothese-dentaire-abidjan
+  // (19 imp pos 4,2) : la page pays garde le cadrage national et l'ordre de requête « prothèse
+  // dentaire prix », la page ville garde « à Abidjan ».
+  '/prix/prothese-dentaire-cote-divoire': {
+    title: 'Prix prothèse dentaire en Côte d’Ivoire : couronne, bridge, dentier',
+    description:
+      'Prothèse dentaire en Côte d’Ivoire : prix d’une couronne, d’un bridge, d’un dentier ou d’une prothèse sur implant, et les postes qui font varier le devis.',
+  },
   // « blanchiment dentaire dakar prix » (11 imp, pos 4,7, 0 clic) : le gabarit disait « Prix
   // blanchiment dentaire à Dakar », la requête est dans l’ordre inverse. La page pays garde la
   // technique (décision du 09/11), la page ville garde Dakar et le mot « prix » en tête.

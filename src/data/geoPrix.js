@@ -784,8 +784,11 @@ export const PRIX_TITLE_OVERRIDES = {
     description:
       'Blanchiment au fauteuil ou en gouttières à domicile : au Sénégal, le prix dépend de la technique, du nombre de séances et du contrôle préalable.',
   },
+  // Boucle GSC 28/11/2026 : title à 78 caractères, tronqué en SERP ; 155 impressions, 2 clics,
+  // position 5,4 sur 28 jours. La phrase mesurée est conservée, la formule longue est remplacée
+  // par la devise et le pays, qui manquaient au snippet.
   '/prix/implant-dentaire-cote-divoire': {
-    title: 'Prix implant dentaire à Abidjan : ce qui fait varier le devis en Côte d’Ivoire',
+    title: 'Prix implant dentaire à Abidjan : tarifs FCFA en Côte d’Ivoire',
     description:
       'Implant, pilier, couronne, imagerie : le prix d’un implant dentaire à Abidjan dépend de plusieurs postes. Ce qu’un devis doit détailler en Côte d’Ivoire.',
   },
@@ -805,10 +808,12 @@ export const PRIX_TITLE_OVERRIDES = {
     description:
       'Combien facture un dentiste à Dakar ? Détartrage, plombage, extraction : le tarif dépend de l’acte, des radiographies et du nombre de séances.',
   },
+  // Boucle GSC 28/11/2026 : title à 79 caractères, tronqué en SERP ; 113 impressions et 0 clic
+  // à la position 5,3 sur 28 jours. La phrase mesurée reste en tête, la partie coupée est retirée.
   '/prix/appareil-dentaire-cameroun': {
-    title: 'Prix appareil dentaire au Cameroun : bagues et gouttières, tarifs FCFA à Douala',
+    title: 'Prix appareil dentaire au Cameroun : bagues, gouttières, FCFA',
     description:
-      'Appareil dentaire au Cameroun : tarifs FCFA à Douala selon le type (bagues, gouttières, prothèse), ce qu’un devis inclut et comment le comparer.',
+      'Appareil dentaire au Cameroun : tarifs FCFA à Douala et Yaoundé selon le type (bagues, gouttières, prothèse), ce qu’un devis inclut et comment le comparer.',
   },
   '/prix/prothese-dentaire-yaounde': {
     title: 'Prix prothèse dentaire à Yaoundé : couronne, bridge et dentier en FCFA',

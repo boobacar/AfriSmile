@@ -70,9 +70,12 @@ export const seoPages = {
     imagePath: '/assets/illustration-instruments.jpg',
   },
   '/radiologie-dentaire-2d': {
-    title: 'Radiologie dentaire 2D : panoramique, RVG, rétro-alvéolaire | AfriSmile',
+    // Boucle GSC 28/11/2026 : la requête dominante est « système radiologie dentaire 2D »
+    // (354 imp/90 j, pos 27) puis « système panoramique dentaire 2D » (116 imp, pos 19,6), alors
+    // que le title ne contenait pas le mot « système » — contrairement au H1 de la page.
+    title: 'Système de radiologie dentaire 2D : panoramique et RVG | AfriSmile',
     description:
-      'Système de radiologie dentaire 2D et imagerie dentaire 2D : capteur RVG, générateur RX, panoramique. Installation, formation et SAV en Afrique de l’Ouest.',
+      'Panoramique, capteur RVG, générateur RX : comment composer un système d’imagerie dentaire 2D pour un cabinet. Installation, formation et SAV AfriSmile.',
     imagePath: '/assets/illustration-equipment.jpg',
   },
   '/scanner-intra-oral-senegal': {
